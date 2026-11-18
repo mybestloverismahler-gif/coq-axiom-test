@@ -1,0 +1,2 @@
+Require Import stage57_T3_relational.
+Print Assumptions stage57_T3_relational.T3_parse_unique_fixed_fuel.

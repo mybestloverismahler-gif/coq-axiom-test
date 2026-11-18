@@ -1,0 +1,6 @@
+Require Import stage57_T3_derives_check.
+Require Import stage57_T3_list_lemma_v2.
+Require Import stage57_T3_pair_list_lemma_v2.
+Print Assumptions stage57_T3_derives_check.derives_encode.
+Print Assumptions stage57_T3_list_lemma_v2.neg_list_assoc_v2.
+Print Assumptions stage57_T3_pair_list_lemma_v2.pair_list_assoc.

@@ -1,0 +1,19 @@
+file,status,message
+STAGE56_col_transfer.v,FAIL,"File ""./STAGE56_col_transfer.v"", line 1, characters 0-44: Error: Cannot find a physical path bound to logical path GeoCoq.Axioms.hilbert_axioms."
+STAGE56_col_transfer_v002.v,FAIL,"File ""./STAGE56_col_transfer_v002.v"", line 1, characters 0-44: Error: Cannot find a physical path bound to logical path GeoCoq.Axioms.hilbert_axioms."
+stage57_T3_T4_U1_candidate_before_pull.v,PASS,
+stage57_T3_T4_U1_candidate_local_backup.v,PASS,
+stage57_T3_add_list_lemma.v,PASS,Closed under the global context
+stage57_T3_assumptions_check.v,PASS,Closed under the global context
+stage57_T3_derives_check.v,PASS,
+stage57_T3_list_lemma.v,FAIL,"File ""./stage57_T3_list_lemma.v"", line 32, characters 2-19: Error: Found no subterm matching ""?M1409 ++ ?M1410 ++ ?M1411"" in the current goal."
+stage57_T3_list_lemma_v2.v,PASS,Closed under the global context
+stage57_T3_pair_list_lemma.v,FAIL,"File ""./stage57_T3_pair_list_lemma.v"", line 8, characters 0-81: Error: The constructor name Tpair is used more than once."
+stage57_T3_pair_list_lemma_v2.v,PASS,Closed under the global context
+stage57_T3_probe_neg_qed.v,FAIL,"File ""./stage57_T3_probe_neg_qed.v"", line 115, characters 0-4: Error:  (in proof parse_one_encode): Attempt to save an incomplete proof"
+stage57_T3_relational.v,PASS,Closed under the global context
+stage57_T3_relational_strong_v2.v,FAIL,"File ""./stage57_T3_relational_strong_v2.v"", line 99, characters 4-39: Error: Found no subterm matching ""parse_one k (encode a ++ TR :: rest)"" in the current goal."
+stage57_T3_relational_strong_v3_verified.v,FAIL,"File ""./stage57_T3_relational_strong_v3_verified.v"", line 93, characters 2-96: Error: Tactic failure: Incorrect number of goals (expected 14 tactics)."
+stage57_T3_relational_strong_v4.v,FAIL,"File ""./stage57_T3_relational_strong_v4.v"", line 100, characters 4-21: Error: Found no subterm matching ""?M1401 ++ ?M1402 ++ ?M1403"" in the current goal."
+stage57_T3_relational_strong_v5.v,FAIL,"File ""./stage57_T3_relational_strong_v5.v"", line 100, characters 4-170: Error: Not convertible."
+stage57_T3_relational_strong_v6.v,FAIL,"File ""./stage57_T3_relational_strong_v6.v"", line 100, characters 4-170: Error: Not convertible."

@@ -1,0 +1,6 @@
+Require Import stage57_T3_derives_check.
+Require Import stage57_T3_injective_v1.
+Check stage57_T3_derives_check.derives_encode.
+Check stage57_T3_injective_v1.encode_injective.
+Check stage57_T3_derives_check.expr.
+Check stage57_T3_injective_v1.expr.

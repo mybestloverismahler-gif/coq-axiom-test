@@ -1,0 +1,3 @@
+./stage57_T3_pair_context.v:128:- let T1 := type of IHa1 in idtac "EPAIR_IH1:" T1;
+./stage57_T3_pair_context.v:129:  let T2 := type of IHa2 in idtac "EPAIR_IH2:" T2;
+./stage57_T3_add_IH_types.v:115:- pose proof IHa1 as Hfirst; pose proof IHa2 as Hsecond; let T1 := type of Hfirst in idtac "IHa1_TYPE:" T1; let T2 := type of Hsecond in idtac "IHa2_TYPE:" T2.

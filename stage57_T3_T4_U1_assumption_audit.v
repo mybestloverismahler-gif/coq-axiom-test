@@ -1,0 +1,5 @@
+Require Import stage57_T3_T4_U1_candidate.
+Print Assumptions stage57_T3_T4_U1_candidate.parse_functional.
+Print Assumptions stage57_T3_T4_U1_candidate.type_unique.
+Print Assumptions stage57_T3_T4_U1_candidate.counterexample_noncommute.
+Print Assumptions stage57_T3_T4_U1_candidate.counterexample_not_all.

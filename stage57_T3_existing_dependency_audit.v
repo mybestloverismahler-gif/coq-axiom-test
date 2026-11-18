@@ -1,0 +1,4 @@
+Require Import stage57_T3_derives_check.
+Require Import stage57_T3_injective_v1.
+Print Assumptions stage57_T3_derives_check.derives_encode.
+Print Assumptions stage57_T3_injective_v1.encode_injective.

@@ -1,0 +1,91 @@
+
+(* Stage 57 - T3 limited prefix grammar, Coq 8.18 candidate. *)
+(* Tokens: x y p ( neg E ) ( add E E ) ( pair E E ) ( fst E ) *)
+
+Require Import Coq.Lists.List.
+Import ListNotations.
+
+Inductive token : Type :=
+| Tx | Ty | Tp | TL | TR | Tneg | Tadd | Tpair | Tfst.
+
+Inductive expr : Type :=
+| Ex | Ey | Ep
+| ENeg (e : expr)
+| EAdd (a b : expr)
+| EPair (a b : expr)
+| EFst (e : expr).
+
+(* Fuel is a bound on recursive parsing depth. *)
+Fixpoint parse_one (fuel : nat) (ts : list token)
+  : option (expr * list token) :=
+  match fuel with
+  | O => None
+  | S k =>
+      match ts with
+      | Tx :: rest => Some (Ex, rest)
+      | Ty :: rest => Some (Ey, rest)
+      | Tp :: rest => Some (Ep, rest)
+      | TL :: Tneg :: rest =>
+          match parse_one k rest with
+          | Some (e, TR :: tail) => Some (ENeg e, tail)
+          | _ => None
+          end
+      | TL :: Tfst :: rest =>
+          match parse_one k rest with
+          | Some (e, TR :: tail) => Some (EFst e, tail)
+          | _ => None
+          end
+      | TL :: Tadd :: rest =>
+          match parse_one k rest with
+          | Some (a, rem1) =>
+              match parse_one k rem1 with
+              | Some (b, TR :: tail) => Some (EAdd a b, tail)
+              | _ => None
+              end
+          | _ => None
+          end
+      | TL :: Tpair :: rest =>
+          match parse_one k rest with
+          | Some (a, rem1) =>
+              match parse_one k rem1 with
+              | Some (b, TR :: tail) => Some (EPair a b, tail)
+              | _ => None
+              end
+          | _ => None
+          end
+      | _ => None
+      end
+  end.
+
+Definition parse_complete (fuel : nat) (ts : list token)
+  : option expr :=
+  match parse_one fuel ts with
+  | Some (e, []) => Some e
+  | _ => None
+  end.
+
+Theorem T3_parse_unique_fixed_fuel :
+  forall fuel ts a b,
+    parse_complete fuel ts = Some a ->
+    parse_complete fuel ts = Some b ->
+    a = b.
+Proof.
+  intros fuel ts a b Ha Hb.
+  rewrite Ha in Hb.
+  inversion Hb.
+  reflexivity.
+Qed.
+
+Example T3_accept_add :
+  parse_complete 3 [TL; Tadd; Tx; Ty; TR] = Some (EAdd Ex Ey).
+Proof. reflexivity. Qed.
+
+Example T3_reject_missing_parenthesis :
+  parse_complete 3 [TL; Tadd; Tx; Ty] = None.
+Proof. reflexivity. Qed.
+
+Example T3_reject_extra_input :
+  parse_complete 3 [Tx; Ty] = None.
+Proof. reflexivity. Qed.
+
+Print Assumptions T3_parse_unique_fixed_fuel.

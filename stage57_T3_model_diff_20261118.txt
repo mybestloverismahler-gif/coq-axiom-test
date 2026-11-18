@@ -1,0 +1,22 @@
+--- stage57_T3_injective_v1.v	2026-11-18 05:36:49.875054871 +0000
++++ stage57_T3_parse_one_final_v1.v	2026-11-18 05:34:35.561060607 +0000
+@@ -167,19 +167,3 @@
+   reflexivity.
+ Qed.
+ Print Assumptions parse_one_encode.
+-
+-Lemma encode_injective : forall a b : expr,
+-  encode a = encode b -> a = b.
+-Proof.
+-  intros a b Henc.
+-  pose (fuel := S (Nat.max (height a) (height b))).
+-  assert (Ha : height a < fuel) by (unfold fuel; lia).
+-  assert (Hb : height b < fuel) by (unfold fuel; lia).
+-  pose proof (parse_one_encode a fuel [] Ha) as Hpa.
+-  pose proof (parse_one_encode b fuel [] Hb) as Hpb.
+-  rewrite Henc in Hpa.
+-  rewrite Hpb in Hpa.
+-  inversion Hpa.
+-  reflexivity.
+-Qed.
+-Print Assumptions encode_injective.
