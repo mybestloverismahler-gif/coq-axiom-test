@@ -1,0 +1,25 @@
+From Coq Require Import List.
+Import ListNotations.
+Require Import stage57_parser_bridge_general_20261121.
+Require Import stage57_T3_T4_type_connection_20261121.
+Module A := stage57_T3_injective_v1.
+Module B := stage57_T3_T4_U1_candidate.
+Module T := stage57_T3_T4_token_bridge_20261121.
+Module E := stage57_T3_T4_expr_bridge_20261121.
+Module P := stage57_parser_bridge_general_20261121.
+Module C := stage57_T3_T4_type_connection_20261121.
+
+Theorem A_to_B_parse_success :
+  forall fuel ts e rest,
+    A.parse_one fuel ts = Some (e, rest) ->
+    B.parse fuel (map T.to_B ts) =
+      Some (E.expr_to_B e, map T.to_B rest).
+Proof.
+  intros fuel ts e rest H.
+  rewrite P.parser_bridge_general.
+  unfold P.convert_result.
+  rewrite H.
+  reflexivity.
+Qed.
+
+Print Assumptions A_to_B_parse_success.
