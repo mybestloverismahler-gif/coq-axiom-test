@@ -1,0 +1,37 @@
+Require Import stage57_T3_T4_token_bridge_20261121.
+Require Import stage57_T3_T4_expr_bridge_20261121.
+Module A := stage57_T3_injective_v1.
+Module B := stage57_T3_T4_U1_candidate.
+Theorem parser_bridge_zero : forall ts : list A.token, B.parse 0 (List.map stage57_T3_T4_token_bridge_20261121.to_B ts) = None.
+Proof. intros ts. reflexivity. Qed.
+Print Assumptions parser_bridge_zero.
+
+Theorem parser_bridge_zero_AB :
+  forall ts : list A.token,
+  B.parse 0 (List.map stage57_T3_T4_token_bridge_20261121.to_B ts) =
+  match A.parse_one 0 ts with
+  | None => None
+  | Some (e, rest) =>
+      Some (stage57_T3_T4_expr_bridge_20261121.expr_to_B e,
+            List.map stage57_T3_T4_token_bridge_20261121.to_B rest)
+  end.
+Proof.
+  intros ts. reflexivity.
+Qed.
+Print Assumptions parser_bridge_zero_AB.
+
+Theorem parser_bridge_one_AB :
+  forall ts : list A.token,
+  B.parse 1 (List.map stage57_T3_T4_token_bridge_20261121.to_B ts) =
+  match A.parse_one 1 ts with
+  | None => None
+  | Some (e, rest) =>
+      Some (stage57_T3_T4_expr_bridge_20261121.expr_to_B e,
+            List.map stage57_T3_T4_token_bridge_20261121.to_B rest)
+  end.
+Proof.
+  intros ts.
+  destruct ts as [|t rest]; simpl; try reflexivity.
+  destruct t; destruct rest as [|u rest2]; simpl; try reflexivity; destruct u; reflexivity.
+Qed.
+Print Assumptions parser_bridge_one_AB.
