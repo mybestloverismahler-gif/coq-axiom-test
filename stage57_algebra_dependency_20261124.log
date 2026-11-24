@@ -1,0 +1,150 @@
+prod_assoc
+     : forall O E E' A B C AB BC ABC : Tpoint,
+       Prod O E E' A B AB ->
+       Prod O E E' B C BC -> Prod O E E' A BC ABC <-> Prod O E E' AB C ABC
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+prod_assoc1
+     : forall O E E' A B C AB BC ABC : Tpoint,
+       Prod O E E' A B AB ->
+       Prod O E E' B C BC -> Prod O E E' A BC ABC -> Prod O E E' AB C ABC
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+prod_assoc2
+     : forall O E E' A B C AB BC ABC : Tpoint,
+       Prod O E E' A B AB ->
+       Prod O E E' B C BC -> Prod O E E' AB C ABC -> Prod O E E' A BC ABC
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+prod_comm
+     : forall O E E' A B C : Tpoint, Prod O E E' A B C -> Prod O E E' B A C
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+sum22_comm
+     : forall O E E' A B C D S : Tpoint,
+       sum22 O E E' A B C D S -> sum22 O E E' B A C D S
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+sum3_comm_1_2
+     : forall O E E' A B C S : Tpoint,
+       sum3 O E E' A B C S -> sum3 O E E' B A C S
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+sum3_comm_2_3
+     : forall O E E' A B C S : Tpoint,
+       sum3 O E E' A B C S -> sum3 O E E' A C B S
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+sum4_comm
+     : forall O E E' A B C D S : Tpoint,
+       Sum4 O E E' A B C D S -> Sum4 O E E' B A C D S
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+sum_assoc
+     : forall O E E' A B C AB BC ABC : Tpoint,
+       Sum O E E' A B AB ->
+       Sum O E E' B C BC -> Sum O E E' A BC ABC <-> Sum O E E' AB C ABC
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+sum_assoc_1
+     : forall O E E' A B C AB BC ABC : Tpoint,
+       Sum O E E' A B AB ->
+       Sum O E E' B C BC -> Sum O E E' A BC ABC -> Sum O E E' AB C ABC
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+sum_assoc_2
+     : forall O E E' A B C AB BC ABC : Tpoint,
+       Sum O E E' A B AB ->
+       Sum O E E' B C BC -> Sum O E E' AB C ABC -> Sum O E E' A BC ABC
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+sum_comm
+     : forall O E E' : Tpoint,
+       ~ Col O E E' ->
+       forall A B C : Tpoint, Sum O E E' A B C -> Sum O E E' B A C
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h

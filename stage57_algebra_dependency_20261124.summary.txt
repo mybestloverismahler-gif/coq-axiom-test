@@ -1,0 +1,12 @@
+prod_assoc: EQDEP
+prod_assoc1: EQDEP
+prod_assoc2: EQDEP
+prod_comm: EQDEP
+sum22_comm: EQDEP
+sum3_comm_1_2: EQDEP
+sum3_comm_2_3: EQDEP
+sum4_comm: EQDEP
+sum_assoc: EQDEP
+sum_assoc_1: EQDEP
+sum_assoc_2: EQDEP
+sum_comm: EQDEP
