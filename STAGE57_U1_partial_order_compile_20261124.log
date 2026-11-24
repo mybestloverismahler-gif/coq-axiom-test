@@ -1,0 +1,13 @@
+execution_condition_exact
+     : forall (p q : ?A -> option ?A) (x v : ?A),
+       P.compose_partial p q x = Some v <->
+       (exists y : ?A, q x = Some y /\ p y = Some v)
+where
+?A : [ |- Type]
+failed_predecessor_blocks
+     : forall (p q : ?A -> option ?A) (x : ?A),
+       q x = None -> P.compose_partial p q x = None
+where
+?A : [ |- Type]
+Closed under the global context
+Closed under the global context
