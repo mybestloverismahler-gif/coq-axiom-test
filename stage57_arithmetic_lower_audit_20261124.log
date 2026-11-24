@@ -1,0 +1,58 @@
+sum_exists
+     : forall O E E' : Tpoint,
+       ~ Col O E E' ->
+       forall A B : Tpoint,
+       Col O E A -> Col O E B -> exists C : Tpoint, Sum O E E' A B C
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+sum_uniqueness
+     : forall O E E' A B C1 C2 : Tpoint,
+       Sum O E E' A B C1 -> Sum O E E' A B C2 -> C1 = C2
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+sum_A_O
+     : forall O E E' : Tpoint,
+       ~ Col O E E' -> forall A : Tpoint, Col O E A -> Sum O E E' A O A
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+sum_O_B
+     : forall O E E' : Tpoint,
+       ~ Col O E E' -> forall B : Tpoint, Col O E B -> Sum O E E' O B B
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+Closed under the global context
+prod_exists
+     : forall O E E' : Tpoint,
+       ~ Col O E E' ->
+       forall A B : Tpoint,
+       Col O E A -> Col O E B -> exists C : Tpoint, Prod O E E' A B C
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?TnEQD : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2D : [ |- Tarski_2D ?TnEQD]
+?TE : [ |- Tarski_euclidean ?TnEQD]
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
