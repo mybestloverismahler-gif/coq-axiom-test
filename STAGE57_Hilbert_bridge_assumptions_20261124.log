@@ -1,0 +1,134 @@
+Welcome to Coq 8.18.0
+
+Coq < [Loading ML file ring_plugin.cmxs (using legacy method) ... done]
+[Loading ML file zify_plugin.cmxs (using legacy method) ... done]
+[Loading ML file micromega_plugin.cmxs (using legacy method) ... done]
+[Loading ML file extraction_plugin.cmxs (using legacy method) ... done]
+[Loading ML file funind_plugin.cmxs (using legacy method) ... done]
+[Loading ML file rtauto_plugin.cmxs (using legacy method) ... done]
+
+Coq < Record
+Hilbert_euclidean_ID (Hi : hilbert_axioms.Hilbert_neutral_dimensionless)
+(H_euclidean : hilbert_axioms.Hilbert_euclidean Hi)
+  : Prop := Build_Hilbert_euclidean_ID
+  { decidability_of_intersection : forall l m : hilbert_axioms.Line,
+                                   (exists I : hilbert_axioms.Point,
+                                      hilbert_axioms.IncidL I l /\
+                                      hilbert_axioms.IncidL I m) \/
+                                   ~
+                                   (exists I : hilbert_axioms.Point,
+                                      hilbert_axioms.IncidL I l /\
+                                      hilbert_axioms.IncidL I m) }.
+
+Arguments hilbert_axioms.Hilbert_euclidean_ID {Hi} H_euclidean
+Arguments hilbert_axioms.Build_Hilbert_euclidean_ID 
+  Hi H_euclidean decidability_of_intersection%function_scope
+
+Coq < Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Models.gupta_inspired_to_tarski
+Fetching opaque proofs from disk for Coq.Init.Logic
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Models.hilbert_to_tarski
+Fetching opaque proofs from disk for Coq.Classes.Morphisms
+Fetching opaque proofs from disk for GeoCoq.Coinc.ColR
+Fetching opaque proofs from disk for Coq.MSets.MSetList
+Fetching opaque proofs from disk for Coq.Structures.OrdersFacts
+Fetching opaque proofs from disk for GeoCoq.Coinc.Utils.sets
+Fetching opaque proofs from disk for Coq.PArith.BinPos
+Fetching opaque proofs from disk for Coq.PArith.Pnat
+Fetching opaque proofs from disk for Coq.Arith.PeanoNat
+Fetching opaque proofs from disk for Coq.Init.Peano
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZAdd
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZBase
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NOrder
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NBase
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZOrder
+Fetching opaque proofs from disk for Coq.Structures.OrdersTac
+Fetching opaque proofs from disk for Coq.Classes.Morphisms_Prop
+Fetching opaque proofs from disk for Coq.Init.Datatypes
+Fetching opaque proofs from disk for Coq.Bool.Bool
+Fetching opaque proofs from disk for Coq.Structures.Equalities
+Fetching opaque proofs from disk for Coq.MSets.MSetFacts
+Fetching opaque proofs from disk for Coq.MSets.MSetInterface
+Fetching opaque proofs from disk for Coq.Lists.SetoidList
+Fetching opaque proofs from disk for Coq.Structures.Orders
+Fetching opaque proofs from disk for Coq.Structures.OrdersLists
+Fetching opaque proofs from disk for Coq.Structures.GenericMinMax
+Fetching opaque proofs from disk for Coq.Structures.OrdersEx
+Fetching opaque proofs from disk for Coq.Lists.List
+Fetching opaque proofs from disk for Coq.MSets.MSetProperties
+Fetching opaque proofs from disk for Coq.MSets.MSetEqProperties
+Fetching opaque proofs from disk for Coq.MSets.MSetDecide
+Fetching opaque proofs from disk for Coq.Classes.RelationClasses
+Closed under the global context
+
+Coq < Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch12_parallel
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch04_col
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch03_bet
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch02_cong
+Fetching opaque proofs from disk for GeoCoq.Main.Annexes.coplanar
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch06_out_lines
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch05_bet_le
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch04_cong_bet
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.parallel_postulates
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.euclid_5_original_euclid
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch08_orthogonality
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch07_midpoint
+Fetching opaque proofs from disk for GeoCoq.Coinc.CongR
+Fetching opaque proofs from disk for Coq.funind.Recdef
+Fetching opaque proofs from disk for GeoCoq.Main.Annexes.suma
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch11_angles
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch09_plane
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch10_line_reflexivity
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch10_line_reflexivity_2
+Fetching opaque proofs from disk for Coq.Logic.EqdepFacts
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.par_perp_perp_TCP
+Fetching opaque proofs from disk for GeoCoq.Main.Annexes.perp_bisect
+Fetching opaque proofs from disk for GeoCoq.Coinc.CoincR
+Fetching opaque proofs from disk for GeoCoq.Main.Tactics.CoincR_for_cop
+Fetching opaque proofs from disk for GeoCoq.Coinc.Utils.arity
+Fetching opaque proofs from disk for Coq.Sorting.Permutation
+Fetching opaque proofs from disk for GeoCoq.Coinc.Permutations
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NAddOrder
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NSub
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZAddOrder
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Models.tarski_to_coinc_theory_for_cop
+Fetching opaque proofs from disk for Coq.Sorting.Mergesort
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.inverse_projection_postulate_proclus_bis
+Fetching opaque proofs from disk for GeoCoq.Main.Tarski_dev.Ch13_1
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.original_euclid_original_spp
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.original_spp_inverse_projection_postulate
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.proclus_bis_proclus
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.proclus_SPP
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.SPP_tarski
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.tarski_s_euclid_remove_degenerated_cases
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.tarski_euclid
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.tarski_playfair
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.TCP_tarski
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.alternate_interior_angles_consecutive_interior_angles
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.alternate_interior_angles_playfair_bis
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.consecutive_interior_angles_alternate_interior_angles
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.midpoint_playfair
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.par_perp_perp_par_perp_2_par
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.par_perp_perp_playfair
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.par_perp_2_par_par_perp_perp
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.par_trans_playfair
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.playfair_bis_playfair
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.playfair_par_trans
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.playfair_midpoint
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.playfair_alternate_interior_angles
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.playfair_universal_posidonius_postulate
+Fetching opaque proofs from disk for GeoCoq.Main.Annexes.saccheri
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.universal_posidonius_postulate_par_perp_perp
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.bachmann_s_lotschnittaxiom_variant
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.weak_triangle_circumscription_principle_bachmann_s_lotschnittaxiom
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.thales_converse_postulate_weak_triangle_circumscription_principle
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.thales_postulate_thales_converse_postulate
+Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Parallel_postulates.rah_thales_postulate
+Fetching opaque proofs from disk for GeoCoq.Main.Utils.all_equiv
+Fetching opaque proofs from disk for Coq.rtauto.Rtauto
+Fetching opaque proofs from disk for Coq.rtauto.Bintree
+Axioms:
+Eqdep.Eq_rect_eq.eq_rect_eq
+  : forall (U : Type) (p : U) (Q : U -> Type) (x : Q p) (h : p = p),
+    x = eq_rect p Q x p h
+
+Coq < 

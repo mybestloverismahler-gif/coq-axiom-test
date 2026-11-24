@@ -1,0 +1,45 @@
+Welcome to Coq 8.18.0
+
+Coq < [Loading ML file ring_plugin.cmxs (using legacy method) ... done]
+[Loading ML file zify_plugin.cmxs (using legacy method) ... done]
+[Loading ML file micromega_plugin.cmxs (using legacy method) ... done]
+[Loading ML file extraction_plugin.cmxs (using legacy method) ... done]
+[Loading ML file funind_plugin.cmxs (using legacy method) ... done]
+[Loading ML file rtauto_plugin.cmxs (using legacy method) ... done]
+
+Coq < H_to_T :
+hilbert_axioms.Hilbert_neutral_dimensionless -> Tarski_neutral_dimensionless
+gupta_inspired_to_tarski.GI_to_T :
+gupta_inspired_variant_axioms.Gupta_inspired_variant_of_Tarski_neutral_dimensionless_with_decidable_point_equality ->
+Tarski_neutral_dimensionless
+
+Coq < gupta_inspired_to_tarski.GI_to_T_PED :
+forall
+  {ITnEQD : gupta_inspired_variant_axioms.Gupta_inspired_variant_of_Tarski_neutral_dimensionless_with_decidable_point_equality},
+Tarski_neutral_dimensionless_with_decidable_point_equality
+  gupta_inspired_to_tarski.GI_to_T
+H_to_T_PED :
+forall {Hi : hilbert_axioms.Hilbert_neutral_dimensionless},
+Tarski_neutral_dimensionless_with_decidable_point_equality H_to_T
+
+Coq < H2D_to_T2D :
+forall {Hi : hilbert_axioms.Hilbert_neutral_dimensionless},
+hilbert_axioms.Hilbert_neutral_2D Hi -> Tarski_2D H_to_T_PED
+gupta_inspired_to_tarski.GI2D_to_T2D :
+forall
+  {TnG : gupta_inspired_variant_axioms.Gupta_inspired_variant_of_Tarski_neutral_dimensionless_with_decidable_point_equality},
+gupta_inspired_variant_axioms.Gupta_inspired_variant_of_Tarski_2D TnG ->
+Tarski_2D gupta_inspired_to_tarski.GI_to_T_PED
+
+Coq < gupta_inspired_to_tarski.GI_euclidean_to_T_euclidean :
+forall
+  {TnG : gupta_inspired_variant_axioms.Gupta_inspired_variant_of_Tarski_neutral_dimensionless_with_decidable_point_equality},
+gupta_inspired_variant_axioms.Gupta_inspired_variant_of_Tarski_euclidean TnG ->
+Tarski_euclidean gupta_inspired_to_tarski.GI_to_T_PED
+H_euclidean_to_T_euclidean :
+forall {Hi0 : hilbert_axioms.Hilbert_neutral_dimensionless}
+  {H_euclidean : hilbert_axioms.Hilbert_euclidean Hi0},
+hilbert_axioms.Hilbert_euclidean_ID H_euclidean ->
+Tarski_euclidean H_to_T_PED
+
+Coq < 
