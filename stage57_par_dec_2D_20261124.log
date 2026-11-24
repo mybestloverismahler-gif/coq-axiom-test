@@ -1,0 +1,8 @@
+par_dec_2D_local
+     : forall A B C D : Tpoint, Par A B C D \/ ~ Par A B C D
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?Td : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2 : [ |- Tarski_2D ?Td]
+?TE : [ |- Tarski_euclidean ?Td]
+Closed under the global context
