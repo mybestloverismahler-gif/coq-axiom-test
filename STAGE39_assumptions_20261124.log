@@ -1,0 +1,22 @@
+Welcome to Coq 8.18.0
+
+Coq < 
+Coq < Fetching opaque proofs from disk for STAGE39_recovered_original
+Closed under the global context
+
+Coq < Closed under the global context
+
+Coq < Closed under the global context
+
+Coq < Closed under the global context
+
+Coq < col_transport39
+     : forall Bet39 : Pt39 -> Pt39 -> Pt39 -> Prop,
+       (forall A B C : Pt39, Bet39 A B C -> Bet39 C B A) ->
+       (forall A B C : Pt39, Bet39 A B C -> ~ Bet39 B C A) ->
+       (forall A B C : Pt39, Bet39 A B C -> Col39 A B C) ->
+       forall L M R D : Pt39, Bet39 L M R -> Col39 L M D -> Col39 L R D
+where
+?W : [ |- WeakIncidence39]
+
+Coq < 

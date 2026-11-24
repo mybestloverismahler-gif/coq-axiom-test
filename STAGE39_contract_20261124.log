@@ -1,0 +1,53 @@
+Welcome to Coq 8.18.0
+
+Coq < 
+Coq < Record WeakIncidence39 : Type := Build_WeakIncidence39
+  { Pt39 : Type;
+    Ln39 : Type;
+    EqLn39 : Ln39 -> Ln39 -> Prop;
+    On39 : Pt39 -> Ln39 -> Prop;
+    line_unique39 : forall (A B : Pt39) (l m : Ln39),
+                    A <> B ->
+                    On39 A l ->
+                    On39 B l -> On39 A m -> On39 B m -> EqLn39 l m;
+    on_morphism39 : forall (A : Pt39) (l m : Ln39),
+                    On39 A l -> EqLn39 l m -> On39 A m }.
+
+Arguments Build_WeakIncidence39 (Pt39 Ln39)%type_scope
+  (EqLn39 On39 line_unique39 on_morphism39)%function_scope
+
+Coq < bet_left_diff39
+     : forall Bet39 : Pt39 -> Pt39 -> Pt39 -> Prop,
+       (forall A B C : Pt39, Bet39 A B C -> Bet39 C B A) ->
+       (forall A B C : Pt39, Bet39 A B C -> ~ Bet39 B C A) ->
+       forall A B C : Pt39, Bet39 A B C -> A <> B
+where
+?W : [ |- WeakIncidence39]
+
+Coq < bet_right_diff39
+     : forall Bet39 : Pt39 -> Pt39 -> Pt39 -> Prop,
+       (forall A B C : Pt39, Bet39 A B C -> Bet39 C B A) ->
+       (forall A B C : Pt39, Bet39 A B C -> ~ Bet39 B C A) ->
+       forall A B C : Pt39, Bet39 A B C -> B <> C
+where
+?W : [ |- WeakIncidence39]
+
+Coq < bet_all_distinct39
+     : forall Bet39 : Pt39 -> Pt39 -> Pt39 -> Prop,
+       (forall A B C : Pt39, Bet39 A B C -> A <> C) ->
+       (forall A B C : Pt39, Bet39 A B C -> Bet39 C B A) ->
+       (forall A B C : Pt39, Bet39 A B C -> ~ Bet39 B C A) ->
+       forall A B C : Pt39, Bet39 A B C -> A <> B /\ B <> C /\ A <> C
+where
+?W : [ |- WeakIncidence39]
+
+Coq < col_transport39
+     : forall Bet39 : Pt39 -> Pt39 -> Pt39 -> Prop,
+       (forall A B C : Pt39, Bet39 A B C -> Bet39 C B A) ->
+       (forall A B C : Pt39, Bet39 A B C -> ~ Bet39 B C A) ->
+       (forall A B C : Pt39, Bet39 A B C -> Col39 A B C) ->
+       forall L M R D : Pt39, Bet39 L M R -> Col39 L M D -> Col39 L R D
+where
+?W : [ |- WeakIncidence39]
+
+Coq < 
