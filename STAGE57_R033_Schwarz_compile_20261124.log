@@ -1,0 +1,24 @@
+File "./stage57_R033_Schwarz_bridge_20261124.v", line 1, characters 0-43:
+Warning:
+New coercion path [real; Finite] : Rbar >-> Rbar is not definitionally an identity function.
+[ambiguous-paths,coercions,default]
+Axioms:
+ClassicalDedekindReals.sig_not_dec : forall P : Prop, {~ ~ P} + {~ P}
+ClassicalDedekindReals.sig_forall_dec
+  : forall P : nat -> Prop,
+    (forall n : nat, {P n} + {~ P n}) ->
+    {n : nat | ~ P n} + {forall n : nat, P n}
+functional_extensionality_dep
+  : forall (A : Type) (B : A -> Type) (f g : forall x : A, B x),
+    (forall x : A, f x = g x) -> f = g
+Classical_Prop.classic : forall P : Prop, P \/ ~ P
+Axioms:
+ClassicalDedekindReals.sig_not_dec : forall P : Prop, {~ ~ P} + {~ P}
+ClassicalDedekindReals.sig_forall_dec
+  : forall P : nat -> Prop,
+    (forall n : nat, {P n} + {~ P n}) ->
+    {n : nat | ~ P n} + {forall n : nat, P n}
+functional_extensionality_dep
+  : forall (A : Type) (B : A -> Type) (f g : forall x : A, B x),
+    (forall x : A, f x = g x) -> f = g
+Classical_Prop.classic : forall P : Prop, P \/ ~ P
