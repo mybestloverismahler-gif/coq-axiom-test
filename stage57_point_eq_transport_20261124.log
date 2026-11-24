@@ -1,0 +1,13 @@
+point_UIP
+     : forall (p q : Tpoint) (h k : p = q), h = k
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?Td : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+point_eq_rect_eq
+     : forall (p : Tpoint) (Q : Tpoint -> Type) (x : Q p) (h : p = p),
+       x = eq_rect p Q x p h
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?Td : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+Closed under the global context
+Closed under the global context
