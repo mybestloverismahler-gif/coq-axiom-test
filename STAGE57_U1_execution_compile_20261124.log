@@ -1,0 +1,9 @@
+dependency_precedes
+     : forall p e : D.B.expr, D.strict_dependency p e -> precedes p e
+precedes_trans
+     : forall a b c : B.expr, precedes a b -> precedes b c -> precedes a c
+reverse_order_excluded
+     : forall p e : D.B.expr, D.strict_dependency p e -> ~ precedes e p
+Closed under the global context
+Closed under the global context
+Closed under the global context
