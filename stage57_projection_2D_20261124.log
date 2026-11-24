@@ -1,0 +1,13 @@
+project_existence_2D_local
+     : (forall A B C D : Tpoint,
+        (exists X : Tpoint, Col X A B /\ Col X C D) \/
+        ~ (exists X : Tpoint, Col X A B /\ Col X C D)) ->
+       forall P A B X Y : Tpoint,
+       X <> Y ->
+       A <> B -> ~ Par X Y A B -> exists ! P' : Tpoint, Proj P P' A B X Y
+where
+?Tn : [ |- Tarski_neutral_dimensionless]
+?Td : [ |- Tarski_neutral_dimensionless_with_decidable_point_equality ?Tn]
+?T2 : [ |- Tarski_2D ?Td]
+?TE : [ |- Tarski_euclidean ?Td]
+Closed under the global context
