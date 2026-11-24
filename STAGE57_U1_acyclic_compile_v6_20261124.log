@@ -1,0 +1,5 @@
+dependency_well_founded
+     : well_founded D.strict_dependency
+Closed under the global context
+Closed under the global context
+Closed under the global context
