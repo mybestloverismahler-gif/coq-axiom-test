@@ -1,0 +1,18 @@
+Welcome to Coq 8.18.0
+
+Coq < [Loading ML file ring_plugin.cmxs (using legacy method) ... done]
+
+Coq < Fetching opaque proofs from disk for stage57_T3_T4_type_connection_20261121
+Closed under the global context
+
+Coq < Closed under the global context
+
+Coq < Closed under the global context
+
+Coq < Fetching opaque proofs from disk for stage57_U1_occurs_correct_candidate
+Fetching opaque proofs from disk for Coq.Classes.Morphisms
+Fetching opaque proofs from disk for Coq.Init.Logic
+Fetching opaque proofs from disk for Coq.Bool.Bool
+Closed under the global context
+
+Coq < 
