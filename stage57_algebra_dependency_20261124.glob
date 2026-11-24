@@ -1,0 +1,27 @@
+DIGEST b18849df7391e430bb97684445e0a58b
+Fstage57_algebra_dependency_20261124
+R15:46 GeoCoq.Main.Tarski_dev.Ch14_prod <> <> lib
+R55:64 GeoCoq.Main.Tarski_dev.Ch14_prod <> prod_assoc thm
+R85:94 GeoCoq.Main.Tarski_dev.Ch14_prod <> prod_assoc thm
+R103:113 GeoCoq.Main.Tarski_dev.Ch14_prod <> prod_assoc1 thm
+R134:144 GeoCoq.Main.Tarski_dev.Ch14_prod <> prod_assoc1 thm
+R153:163 GeoCoq.Main.Tarski_dev.Ch14_prod <> prod_assoc2 thm
+R184:194 GeoCoq.Main.Tarski_dev.Ch14_prod <> prod_assoc2 thm
+R203:211 GeoCoq.Main.Tarski_dev.Ch14_prod <> prod_comm thm
+R232:240 GeoCoq.Main.Tarski_dev.Ch14_prod <> prod_comm thm
+R249:258 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum22_comm thm
+R279:288 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum22_comm thm
+R297:309 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum3_comm_1_2 thm
+R330:342 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum3_comm_1_2 thm
+R351:363 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum3_comm_2_3 thm
+R384:396 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum3_comm_2_3 thm
+R405:413 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum4_comm thm
+R434:442 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum4_comm thm
+R451:459 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_assoc thm
+R480:488 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_assoc thm
+R497:507 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_assoc_1 thm
+R528:538 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_assoc_1 thm
+R547:557 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_assoc_2 thm
+R578:588 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_assoc_2 thm
+R597:604 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_comm thm
+R625:632 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_comm thm

@@ -1,0 +1,28 @@
+DIGEST 2184656cc86b605112f7ba63a97c30c4
+Fstage57_T1_T2_existing_model_audit
+R15:28 Coq.Lists.List <> <> lib
+R38:50 Coq.Lists.List ListNotations <> mod
+R69:89 stage57_T3_relational <> <> lib
+prf 101:122 <> T1_two_distinct_tokens
+R130:133 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R128:129 stage57_T3_relational <> Tx constr
+R134:135 stage57_T3_relational <> Ty constr
+prf 175:190 <> T2_concat_exists
+R209:212 Coq.Init.Datatypes <> list ind
+R214:218 stage57_T3_relational <> token ind
+binder 203:203 <> a:1
+binder 205:205 <> b:2
+R223:229 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R244:245 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R234:237 Coq.Init.Datatypes <> list ind
+R239:243 stage57_T3_relational <> token ind
+binder 230:230 <> c:3
+R247:249 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R246:246 stage57_T1_T2_existing_model_audit <> c:3 var
+R251:254 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R250:250 stage57_T1_T2_existing_model_audit <> a:1 var
+R255:255 stage57_T1_T2_existing_model_audit <> b:2 var
+R290:293 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R290:293 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R337:358 stage57_T1_T2_existing_model_audit <> T1_two_distinct_tokens thm
+R379:394 stage57_T1_T2_existing_model_audit <> T2_concat_exists thm

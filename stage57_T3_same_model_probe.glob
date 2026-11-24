@@ -1,0 +1,8 @@
+DIGEST 1e2db9bf1ca372229456c84f22e268f1
+Fstage57_T3_same_model_probe
+R15:37 stage57_T3_injective_v1 <> <> lib
+R46:49 stage57_T3_injective_v1 <> expr ind
+R58:62 stage57_T3_injective_v1 <> token ind
+R71:76 stage57_T3_injective_v1 <> encode def
+R85:100 stage57_T3_injective_v1 <> encode_injective thm
+R114:120 stage57_T3_injective_v1 <> derives ind

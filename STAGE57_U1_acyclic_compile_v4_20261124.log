@@ -1,0 +1,4 @@
+File "./stage57_U1_acyclic_v4_20261124.v", line 34, characters 21-28:
+Error: Expects a disjunctive pattern with 1 branch or a conjunctive pattern
+made of 0 patterns.
+

@@ -1,0 +1,53 @@
+DIGEST 52faf0053f2c0869b4e16eb3fe96b38c
+Fstage57_par_trans_2D_v3_20261124
+R15:46 GeoCoq.Main.Tarski_dev.Ch14_prod <> <> lib
+sec 58:67 <> Parallel2D
+R85:112 GeoCoq.Axioms.tarski_axioms <> Tarski_neutral_dimensionless class
+binder 80:81 <> Tn:1
+R132:189 GeoCoq.Axioms.tarski_axioms <> Tarski_neutral_dimensionless_with_decidable_point_equality class
+R191:192 stage57_par_trans_2D_v3_20261124 <> Parallel2D.Tn var
+binder 125:126 <> Td:2
+R210:218 GeoCoq.Axioms.tarski_axioms <> Tarski_2D class
+R220:221 stage57_par_trans_2D_v3_20261124 <> Parallel2D.Td var
+binder 205:206 <> T2:3
+R239:254 GeoCoq.Axioms.tarski_axioms <> Tarski_euclidean class
+R256:257 stage57_par_trans_2D_v3_20261124 <> Parallel2D.Td var
+binder 234:235 <> TE:4
+prf 270:287 <> par_trans_2D_local
+R314:319 GeoCoq.Axioms.tarski_axioms <> Tpoint meth
+binder 300:300 <> A:5
+binder 302:302 <> B:6
+binder 304:304 <> C:7
+binder 306:306 <> D:8
+binder 308:308 <> E:9
+binder 310:310 <> F:10
+R337:344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R326:328 GeoCoq.Axioms.Definitions <> Par def
+R330:330 stage57_par_trans_2D_v3_20261124 <> A:5 var
+R332:332 stage57_par_trans_2D_v3_20261124 <> B:6 var
+R334:334 stage57_par_trans_2D_v3_20261124 <> C:7 var
+R336:336 stage57_par_trans_2D_v3_20261124 <> D:8 var
+R356:363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R345:347 GeoCoq.Axioms.Definitions <> Par def
+R349:349 stage57_par_trans_2D_v3_20261124 <> C:7 var
+R351:351 stage57_par_trans_2D_v3_20261124 <> D:8 var
+R353:353 stage57_par_trans_2D_v3_20261124 <> E:9 var
+R355:355 stage57_par_trans_2D_v3_20261124 <> F:10 var
+R364:366 GeoCoq.Axioms.Definitions <> Par def
+R368:368 stage57_par_trans_2D_v3_20261124 <> A:5 var
+R370:370 stage57_par_trans_2D_v3_20261124 <> B:6 var
+R372:372 stage57_par_trans_2D_v3_20261124 <> E:9 var
+R374:374 stage57_par_trans_2D_v3_20261124 <> F:10 var
+R426:437 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_distinct thm
+R426:437 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_distinct thm
+R484:495 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_distinct thm
+R484:495 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_distinct thm
+R539:545 GeoCoq.Main.Tarski_dev.Ch05_bet_le <> col_dec thm
+R539:545 GeoCoq.Main.Tarski_dev.Ch05_bet_le <> col_dec thm
+R583:585 GeoCoq.Axioms.Definitions <> Col def
+R583:585 GeoCoq.Axioms.Definitions <> Col def
+R614:632 GeoCoq.Main.Tarski_dev.Ch12_parallel_inter_dec <> parallel_uniqueness thm
+R614:632 GeoCoq.Main.Tarski_dev.Ch12_parallel_inter_dec <> parallel_uniqueness thm
+R698:709 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R698:709 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R698:709 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm

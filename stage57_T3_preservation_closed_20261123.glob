@@ -1,0 +1,69 @@
+DIGEST 2f74c74efac3198df2f54617805d4cbb
+Fstage57_T3_preservation_closed_20261123
+R24:27 Coq.Lists.List <> <> lib
+R37:49 Coq.Lists.List ListNotations <> mod
+R67:99 stage57_T3_two_models_expr_bridge <> <> lib
+R115:135 stage57_T3_relational <> <> modtype
+mod 110:110 <> R
+R150:172 stage57_T3_injective_v1 <> <> modtype
+mod 145:145 <> I
+R188:221 stage57_T3_two_models_token_bridge <> <> modtype
+mod 182:183 <> TB
+R237:269 stage57_T3_two_models_expr_bridge <> <> modtype
+mod 231:232 <> EB
+def 284:297 <> convert_result
+R306:311 Coq.Init.Datatypes <> option ind
+R320:322 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R314:319 stage57_T3_preservation_closed_20261123 <> expr ind
+R323:326 Coq.Init.Datatypes <> list ind
+R328:334 stage57_T3_preservation_closed_20261123 <> token ind
+binder 302:302 <> x:1
+R342:347 Coq.Init.Datatypes <> option ind
+R356:358 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R350:355 stage57_T3_preservation_closed_20261123 <> expr ind
+R359:362 Coq.Init.Datatypes <> list ind
+R364:370 stage57_T3_preservation_closed_20261123 <> token ind
+R384:384 stage57_T3_preservation_closed_20261123 <> x:1 var
+R395:398 Coq.Init.Datatypes <> None constr
+R403:406 Coq.Init.Datatypes <> None constr
+R412:415 Coq.Init.Datatypes <> Some constr
+R417:417 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R419:420 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R425:425 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R436:439 Coq.Init.Datatypes <> Some constr
+R441:441 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R458:459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R478:478 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R442:455 stage57_T3_preservation_closed_20261123 <> expr_R_to_I def
+R460:462 Coq.Lists.List <> map def
+R464:472 stage57_T3_preservation_closed_20261123 <> R_to_I def
+prf 496:521 <> parser_preservation_R_to_I
+binder 534:537 <> fuel:3
+binder 539:540 <> ts:4
+R582:588 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R547:557 stage57_T3_preservation_closed_20261123 <> parse_one def
+R559:562 stage57_T3_preservation_closed_20261123 <> fuel:3 var
+R565:567 Coq.Lists.List <> map def
+R579:580 stage57_T3_preservation_closed_20261123 <> ts:4 var
+R569:577 stage57_T3_preservation_closed_20261123 <> R_to_I def
+R589:602 stage57_T3_preservation_closed_20261123 <> convert_result def
+R605:615 stage57_T3_preservation_closed_20261123 <> parse_one def
+R617:620 stage57_T3_preservation_closed_20261123 <> fuel:3 var
+R622:623 stage57_T3_preservation_closed_20261123 <> ts:4 var
+R771:779 stage57_T3_preservation_closed_20261123 <> R_to_I def
+R781:783 Coq.Lists.List <> map def
+R914:924 stage57_T3_preservation_closed_20261123 <> parse_one def
+R926:936 stage57_T3_preservation_closed_20261123 <> parse_one def
+R938:951 stage57_T3_preservation_closed_20261123 <> convert_result def
+R953:955 Coq.Lists.List <> map def
+R1047:1050 Coq.Lists.List <> tail abbrev
+R1086:1096 stage57_T3_preservation_closed_20261123 <> parse_one def
+R1100:1103 Coq.Lists.List <> tail abbrev
+R1086:1096 stage57_T3_preservation_closed_20261123 <> parse_one def
+R1086:1096 stage57_T3_preservation_closed_20261123 <> parse_one def
+R1086:1096 stage57_T3_preservation_closed_20261123 <> parse_one def
+R1086:1096 stage57_T3_preservation_closed_20261123 <> parse_one def
+R1402:1412 stage57_T3_preservation_closed_20261123 <> parse_one def
+R1402:1412 stage57_T3_preservation_closed_20261123 <> parse_one def
+R1402:1412 stage57_T3_preservation_closed_20261123 <> parse_one def
+R1602:1627 stage57_T3_preservation_closed_20261123 <> parser_preservation_R_to_I thm

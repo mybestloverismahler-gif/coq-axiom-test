@@ -1,0 +1,49 @@
+DIGEST 0cd690982bdaaa2f9ee2cc821454783a
+Fstage57_R010_DEL_token_audit_20261121
+R15:28 Coq.Lists.List <> <> lib
+R46:71 stage57_T3_T4_U1_candidate <> <> lib
+R87:112 stage57_T3_T4_U1_candidate <> <> modtype
+mod 82:82 <> B
+ind 126:139 <> extended_token
+constr 153:160 <> OldToken
+constr 190:192 <> DEL
+R169:172 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R164:168 stage57_R010_DEL_token_audit_20261121 <> tok ind
+R173:186 stage57_R010_DEL_token_audit_20261121 <> extended_token:1 ind
+R196:209 stage57_R010_DEL_token_audit_20261121 <> extended_token:1 ind
+scheme 126:139 <> extended_token_rect
+scheme 126:139 <> extended_token_ind
+scheme 126:139 <> extended_token_rec
+scheme 126:139 <> extended_token_sind
+def 224:234 <> lift_tokens
+R242:245 Coq.Init.Datatypes <> list ind
+R247:251 stage57_R010_DEL_token_audit_20261121 <> tok ind
+binder 237:238 <> xs:3
+R256:259 Coq.Init.Datatypes <> list ind
+R261:274 stage57_R010_DEL_token_audit_20261121 <> extended_token ind
+R281:288 Coq.Lists.List <> map def
+R299:300 stage57_R010_DEL_token_audit_20261121 <> xs:3 var
+R290:297 stage57_R010_DEL_token_audit_20261121 <> OldToken constr
+prf 312:332 <> DEL_distinct_from_old
+R349:353 stage57_R010_DEL_token_audit_20261121 <> tok ind
+binder 345:345 <> t:4
+R366:369 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R356:363 stage57_R010_DEL_token_audit_20261121 <> OldToken constr
+R365:365 stage57_R010_DEL_token_audit_20261121 <> t:4 var
+R370:372 stage57_R010_DEL_token_audit_20261121 <> DEL constr
+prf 428:448 <> lift_tokens_injective
+R469:472 Coq.Init.Datatypes <> list ind
+R474:478 stage57_R010_DEL_token_audit_20261121 <> tok ind
+binder 461:462 <> xs:5
+binder 464:465 <> ys:6
+R514:517 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R497:499 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R483:493 stage57_R010_DEL_token_audit_20261121 <> lift_tokens def
+R495:496 stage57_R010_DEL_token_audit_20261121 <> xs:5 var
+R500:510 stage57_R010_DEL_token_audit_20261121 <> lift_tokens def
+R512:513 stage57_R010_DEL_token_audit_20261121 <> ys:6 var
+R520:522 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R518:519 stage57_R010_DEL_token_audit_20261121 <> xs:5 var
+R523:524 stage57_R010_DEL_token_audit_20261121 <> ys:6 var
+R744:764 stage57_R010_DEL_token_audit_20261121 <> DEL_distinct_from_old thm
+R785:805 stage57_R010_DEL_token_audit_20261121 <> lift_tokens_injective thm

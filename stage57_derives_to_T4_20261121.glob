@@ -1,0 +1,54 @@
+DIGEST 44974bc9de39734c31224da6610b5345
+Fstage57_derives_to_T4_20261121
+R24:27 Coq.Lists.List <> <> lib
+R37:49 Coq.Lists.List ListNotations <> mod
+R67:102 stage57_T3_bounded_complete_20261119 <> <> lib
+R120:158 stage57_T3_T4_guarantee_bridge_20261121 <> <> lib
+R174:196 stage57_T3_injective_v1 <> <> modtype
+mod 169:169 <> A
+R211:236 stage57_T3_T4_U1_candidate <> <> modtype
+mod 206:206 <> B
+R251:285 stage57_T3_T4_token_bridge_20261121 <> <> modtype
+mod 246:246 <> T
+R300:333 stage57_T3_T4_expr_bridge_20261121 <> <> modtype
+mod 295:295 <> E
+R348:386 stage57_T3_T4_guarantee_bridge_20261121 <> <> modtype
+mod 343:343 <> G
+R401:438 stage57_T3_T4_type_connection_20261121 <> <> modtype
+mod 396:396 <> C
+prf 450:468 <> derives_to_T4_typed
+R486:489 Coq.Init.Datatypes <> list ind
+R491:497 stage57_derives_to_T4_20261121 <> token ind
+binder 482:482 <> s:1
+R505:510 stage57_derives_to_T4_20261121 <> expr ind
+binder 501:501 <> a:2
+R518:521 stage57_derives_to_T4_20261121 <> ty ind
+binder 514:514 <> t:3
+R542:549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R529:537 stage57_derives_to_T4_20261121 <> derives ind
+R539:539 stage57_derives_to_T4_20261121 <> s:1 var
+R541:541 stage57_derives_to_T4_20261121 <> a:2 var
+R582:589 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R573:575 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R550:556 stage57_derives_to_T4_20261121 <> infer def
+R559:569 stage57_derives_to_T4_20261121 <> expr_to_B def
+R571:571 stage57_derives_to_T4_20261121 <> a:2 var
+R576:579 Coq.Init.Datatypes <> Some constr
+R581:581 stage57_derives_to_T4_20261121 <> t:3 var
+R618:626 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R590:602 stage57_derives_to_T4_20261121 <> typed_parse def
+R605:607 Coq.Lists.List <> map def
+R616:616 stage57_derives_to_T4_20261121 <> s:1 var
+R609:614 stage57_derives_to_T4_20261121 <> to_B def
+R627:630 Coq.Init.Datatypes <> Some constr
+R632:632 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R646:647 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R649:649 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R633:643 stage57_derives_to_T4_20261121 <> expr_to_B def
+R645:645 stage57_derives_to_T4_20261121 <> a:2 var
+R648:648 stage57_derives_to_T4_20261121 <> t:3 var
+R694:716 stage57_derives_to_T4_20261121 <> A_to_T4_typed_success thm
+R694:716 stage57_derives_to_T4_20261121 <> A_to_T4_typed_success thm
+R729:784 stage57_T3_bounded_complete_20261119 <> T3_bounded_complete thm
+R729:784 stage57_T3_bounded_complete_20261119 <> T3_bounded_complete thm
+R843:861 stage57_derives_to_T4_20261121 <> derives_to_T4_typed thm

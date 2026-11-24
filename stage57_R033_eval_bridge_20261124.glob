@@ -1,0 +1,96 @@
+DIGEST 8e4f16d70a197b6cd12177d1300a908c
+Fstage57_R033_eval_bridge_20261124
+R15:47 stage57_R033_type_bridge_20261124 <> <> lib
+R65:110 stage57_R033_partial_bridge_candidate_20261124 <> <> lib
+R126:158 stage57_R033_type_bridge_20261124 <> <> modtype
+mod 121:121 <> T
+R173:218 stage57_R033_partial_bridge_candidate_20261124 <> <> modtype
+mod 168:168 <> P
+sec 230:239 <> EvalBridge
+binder 251:251 <> A:1
+var 272:273 EvalBridge dx
+var 275:276 EvalBridge dy
+R281:284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R280:280 stage57_R033_eval_bridge_20261124 <> EvalBridge.A var
+R285:290 Coq.Init.Datatypes <> option ind
+R292:292 stage57_R033_eval_bridge_20261124 <> EvalBridge.A var
+def 305:314 <> eval_field
+R321:332 stage57_R033_eval_bridge_20261124 <> field_expr ind
+binder 317:317 <> e:4
+R340:340 stage57_R033_eval_bridge_20261124 <> EvalBridge.A var
+binder 336:336 <> f:5
+R347:352 Coq.Init.Datatypes <> option ind
+R354:354 stage57_R033_eval_bridge_20261124 <> EvalBridge.A var
+R367:367 stage57_R033_eval_bridge_20261124 <> e:4 var
+R378:384 stage57_R033_eval_bridge_20261124 <> Field constr
+R389:392 Coq.Init.Datatypes <> Some constr
+R394:394 stage57_R033_eval_bridge_20261124 <> f:5 var
+R400:403 stage57_R033_eval_bridge_20261124 <> Dx constr
+R422:431 stage57_R033_eval_bridge_20261124 <> eval_field:6 def
+R435:435 stage57_R033_eval_bridge_20261124 <> f:5 var
+R450:453 Coq.Init.Datatypes <> Some constr
+R460:461 stage57_R033_eval_bridge_20261124 <> EvalBridge.dx var
+R473:476 Coq.Init.Datatypes <> None constr
+R481:484 Coq.Init.Datatypes <> None constr
+R500:503 stage57_R033_eval_bridge_20261124 <> Dy constr
+R522:531 stage57_R033_eval_bridge_20261124 <> eval_field:6 def
+R535:535 stage57_R033_eval_bridge_20261124 <> f:5 var
+R550:553 Coq.Init.Datatypes <> Some constr
+R560:561 stage57_R033_eval_bridge_20261124 <> EvalBridge.dy var
+R573:576 Coq.Init.Datatypes <> None constr
+R581:584 Coq.Init.Datatypes <> None constr
+R600:613 stage57_R033_eval_bridge_20261124 <> ExistingExpr constr
+R620:623 Coq.Init.Datatypes <> None constr
+prf 641:662 <> r033_typed_eval_bridge
+binder 675:675 <> f:8
+R703:708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R680:694 stage57_R033_eval_bridge_20261124 <> r033_eligible def
+R702:702 stage57_R033_eval_bridge_20261124 <> f:8 var
+R699:700 stage57_R033_eval_bridge_20261124 <> EvalBridge.dy var
+R696:697 stage57_R033_eval_bridge_20261124 <> EvalBridge.dx var
+R709:715 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R717:722 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 716:716 <> v:9
+R790:797 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R758:766 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R723:735 stage57_R033_eval_bridge_20261124 <> infer_field def
+R738:741 stage57_R033_eval_bridge_20261124 <> Dx constr
+R744:747 stage57_R033_eval_bridge_20261124 <> Dy constr
+R749:755 stage57_R033_eval_bridge_20261124 <> Field constr
+R767:770 Coq.Init.Datatypes <> Some constr
+R773:786 stage57_R033_eval_bridge_20261124 <> SpatialField constr
+R865:872 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R833:841 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R798:810 stage57_R033_eval_bridge_20261124 <> infer_field def
+R813:816 stage57_R033_eval_bridge_20261124 <> Dy constr
+R819:822 stage57_R033_eval_bridge_20261124 <> Dx constr
+R824:830 stage57_R033_eval_bridge_20261124 <> Field constr
+R842:845 Coq.Init.Datatypes <> Some constr
+R848:861 stage57_R033_eval_bridge_20261124 <> SpatialField constr
+R922:929 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R907:915 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R873:882 stage57_R033_eval_bridge_20261124 <> eval_field def
+R885:888 stage57_R033_eval_bridge_20261124 <> Dx constr
+R891:894 stage57_R033_eval_bridge_20261124 <> Dy constr
+R896:902 stage57_R033_eval_bridge_20261124 <> Field constr
+R906:906 stage57_R033_eval_bridge_20261124 <> f:8 var
+R916:919 Coq.Init.Datatypes <> Some constr
+R921:921 stage57_R033_eval_bridge_20261124 <> v:9 var
+R964:972 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R930:939 stage57_R033_eval_bridge_20261124 <> eval_field def
+R942:945 stage57_R033_eval_bridge_20261124 <> Dy constr
+R948:951 stage57_R033_eval_bridge_20261124 <> Dx constr
+R953:959 stage57_R033_eval_bridge_20261124 <> Field constr
+R963:963 stage57_R033_eval_bridge_20261124 <> f:8 var
+R973:976 Coq.Init.Datatypes <> Some constr
+R978:978 stage57_R033_eval_bridge_20261124 <> v:9 var
+R1013:1028 stage57_R033_eval_bridge_20261124 <> r033_same_type thm
+R1013:1028 stage57_R033_eval_bridge_20261124 <> r033_same_type thm
+R1056:1076 stage57_R033_eval_bridge_20261124 <> r033_partial_bridge thm
+R1081:1082 stage57_R033_eval_bridge_20261124 <> EvalBridge.dy var
+R1078:1079 stage57_R033_eval_bridge_20261124 <> EvalBridge.dx var
+R1056:1076 stage57_R033_eval_bridge_20261124 <> r033_partial_bridge thm
+R1081:1082 stage57_R033_eval_bridge_20261124 <> EvalBridge.dy var
+R1078:1079 stage57_R033_eval_bridge_20261124 <> EvalBridge.dx var
+R1211:1220 stage57_R033_eval_bridge_20261124 EvalBridge <> sec
+R1242:1263 stage57_R033_eval_bridge_20261124 <> r033_typed_eval_bridge thm

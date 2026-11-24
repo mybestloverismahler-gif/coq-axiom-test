@@ -1,0 +1,153 @@
+DIGEST 207dc7b556e6e2feb667ec9169fc90d4
+Fstage57_R012_R1603_scoped_type_candidate_20261122
+R451:476 stage57_T3_T4_U1_candidate <> <> lib
+R497:522 stage57_T3_T4_U1_candidate <> <> modtype
+mod 487:492 <> Legacy
+ind 536:544 <> scoped_ty
+constr 558:564 <> OldType
+constr 584:599 <> VoltageTraceType
+constr 603:618 <> TotalCurrentType
+constr 622:638 <> TotalCapacityType
+constr 642:656 <> VoltageRateType
+R571:579 stage57_R012_R1603_scoped_type_candidate_20261122 <> ty ind
+binder 567:567 <> t:3
+scheme 536:544 <> scoped_ty_rect
+scheme 536:544 <> scoped_ty_ind
+scheme 536:544 <> scoped_ty_rec
+scheme 536:544 <> scoped_ty_sind
+ind 732:742 <> scoped_expr
+constr 756:762 <> OldExpr
+constr 784:795 <> VoltageTrace
+constr 799:810 <> TotalCurrent
+constr 814:826 <> TotalCapacity
+constr 830:843 <> TimeDerivative
+constr 865:883 <> CurrentOverCapacity
+constr 907:918 <> NegativeRate
+R769:779 stage57_R012_R1603_scoped_type_candidate_20261122 <> expr ind
+binder 765:765 <> e:6
+R850:860 stage57_R012_R1603_scoped_type_candidate_20261122 <> scoped_expr:4 ind
+binder 846:846 <> e:7
+R892:902 stage57_R012_R1603_scoped_type_candidate_20261122 <> scoped_expr:4 ind
+binder 886:886 <> i:8
+binder 888:888 <> c:9
+R925:935 stage57_R012_R1603_scoped_type_candidate_20261122 <> scoped_expr:4 ind
+binder 921:921 <> e:10
+scheme 732:742 <> scoped_expr_rect
+scheme 732:742 <> scoped_expr_ind
+scheme 732:742 <> scoped_expr_rec
+scheme 732:742 <> scoped_expr_sind
+def 949:960 <> infer_scoped
+R967:977 stage57_R012_R1603_scoped_type_candidate_20261122 <> scoped_expr ind
+binder 963:963 <> e:11
+R982:987 Coq.Init.Datatypes <> option ind
+R989:997 stage57_R012_R1603_scoped_type_candidate_20261122 <> scoped_ty ind
+R1010:1010 stage57_R012_R1603_scoped_type_candidate_20261122 <> e:11 var
+R1021:1027 stage57_R012_R1603_scoped_type_candidate_20261122 <> OldExpr constr
+R1046:1057 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer def
+R1074:1077 Coq.Init.Datatypes <> Some constr
+R1084:1087 Coq.Init.Datatypes <> Some constr
+R1090:1096 stage57_R012_R1603_scoped_type_candidate_20261122 <> OldType constr
+R1109:1112 Coq.Init.Datatypes <> None constr
+R1117:1120 Coq.Init.Datatypes <> None constr
+R1136:1147 stage57_R012_R1603_scoped_type_candidate_20261122 <> VoltageTrace constr
+R1152:1155 Coq.Init.Datatypes <> Some constr
+R1157:1172 stage57_R012_R1603_scoped_type_candidate_20261122 <> VoltageTraceType constr
+R1178:1189 stage57_R012_R1603_scoped_type_candidate_20261122 <> TotalCurrent constr
+R1194:1197 Coq.Init.Datatypes <> Some constr
+R1199:1214 stage57_R012_R1603_scoped_type_candidate_20261122 <> TotalCurrentType constr
+R1220:1232 stage57_R012_R1603_scoped_type_candidate_20261122 <> TotalCapacity constr
+R1237:1240 Coq.Init.Datatypes <> Some constr
+R1242:1258 stage57_R012_R1603_scoped_type_candidate_20261122 <> TotalCapacityType constr
+R1264:1277 stage57_R012_R1603_scoped_type_candidate_20261122 <> TimeDerivative constr
+R1296:1307 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer_scoped:12 def
+R1324:1327 Coq.Init.Datatypes <> Some constr
+R1329:1344 stage57_R012_R1603_scoped_type_candidate_20261122 <> VoltageTraceType constr
+R1349:1352 Coq.Init.Datatypes <> Some constr
+R1354:1368 stage57_R012_R1603_scoped_type_candidate_20261122 <> VoltageRateType constr
+R1383:1386 Coq.Init.Datatypes <> None constr
+R1402:1420 stage57_R012_R1603_scoped_type_candidate_20261122 <> CurrentOverCapacity constr
+R1457:1468 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer_scoped:12 def
+R1441:1452 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer_scoped:12 def
+R1485:1488 Coq.Init.Datatypes <> Some constr
+R1490:1505 stage57_R012_R1603_scoped_type_candidate_20261122 <> TotalCurrentType constr
+R1508:1511 Coq.Init.Datatypes <> Some constr
+R1513:1529 stage57_R012_R1603_scoped_type_candidate_20261122 <> TotalCapacityType constr
+R1534:1537 Coq.Init.Datatypes <> Some constr
+R1539:1553 stage57_R012_R1603_scoped_type_candidate_20261122 <> VoltageRateType constr
+R1571:1574 Coq.Init.Datatypes <> None constr
+R1590:1601 stage57_R012_R1603_scoped_type_candidate_20261122 <> NegativeRate constr
+R1620:1631 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer_scoped:12 def
+R1648:1651 Coq.Init.Datatypes <> Some constr
+R1653:1667 stage57_R012_R1603_scoped_type_candidate_20261122 <> VoltageRateType constr
+R1672:1675 Coq.Init.Datatypes <> Some constr
+R1677:1691 stage57_R012_R1603_scoped_type_candidate_20261122 <> VoltageRateType constr
+R1706:1709 Coq.Init.Datatypes <> None constr
+prf 1789:1809 <> legacy_type_preserved
+binder 1820:1820 <> e:14
+R1849:1855 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1825:1836 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer_scoped def
+R1839:1845 stage57_R012_R1603_scoped_type_candidate_20261122 <> OldExpr constr
+R1847:1847 stage57_R012_R1603_scoped_type_candidate_20261122 <> e:14 var
+R1862:1873 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer def
+R1875:1875 stage57_R012_R1603_scoped_type_candidate_20261122 <> e:14 var
+R1888:1891 Coq.Init.Datatypes <> Some constr
+R1898:1901 Coq.Init.Datatypes <> Some constr
+R1904:1910 stage57_R012_R1603_scoped_type_candidate_20261122 <> OldType constr
+R1921:1924 Coq.Init.Datatypes <> None constr
+R1929:1932 Coq.Init.Datatypes <> None constr
+prf 1977:1994 <> scoped_type_unique
+binder 2005:2005 <> e:15
+binder 2007:2007 <> a:16
+binder 2009:2009 <> b:17
+R2037:2040 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2028:2030 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2014:2025 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer_scoped def
+R2027:2027 stage57_R012_R1603_scoped_type_candidate_20261122 <> e:15 var
+R2031:2034 Coq.Init.Datatypes <> Some constr
+R2036:2036 stage57_R012_R1603_scoped_type_candidate_20261122 <> a:16 var
+R2064:2067 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2055:2057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2041:2052 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer_scoped def
+R2054:2054 stage57_R012_R1603_scoped_type_candidate_20261122 <> e:15 var
+R2058:2061 Coq.Init.Datatypes <> Some constr
+R2063:2063 stage57_R012_R1603_scoped_type_candidate_20261122 <> b:17 var
+R2069:2071 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2068:2068 stage57_R012_R1603_scoped_type_candidate_20261122 <> a:16 var
+R2072:2072 stage57_R012_R1603_scoped_type_candidate_20261122 <> b:17 var
+def 2163:2202 <> existing_voltage_time_derivative_is_rate
+R2250:2252 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2208:2219 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer_scoped def
+R2222:2235 stage57_R012_R1603_scoped_type_candidate_20261122 <> TimeDerivative constr
+R2237:2248 stage57_R012_R1603_scoped_type_candidate_20261122 <> VoltageTrace constr
+R2253:2256 Coq.Init.Datatypes <> Some constr
+R2258:2272 stage57_R012_R1603_scoped_type_candidate_20261122 <> VoltageRateType constr
+def 2309:2352 <> existing_total_current_over_capacity_is_rate
+R2419:2423 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2358:2369 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer_scoped def
+R2372:2390 stage57_R012_R1603_scoped_type_candidate_20261122 <> CurrentOverCapacity constr
+R2392:2403 stage57_R012_R1603_scoped_type_candidate_20261122 <> TotalCurrent constr
+R2405:2417 stage57_R012_R1603_scoped_type_candidate_20261122 <> TotalCapacity constr
+R2424:2427 Coq.Init.Datatypes <> Some constr
+R2429:2443 stage57_R012_R1603_scoped_type_candidate_20261122 <> VoltageRateType constr
+def 2480:2516 <> negated_current_over_capacity_is_rate
+R2598:2602 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2522:2533 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer_scoped def
+R2536:2547 stage57_R012_R1603_scoped_type_candidate_20261122 <> NegativeRate constr
+R2550:2568 stage57_R012_R1603_scoped_type_candidate_20261122 <> CurrentOverCapacity constr
+R2570:2581 stage57_R012_R1603_scoped_type_candidate_20261122 <> TotalCurrent constr
+R2583:2595 stage57_R012_R1603_scoped_type_candidate_20261122 <> TotalCapacity constr
+R2603:2606 Coq.Init.Datatypes <> Some constr
+R2608:2622 stage57_R012_R1603_scoped_type_candidate_20261122 <> VoltageRateType constr
+def 2659:2688 <> current_is_not_a_voltage_trace
+R2736:2738 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2694:2705 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer_scoped def
+R2708:2721 stage57_R012_R1603_scoped_type_candidate_20261122 <> TimeDerivative constr
+R2723:2734 stage57_R012_R1603_scoped_type_candidate_20261122 <> TotalCurrent constr
+R2739:2742 Coq.Init.Datatypes <> None constr
+def 2779:2834 <> no_implicit_conversion_of_legacy_scalar_to_voltage_trace
+R2889:2891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2840:2851 stage57_R012_R1603_scoped_type_candidate_20261122 <> infer_scoped def
+R2854:2867 stage57_R012_R1603_scoped_type_candidate_20261122 <> TimeDerivative constr
+R2870:2876 stage57_R012_R1603_scoped_type_candidate_20261122 <> OldExpr constr
+R2878:2886 stage57_R012_R1603_scoped_type_candidate_20261122 <> Ex constr
+R2892:2895 Coq.Init.Datatypes <> None constr

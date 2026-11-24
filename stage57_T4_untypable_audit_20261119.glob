@@ -1,0 +1,20 @@
+DIGEST 7490ee4f4c4721e0e723b458b87b5a7e
+Fstage57_T4_untypable_audit_20261119
+R15:34 stage57_T4_candidate <> <> lib
+prf 46:63 <> T4_fst_X_untypable
+R69:70 Coq.Init.Logic <> ::type_scope:'~'_x not
+R71:77 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R84:85 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R82:83 stage57_T4_candidate <> ty ind
+binder 78:78 <> t:1
+R86:93 stage57_T4_candidate <> has_type ind
+R96:98 stage57_T4_candidate <> Fst constr
+R100:100 stage57_T4_candidate <> X constr
+R103:103 stage57_T4_untypable_audit_20261119 <> t:1 var
+R178:185 stage57_T4_candidate <> has_type ind
+R187:187 stage57_T4_candidate <> X constr
+R189:198 stage57_T4_candidate <> PairScalar constr
+R178:185 stage57_T4_candidate <> has_type ind
+R187:187 stage57_T4_candidate <> X constr
+R189:198 stage57_T4_candidate <> PairScalar constr
+R252:269 stage57_T4_untypable_audit_20261119 <> T4_fst_X_untypable thm

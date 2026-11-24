@@ -1,0 +1,8 @@
+DIGEST 433fe51ac91333dff0227f40e52376f2
+Fstage57_T3_dependency_probe_20261118
+R15:38 stage57_T3_derives_check <> <> lib
+R56:79 stage57_T3_list_lemma_v2 <> <> lib
+R97:125 stage57_T3_pair_list_lemma_v2 <> <> lib
+R146:184 stage57_T3_derives_check <> derives_encode thm
+R205:246 stage57_T3_list_lemma_v2 <> neg_list_assoc_v2 thm
+R267:311 stage57_T3_pair_list_lemma_v2 <> pair_list_assoc thm

@@ -1,0 +1,22 @@
+DIGEST 71747ac639d977cba1801a4e4f5f5bd6
+FSTAGE52_GeoCoq_candidate
+R402:429 GeoCoq.Axioms.hilbert_axioms <> <> lib
+sec 441:447 <> Stage51
+R464:481 GeoCoq.Axioms.hilbert_axioms <> Hilbert_neutral_2D class
+binder 460:460 <> H:2
+prf 492:509 <> stage51_plan_prime
+R515:521 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R535:536 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R530:534 GeoCoq.Axioms.hilbert_axioms <> Point meth
+binder 522:522 <> P:3
+R530:534 GeoCoq.Axioms.hilbert_axioms <> Point meth
+binder 524:524 <> Q:4
+R530:534 GeoCoq.Axioms.hilbert_axioms <> Point meth
+binder 526:526 <> R:5
+R537:538 Coq.Init.Logic <> ::type_scope:'~'_x not
+R539:542 GeoCoq.Axioms.hilbert_axioms <> ColH meth
+R548:548 STAGE52_GeoCoq_candidate <> R:5 var
+R546:546 STAGE52_GeoCoq_candidate <> Q:4 var
+R544:544 STAGE52_GeoCoq_candidate <> P:3 var
+R570:587 GeoCoq.Axioms.hilbert_axioms <> two_points_on_line meth
+R570:587 GeoCoq.Axioms.hilbert_axioms <> two_points_on_line meth

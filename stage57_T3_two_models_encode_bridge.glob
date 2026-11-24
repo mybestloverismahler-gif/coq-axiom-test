@@ -1,0 +1,18 @@
+DIGEST 1aff4a2a43afb42c9517a2f304ca1f61
+Fstage57_T3_two_models_encode_bridge
+R24:27 Coq.Lists.List <> <> lib
+R37:49 Coq.Lists.List ListNotations <> mod
+R67:99 stage57_T3_two_models_expr_bridge <> <> lib
+R115:135 stage57_T3_relational <> <> modtype
+mod 110:110 <> R
+R150:172 stage57_T3_injective_v1 <> <> modtype
+mod 145:145 <> I
+R188:221 stage57_T3_two_models_token_bridge <> <> modtype
+mod 182:183 <> TB
+R237:269 stage57_T3_two_models_expr_bridge <> <> modtype
+mod 231:232 <> EB
+prf 281:293 <> encode_R_to_I
+R310:315 stage57_T3_two_models_encode_bridge <> expr ind
+binder 306:306 <> e:1
+R348:354 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R322:324 Coq.Lists.List <> map def

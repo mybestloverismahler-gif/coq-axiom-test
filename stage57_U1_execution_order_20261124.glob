@@ -1,0 +1,68 @@
+DIGEST 392484f0428ce11b622eb185687cf282
+Fstage57_U1_execution_order_20261124
+R15:32 Coq.Arith.PeanoNat <> <> lib
+R50:52 Coq.micromega.Lia <> <> lib
+R70:99 stage57_U1_acyclic_v6_20261124 <> <> lib
+R115:144 stage57_U1_acyclic_v6_20261124 <> <> modtype
+mod 110:110 <> A
+R159:161 stage57_U1_execution_order_20261124 A.B <> modtype
+mod 154:154 <> B
+R176:178 stage57_U1_execution_order_20261124 A.D <> modtype
+mod 171:171 <> D
+def 193:200 <> precedes
+R209:214 stage57_U1_execution_order_20261124 <> expr ind
+binder 203:203 <> p:1
+binder 205:205 <> e:2
+R242:244 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R229:239 stage57_U1_execution_order_20261124 <> expr_size def
+R241:241 stage57_U1_execution_order_20261124 <> p:1 var
+R245:255 stage57_U1_execution_order_20261124 <> expr_size def
+R257:257 stage57_U1_execution_order_20261124 <> e:2 var
+prf 269:287 <> dependency_precedes
+binder 300:300 <> p:3
+binder 302:302 <> e:4
+R332:339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R309:327 stage57_U1_execution_order_20261124 <> strict_dependency def
+R329:329 stage57_U1_execution_order_20261124 <> p:3 var
+R331:331 stage57_U1_execution_order_20261124 <> e:4 var
+R340:347 stage57_U1_execution_order_20261124 <> precedes def
+R349:349 stage57_U1_execution_order_20261124 <> p:3 var
+R351:351 stage57_U1_execution_order_20261124 <> e:4 var
+R369:392 stage57_U1_execution_order_20261124 <> strict_dependency_size thm
+R369:392 stage57_U1_execution_order_20261124 <> strict_dependency_size thm
+prf 409:422 <> precedes_trans
+binder 435:435 <> a:5
+binder 437:437 <> b:6
+binder 439:439 <> c:7
+R458:465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R446:453 stage57_U1_execution_order_20261124 <> precedes def
+R455:455 stage57_U1_execution_order_20261124 <> a:5 var
+R457:457 stage57_U1_execution_order_20261124 <> b:6 var
+R478:485 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R466:473 stage57_U1_execution_order_20261124 <> precedes def
+R475:475 stage57_U1_execution_order_20261124 <> b:6 var
+R477:477 stage57_U1_execution_order_20261124 <> c:7 var
+R486:493 stage57_U1_execution_order_20261124 <> precedes def
+R495:495 stage57_U1_execution_order_20261124 <> a:5 var
+R497:497 stage57_U1_execution_order_20261124 <> c:7 var
+R516:523 stage57_U1_execution_order_20261124 <> precedes def
+prf 557:578 <> reverse_order_excluded
+binder 591:591 <> p:8
+binder 593:593 <> e:9
+R623:630 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R600:618 stage57_U1_execution_order_20261124 <> strict_dependency def
+R620:620 stage57_U1_execution_order_20261124 <> p:8 var
+R622:622 stage57_U1_execution_order_20261124 <> e:9 var
+R631:632 Coq.Init.Logic <> ::type_scope:'~'_x not
+R633:640 stage57_U1_execution_order_20261124 <> precedes def
+R642:642 stage57_U1_execution_order_20261124 <> e:9 var
+R644:644 stage57_U1_execution_order_20261124 <> p:8 var
+R678:696 stage57_U1_execution_order_20261124 <> dependency_precedes thm
+R678:696 stage57_U1_execution_order_20261124 <> dependency_precedes thm
+R713:720 stage57_U1_execution_order_20261124 <> precedes def
+R747:765 stage57_U1_execution_order_20261124 <> dependency_precedes thm
+R774:787 stage57_U1_execution_order_20261124 <> precedes_trans thm
+R796:817 stage57_U1_execution_order_20261124 <> reverse_order_excluded thm
+R839:857 stage57_U1_execution_order_20261124 <> dependency_precedes thm
+R878:891 stage57_U1_execution_order_20261124 <> precedes_trans thm
+R912:933 stage57_U1_execution_order_20261124 <> reverse_order_excluded thm

@@ -1,0 +1,54 @@
+DIGEST 9676fed6566e9a50d4c9a346eea23152
+FSTAGE52_GeoCoq_candidate_v3_20261124
+R402:429 GeoCoq.Axioms.hilbert_axioms <> <> lib
+sec 441:447 <> Stage51
+R464:481 GeoCoq.Axioms.hilbert_axioms <> Hilbert_neutral_2D class
+binder 460:460 <> H:2
+prf 492:509 <> stage51_plan_prime
+R515:521 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R535:536 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R530:534 GeoCoq.Axioms.hilbert_axioms <> Point meth
+binder 522:522 <> P:3
+R530:534 GeoCoq.Axioms.hilbert_axioms <> Point meth
+binder 524:524 <> Q:4
+R530:534 GeoCoq.Axioms.hilbert_axioms <> Point meth
+binder 526:526 <> R:5
+R537:538 Coq.Init.Logic <> ::type_scope:'~'_x not
+R539:542 GeoCoq.Axioms.hilbert_axioms <> ColH meth
+R548:548 STAGE52_GeoCoq_candidate_v3_20261124 <> R:5 var
+R546:546 STAGE52_GeoCoq_candidate_v3_20261124 <> Q:4 var
+R544:544 STAGE52_GeoCoq_candidate_v3_20261124 <> P:3 var
+R567:568 GeoCoq.Axioms.hilbert_axioms <> PP meth
+R571:572 GeoCoq.Axioms.hilbert_axioms <> PQ meth
+R575:576 GeoCoq.Axioms.hilbert_axioms <> PR meth
+R567:568 GeoCoq.Axioms.hilbert_axioms <> PP meth
+R571:572 GeoCoq.Axioms.hilbert_axioms <> PQ meth
+R575:576 GeoCoq.Axioms.hilbert_axioms <> PR meth
+R590:600 GeoCoq.Axioms.hilbert_axioms <> lower_dim_2 meth
+prf 647:666 <> stage51_col_transfer
+binder 679:679 <> A:6
+binder 681:681 <> B:7
+binder 683:683 <> C:8
+binder 685:685 <> l:9
+R698:701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R693:696 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R692:692 STAGE52_GeoCoq_candidate_v3_20261124 <> A:6 var
+R697:697 STAGE52_GeoCoq_candidate_v3_20261124 <> B:7 var
+R712:715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R702:707 GeoCoq.Axioms.hilbert_axioms <> IncidL meth
+R711:711 STAGE52_GeoCoq_candidate_v3_20261124 <> l:9 var
+R709:709 STAGE52_GeoCoq_candidate_v3_20261124 <> A:6 var
+R726:733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R716:721 GeoCoq.Axioms.hilbert_axioms <> IncidL meth
+R725:725 STAGE52_GeoCoq_candidate_v3_20261124 <> l:9 var
+R723:723 STAGE52_GeoCoq_candidate_v3_20261124 <> B:7 var
+R744:747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R734:737 GeoCoq.Axioms.hilbert_axioms <> ColH meth
+R743:743 STAGE52_GeoCoq_candidate_v3_20261124 <> C:8 var
+R741:741 STAGE52_GeoCoq_candidate_v3_20261124 <> B:7 var
+R739:739 STAGE52_GeoCoq_candidate_v3_20261124 <> A:6 var
+R748:753 GeoCoq.Axioms.hilbert_axioms <> IncidL meth
+R757:757 STAGE52_GeoCoq_candidate_v3_20261124 <> l:9 var
+R755:755 STAGE52_GeoCoq_candidate_v3_20261124 <> C:8 var
+R831:845 GeoCoq.Axioms.hilbert_axioms <> line_uniqueness meth
+R831:845 GeoCoq.Axioms.hilbert_axioms <> line_uniqueness meth

@@ -1,0 +1,54 @@
+DIGEST 2f64fa333a093d29f26a76d2948cba98
+Fstage57_U1_strict_dependency_20261124
+R15:49 stage57_U1_occurs_correct_candidate <> <> lib
+R67:100 stage57_U1_nested_occurs_candidate <> <> lib
+R118:143 stage57_T3_T4_U1_candidate <> <> lib
+R159:184 stage57_T3_T4_U1_candidate <> <> modtype
+mod 154:154 <> B
+R199:232 stage57_U1_nested_occurs_candidate <> <> modtype
+mod 194:194 <> N
+def 247:263 <> strict_dependency
+R274:279 stage57_U1_strict_dependency_20261124 <> expr ind
+binder 268:268 <> p:1
+binder 270:270 <> e:2
+R306:309 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R294:301 stage57_U1_strict_dependency_20261124 <> occurs def
+R303:303 stage57_U1_strict_dependency_20261124 <> p:1 var
+R305:305 stage57_U1_strict_dependency_20261124 <> e:2 var
+R311:314 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R310:310 stage57_U1_strict_dependency_20261124 <> p:1 var
+R315:315 stage57_U1_strict_dependency_20261124 <> e:2 var
+prf 327:355 <> strict_dependency_irreflexive
+binder 368:368 <> e:3
+R371:372 Coq.Init.Logic <> ::type_scope:'~'_x not
+R373:389 stage57_U1_strict_dependency_20261124 <> strict_dependency def
+R391:391 stage57_U1_strict_dependency_20261124 <> e:3 var
+R393:393 stage57_U1_strict_dependency_20261124 <> e:3 var
+prf 459:482 <> nested_strict_dependency
+R488:504 stage57_U1_strict_dependency_20261124 <> strict_dependency def
+R506:509 stage57_U1_strict_dependency_20261124 <> Ex constr
+R516:520 stage57_U1_strict_dependency_20261124 <> Neg constr
+R523:527 stage57_U1_strict_dependency_20261124 <> Add constr
+R529:532 stage57_U1_strict_dependency_20261124 <> Ex constr
+R534:537 stage57_U1_strict_dependency_20261124 <> Ey constr
+R568:584 stage57_U1_strict_dependency_20261124 <> nested_detected thm
+R568:584 stage57_U1_strict_dependency_20261124 <> nested_detected thm
+prf 619:645 <> direct_dependency_preserved
+binder 658:658 <> p:4
+binder 660:660 <> e:5
+R683:690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R667:678 stage57_U1_strict_dependency_20261124 <> depends_on def
+R680:680 stage57_U1_strict_dependency_20261124 <> p:4 var
+R682:682 stage57_U1_strict_dependency_20261124 <> e:5 var
+R697:704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R692:695 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R691:691 stage57_U1_strict_dependency_20261124 <> p:4 var
+R696:696 stage57_U1_strict_dependency_20261124 <> e:5 var
+R705:721 stage57_U1_strict_dependency_20261124 <> strict_dependency def
+R723:723 stage57_U1_strict_dependency_20261124 <> p:4 var
+R725:725 stage57_U1_strict_dependency_20261124 <> e:5 var
+R775:797 stage57_U1_strict_dependency_20261124 <> direct_implies_occurs thm
+R775:797 stage57_U1_strict_dependency_20261124 <> direct_implies_occurs thm
+R853:881 stage57_U1_strict_dependency_20261124 <> strict_dependency_irreflexive thm
+R902:925 stage57_U1_strict_dependency_20261124 <> nested_strict_dependency thm
+R946:972 stage57_U1_strict_dependency_20261124 <> direct_dependency_preserved thm

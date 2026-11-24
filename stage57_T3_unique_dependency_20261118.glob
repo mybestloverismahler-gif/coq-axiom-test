@@ -1,0 +1,4 @@
+DIGEST 10d0545f9dccfe1009ff6c1240f3de6a
+Fstage57_T3_unique_dependency_20261118
+R15:35 stage57_T3_relational <> <> lib
+R56:103 stage57_T3_relational <> T3_parse_unique_fixed_fuel thm

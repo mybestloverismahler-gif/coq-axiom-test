@@ -1,0 +1,161 @@
+DIGEST 3a2b84b791950f4be3d542e639d4e66b
+Fstage57_R001_R004_interpretation_candidate_v2_20261122
+R409:413 Coq.Reals.Reals <> <> lib
+R431:456 stage57_T3_T4_U1_candidate <> <> lib
+mod 467:502 <> R001_R004_Conditional_Interpretation
+def 636:646 R001_R004_Conditional_Interpretation carrier_for
+R653:654 stage57_T3_T4_U1_candidate <> ty ind
+binder 649:649 <> t:1
+R675:675 stage57_R001_R004_interpretation_candidate_v2_20261122 <> t:1 var
+R686:691 stage57_T3_T4_U1_candidate <> Scalar constr
+R696:696 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R702:711 stage57_T3_T4_U1_candidate <> PairScalar constr
+R718:720 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R717:717 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R721:721 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+def 748:758 R001_R004_Conditional_Interpretation r001_scalar
+R770:780 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation carrier_for def
+R782:787 stage57_T3_T4_U1_candidate <> Scalar constr
+def 801:814 R001_R004_Conditional_Interpretation represent_r001
+R821:821 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 817:817 <> x:3
+R826:836 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r001_scalar def
+R841:841 stage57_R001_R004_interpretation_candidate_v2_20261122 <> x:3 var
+def 855:866 R001_R004_Conditional_Interpretation recover_r001
+R873:883 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r001_scalar def
+binder 869:869 <> x:4
+R888:888 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R893:893 stage57_R001_R004_interpretation_candidate_v2_20261122 <> x:4 var
+prf 903:924 R001_R004_Conditional_Interpretation r001_represent_recover
+R939:939 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 935:935 <> x:5
+R975:977 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R944:955 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation recover_r001 def
+R958:971 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation represent_r001 def
+R973:973 stage57_R001_R004_interpretation_candidate_v2_20261122 <> x:5 var
+R978:978 stage57_R001_R004_interpretation_candidate_v2_20261122 <> x:5 var
+rec 1167:1175 R001_R004_Conditional_Interpretation r002_vec3
+proj 1201:1211 R001_R004_Conditional_Interpretation x_component
+proj 1230:1240 R001_R004_Conditional_Interpretation y_component
+proj 1259:1269 R001_R004_Conditional_Interpretation z_component
+R1215:1225 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r001_scalar def
+R1244:1254 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r001_scalar def
+R1273:1283 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r001_scalar def
+def 1300:1314 R001_R004_Conditional_Interpretation r002_components
+R1321:1329 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r002_vec3 rec
+binder 1317:1317 <> v:10
+R1348:1351 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1377:1377 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1337:1347 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r001_scalar def
+R1363:1365 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1352:1362 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r001_scalar def
+R1366:1376 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r001_scalar def
+R1390:1390 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1404:1405 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1436:1436 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1391:1401 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation x_component proj
+R1403:1403 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:10 var
+R1406:1406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1420:1421 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1435:1435 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1407:1417 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation y_component proj
+R1419:1419 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:10 var
+R1422:1432 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation z_component proj
+R1434:1434 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:10 var
+def 1450:1459 R001_R004_Conditional_Interpretation r002_build
+R1478:1481 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1507:1507 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1467:1477 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r001_scalar def
+R1493:1495 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1482:1492 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r001_scalar def
+R1496:1506 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r001_scalar def
+binder 1462:1462 <> p:11
+R1520:1528 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r002_vec3 rec
+R1553:1553 stage57_R001_R004_interpretation_candidate_v2_20261122 <> p:11 var
+R1540:1540 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1542:1542 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1548:1548 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1543:1543 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1545:1545 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1547:1547 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1558:1566 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation R002_vec3 constr
+prf 1582:1602 R001_R004_Conditional_Interpretation r002_components_build
+binder 1613:1613 <> p:13
+R1648:1650 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1618:1632 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r002_components def
+R1635:1644 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r002_build def
+R1646:1646 stage57_R001_R004_interpretation_candidate_v2_20261122 <> p:13 var
+R1651:1651 stage57_R001_R004_interpretation_candidate_v2_20261122 <> p:13 var
+prf 1704:1724 R001_R004_Conditional_Interpretation r002_build_components
+binder 1735:1735 <> v:14
+R1770:1772 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1740:1749 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r002_build def
+R1752:1766 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r002_components def
+R1768:1768 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:14 var
+R1773:1773 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:14 var
+def 1949:1958 R001_R004_Conditional_Interpretation r003_scale
+R1965:1975 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r001_scalar def
+binder 1961:1961 <> a:15
+R1983:1991 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r002_vec3 rec
+binder 1979:1979 <> v:16
+R1996:2004 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r002_vec3 rec
+R2011:2019 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation R002_vec3 constr
+R2022:2026 Coq.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R2028:2028 stage57_R001_R004_interpretation_candidate_v2_20261122 <> a:15 var
+R2031:2041 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation x_component proj
+R2043:2043 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:16 var
+R2048:2052 Coq.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R2054:2054 stage57_R001_R004_interpretation_candidate_v2_20261122 <> a:15 var
+R2057:2067 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation y_component proj
+R2069:2069 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:16 var
+R2074:2078 Coq.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R2080:2080 stage57_R001_R004_interpretation_candidate_v2_20261122 <> a:15 var
+R2083:2093 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation z_component proj
+R2095:2095 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:16 var
+def 2111:2118 R001_R004_Conditional_Interpretation r004_add
+R2127:2135 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r002_vec3 rec
+binder 2121:2121 <> u:17
+binder 2123:2123 <> v:18
+R2140:2148 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r002_vec3 rec
+R2155:2163 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation R002_vec3 constr
+R2166:2170 Coq.Reals.Rdefinitions RbaseSymbolsImpl Rplus defax
+R2173:2183 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation x_component proj
+R2185:2185 stage57_R001_R004_interpretation_candidate_v2_20261122 <> u:17 var
+R2189:2199 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation x_component proj
+R2201:2201 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:18 var
+R2218:2222 Coq.Reals.Rdefinitions RbaseSymbolsImpl Rplus defax
+R2225:2235 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation y_component proj
+R2237:2237 stage57_R001_R004_interpretation_candidate_v2_20261122 <> u:17 var
+R2241:2251 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation y_component proj
+R2253:2253 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:18 var
+R2270:2274 Coq.Reals.Rdefinitions RbaseSymbolsImpl Rplus defax
+R2277:2287 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation z_component proj
+R2289:2289 stage57_R001_R004_interpretation_candidate_v2_20261122 <> u:17 var
+R2293:2303 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation z_component proj
+R2305:2305 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:18 var
+prf 2317:2336 R001_R004_Conditional_Interpretation r003_first_component
+binder 2347:2347 <> a:19
+binder 2349:2349 <> v:20
+R2382:2384 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2354:2364 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation x_component proj
+R2367:2376 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r003_scale def
+R2378:2378 stage57_R001_R004_interpretation_candidate_v2_20261122 <> a:19 var
+R2380:2380 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:20 var
+R2385:2389 Coq.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R2391:2391 stage57_R001_R004_interpretation_candidate_v2_20261122 <> a:19 var
+R2394:2404 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation x_component proj
+R2406:2406 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:20 var
+prf 2441:2460 R001_R004_Conditional_Interpretation r004_first_component
+binder 2471:2471 <> u:21
+binder 2473:2473 <> v:22
+R2504:2506 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2478:2488 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation x_component proj
+R2491:2498 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation r004_add def
+R2500:2500 stage57_R001_R004_interpretation_candidate_v2_20261122 <> u:21 var
+R2502:2502 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:22 var
+R2507:2511 Coq.Reals.Rdefinitions RbaseSymbolsImpl Rplus defax
+R2514:2524 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation x_component proj
+R2526:2526 stage57_R001_R004_interpretation_candidate_v2_20261122 <> u:21 var
+R2530:2540 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation x_component proj
+R2542:2542 stage57_R001_R004_interpretation_candidate_v2_20261122 <> v:22 var
+R3166:3201 stage57_R001_R004_interpretation_candidate_v2_20261122 R001_R004_Conditional_Interpretation <> mod

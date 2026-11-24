@@ -1,0 +1,63 @@
+DIGEST 6177800b9ca2f034ade046af3bd5c004
+Fpoint_line_cut_v001
+R173:177 Coq.Reals.Reals <> <> lib
+R179:181 Coq.micromega.Lra <> <> lib
+ind 287:294 <> OnePoint
+constr 306:306 <> P
+scheme 287:294 <> OnePoint_rect
+scheme 287:294 <> OnePoint_ind
+scheme 287:294 <> OnePoint_rec
+scheme 287:294 <> OnePoint_sind
+prf 318:336 <> one_point_is_unique
+R351:358 point_line_cut_v001 <> OnePoint ind
+binder 347:347 <> x:3
+R362:364 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R361:361 point_line_cut_v001 <> x:3 var
+R365:365 point_line_cut_v001 <> P constr
+def 555:565 <> InteriorCut
+R572:572 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 568:568 <> c:4
+R590:593 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R586:588 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R589:589 point_line_cut_v001 <> c:4 var
+R595:597 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R594:594 point_line_cut_v001 <> c:4 var
+prf 610:632 <> half_is_an_interior_cut
+R636:646 point_line_cut_v001 <> InteriorCut def
+R650:652 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R673:683 point_line_cut_v001 <> InteriorCut def
+prf 705:730 <> cut_preserves_total_length
+R747:747 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 743:743 <> c:5
+R763:770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R750:760 point_line_cut_v001 <> InteriorCut def
+R762:762 point_line_cut_v001 <> c:5 var
+R780:783 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R772:774 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R776:778 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R775:775 point_line_cut_v001 <> c:5 var
+R793:796 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R785:787 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R789:791 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R792:792 point_line_cut_v001 <> c:5 var
+R814:816 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R797:797 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R803:807 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R813:813 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R799:801 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R798:798 point_line_cut_v001 <> c:5 var
+R809:811 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R812:812 point_line_cut_v001 <> c:5 var
+R848:858 point_line_cut_v001 <> InteriorCut def
+prf 885:910 <> at_least_two_distinct_cuts
+R935:938 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R916:926 point_line_cut_v001 <> InteriorCut def
+R930:932 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R958:962 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R977:977 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R939:949 point_line_cut_v001 <> InteriorCut def
+R953:955 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R968:971 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R964:966 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R973:975 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R996:1006 point_line_cut_v001 <> InteriorCut def

@@ -1,0 +1,28 @@
+DIGEST e3bebdba01230d88b4787fb5c76e3b09
+FSTAGE56_plan_test
+R15:42 GeoCoq.Axioms.hilbert_axioms <> <> lib
+sec 54:57 <> Test
+R74:91 GeoCoq.Axioms.hilbert_axioms <> Hilbert_neutral_2D class
+binder 70:70 <> H:2
+prf 102:113 <> stage56_plan
+R119:125 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R139:140 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R134:138 GeoCoq.Axioms.hilbert_axioms <> Point meth
+binder 126:126 <> A:3
+R134:138 GeoCoq.Axioms.hilbert_axioms <> Point meth
+binder 128:128 <> B:4
+R134:138 GeoCoq.Axioms.hilbert_axioms <> Point meth
+binder 130:130 <> C:5
+R141:142 Coq.Init.Logic <> ::type_scope:'~'_x not
+R143:146 GeoCoq.Axioms.hilbert_axioms <> ColH meth
+R152:152 STAGE56_plan_test <> C:5 var
+R150:150 STAGE56_plan_test <> B:4 var
+R148:148 STAGE56_plan_test <> A:3 var
+R171:172 GeoCoq.Axioms.hilbert_axioms <> PP meth
+R175:176 GeoCoq.Axioms.hilbert_axioms <> PQ meth
+R179:180 GeoCoq.Axioms.hilbert_axioms <> PR meth
+R171:172 GeoCoq.Axioms.hilbert_axioms <> PP meth
+R175:176 GeoCoq.Axioms.hilbert_axioms <> PQ meth
+R179:180 GeoCoq.Axioms.hilbert_axioms <> PR meth
+R194:204 GeoCoq.Axioms.hilbert_axioms <> lower_dim_2 meth
+R253:256 STAGE56_plan_test Test <> sec

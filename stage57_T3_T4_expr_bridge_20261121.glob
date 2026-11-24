@@ -1,0 +1,75 @@
+DIGEST 3c4c723fdb3400a18e702d434a48c2b8
+Fstage57_T3_T4_expr_bridge_20261121
+R15:49 stage57_T3_T4_token_bridge_20261121 <> <> lib
+R65:87 stage57_T3_injective_v1 <> <> modtype
+mod 60:60 <> A
+R102:127 stage57_T3_T4_U1_candidate <> <> modtype
+mod 97:97 <> B
+def 140:148 <> expr_to_B
+R155:160 stage57_T3_T4_expr_bridge_20261121 <> expr ind
+binder 151:151 <> e:1
+R165:170 stage57_T3_T4_expr_bridge_20261121 <> expr ind
+R183:183 stage57_T3_T4_expr_bridge_20261121 <> e:1 var
+R194:197 stage57_T3_T4_expr_bridge_20261121 <> Ex constr
+R202:205 stage57_T3_T4_expr_bridge_20261121 <> Ex constr
+R211:214 stage57_T3_T4_expr_bridge_20261121 <> Ey constr
+R219:222 stage57_T3_T4_expr_bridge_20261121 <> Ey constr
+R228:231 stage57_T3_T4_expr_bridge_20261121 <> Ep constr
+R236:239 stage57_T3_T4_expr_bridge_20261121 <> Ep constr
+R245:250 stage57_T3_T4_expr_bridge_20261121 <> ENeg constr
+R257:261 stage57_T3_T4_expr_bridge_20261121 <> Neg constr
+R264:272 stage57_T3_T4_expr_bridge_20261121 <> expr_to_B:2 def
+R281:286 stage57_T3_T4_expr_bridge_20261121 <> EAdd constr
+R295:299 stage57_T3_T4_expr_bridge_20261121 <> Add constr
+R302:310 stage57_T3_T4_expr_bridge_20261121 <> expr_to_B:2 def
+R316:324 stage57_T3_T4_expr_bridge_20261121 <> expr_to_B:2 def
+R333:339 stage57_T3_T4_expr_bridge_20261121 <> EPair constr
+R348:353 stage57_T3_T4_expr_bridge_20261121 <> Pair constr
+R356:364 stage57_T3_T4_expr_bridge_20261121 <> expr_to_B:2 def
+R370:378 stage57_T3_T4_expr_bridge_20261121 <> expr_to_B:2 def
+R387:392 stage57_T3_T4_expr_bridge_20261121 <> EFst constr
+R399:403 stage57_T3_T4_expr_bridge_20261121 <> Fst constr
+R406:414 stage57_T3_T4_expr_bridge_20261121 <> expr_to_B:2 def
+def 436:444 <> expr_to_A
+R451:456 stage57_T3_T4_expr_bridge_20261121 <> expr ind
+binder 447:447 <> e:4
+R461:466 stage57_T3_T4_expr_bridge_20261121 <> expr ind
+R479:479 stage57_T3_T4_expr_bridge_20261121 <> e:4 var
+R490:493 stage57_T3_T4_expr_bridge_20261121 <> Ex constr
+R498:501 stage57_T3_T4_expr_bridge_20261121 <> Ex constr
+R507:510 stage57_T3_T4_expr_bridge_20261121 <> Ey constr
+R515:518 stage57_T3_T4_expr_bridge_20261121 <> Ey constr
+R524:527 stage57_T3_T4_expr_bridge_20261121 <> Ep constr
+R532:535 stage57_T3_T4_expr_bridge_20261121 <> Ep constr
+R541:545 stage57_T3_T4_expr_bridge_20261121 <> Neg constr
+R552:557 stage57_T3_T4_expr_bridge_20261121 <> ENeg constr
+R560:568 stage57_T3_T4_expr_bridge_20261121 <> expr_to_A:5 def
+R577:581 stage57_T3_T4_expr_bridge_20261121 <> Add constr
+R590:595 stage57_T3_T4_expr_bridge_20261121 <> EAdd constr
+R598:606 stage57_T3_T4_expr_bridge_20261121 <> expr_to_A:5 def
+R612:620 stage57_T3_T4_expr_bridge_20261121 <> expr_to_A:5 def
+R629:634 stage57_T3_T4_expr_bridge_20261121 <> Pair constr
+R643:649 stage57_T3_T4_expr_bridge_20261121 <> EPair constr
+R652:660 stage57_T3_T4_expr_bridge_20261121 <> expr_to_A:5 def
+R666:674 stage57_T3_T4_expr_bridge_20261121 <> expr_to_A:5 def
+R683:687 stage57_T3_T4_expr_bridge_20261121 <> Fst constr
+R694:699 stage57_T3_T4_expr_bridge_20261121 <> EFst constr
+R702:710 stage57_T3_T4_expr_bridge_20261121 <> expr_to_A:5 def
+prf 731:746 <> expr_roundtrip_A
+R763:768 stage57_T3_T4_expr_bridge_20261121 <> expr ind
+binder 759:759 <> e:7
+R794:796 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R771:779 stage57_T3_T4_expr_bridge_20261121 <> expr_to_A def
+R782:790 stage57_T3_T4_expr_bridge_20261121 <> expr_to_B def
+R792:792 stage57_T3_T4_expr_bridge_20261121 <> e:7 var
+R797:797 stage57_T3_T4_expr_bridge_20261121 <> e:7 var
+prf 917:932 <> expr_roundtrip_B
+R949:954 stage57_T3_T4_expr_bridge_20261121 <> expr ind
+binder 945:945 <> e:8
+R980:982 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R957:965 stage57_T3_T4_expr_bridge_20261121 <> expr_to_B def
+R968:976 stage57_T3_T4_expr_bridge_20261121 <> expr_to_A def
+R978:978 stage57_T3_T4_expr_bridge_20261121 <> e:8 var
+R983:983 stage57_T3_T4_expr_bridge_20261121 <> e:8 var
+R1113:1128 stage57_T3_T4_expr_bridge_20261121 <> expr_roundtrip_A thm
+R1149:1164 stage57_T3_T4_expr_bridge_20261121 <> expr_roundtrip_B thm

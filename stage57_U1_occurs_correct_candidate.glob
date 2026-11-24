@@ -1,0 +1,54 @@
+DIGEST 7e9ca0e9172f642a5bb5c22425580cb4
+Fstage57_U1_occurs_correct_candidate
+R15:27 Coq.Bool.Bool <> <> lib
+R45:79 stage57_U1_occurs_decider_candidate <> <> lib
+R89:123 stage57_U1_occurs_decider_candidate <> <> mod
+R133:166 stage57_U1_nested_occurs_candidate <> <> mod
+R176:209 stage57_U1_expr_equality_candidate <> <> mod
+prf 221:235 <> occursb_correct
+binder 248:248 <> p:1
+binder 250:250 <> e:2
+R275:279 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R268:270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R257:263 stage57_U1_occurs_decider_candidate <> occursb def
+R265:265 stage57_U1_occurs_correct_candidate <> p:1 var
+R267:267 stage57_U1_occurs_correct_candidate <> e:2 var
+R271:274 Coq.Init.Datatypes <> true constr
+R280:285 stage57_U1_nested_occurs_candidate <> occurs def
+R287:287 stage57_U1_occurs_correct_candidate <> p:1 var
+R289:289 stage57_U1_occurs_correct_candidate <> e:2 var
+R425:435 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R439:442 stage57_U1_expr_equality_candidate B Ex constr
+R425:435 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R439:442 stage57_U1_expr_equality_candidate B Ex constr
+R499:509 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R513:516 stage57_U1_expr_equality_candidate B Ey constr
+R499:509 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R513:516 stage57_U1_expr_equality_candidate B Ey constr
+R573:583 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R587:590 stage57_U1_expr_equality_candidate B Ep constr
+R573:583 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R587:590 stage57_U1_expr_equality_candidate B Ep constr
+R647:657 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R662:666 stage57_U1_expr_equality_candidate B Neg constr
+R647:657 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R662:666 stage57_U1_expr_equality_candidate B Neg constr
+R795:805 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R810:814 stage57_U1_expr_equality_candidate B Add constr
+R795:805 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R810:814 stage57_U1_expr_equality_candidate B Add constr
+R908:919 Coq.Bool.Bool <> orb_true_iff thm
+R908:919 Coq.Bool.Bool <> orb_true_iff thm
+R908:919 Coq.Bool.Bool <> orb_true_iff thm
+R964:974 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R979:984 stage57_U1_expr_equality_candidate B Pair constr
+R964:974 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R979:984 stage57_U1_expr_equality_candidate B Pair constr
+R1078:1089 Coq.Bool.Bool <> orb_true_iff thm
+R1078:1089 Coq.Bool.Bool <> orb_true_iff thm
+R1078:1089 Coq.Bool.Bool <> orb_true_iff thm
+R1134:1144 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R1149:1153 stage57_U1_expr_equality_candidate B Fst constr
+R1134:1144 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R1149:1153 stage57_U1_expr_equality_candidate B Fst constr
+R1281:1295 stage57_U1_occurs_correct_candidate <> occursb_correct thm

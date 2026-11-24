@@ -1,0 +1,58 @@
+DIGEST a6b1307ff77faae05c02ba31f06a6014
+Fstage57_T3_bounded_complete_20261119
+R15:28 Coq.Lists.List <> <> lib
+R46:48 Coq.micromega.Lia <> <> lib
+R66:88 stage57_T3_injective_v1 <> <> lib
+R106:137 stage57_T3_height_bound_20261119 <> <> lib
+R147:159 Coq.Lists.List ListNotations <> mod
+prf 171:189 <> T3_bounded_complete
+R207:210 Coq.Init.Datatypes <> list ind
+R212:216 stage57_T3_injective_v1 <> token ind
+binder 203:203 <> s:1
+R224:227 stage57_T3_injective_v1 <> expr ind
+binder 220:220 <> a:2
+R246:253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R235:241 stage57_T3_injective_v1 <> derives ind
+R243:243 stage57_T3_bounded_complete_20261119 <> s:1 var
+R245:245 stage57_T3_bounded_complete_20261119 <> a:2 var
+R280:282 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R254:262 stage57_T3_injective_v1 <> parse_one def
+R265:265 Coq.Init.Datatypes <> S constr
+R268:273 Coq.Init.Datatypes <> length def
+R275:275 stage57_T3_bounded_complete_20261119 <> s:1 var
+R279:279 stage57_T3_bounded_complete_20261119 <> s:1 var
+R283:286 Coq.Init.Datatypes <> Some constr
+R288:288 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R290:291 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R294:294 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R289:289 stage57_T3_bounded_complete_20261119 <> a:2 var
+R292:293 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R334:347 stage57_T3_injective_v1 <> derives_encode thm
+R334:347 stage57_T3_injective_v1 <> derives_encode thm
+R334:347 stage57_T3_injective_v1 <> derives_encode thm
+R390:392 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R382:387 stage57_T3_injective_v1 <> height def
+R393:393 Coq.Init.Datatypes <> S constr
+R396:401 Coq.Init.Datatypes <> length def
+R404:409 stage57_T3_injective_v1 <> encode def
+R436:461 stage57_T3_height_bound_20261119 <> T3_height_le_encode_length thm
+R390:392 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R382:387 stage57_T3_injective_v1 <> height def
+R393:393 Coq.Init.Datatypes <> S constr
+R396:401 Coq.Init.Datatypes <> length def
+R404:409 stage57_T3_injective_v1 <> encode def
+R436:461 stage57_T3_height_bound_20261119 <> T3_height_le_encode_length thm
+R491:506 stage57_T3_injective_v1 <> parse_one_encode thm
+R511:511 Coq.Init.Datatypes <> S constr
+R514:519 Coq.Init.Datatypes <> length def
+R522:527 stage57_T3_injective_v1 <> encode def
+R534:535 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R491:506 stage57_T3_injective_v1 <> parse_one_encode thm
+R511:511 Coq.Init.Datatypes <> S constr
+R514:519 Coq.Init.Datatypes <> length def
+R522:527 stage57_T3_injective_v1 <> encode def
+R534:535 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R565:573 Coq.Lists.List <> app_nil_r thm
+R565:573 Coq.Lists.List <> app_nil_r thm
+R565:573 Coq.Lists.List <> app_nil_r thm
+R617:635 stage57_T3_bounded_complete_20261119 <> T3_bounded_complete thm

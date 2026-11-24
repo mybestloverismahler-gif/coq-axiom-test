@@ -1,0 +1,72 @@
+DIGEST 4dbb40f362ace765df6e36ec82af2dbf
+Fstage57_T3_T4_token_bridge_20261121
+R15:37 stage57_T3_injective_v1 <> <> lib
+R55:80 stage57_T3_T4_U1_candidate <> <> lib
+R96:118 stage57_T3_injective_v1 <> <> modtype
+mod 91:91 <> A
+R133:158 stage57_T3_T4_U1_candidate <> <> modtype
+mod 128:128 <> B
+def 173:176 <> to_B
+R183:189 stage57_T3_T4_token_bridge_20261121 <> token ind
+binder 179:179 <> t:1
+R194:198 stage57_T3_T4_token_bridge_20261121 <> tok ind
+R211:211 stage57_T3_T4_token_bridge_20261121 <> t:1 var
+R222:225 stage57_T3_T4_token_bridge_20261121 <> Tx constr
+R230:233 stage57_T3_T4_token_bridge_20261121 <> TX constr
+R237:240 stage57_T3_T4_token_bridge_20261121 <> Ty constr
+R245:248 stage57_T3_T4_token_bridge_20261121 <> TY constr
+R252:255 stage57_T3_T4_token_bridge_20261121 <> Tp constr
+R260:263 stage57_T3_T4_token_bridge_20261121 <> TP constr
+R269:272 stage57_T3_T4_token_bridge_20261121 <> TL constr
+R277:280 stage57_T3_T4_token_bridge_20261121 <> TL constr
+R284:287 stage57_T3_T4_token_bridge_20261121 <> TR constr
+R292:295 stage57_T3_T4_token_bridge_20261121 <> TR constr
+R301:306 stage57_T3_T4_token_bridge_20261121 <> Tneg constr
+R311:316 stage57_T3_T4_token_bridge_20261121 <> TNeg constr
+R320:325 stage57_T3_T4_token_bridge_20261121 <> Tadd constr
+R330:335 stage57_T3_T4_token_bridge_20261121 <> TAdd constr
+R341:347 stage57_T3_T4_token_bridge_20261121 <> Tpair constr
+R352:358 stage57_T3_T4_token_bridge_20261121 <> TPair constr
+R362:367 stage57_T3_T4_token_bridge_20261121 <> Tfst constr
+R372:377 stage57_T3_T4_token_bridge_20261121 <> TFst constr
+def 398:401 <> to_A
+R408:412 stage57_T3_T4_token_bridge_20261121 <> tok ind
+binder 404:404 <> t:3
+R417:423 stage57_T3_T4_token_bridge_20261121 <> token ind
+R436:436 stage57_T3_T4_token_bridge_20261121 <> t:3 var
+R447:450 stage57_T3_T4_token_bridge_20261121 <> TX constr
+R455:458 stage57_T3_T4_token_bridge_20261121 <> Tx constr
+R462:465 stage57_T3_T4_token_bridge_20261121 <> TY constr
+R470:473 stage57_T3_T4_token_bridge_20261121 <> Ty constr
+R477:480 stage57_T3_T4_token_bridge_20261121 <> TP constr
+R485:488 stage57_T3_T4_token_bridge_20261121 <> Tp constr
+R494:497 stage57_T3_T4_token_bridge_20261121 <> TL constr
+R502:505 stage57_T3_T4_token_bridge_20261121 <> TL constr
+R509:512 stage57_T3_T4_token_bridge_20261121 <> TR constr
+R517:520 stage57_T3_T4_token_bridge_20261121 <> TR constr
+R526:531 stage57_T3_T4_token_bridge_20261121 <> TNeg constr
+R536:541 stage57_T3_T4_token_bridge_20261121 <> Tneg constr
+R545:550 stage57_T3_T4_token_bridge_20261121 <> TAdd constr
+R555:560 stage57_T3_T4_token_bridge_20261121 <> Tadd constr
+R566:572 stage57_T3_T4_token_bridge_20261121 <> TPair constr
+R577:583 stage57_T3_T4_token_bridge_20261121 <> Tpair constr
+R587:592 stage57_T3_T4_token_bridge_20261121 <> TFst constr
+R597:602 stage57_T3_T4_token_bridge_20261121 <> Tfst constr
+prf 620:636 <> token_roundtrip_A
+R651:657 stage57_T3_T4_token_bridge_20261121 <> token ind
+binder 647:647 <> t:5
+R673:675 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R660:663 stage57_T3_T4_token_bridge_20261121 <> to_A def
+R666:669 stage57_T3_T4_token_bridge_20261121 <> to_B def
+R671:671 stage57_T3_T4_token_bridge_20261121 <> t:5 var
+R676:676 stage57_T3_T4_token_bridge_20261121 <> t:5 var
+prf 734:750 <> token_roundtrip_B
+R765:769 stage57_T3_T4_token_bridge_20261121 <> tok ind
+binder 761:761 <> t:6
+R785:787 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R772:775 stage57_T3_T4_token_bridge_20261121 <> to_B def
+R778:781 stage57_T3_T4_token_bridge_20261121 <> to_A def
+R783:783 stage57_T3_T4_token_bridge_20261121 <> t:6 var
+R788:788 stage57_T3_T4_token_bridge_20261121 <> t:6 var
+R856:872 stage57_T3_T4_token_bridge_20261121 <> token_roundtrip_A thm
+R893:909 stage57_T3_T4_token_bridge_20261121 <> token_roundtrip_B thm

@@ -1,0 +1,41 @@
+DIGEST 095d5685ee2780cb1445cd2ecd8ffbd3
+Fstage57_par_dec_2D_20261124
+R15:46 GeoCoq.Main.Tarski_dev.Ch14_prod <> <> lib
+R64:95 stage57_par_trans_2D_v4_20261124 <> <> lib
+sec 107:124 <> ParallelDecision2D
+R142:169 GeoCoq.Axioms.tarski_axioms <> Tarski_neutral_dimensionless class
+binder 137:138 <> Tn:1
+R189:246 GeoCoq.Axioms.tarski_axioms <> Tarski_neutral_dimensionless_with_decidable_point_equality class
+R248:249 stage57_par_dec_2D_20261124 <> ParallelDecision2D.Tn var
+binder 182:183 <> Td:2
+R267:275 GeoCoq.Axioms.tarski_axioms <> Tarski_2D class
+R277:278 stage57_par_dec_2D_20261124 <> ParallelDecision2D.Td var
+binder 262:263 <> T2:3
+R296:311 GeoCoq.Axioms.tarski_axioms <> Tarski_euclidean class
+R313:314 stage57_par_dec_2D_20261124 <> ParallelDecision2D.Td var
+binder 291:292 <> TE:4
+prf 327:342 <> par_dec_2D_local
+R365:370 GeoCoq.Axioms.tarski_axioms <> Tpoint meth
+binder 355:355 <> A:5
+binder 357:357 <> B:6
+binder 359:359 <> C:7
+binder 361:361 <> D:8
+R388:391 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R377:379 GeoCoq.Axioms.Definitions <> Par def
+R381:381 stage57_par_dec_2D_20261124 <> A:5 var
+R383:383 stage57_par_dec_2D_20261124 <> B:6 var
+R385:385 stage57_par_dec_2D_20261124 <> C:7 var
+R387:387 stage57_par_dec_2D_20261124 <> D:8 var
+R392:393 Coq.Init.Logic <> ::type_scope:'~'_x not
+R394:396 GeoCoq.Axioms.Definitions <> Par def
+R398:398 stage57_par_dec_2D_20261124 <> A:5 var
+R400:400 stage57_par_dec_2D_20261124 <> B:6 var
+R402:402 stage57_par_dec_2D_20261124 <> C:7 var
+R404:404 stage57_par_dec_2D_20261124 <> D:8 var
+R422:439 GeoCoq.Main.Meta_theory.Parallel_postulates.par_trans_NID <> par_trans__par_dec thm
+R422:439 GeoCoq.Main.Meta_theory.Parallel_postulates.par_trans_NID <> par_trans__par_dec thm
+R450:467 stage57_par_trans_2D_v4_20261124 <> par_trans_2D_local thm
+R450:467 stage57_par_trans_2D_v4_20261124 <> par_trans_2D_local thm
+R480:497 stage57_par_dec_2D_20261124 ParallelDecision2D <> sec
+R507:522 stage57_par_dec_2D_20261124 <> par_dec_2D_local thm
+R543:558 stage57_par_dec_2D_20261124 <> par_dec_2D_local thm

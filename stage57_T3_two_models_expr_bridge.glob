@@ -1,0 +1,75 @@
+DIGEST 7ff5140b7ea989df4365ee1d78693d4e
+Fstage57_T3_two_models_expr_bridge
+R15:48 stage57_T3_two_models_token_bridge <> <> lib
+R64:84 stage57_T3_relational <> <> modtype
+mod 59:59 <> R
+R99:121 stage57_T3_injective_v1 <> <> modtype
+mod 94:94 <> I
+def 134:144 <> expr_R_to_I
+R149:154 stage57_T3_two_models_expr_bridge <> expr ind
+binder 147:147 <> e:1
+R159:164 stage57_T3_two_models_expr_bridge <> expr ind
+R177:177 stage57_T3_two_models_expr_bridge <> e:1 var
+R188:191 stage57_T3_two_models_expr_bridge <> Ex constr
+R196:199 stage57_T3_two_models_expr_bridge <> Ex constr
+R205:208 stage57_T3_two_models_expr_bridge <> Ey constr
+R213:216 stage57_T3_two_models_expr_bridge <> Ey constr
+R222:225 stage57_T3_two_models_expr_bridge <> Ep constr
+R230:233 stage57_T3_two_models_expr_bridge <> Ep constr
+R239:244 stage57_T3_two_models_expr_bridge <> ENeg constr
+R251:256 stage57_T3_two_models_expr_bridge <> ENeg constr
+R259:269 stage57_T3_two_models_expr_bridge <> expr_R_to_I:2 def
+R278:283 stage57_T3_two_models_expr_bridge <> EAdd constr
+R298:303 stage57_T3_two_models_expr_bridge <> EAdd constr
+R306:316 stage57_T3_two_models_expr_bridge <> expr_R_to_I:2 def
+R322:332 stage57_T3_two_models_expr_bridge <> expr_R_to_I:2 def
+R341:347 stage57_T3_two_models_expr_bridge <> EPair constr
+R362:368 stage57_T3_two_models_expr_bridge <> EPair constr
+R371:381 stage57_T3_two_models_expr_bridge <> expr_R_to_I:2 def
+R387:397 stage57_T3_two_models_expr_bridge <> expr_R_to_I:2 def
+R406:411 stage57_T3_two_models_expr_bridge <> EFst constr
+R418:423 stage57_T3_two_models_expr_bridge <> EFst constr
+R426:436 stage57_T3_two_models_expr_bridge <> expr_R_to_I:2 def
+def 458:468 <> expr_I_to_R
+R473:478 stage57_T3_two_models_expr_bridge <> expr ind
+binder 471:471 <> e:4
+R483:488 stage57_T3_two_models_expr_bridge <> expr ind
+R501:501 stage57_T3_two_models_expr_bridge <> e:4 var
+R512:515 stage57_T3_two_models_expr_bridge <> Ex constr
+R520:523 stage57_T3_two_models_expr_bridge <> Ex constr
+R529:532 stage57_T3_two_models_expr_bridge <> Ey constr
+R537:540 stage57_T3_two_models_expr_bridge <> Ey constr
+R546:549 stage57_T3_two_models_expr_bridge <> Ep constr
+R554:557 stage57_T3_two_models_expr_bridge <> Ep constr
+R563:568 stage57_T3_two_models_expr_bridge <> ENeg constr
+R575:580 stage57_T3_two_models_expr_bridge <> ENeg constr
+R583:593 stage57_T3_two_models_expr_bridge <> expr_I_to_R:5 def
+R602:607 stage57_T3_two_models_expr_bridge <> EAdd constr
+R622:627 stage57_T3_two_models_expr_bridge <> EAdd constr
+R630:640 stage57_T3_two_models_expr_bridge <> expr_I_to_R:5 def
+R646:656 stage57_T3_two_models_expr_bridge <> expr_I_to_R:5 def
+R665:671 stage57_T3_two_models_expr_bridge <> EPair constr
+R686:692 stage57_T3_two_models_expr_bridge <> EPair constr
+R695:705 stage57_T3_two_models_expr_bridge <> expr_I_to_R:5 def
+R711:721 stage57_T3_two_models_expr_bridge <> expr_I_to_R:5 def
+R730:735 stage57_T3_two_models_expr_bridge <> EFst constr
+R742:747 stage57_T3_two_models_expr_bridge <> EFst constr
+R750:760 stage57_T3_two_models_expr_bridge <> expr_I_to_R:5 def
+prf 781:796 <> expr_R_roundtrip
+R811:816 stage57_T3_two_models_expr_bridge <> expr ind
+binder 809:809 <> e:7
+R850:852 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R823:833 stage57_T3_two_models_expr_bridge <> expr_I_to_R def
+R836:846 stage57_T3_two_models_expr_bridge <> expr_R_to_I def
+R848:848 stage57_T3_two_models_expr_bridge <> e:7 var
+R853:853 stage57_T3_two_models_expr_bridge <> e:7 var
+prf 992:1007 <> expr_I_roundtrip
+R1022:1027 stage57_T3_two_models_expr_bridge <> expr ind
+binder 1020:1020 <> e:8
+R1061:1063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1034:1044 stage57_T3_two_models_expr_bridge <> expr_R_to_I def
+R1047:1057 stage57_T3_two_models_expr_bridge <> expr_I_to_R def
+R1059:1059 stage57_T3_two_models_expr_bridge <> e:8 var
+R1064:1064 stage57_T3_two_models_expr_bridge <> e:8 var
+R1213:1228 stage57_T3_two_models_expr_bridge <> expr_R_roundtrip thm
+R1249:1264 stage57_T3_two_models_expr_bridge <> expr_I_roundtrip thm

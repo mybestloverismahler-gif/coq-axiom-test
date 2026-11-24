@@ -1,0 +1,322 @@
+Welcome to Coq 8.18.0
+
+Coq < [Loading ML file ring_plugin.cmxs (using legacy method) ... done]
+[Loading ML file zify_plugin.cmxs (using legacy method) ... done]
+[Loading ML file micromega_plugin.cmxs (using legacy method) ... done]
+[Loading ML file extraction_plugin.cmxs (using legacy method) ... done]
+[Loading ML file funind_plugin.cmxs (using legacy method) ... done]
+[Loading ML file rtauto_plugin.cmxs (using legacy method) ... done]
+
+Coq < Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Models.hilbert_to_tarski
+between_one =
+fun (Hi : hilbert_axioms.Hilbert_neutral_dimensionless)
+  (A B C : hilbert_axioms.Point) (HD1 : A <> B) (HD2 : A <> C) 
+  (HD3 : B <> C) (HC : hilbert_axioms.ColH A B C) =>
+let e : exists C0 : hilbert_axioms.Point, ~ hilbert_axioms.ColH A C C0 :=
+  ncolH_exists A C HD2 in
+match e with
+| ex_intro _ x x0 =>
+    (fun (D : hilbert_axioms.Point) (HNC1 : ~ hilbert_axioms.ColH A C D) =>
+     let HD4 : B <> D :=
+       (fun H : B = D =>
+        eq_ind_r
+          (fun B0 : hilbert_axioms.Point =>
+           A <> B0 -> B0 <> C -> hilbert_axioms.ColH A B0 C -> False)
+          (fun (_ : A <> D) (_ : D <> C) (HC0 : hilbert_axioms.ColH A D C) =>
+           HNC1 (colH_permut_231 D A C (colH_permut_213 A D C HC0))) H HD1
+          HD3 HC)
+       :
+       B <> D in
+     let e0 : exists C0 : hilbert_axioms.Point, hilbert_axioms.BetH B D C0 :=
+       hilbert_axioms.between_out B D HD4 in
+     match e0 with
+     | ex_intro _ x1 x2 =>
+         (fun (G : hilbert_axioms.Point) (HBet1 : hilbert_axioms.BetH B D G)
+          =>
+          let HD5 : A <> D :=
+            (fun H : A = D =>
+             eq_ind_r
+               (fun A0 : hilbert_axioms.Point =>
+                A0 <> B ->
+                A0 <> C ->
+                hilbert_axioms.ColH A0 B C ->
+                ~ hilbert_axioms.ColH A0 C D -> False)
+               (fun (_ : D <> B) (_ : D <> C) (_ : hilbert_axioms.ColH D B C)
+                  (HNC2 : ~ hilbert_axioms.ColH D C D) =>
+                HNC2 (colH_trivial121 D C)) H HD1 HD2 HC HNC1)
+            :
+            A <> D in
+          let H :
+            exists l : hilbert_axioms.Line,
+              hilbert_axioms.IncidL A l /\ hilbert_axioms.IncidL D l :=
+            hilbert_axioms.line_existence A D HD5 in
+          match H with
+          | ex_intro _ x3 x4 =>
+              (fun (lAD : hilbert_axioms.Line)
+                 (H0 : hilbert_axioms.IncidL A lAD /\
+                       hilbert_axioms.IncidL D lAD) =>
+               and_ind
+                 (fun (H1 : hilbert_axioms.IncidL A lAD)
+                    (H2 : hilbert_axioms.IncidL D lAD) =>
+                  let HD6 : C <> D :=
+                    (fun H3 : C = D =>
+                     eq_ind_r
+                       (fun C0 : hilbert_axioms.Point =>
+                        A <> C0 ->
+                        B <> C0 ->
+                        hilbert_axioms.ColH A B C0 ->
+                        ~ hilbert_axioms.ColH A C0 D -> False)
+                       (fun (_ : A <> D) (_ : B <> D)
+                          (_ : hilbert_axioms.ColH A B D)
+                          (HNC2 : ~ hilbert_axioms.ColH A D D) =>
+                        HNC2 (colH_trivial122 A D)) H3 HD2 HD3 HC HNC1)
+                    :
+                    C <> D in
+                  let H3 :
+                    exists l : hilbert_axioms.Line,
+                      hilbert_axioms.IncidL C l /\ hilbert_axioms.IncidL D l :=
+                    hilbert_axioms.line_existence C D HD6 in
+                  match H3 with
+                  | ex_intro _ x5 x6 =>
+                      (fun (lCD : hilbert_axioms.Line)
+                         (H4 : hilbert_axioms.IncidL C lCD /\
+                               hilbert_axioms.IncidL D lCD) =>
+                       and_ind
+                         (fun (H5 : hilbert_axioms.IncidL C lCD)
+                            (H6 : hilbert_axioms.IncidL D lCD) =>
+                          let HNC2 : ~ hilbert_axioms.ColH B G C :=
+                            (fun H7 : hilbert_axioms.ColH B G C =>
+                             let HBet2 :
+                               hilbert_axioms.BetH B D G /\
+                               B <> D /\
+                               D <> G /\ B <> G /\ hilbert_axioms.ColH B D G :=
+                               betH_expand B D G HBet1 in
+                             and_ind
+                               (fun (_ : hilbert_axioms.BetH B D G)
+                                  (H8 : ... /\ ...) =>
+                                and_ind (... => ...) H8) HBet2)
+                            :
+                            ~ hilbert_axioms.ColH B G C in
+                          let HNC3 : ~ hilbert_axioms.ColH B G A :=
+                            (fun H7 : hilbert_axioms.ColH B G A =>
+                             let HBet2 :
+                               hilbert_axioms.BetH B D G /\
+                               B <> D /\ D <> G /\ ... /\ ... :=
+                               betH_expand B D G HBet1 in
+                             and_ind
+                               (fun (_ : ...) (H8 : ...) => and_ind (...) H8)
+                               HBet2)
+                            :
+                            ~ hilbert_axioms.ColH B G A in
+                          let HNI1 : ~ hilbert_axioms.IncidL C lAD :=
+                            (fun H7 : hilbert_axioms.IncidL C lAD =>
+                             HNC1 (ex_intro (... => ...) lAD (conj H1 ...)))
+                            :
+                            ~ hilbert_axioms.IncidL C lAD in
+                          let HNI2 : ~ hilbert_axioms.IncidL A lCD :=
+                            (fun H7 : hilbert_axioms.IncidL A lCD =>
+                             HNC1 (ex_intro (...) lCD (...)))
+                            :
+                            ~ hilbert_axioms.IncidL A lCD in
+                          let HCut1 : hilbert_axioms.cut lAD B G :=
+                            let HBet2 :
+                              hilbert_axioms.BetH B D G /\
+                              B <> D /\ D <> G /\ ... /\ ... :=
+                              betH_expand B D G HBet1 in
+                            and_ind
+                              (fun (H7 : ...) (H8 : ...) => and_ind (...) H8)
+                              HBet2 in
+                          let HCut2 : hilbert_axioms.cut lCD B G :=
+                            let HBet2 :
+                              hilbert_axioms.BetH B D G /\
+                              B <> D /\ ... /\ ... := 
+                              betH_expand B D G HBet1 in
+                            and_ind (fun ... ... => and_ind ... H8) HBet2 in
+                          let e1 :
+                            exists p : hilbert_axioms.Plane,
+                              hilbert_axioms.IncidP B p /\
+                              hilbert_axioms.IncidP G p /\
+                              hilbert_axioms.IncidP C p :=
+                            hilbert_axioms.plane_existence B G C HNC2 in
+                          match e1 with
+                          | ex_intro _ x7 x8 => (... => ...) x7 x8
+                          end) H4) x5 x6
+                  end) H0) x3 x4
+          end) x1 x2
+     end) x x0
+end
+     : forall (Hi : hilbert_axioms.Hilbert_neutral_dimensionless)
+         (A B C : hilbert_axioms.Point),
+       A <> B ->
+       A <> C ->
+       B <> C ->
+       hilbert_axioms.ColH A B C ->
+       hilbert_axioms.BetH A B C \/
+       hilbert_axioms.BetH B C A \/ hilbert_axioms.BetH B A C
+
+Arguments between_one {Hi} A B C _ _ _ _
+
+Coq < betH_trans0 =
+fun (Hi : hilbert_axioms.Hilbert_neutral_dimensionless)
+  (A B C D : hilbert_axioms.Point) (H : hilbert_axioms.BetH A B C)
+  (H0 : hilbert_axioms.BetH A C D) =>
+let H1 :
+  hilbert_axioms.BetH A B C /\
+  A <> B /\ B <> C /\ A <> C /\ hilbert_axioms.ColH A B C :=
+  betH_expand A B C H in
+let H2 :
+  hilbert_axioms.BetH A C D /\
+  A <> C /\ C <> D /\ A <> D /\ hilbert_axioms.ColH A C D :=
+  betH_expand A C D H0 in
+and_ind
+  (fun (H3 : hilbert_axioms.BetH A C D)
+     (H4 : A <> C /\ C <> D /\ A <> D /\ hilbert_axioms.ColH A C D) =>
+   and_ind
+     (fun (_ : A <> C) (H5 : C <> D /\ A <> D /\ hilbert_axioms.ColH A C D)
+      =>
+      and_ind
+        (fun (H6 : C <> D) (H7 : A <> D /\ hilbert_axioms.ColH A C D) =>
+         and_ind
+           (fun (H8 : A <> D) (H9 : hilbert_axioms.ColH A C D) =>
+            and_ind
+              (fun (H10 : hilbert_axioms.BetH A B C)
+                 (H11 : A <> B /\
+                        B <> C /\ A <> C /\ hilbert_axioms.ColH A B C) =>
+               and_ind
+                 (fun (H12 : A <> B)
+                    (H13 : B <> C /\ A <> C /\ hilbert_axioms.ColH A B C) =>
+                  and_ind
+                    (fun (H14 : B <> C)
+                       (H15 : A <> C /\ hilbert_axioms.ColH A B C) =>
+                     and_ind
+                       (fun (H16 : A <> C) (H17 : hilbert_axioms.ColH A B C)
+                        =>
+                        let HH :
+                          exists C0 : hilbert_axioms.Point,
+                            ~ hilbert_axioms.ColH A B C0 :=
+                          ncolH_exists A B H12 in
+                        match HH with
+                        | ex_intro _ x x0 =>
+                            (fun (G : hilbert_axioms.Point)
+                               (HE : ~ hilbert_axioms.ColH A B G) =>
+                             let H18 : B <> G :=
+                               let HE0 : A <> B /\ B <> G /\ A <> G :=
+                                 ncolH_distincts A B G HE in
+                               (fun H18 : B = G =>
+                                and_ind
+                                  (fun (_ : A <> B) (H19 : B <> G /\ A <> G)
+                                   => and_ind (fun ... ... => ... ...) H19)
+                                  HE0)
+                               :
+                               B <> G in
+                             let HF :
+                               exists C0 : hilbert_axioms.Point,
+                                 hilbert_axioms.BetH B G C0 :=
+                               hilbert_axioms.between_out B G H18 in
+                             ex_ind
+                               (fun (F : hilbert_axioms.Point)
+                                  (H19 : hilbert_axioms.BetH B G F) =>
+                                let H20 :
+                                  hilbert_axioms.BetH B G F /\
+                                  B <> G /\
+                                  G <> F /\
+                                  B <> F /\ hilbert_axioms.ColH B G F :=
+                                  betH_expand B G F H19 in
+                                and_ind
+                                  (fun (H21 : hilbert_axioms.BetH B G F)
+                                     (H22 : B <> G /\ ... /\ ...) =>
+                                   and_ind (fun ... ... => and_ind ... H24)
+                                     H22) H20) HF) x x0
+                        end) H15) H13) H11) H1) H7) H5) H4) H2
+     : forall (Hi : hilbert_axioms.Hilbert_neutral_dimensionless)
+         (A B C D : hilbert_axioms.Point),
+       hilbert_axioms.BetH A B C ->
+       hilbert_axioms.BetH A C D ->
+       hilbert_axioms.BetH B C D /\ hilbert_axioms.BetH A B D
+
+Arguments betH_trans0 {Hi} A B C D _ _
+
+Coq < betH2_out =
+fun (Hi : hilbert_axioms.Hilbert_neutral_dimensionless)
+  (A B C D : hilbert_axioms.Point) (H : B <> C)
+  (H0 : hilbert_axioms.BetH A B D) (H1 : hilbert_axioms.BetH A C D) =>
+let H2 :
+  hilbert_axioms.BetH A B D /\
+  A <> B /\ B <> D /\ A <> D /\ hilbert_axioms.ColH A B D :=
+  betH_expand A B D H0 in
+let H3 :
+  hilbert_axioms.BetH A C D /\
+  A <> C /\ C <> D /\ A <> D /\ hilbert_axioms.ColH A C D :=
+  betH_expand A C D H1 in
+and_ind
+  (fun (H4 : hilbert_axioms.BetH A C D)
+     (H5 : A <> C /\ C <> D /\ A <> D /\ hilbert_axioms.ColH A C D) =>
+   and_ind
+     (fun (H6 : A <> C) (H7 : C <> D /\ A <> D /\ hilbert_axioms.ColH A C D)
+      =>
+      and_ind
+        (fun (_ : C <> D) (H8 : A <> D /\ hilbert_axioms.ColH A C D) =>
+         and_ind
+           (fun (H9 : A <> D) (H10 : hilbert_axioms.ColH A C D) =>
+            and_ind
+              (fun (H11 : hilbert_axioms.BetH A B D)
+                 (H12 : A <> B /\
+                        B <> D /\ A <> D /\ hilbert_axioms.ColH A B D) =>
+               and_ind
+                 (fun (H13 : A <> B)
+                    (H14 : B <> D /\ A <> D /\ hilbert_axioms.ColH A B D) =>
+                  and_ind
+                    (fun (_ : B <> D)
+                       (H15 : A <> D /\ hilbert_axioms.ColH A B D) =>
+                     and_ind
+                       (fun (_ : A <> D) (H16 : hilbert_axioms.ColH A B D) =>
+                        let H17 : hilbert_axioms.ColH A B C :=
+                          colH_trans A D A B C H9 
+                            (colH_trivial121 A D)
+                            (colH_permut_231 B A D
+                               (colH_permut_213 A B D H16))
+                            (colH_permut_231 C A D
+                               (colH_permut_213 A C D H10)) in
+                        let H18 :
+                          hilbert_axioms.BetH A B C \/
+                          hilbert_axioms.BetH B C A \/
+                          hilbert_axioms.BetH B A C :=
+                          between_one A B C H13 H6 H H17 in
+                        or_ind
+                          (fun H19 : hilbert_axioms.BetH A B C =>
+                           or_introl H19)
+                          (fun
+                             H19 : hilbert_axioms.BetH B C A \/
+                                   hilbert_axioms.BetH B A C =>
+                           or_ind
+                             (fun H20 : hilbert_axioms.BetH B C A =>
+                              or_intror
+                                (hilbert_axioms.between_comm B C A H20))
+                             (fun H20 : hilbert_axioms.BetH B A C =>
+                              let H21 :
+                                hilbert_axioms.BetH C A D /\
+                                hilbert_axioms.BetH C B D :=
+                                betH_trans C A B D
+                                  (hilbert_axioms.between_comm B A C H20) H11
+                                in
+                              and_ind
+                                (fun (H22 : hilbert_axioms.BetH C A D)
+                                   (_ : hilbert_axioms.BetH C B D) =>
+                                 let H23 :
+                                   ~ hilbert_axioms.BetH A D C /\
+                                   ~ hilbert_axioms.BetH A C D :=
+                                   between_only_one' C A D H22 in
+                                 and_ind
+                                   (fun (_ : ~ ...) (H24 : ~ ...) =>
+                                    False_ind (... \/ ...) (H24 H4)) H23) H21)
+                             H19) H18) H15) H14) H12) H2) H8) H7) H5) H3
+     : forall (Hi : hilbert_axioms.Hilbert_neutral_dimensionless)
+         (A B C D : hilbert_axioms.Point),
+       B <> C ->
+       hilbert_axioms.BetH A B D ->
+       hilbert_axioms.BetH A C D ->
+       hilbert_axioms.BetH A B C \/ hilbert_axioms.BetH A C B
+
+Arguments betH2_out {Hi} A B C D _ _ _
+
+Coq < 

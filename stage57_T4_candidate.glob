@@ -1,0 +1,118 @@
+DIGEST bdf5709178b222255980ca108ffb5642
+Fstage57_T4_candidate
+ind 47:48 <> ty
+constr 62:67 <> Scalar
+constr 71:80 <> PairScalar
+scheme 47:48 <> ty_rect
+scheme 47:48 <> ty_ind
+scheme 47:48 <> ty_rec
+scheme 47:48 <> ty_sind
+ind 94:97 <> expr
+constr 111:111 <> X
+constr 115:115 <> Y
+constr 119:119 <> P
+constr 123:125 <> Neg
+constr 140:142 <> Add
+constr 159:162 <> Pair
+constr 179:181 <> Fst
+R132:135 stage57_T4_candidate <> expr:3 ind
+binder 128:128 <> e:5
+R151:154 stage57_T4_candidate <> expr:3 ind
+binder 145:145 <> a:6
+binder 147:147 <> b:7
+R171:174 stage57_T4_candidate <> expr:3 ind
+binder 165:165 <> a:8
+binder 167:167 <> b:9
+R188:191 stage57_T4_candidate <> expr:3 ind
+binder 184:184 <> e:10
+scheme 94:97 <> expr_rect
+scheme 94:97 <> expr_ind
+scheme 94:97 <> expr_rec
+scheme 94:97 <> expr_sind
+ind 206:213 <> has_type
+constr 241:246 <> type_x
+constr 270:275 <> type_y
+constr 299:304 <> type_p
+constr 332:339 <> type_neg
+constr 408:415 <> type_add
+constr 513:521 <> type_pair
+constr 624:631 <> type_fst
+R221:224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R217:220 stage57_T4_candidate <> expr ind
+R227:230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R225:226 stage57_T4_candidate <> ty ind
+R250:257 stage57_T4_candidate <> has_type:11 ind
+R261:266 stage57_T4_candidate <> Scalar constr
+R259:259 stage57_T4_candidate <> X constr
+R279:286 stage57_T4_candidate <> has_type:11 ind
+R290:295 stage57_T4_candidate <> Scalar constr
+R288:288 stage57_T4_candidate <> Y constr
+R308:315 stage57_T4_candidate <> has_type:11 ind
+R319:328 stage57_T4_candidate <> PairScalar constr
+R317:317 stage57_T4_candidate <> P constr
+binder 350:350 <> e:13
+R374:381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R357:364 stage57_T4_candidate <> has_type:11 ind
+R368:373 stage57_T4_candidate <> Scalar constr
+R366:366 stage57_T4_candidate <> e:13 var
+R382:389 stage57_T4_candidate <> has_type:11 ind
+R399:404 stage57_T4_candidate <> Scalar constr
+R392:394 stage57_T4_candidate <> Neg constr
+R396:396 stage57_T4_candidate <> e:13 var
+binder 426:426 <> a:14
+binder 428:428 <> b:15
+R452:459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R435:442 stage57_T4_candidate <> has_type:11 ind
+R446:451 stage57_T4_candidate <> Scalar constr
+R444:444 stage57_T4_candidate <> a:14 var
+R477:484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R460:467 stage57_T4_candidate <> has_type:11 ind
+R471:476 stage57_T4_candidate <> Scalar constr
+R469:469 stage57_T4_candidate <> b:15 var
+R485:492 stage57_T4_candidate <> has_type:11 ind
+R504:509 stage57_T4_candidate <> Scalar constr
+R495:497 stage57_T4_candidate <> Add constr
+R499:499 stage57_T4_candidate <> a:14 var
+R501:501 stage57_T4_candidate <> b:15 var
+binder 532:532 <> a:16
+binder 534:534 <> b:17
+R558:565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R541:548 stage57_T4_candidate <> has_type:11 ind
+R552:557 stage57_T4_candidate <> Scalar constr
+R550:550 stage57_T4_candidate <> a:16 var
+R583:590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R566:573 stage57_T4_candidate <> has_type:11 ind
+R577:582 stage57_T4_candidate <> Scalar constr
+R575:575 stage57_T4_candidate <> b:17 var
+R591:598 stage57_T4_candidate <> has_type:11 ind
+R611:620 stage57_T4_candidate <> PairScalar constr
+R601:604 stage57_T4_candidate <> Pair constr
+R606:606 stage57_T4_candidate <> a:16 var
+R608:608 stage57_T4_candidate <> b:17 var
+binder 642:642 <> e:18
+R670:677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R649:656 stage57_T4_candidate <> has_type:11 ind
+R660:669 stage57_T4_candidate <> PairScalar constr
+R658:658 stage57_T4_candidate <> e:18 var
+R678:685 stage57_T4_candidate <> has_type:11 ind
+R695:700 stage57_T4_candidate <> Scalar constr
+R688:690 stage57_T4_candidate <> Fst constr
+R692:692 stage57_T4_candidate <> e:18 var
+scheme 206:213 <> has_type_ind
+scheme 206:213 <> has_type_sind
+prf 712:722 <> type_unique
+binder 733:733 <> e:19
+binder 735:736 <> t1:20
+binder 738:739 <> t2:21
+R757:762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R744:751 stage57_T4_candidate <> has_type ind
+R753:753 stage57_T4_candidate <> e:19 var
+R755:756 stage57_T4_candidate <> t1:20 var
+R776:781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R763:770 stage57_T4_candidate <> has_type ind
+R772:772 stage57_T4_candidate <> e:19 var
+R774:775 stage57_T4_candidate <> t2:21 var
+R784:786 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R782:783 stage57_T4_candidate <> t1:20 var
+R787:788 stage57_T4_candidate <> t2:21 var
+R888:898 stage57_T4_candidate <> type_unique thm

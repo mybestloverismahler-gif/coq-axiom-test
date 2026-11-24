@@ -1,0 +1,72 @@
+DIGEST 3b0c14cfc7d691c79c4887db4df89c70
+Fstage57_intersection_2D_20261124
+R15:46 GeoCoq.Main.Tarski_dev.Ch14_prod <> <> lib
+sec 58:71 <> Intersection2D
+R89:116 GeoCoq.Axioms.tarski_axioms <> Tarski_neutral_dimensionless class
+binder 84:85 <> Tn:1
+R136:193 GeoCoq.Axioms.tarski_axioms <> Tarski_neutral_dimensionless_with_decidable_point_equality class
+R195:196 stage57_intersection_2D_20261124 <> Intersection2D.Tn var
+binder 129:130 <> Td:2
+R214:222 GeoCoq.Axioms.tarski_axioms <> Tarski_2D class
+R224:225 stage57_intersection_2D_20261124 <> Intersection2D.Td var
+binder 209:210 <> T2:3
+prf 238:258 <> intersection_2D_local
+R281:286 GeoCoq.Axioms.tarski_axioms <> Tpoint meth
+binder 271:271 <> A:4
+binder 273:273 <> B:5
+binder 275:275 <> C:6
+binder 277:277 <> D:7
+R293:293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R372:380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R294:294 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R327:335 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R295:301 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R303:304 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 302:302 <> X:8
+R314:317 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R305:307 GeoCoq.Axioms.Definitions <> Col def
+R309:309 stage57_intersection_2D_20261124 <> X:8 var
+R311:311 stage57_intersection_2D_20261124 <> A:4 var
+R313:313 stage57_intersection_2D_20261124 <> B:5 var
+R318:320 GeoCoq.Axioms.Definitions <> Col def
+R322:322 stage57_intersection_2D_20261124 <> X:8 var
+R324:324 stage57_intersection_2D_20261124 <> C:6 var
+R326:326 stage57_intersection_2D_20261124 <> D:7 var
+R336:338 Coq.Init.Logic <> ::type_scope:'~'_x not
+R371:371 Coq.Init.Logic <> ::type_scope:'~'_x not
+R339:345 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R347:348 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 346:346 <> X:9
+R358:361 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R349:351 GeoCoq.Axioms.Definitions <> Col def
+R353:353 stage57_intersection_2D_20261124 <> X:9 var
+R355:355 stage57_intersection_2D_20261124 <> A:4 var
+R357:357 stage57_intersection_2D_20261124 <> B:5 var
+R362:364 GeoCoq.Axioms.Definitions <> Col def
+R366:366 stage57_intersection_2D_20261124 <> X:9 var
+R368:368 stage57_intersection_2D_20261124 <> C:6 var
+R370:370 stage57_intersection_2D_20261124 <> D:7 var
+R394:401 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R381:382 Coq.Init.Logic <> ::type_scope:'~'_x not
+R383:385 GeoCoq.Axioms.Definitions <> Par def
+R387:387 stage57_intersection_2D_20261124 <> A:4 var
+R389:389 stage57_intersection_2D_20261124 <> B:5 var
+R391:391 stage57_intersection_2D_20261124 <> C:6 var
+R393:393 stage57_intersection_2D_20261124 <> D:7 var
+R402:408 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R410:411 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 409:409 <> X:10
+R421:424 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R412:414 GeoCoq.Axioms.Definitions <> Col def
+R416:416 stage57_intersection_2D_20261124 <> X:10 var
+R418:418 stage57_intersection_2D_20261124 <> A:4 var
+R420:420 stage57_intersection_2D_20261124 <> B:5 var
+R425:427 GeoCoq.Axioms.Definitions <> Col def
+R429:429 stage57_intersection_2D_20261124 <> X:10 var
+R431:431 stage57_intersection_2D_20261124 <> C:6 var
+R433:433 stage57_intersection_2D_20261124 <> D:7 var
+R570:581 GeoCoq.Main.Tarski_dev.Ch10_line_reflexivity_2 <> all_coplanar thm
+R570:581 GeoCoq.Main.Tarski_dev.Ch10_line_reflexivity_2 <> all_coplanar thm
+R611:624 stage57_intersection_2D_20261124 Intersection2D <> sec
+R634:654 stage57_intersection_2D_20261124 <> intersection_2D_local thm
+R675:695 stage57_intersection_2D_20261124 <> intersection_2D_local thm

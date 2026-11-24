@@ -1,0 +1,261 @@
+DIGEST cab15b608a83acda2593e68fb61b230f
+Fstage57_T3_IH_steps_20261119
+R15:28 Coq.Lists.List <> <> lib
+R46:68 stage57_T3_injective_v1 <> <> lib
+R78:90 Coq.Lists.List ListNotations <> mod
+prf 100:113 <> T3_neg_IH_step
+binder 126:126 <> k:1
+binder 128:129 <> xs:2
+binder 131:131 <> a:3
+binder 133:133 <> r:4
+R140:140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R221:229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 148:148 <> s:5
+binder 150:150 <> u:6
+binder 152:154 <> rem:7
+R192:201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R176:178 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R163:171 stage57_T3_injective_v1 <> parse_one def
+R173:173 stage57_T3_IH_steps_20261119 <> k:1 var
+R175:175 stage57_T3_IH_steps_20261119 <> s:5 var
+R179:182 Coq.Init.Datatypes <> Some constr
+R184:184 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R186:187 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R191:191 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R185:185 stage57_T3_IH_steps_20261119 <> u:6 var
+R188:190 stage57_T3_IH_steps_20261119 <> rem:7 var
+R203:205 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R202:202 stage57_T3_IH_steps_20261119 <> s:5 var
+R214:217 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R206:211 stage57_T3_injective_v1 <> encode def
+R213:213 stage57_T3_IH_steps_20261119 <> u:6 var
+R218:220 stage57_T3_IH_steps_20261119 <> rem:7 var
+R278:285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R264:266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R230:238 stage57_T3_injective_v1 <> parse_one def
+R241:241 Coq.Init.Datatypes <> S constr
+R243:243 stage57_T3_IH_steps_20261119 <> k:1 var
+R249:252 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R247:248 stage57_T3_injective_v1 <> TL constr
+R257:260 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R253:256 stage57_T3_injective_v1 <> Tneg constr
+R261:262 stage57_T3_IH_steps_20261119 <> xs:2 var
+R267:270 Coq.Init.Datatypes <> Some constr
+R272:272 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R274:275 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R277:277 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R273:273 stage57_T3_IH_steps_20261119 <> a:3 var
+R276:276 stage57_T3_IH_steps_20261119 <> r:4 var
+R302:304 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R288:291 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R286:287 stage57_T3_injective_v1 <> TL constr
+R296:299 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R292:295 stage57_T3_injective_v1 <> Tneg constr
+R300:301 stage57_T3_IH_steps_20261119 <> xs:2 var
+R313:316 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R305:310 stage57_T3_injective_v1 <> encode def
+R312:312 stage57_T3_IH_steps_20261119 <> a:3 var
+R317:317 stage57_T3_IH_steps_20261119 <> r:4 var
+R358:366 stage57_T3_injective_v1 <> parse_one def
+R387:395 stage57_T3_injective_v1 <> parse_one def
+R387:395 stage57_T3_injective_v1 <> parse_one def
+R584:587 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R582:583 stage57_T3_injective_v1 <> TR constr
+R584:587 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R582:583 stage57_T3_injective_v1 <> TR constr
+R639:655 stage57_T3_injective_v1 <> neg_list_assoc_v2 thm
+R639:655 stage57_T3_injective_v1 <> neg_list_assoc_v2 thm
+prf 675:688 <> T3_fst_IH_step
+binder 701:701 <> k:8
+binder 703:704 <> xs:9
+binder 706:706 <> a:10
+binder 708:708 <> r:11
+R715:715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R796:804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 723:723 <> s:12
+binder 725:725 <> u:13
+binder 727:729 <> rem:14
+R767:776 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R751:753 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R738:746 stage57_T3_injective_v1 <> parse_one def
+R748:748 stage57_T3_IH_steps_20261119 <> k:8 var
+R750:750 stage57_T3_IH_steps_20261119 <> s:12 var
+R754:757 Coq.Init.Datatypes <> Some constr
+R759:759 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R761:762 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R766:766 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R760:760 stage57_T3_IH_steps_20261119 <> u:13 var
+R763:765 stage57_T3_IH_steps_20261119 <> rem:14 var
+R778:780 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R777:777 stage57_T3_IH_steps_20261119 <> s:12 var
+R789:792 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R781:786 stage57_T3_injective_v1 <> encode def
+R788:788 stage57_T3_IH_steps_20261119 <> u:13 var
+R793:795 stage57_T3_IH_steps_20261119 <> rem:14 var
+R853:860 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R839:841 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R805:813 stage57_T3_injective_v1 <> parse_one def
+R816:816 Coq.Init.Datatypes <> S constr
+R818:818 stage57_T3_IH_steps_20261119 <> k:8 var
+R824:827 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R822:823 stage57_T3_injective_v1 <> TL constr
+R832:835 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R828:831 stage57_T3_injective_v1 <> Tfst constr
+R836:837 stage57_T3_IH_steps_20261119 <> xs:9 var
+R842:845 Coq.Init.Datatypes <> Some constr
+R847:847 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R849:850 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R852:852 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R848:848 stage57_T3_IH_steps_20261119 <> a:10 var
+R851:851 stage57_T3_IH_steps_20261119 <> r:11 var
+R877:879 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R863:866 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R861:862 stage57_T3_injective_v1 <> TL constr
+R871:874 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R867:870 stage57_T3_injective_v1 <> Tfst constr
+R875:876 stage57_T3_IH_steps_20261119 <> xs:9 var
+R888:891 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R880:885 stage57_T3_injective_v1 <> encode def
+R887:887 stage57_T3_IH_steps_20261119 <> a:10 var
+R892:892 stage57_T3_IH_steps_20261119 <> r:11 var
+R933:941 stage57_T3_injective_v1 <> parse_one def
+R962:970 stage57_T3_injective_v1 <> parse_one def
+R962:970 stage57_T3_injective_v1 <> parse_one def
+R1159:1162 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1157:1158 stage57_T3_injective_v1 <> TR constr
+R1159:1162 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1157:1158 stage57_T3_injective_v1 <> TR constr
+R1214:1227 stage57_T3_injective_v1 <> fst_list_assoc thm
+R1214:1227 stage57_T3_injective_v1 <> fst_list_assoc thm
+prf 1247:1260 <> T3_add_IH_step
+binder 1273:1273 <> k:15
+binder 1275:1276 <> xs:16
+binder 1278:1278 <> a:17
+binder 1280:1280 <> r:18
+R1287:1287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1368:1376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1295:1295 <> s:19
+binder 1297:1297 <> u:20
+binder 1299:1301 <> rem:21
+R1339:1348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1323:1325 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1310:1318 stage57_T3_injective_v1 <> parse_one def
+R1320:1320 stage57_T3_IH_steps_20261119 <> k:15 var
+R1322:1322 stage57_T3_IH_steps_20261119 <> s:19 var
+R1326:1329 Coq.Init.Datatypes <> Some constr
+R1331:1331 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1333:1334 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1338:1338 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1332:1332 stage57_T3_IH_steps_20261119 <> u:20 var
+R1335:1337 stage57_T3_IH_steps_20261119 <> rem:21 var
+R1350:1352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1349:1349 stage57_T3_IH_steps_20261119 <> s:19 var
+R1361:1364 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1353:1358 stage57_T3_injective_v1 <> encode def
+R1360:1360 stage57_T3_IH_steps_20261119 <> u:20 var
+R1365:1367 stage57_T3_IH_steps_20261119 <> rem:21 var
+R1425:1432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1411:1413 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1377:1385 stage57_T3_injective_v1 <> parse_one def
+R1388:1388 Coq.Init.Datatypes <> S constr
+R1390:1390 stage57_T3_IH_steps_20261119 <> k:15 var
+R1396:1399 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1394:1395 stage57_T3_injective_v1 <> TL constr
+R1404:1407 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1400:1403 stage57_T3_injective_v1 <> Tadd constr
+R1408:1409 stage57_T3_IH_steps_20261119 <> xs:16 var
+R1414:1417 Coq.Init.Datatypes <> Some constr
+R1419:1419 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1421:1422 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1424:1424 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1420:1420 stage57_T3_IH_steps_20261119 <> a:17 var
+R1423:1423 stage57_T3_IH_steps_20261119 <> r:18 var
+R1449:1451 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1435:1438 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1433:1434 stage57_T3_injective_v1 <> TL constr
+R1443:1446 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1439:1442 stage57_T3_injective_v1 <> Tadd constr
+R1447:1448 stage57_T3_IH_steps_20261119 <> xs:16 var
+R1460:1463 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1452:1457 stage57_T3_injective_v1 <> encode def
+R1459:1459 stage57_T3_IH_steps_20261119 <> a:17 var
+R1464:1464 stage57_T3_IH_steps_20261119 <> r:18 var
+R1505:1513 stage57_T3_injective_v1 <> parse_one def
+R1534:1542 stage57_T3_injective_v1 <> parse_one def
+R1534:1542 stage57_T3_injective_v1 <> parse_one def
+R1606:1614 stage57_T3_injective_v1 <> parse_one def
+R1606:1614 stage57_T3_injective_v1 <> parse_one def
+R1843:1846 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1841:1842 stage57_T3_injective_v1 <> TR constr
+R1843:1846 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1841:1842 stage57_T3_injective_v1 <> TR constr
+R1905:1918 stage57_T3_injective_v1 <> add_list_assoc thm
+R1905:1918 stage57_T3_injective_v1 <> add_list_assoc thm
+prf 1940:1954 <> T3_pair_IH_step
+binder 1967:1967 <> k:22
+binder 1969:1970 <> xs:23
+binder 1972:1972 <> a:24
+binder 1974:1974 <> r:25
+R1981:1981 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2062:2070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1989:1989 <> s:26
+binder 1991:1991 <> u:27
+binder 1993:1995 <> rem:28
+R2033:2042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2017:2019 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2004:2012 stage57_T3_injective_v1 <> parse_one def
+R2014:2014 stage57_T3_IH_steps_20261119 <> k:22 var
+R2016:2016 stage57_T3_IH_steps_20261119 <> s:26 var
+R2020:2023 Coq.Init.Datatypes <> Some constr
+R2025:2025 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2027:2028 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2032:2032 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2026:2026 stage57_T3_IH_steps_20261119 <> u:27 var
+R2029:2031 stage57_T3_IH_steps_20261119 <> rem:28 var
+R2044:2046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2043:2043 stage57_T3_IH_steps_20261119 <> s:26 var
+R2055:2058 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2047:2052 stage57_T3_injective_v1 <> encode def
+R2054:2054 stage57_T3_IH_steps_20261119 <> u:27 var
+R2059:2061 stage57_T3_IH_steps_20261119 <> rem:28 var
+R2120:2127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2106:2108 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2071:2079 stage57_T3_injective_v1 <> parse_one def
+R2082:2082 Coq.Init.Datatypes <> S constr
+R2084:2084 stage57_T3_IH_steps_20261119 <> k:22 var
+R2090:2093 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2088:2089 stage57_T3_injective_v1 <> TL constr
+R2099:2102 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2094:2098 stage57_T3_injective_v1 <> Tpair constr
+R2103:2104 stage57_T3_IH_steps_20261119 <> xs:23 var
+R2109:2112 Coq.Init.Datatypes <> Some constr
+R2114:2114 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2116:2117 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2119:2119 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2115:2115 stage57_T3_IH_steps_20261119 <> a:24 var
+R2118:2118 stage57_T3_IH_steps_20261119 <> r:25 var
+R2145:2147 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2130:2133 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2128:2129 stage57_T3_injective_v1 <> TL constr
+R2139:2142 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2134:2138 stage57_T3_injective_v1 <> Tpair constr
+R2143:2144 stage57_T3_IH_steps_20261119 <> xs:23 var
+R2156:2159 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2148:2153 stage57_T3_injective_v1 <> encode def
+R2155:2155 stage57_T3_IH_steps_20261119 <> a:24 var
+R2160:2160 stage57_T3_IH_steps_20261119 <> r:25 var
+R2201:2209 stage57_T3_injective_v1 <> parse_one def
+R2230:2238 stage57_T3_injective_v1 <> parse_one def
+R2230:2238 stage57_T3_injective_v1 <> parse_one def
+R2302:2310 stage57_T3_injective_v1 <> parse_one def
+R2302:2310 stage57_T3_injective_v1 <> parse_one def
+R2539:2542 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2537:2538 stage57_T3_injective_v1 <> TR constr
+R2539:2542 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2537:2538 stage57_T3_injective_v1 <> TR constr
+R2601:2615 stage57_T3_injective_v1 <> pair_list_assoc thm
+R2601:2615 stage57_T3_injective_v1 <> pair_list_assoc thm
+R2649:2662 stage57_T3_IH_steps_20261119 <> T3_neg_IH_step thm
+R2683:2696 stage57_T3_IH_steps_20261119 <> T3_fst_IH_step thm
+R2717:2730 stage57_T3_IH_steps_20261119 <> T3_add_IH_step thm
+R2751:2765 stage57_T3_IH_steps_20261119 <> T3_pair_IH_step thm

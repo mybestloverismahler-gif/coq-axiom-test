@@ -1,0 +1,149 @@
+DIGEST 8a055de76bdae0da3a4a0e5740ce2885
+Fstage57_T3_list_lemma
+R168:181 Coq.Lists.List <> <> lib
+R199:213 Coq.Arith.Arith <> <> lib
+R231:233 Coq.micromega.Lia <> <> lib
+R243:255 Coq.Lists.List ListNotations <> mod
+ind 269:273 <> token
+constr 287:288 <> Tx
+constr 292:293 <> Ty
+constr 297:298 <> Tp
+constr 302:303 <> TL
+constr 307:308 <> TR
+constr 312:315 <> Tneg
+constr 319:322 <> Tadd
+constr 326:330 <> Tpair
+constr 334:337 <> Tfst
+scheme 269:273 <> token_rect
+scheme 269:273 <> token_ind
+scheme 269:273 <> token_rec
+scheme 269:273 <> token_sind
+ind 351:354 <> expr
+constr 368:369 <> Ex
+constr 373:374 <> Ey
+constr 378:379 <> Ep
+constr 383:386 <> ENeg
+constr 401:404 <> EAdd
+constr 421:425 <> EPair
+constr 442:445 <> EFst
+R393:396 stage57_T3_list_lemma <> expr:3 ind
+binder 389:389 <> e:5
+R413:416 stage57_T3_list_lemma <> expr:3 ind
+binder 407:407 <> a:6
+binder 409:409 <> b:7
+R434:437 stage57_T3_list_lemma <> expr:3 ind
+binder 428:428 <> a:8
+binder 430:430 <> b:9
+R452:455 stage57_T3_list_lemma <> expr:3 ind
+binder 448:448 <> e:10
+scheme 351:354 <> expr_rect
+scheme 351:354 <> expr_ind
+scheme 351:354 <> expr_rec
+scheme 351:354 <> expr_sind
+def 469:474 <> encode
+R481:484 stage57_T3_list_lemma <> expr ind
+binder 477:477 <> e:11
+R489:492 Coq.Init.Datatypes <> list ind
+R494:498 stage57_T3_list_lemma <> token ind
+R511:511 stage57_T3_list_lemma <> e:11 var
+R522:523 stage57_T3_list_lemma <> Ex constr
+R528:528 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R531:531 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R529:530 stage57_T3_list_lemma <> Tx constr
+R535:536 stage57_T3_list_lemma <> Ey constr
+R541:541 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R544:544 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R542:543 stage57_T3_list_lemma <> Ty constr
+R548:549 stage57_T3_list_lemma <> Ep constr
+R554:554 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R557:557 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R555:556 stage57_T3_list_lemma <> Tp constr
+R563:566 stage57_T3_list_lemma <> ENeg constr
+R575:578 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R573:574 stage57_T3_list_lemma <> TL constr
+R583:587 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R604:604 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R579:582 stage57_T3_list_lemma <> Tneg constr
+R596:599 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R588:593 stage57_T3_list_lemma <> encode:12 def
+R600:600 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R603:603 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R601:602 stage57_T3_list_lemma <> TR constr
+R610:613 stage57_T3_list_lemma <> EAdd constr
+R624:627 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R622:623 stage57_T3_list_lemma <> TL constr
+R632:636 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R665:665 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R628:631 stage57_T3_list_lemma <> Tadd constr
+R645:648 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R637:642 stage57_T3_list_lemma <> encode:12 def
+R657:660 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R649:654 stage57_T3_list_lemma <> encode:12 def
+R661:661 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R664:664 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R662:663 stage57_T3_list_lemma <> TR constr
+R671:675 stage57_T3_list_lemma <> EPair constr
+R686:689 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R684:685 stage57_T3_list_lemma <> TL constr
+R695:699 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R728:728 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R690:694 stage57_T3_list_lemma <> Tpair constr
+R708:711 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R700:705 stage57_T3_list_lemma <> encode:12 def
+R720:723 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R712:717 stage57_T3_list_lemma <> encode:12 def
+R724:724 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R727:727 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R725:726 stage57_T3_list_lemma <> TR constr
+R734:737 stage57_T3_list_lemma <> EFst constr
+R746:749 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R744:745 stage57_T3_list_lemma <> TL constr
+R754:758 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R775:775 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R750:753 stage57_T3_list_lemma <> Tfst constr
+R767:770 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R759:764 stage57_T3_list_lemma <> encode:12 def
+R771:771 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R774:774 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R772:773 stage57_T3_list_lemma <> TR constr
+prf 790:803 <> neg_list_assoc
+R819:822 stage57_T3_list_lemma <> expr ind
+binder 815:815 <> a:14
+R833:836 Coq.Init.Datatypes <> list ind
+R838:842 stage57_T3_list_lemma <> token ind
+binder 826:829 <> rest:15
+R890:894 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R848:848 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R881:885 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R851:854 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R849:850 stage57_T3_list_lemma <> TL constr
+R859:863 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R880:880 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R855:858 stage57_T3_list_lemma <> Tneg constr
+R872:875 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R864:869 stage57_T3_list_lemma <> encode def
+R871:871 stage57_T3_list_lemma <> a:14 var
+R876:876 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R879:879 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R877:878 stage57_T3_list_lemma <> TR constr
+R886:889 stage57_T3_list_lemma <> rest:15 var
+R897:900 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R895:896 stage57_T3_list_lemma <> TL constr
+R905:909 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R934:934 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R901:904 stage57_T3_list_lemma <> Tneg constr
+R918:922 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R933:933 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R910:915 stage57_T3_list_lemma <> encode def
+R917:917 stage57_T3_list_lemma <> a:14 var
+R925:928 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R923:924 stage57_T3_list_lemma <> TR constr
+R929:932 stage57_T3_list_lemma <> rest:15 var
+R981:993 Coq.Lists.List <> app_comm_cons thm
+R981:993 Coq.Lists.List <> app_comm_cons thm
+R981:993 Coq.Lists.List <> app_comm_cons thm
+R981:993 Coq.Lists.List <> app_comm_cons thm
+R981:993 Coq.Lists.List <> app_comm_cons thm
+R981:993 Coq.Lists.List <> app_comm_cons thm
+R1006:1014 Coq.Lists.List <> app_assoc thm
+R1006:1014 Coq.Lists.List <> app_assoc thm

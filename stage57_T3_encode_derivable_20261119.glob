@@ -1,0 +1,11 @@
+DIGEST b90ed951da5f3edcd574ecb744ca31c5
+Fstage57_T3_encode_derivable_20261119
+R15:37 stage57_T3_injective_v1 <> <> lib
+prf 49:67 <> T3_encode_derivable
+R84:87 stage57_T3_injective_v1 <> expr ind
+binder 80:80 <> a:1
+R90:96 stage57_T3_injective_v1 <> derives ind
+R99:104 stage57_T3_injective_v1 <> encode def
+R106:106 stage57_T3_encode_derivable_20261119 <> a:1 var
+R109:109 stage57_T3_encode_derivable_20261119 <> a:1 var
+R184:202 stage57_T3_encode_derivable_20261119 <> T3_encode_derivable thm

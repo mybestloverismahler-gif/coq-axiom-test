@@ -1,0 +1,7 @@
+DIGEST a9fd6d45f804bbbdc919dee24ba3f793
+Fstage57_T3_T4_U1_assumption_audit
+R15:40 stage57_T3_T4_U1_candidate <> <> lib
+R61:103 stage57_T3_T4_U1_candidate <> parse_functional thm
+R124:161 stage57_T3_T4_U1_candidate <> type_unique thm
+R182:233 stage57_T3_T4_U1_candidate <> counterexample_noncommute thm
+R254:302 stage57_T3_T4_U1_candidate <> counterexample_not_all thm

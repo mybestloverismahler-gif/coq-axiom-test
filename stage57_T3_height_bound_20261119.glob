@@ -1,0 +1,38 @@
+DIGEST 7e8844b0cffd553f2f6cf4d3679e1b94
+Fstage57_T3_height_bound_20261119
+R15:28 Coq.Lists.List <> <> lib
+R46:60 Coq.Arith.Arith <> <> lib
+R78:80 Coq.micromega.Lia <> <> lib
+R98:120 stage57_T3_injective_v1 <> <> lib
+prf 132:157 <> T3_height_le_encode_length
+R174:177 stage57_T3_injective_v1 <> expr ind
+binder 170:170 <> a:1
+R192:195 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R184:189 stage57_T3_injective_v1 <> height def
+R191:191 stage57_T3_height_bound_20261119 <> a:1 var
+R196:201 Coq.Init.Datatypes <> length def
+R204:209 stage57_T3_injective_v1 <> encode def
+R211:211 stage57_T3_height_bound_20261119 <> a:1 var
+R263:272 Coq.Lists.List <> app_length thm
+R305:320 Coq.Arith.PeanoNat Nat succ_le_mono thm
+R333:343 Coq.Arith.PeanoNat Nat max_lub thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R263:272 Coq.Lists.List <> app_length thm
+R374:399 stage57_T3_height_bound_20261119 <> T3_height_le_encode_length thm

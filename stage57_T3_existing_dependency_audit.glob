@@ -1,0 +1,6 @@
+DIGEST d69907054e0195cc5f1fd0f8c4e28952
+Fstage57_T3_existing_dependency_audit
+R15:38 stage57_T3_derives_check <> <> lib
+R56:78 stage57_T3_injective_v1 <> <> lib
+R99:137 stage57_T3_derives_check <> derives_encode thm
+R158:197 stage57_T3_injective_v1 <> encode_injective thm

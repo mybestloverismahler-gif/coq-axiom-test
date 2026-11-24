@@ -1,0 +1,28 @@
+DIGEST c35417a792964d00bbd15d4fe8dc796d
+Fstage57_T3_derivation_unique_20261118
+R15:37 stage57_T3_injective_v1 <> <> lib
+prf 49:68 <> T3_derivation_unique
+R86:89 Coq.Init.Datatypes <> list ind
+R91:95 stage57_T3_injective_v1 <> token ind
+binder 82:82 <> s:1
+R105:108 stage57_T3_injective_v1 <> expr ind
+binder 99:99 <> a:2
+binder 101:101 <> b:3
+R127:130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R116:122 stage57_T3_injective_v1 <> derives ind
+R124:124 stage57_T3_derivation_unique_20261118 <> s:1 var
+R126:126 stage57_T3_derivation_unique_20261118 <> a:2 var
+R142:145 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R131:137 stage57_T3_injective_v1 <> derives ind
+R139:139 stage57_T3_derivation_unique_20261118 <> s:1 var
+R141:141 stage57_T3_derivation_unique_20261118 <> b:3 var
+R147:149 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R146:146 stage57_T3_derivation_unique_20261118 <> a:2 var
+R150:150 stage57_T3_derivation_unique_20261118 <> b:3 var
+R190:205 stage57_T3_injective_v1 <> encode_injective thm
+R190:205 stage57_T3_injective_v1 <> encode_injective thm
+R222:235 stage57_T3_injective_v1 <> derives_encode thm
+R222:235 stage57_T3_injective_v1 <> derives_encode thm
+R266:279 stage57_T3_injective_v1 <> derives_encode thm
+R266:279 stage57_T3_injective_v1 <> derives_encode thm
+R334:353 stage57_T3_derivation_unique_20261118 <> T3_derivation_unique thm

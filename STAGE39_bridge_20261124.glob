@@ -1,0 +1,59 @@
+DIGEST 76457d5c6dd88db0b7a2a627140e292a
+FSTAGE39_bridge_20261124
+R15:42 GeoCoq.Axioms.hilbert_axioms <> <> lib
+R60:85 STAGE39_recovered_original <> <> lib
+sec 97:104 <> Bridge39
+R122:150 GeoCoq.Axioms.hilbert_axioms <> Hilbert_neutral_dimensionless class
+binder 117:118 <> Hi:1
+inst 170:172 <> W39
+R176:190 STAGE39_recovered_original <> WeakIncidence39 class
+R200:203 STAGE39_recovered_original <> Pt39 meth
+R200:203 STAGE39_recovered_original <> Pt39 meth
+R200:203 STAGE39_recovered_original <> Pt39 meth
+R220:223 STAGE39_recovered_original <> Ln39 meth
+R220:223 STAGE39_recovered_original <> Ln39 meth
+R239:244 STAGE39_recovered_original <> EqLn39 meth
+R239:244 STAGE39_recovered_original <> EqLn39 meth
+R259:262 STAGE39_recovered_original <> On39 meth
+R259:262 STAGE39_recovered_original <> On39 meth
+R280:292 STAGE39_recovered_original <> line_unique39 meth
+R280:292 STAGE39_recovered_original <> line_unique39 meth
+R319:331 STAGE39_recovered_original <> on_morphism39 meth
+R319:331 STAGE39_recovered_original <> on_morphism39 meth
+R208:212 GeoCoq.Axioms.hilbert_axioms <> Point meth
+R228:231 GeoCoq.Axioms.hilbert_axioms <> Line meth
+R249:251 GeoCoq.Axioms.hilbert_axioms <> EqL meth
+R267:272 GeoCoq.Axioms.hilbert_axioms <> IncidL meth
+R297:311 GeoCoq.Axioms.hilbert_axioms <> line_uniqueness meth
+R336:350 GeoCoq.Axioms.hilbert_axioms <> IncidL_morphism meth
+prf 363:374 <> bridge_col39
+binder 385:385 <> L:2
+binder 387:387 <> M:3
+binder 389:389 <> R:4
+binder 391:391 <> D:5
+R406:409 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R396:399 GeoCoq.Axioms.hilbert_axioms <> BetH meth
+R405:405 STAGE39_bridge_20261124 <> R:4 var
+R403:403 STAGE39_bridge_20261124 <> M:3 var
+R401:401 STAGE39_bridge_20261124 <> L:2 var
+R420:423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R410:413 GeoCoq.Axioms.hilbert_axioms <> ColH meth
+R419:419 STAGE39_bridge_20261124 <> D:5 var
+R417:417 STAGE39_bridge_20261124 <> M:3 var
+R415:415 STAGE39_bridge_20261124 <> L:2 var
+R424:427 GeoCoq.Axioms.hilbert_axioms <> ColH meth
+R433:433 STAGE39_bridge_20261124 <> D:5 var
+R431:431 STAGE39_bridge_20261124 <> R:4 var
+R429:429 STAGE39_bridge_20261124 <> L:2 var
+R452:466 STAGE39_recovered_original <> col_transport39 thm
+R507:517 GeoCoq.Axioms.hilbert_axioms <> between_col meth
+R490:505 GeoCoq.Axioms.hilbert_axioms <> between_only_one meth
+R477:488 GeoCoq.Axioms.hilbert_axioms <> between_comm meth
+R468:471 GeoCoq.Axioms.hilbert_axioms <> BetH meth
+R452:466 STAGE39_recovered_original <> col_transport39 thm
+R507:517 GeoCoq.Axioms.hilbert_axioms <> between_col meth
+R490:505 GeoCoq.Axioms.hilbert_axioms <> between_only_one meth
+R477:488 GeoCoq.Axioms.hilbert_axioms <> between_comm meth
+R468:471 GeoCoq.Axioms.hilbert_axioms <> BetH meth
+R531:538 STAGE39_bridge_20261124 Bridge39 <> sec
+R559:570 STAGE39_bridge_20261124 <> bridge_col39 thm

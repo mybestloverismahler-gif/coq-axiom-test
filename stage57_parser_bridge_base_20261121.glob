@@ -1,0 +1,69 @@
+DIGEST 8aa7983d73cf7b75c6d6cb081ae05016
+Fstage57_parser_bridge_base_20261121
+R15:49 stage57_T3_T4_token_bridge_20261121 <> <> lib
+R67:100 stage57_T3_T4_expr_bridge_20261121 <> <> lib
+R115:137 stage57_T3_injective_v1 <> <> modtype
+mod 110:110 <> A
+R152:177 stage57_T3_T4_U1_candidate <> <> modtype
+mod 147:147 <> B
+prf 188:205 <> parser_bridge_zero
+R221:224 Coq.Init.Datatypes <> list ind
+R226:232 stage57_parser_bridge_base_20261121 <> token ind
+binder 216:217 <> ts:1
+R299:301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R235:241 stage57_parser_bridge_base_20261121 <> parse def
+R246:253 Coq.Lists.List <> map def
+R296:297 stage57_parser_bridge_base_20261121 <> ts:1 var
+R255:294 stage57_T3_T4_token_bridge_20261121 <> to_B def
+R302:305 Coq.Init.Datatypes <> None constr
+R362:379 stage57_parser_bridge_base_20261121 <> parser_bridge_zero thm
+prf 391:411 <> parser_bridge_zero_AB
+R429:432 Coq.Init.Datatypes <> list ind
+R434:440 stage57_parser_bridge_base_20261121 <> token ind
+binder 424:425 <> ts:2
+R509:513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R445:451 stage57_parser_bridge_base_20261121 <> parse def
+R456:463 Coq.Lists.List <> map def
+R506:507 stage57_parser_bridge_base_20261121 <> ts:2 var
+R465:504 stage57_T3_T4_token_bridge_20261121 <> to_B def
+R520:530 stage57_parser_bridge_base_20261121 <> parse_one def
+R534:535 stage57_parser_bridge_base_20261121 <> ts:2 var
+R546:549 Coq.Init.Datatypes <> None constr
+R554:557 Coq.Init.Datatypes <> None constr
+R563:566 Coq.Init.Datatypes <> Some constr
+R568:568 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R570:571 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R576:576 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R587:590 Coq.Init.Datatypes <> Some constr
+R592:592 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R639:652 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R707:707 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R593:636 stage57_T3_T4_expr_bridge_20261121 <> expr_to_B def
+R653:660 Coq.Lists.List <> map def
+R662:701 stage57_T3_T4_token_bridge_20261121 <> to_B def
+R772:792 stage57_parser_bridge_base_20261121 <> parser_bridge_zero_AB thm
+prf 804:823 <> parser_bridge_one_AB
+R841:844 Coq.Init.Datatypes <> list ind
+R846:852 stage57_parser_bridge_base_20261121 <> token ind
+binder 836:837 <> ts:3
+R921:925 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R857:863 stage57_parser_bridge_base_20261121 <> parse def
+R868:875 Coq.Lists.List <> map def
+R918:919 stage57_parser_bridge_base_20261121 <> ts:3 var
+R877:916 stage57_T3_T4_token_bridge_20261121 <> to_B def
+R932:942 stage57_parser_bridge_base_20261121 <> parse_one def
+R946:947 stage57_parser_bridge_base_20261121 <> ts:3 var
+R958:961 Coq.Init.Datatypes <> None constr
+R966:969 Coq.Init.Datatypes <> None constr
+R975:978 Coq.Init.Datatypes <> Some constr
+R980:980 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R982:983 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R988:988 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R999:1002 Coq.Init.Datatypes <> Some constr
+R1004:1004 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1051:1064 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1119:1119 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1005:1048 stage57_T3_T4_expr_bridge_20261121 <> expr_to_B def
+R1065:1072 Coq.Lists.List <> map def
+R1074:1113 stage57_T3_T4_token_bridge_20261121 <> to_B def
+R1315:1334 stage57_parser_bridge_base_20261121 <> parser_bridge_one_AB thm

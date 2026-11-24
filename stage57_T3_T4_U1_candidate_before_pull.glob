@@ -1,0 +1,6 @@
+DIGEST 44d0f28e869365b10377fcc30ab6b585
+Fstage57_T3_T4_U1_candidate_before_pull
+def 0:8 <> Unnamed_thm
+R5:8 Coq.Init.Logic <> True ind
+R17:17 Coq.Init.Logic <> I constr
+R17:17 Coq.Init.Logic <> I constr

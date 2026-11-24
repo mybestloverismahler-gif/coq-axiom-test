@@ -1,0 +1,15 @@
+DIGEST 6d83337df717f910823c193e2a618dc9
+Fstage57_U1_nested_dependency_audit_20261121
+R15:40 stage57_T3_T4_U1_candidate <> <> lib
+R55:80 stage57_T3_T4_U1_candidate <> <> modtype
+mod 50:50 <> B
+prf 92:125 <> U1_direct_dependency_misses_nested
+R131:132 Coq.Init.Logic <> ::type_scope:'~'_x not
+R133:144 stage57_U1_nested_dependency_audit_20261121 <> depends_on def
+R146:149 stage57_U1_nested_dependency_audit_20261121 <> Ex constr
+R152:156 stage57_U1_nested_dependency_audit_20261121 <> Neg constr
+R159:163 stage57_U1_nested_dependency_audit_20261121 <> Add constr
+R165:168 stage57_U1_nested_dependency_audit_20261121 <> Ex constr
+R170:173 stage57_U1_nested_dependency_audit_20261121 <> Ey constr
+R194:205 stage57_U1_nested_dependency_audit_20261121 <> depends_on def
+R272:305 stage57_U1_nested_dependency_audit_20261121 <> U1_direct_dependency_misses_nested thm

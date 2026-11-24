@@ -1,0 +1,8 @@
+DIGEST d78d75db9f30ab8c772bf8127ccb0dcc
+Fstage57_T3_type_audit
+R15:38 stage57_T3_derives_check <> <> lib
+R56:78 stage57_T3_injective_v1 <> <> lib
+R87:125 stage57_T3_derives_check <> derives_encode thm
+R134:173 stage57_T3_injective_v1 <> encode_injective thm
+R182:210 stage57_T3_derives_check <> expr ind
+R219:246 stage57_T3_injective_v1 <> expr ind

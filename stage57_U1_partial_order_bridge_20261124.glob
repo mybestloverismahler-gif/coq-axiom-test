@@ -1,0 +1,60 @@
+DIGEST 8c8e5e08d7721f42dd021ebf96161de3
+Fstage57_U1_partial_order_bridge_20261124
+R15:60 stage57_R033_partial_bridge_candidate_20261124 <> <> lib
+R76:121 stage57_R033_partial_bridge_candidate_20261124 <> <> modtype
+mod 71:71 <> P
+sec 133:143 <> OrderBridge
+binder 155:155 <> A:1
+var 176:176 OrderBridge p
+var 178:178 OrderBridge q
+R183:186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R182:182 stage57_U1_partial_order_bridge_20261124 <> OrderBridge.A var
+R187:192 Coq.Init.Datatypes <> option ind
+R194:194 stage57_U1_partial_order_bridge_20261124 <> OrderBridge.A var
+prf 206:230 <> execution_condition_exact
+binder 243:243 <> x:4
+binder 245:245 <> v:5
+R284:292 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R275:277 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R252:268 stage57_U1_partial_order_bridge_20261124 <> compose_partial def
+R270:270 stage57_U1_partial_order_bridge_20261124 <> OrderBridge.p var
+R272:272 stage57_U1_partial_order_bridge_20261124 <> OrderBridge.q var
+R274:274 stage57_U1_partial_order_bridge_20261124 <> x:4 var
+R278:281 Coq.Init.Datatypes <> Some constr
+R283:283 stage57_U1_partial_order_bridge_20261124 <> v:5 var
+R293:299 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R301:302 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 300:300 <> y:6
+R315:318 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R306:308 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R303:303 stage57_U1_partial_order_bridge_20261124 <> OrderBridge.q var
+R305:305 stage57_U1_partial_order_bridge_20261124 <> x:4 var
+R309:312 Coq.Init.Datatypes <> Some constr
+R314:314 stage57_U1_partial_order_bridge_20261124 <> y:6 var
+R322:324 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R319:319 stage57_U1_partial_order_bridge_20261124 <> OrderBridge.p var
+R321:321 stage57_U1_partial_order_bridge_20261124 <> y:6 var
+R325:328 Coq.Init.Datatypes <> Some constr
+R330:330 stage57_U1_partial_order_bridge_20261124 <> v:5 var
+R363:379 stage57_U1_partial_order_bridge_20261124 <> compose_partial def
+R405:405 stage57_U1_partial_order_bridge_20261124 <> OrderBridge.q var
+R405:405 stage57_U1_partial_order_bridge_20261124 <> OrderBridge.q var
+prf 575:599 <> failed_predecessor_blocks
+binder 612:612 <> x:7
+R629:636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R622:624 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R619:619 stage57_U1_partial_order_bridge_20261124 <> OrderBridge.q var
+R621:621 stage57_U1_partial_order_bridge_20261124 <> x:7 var
+R625:628 Coq.Init.Datatypes <> None constr
+R660:662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R637:653 stage57_U1_partial_order_bridge_20261124 <> compose_partial def
+R655:655 stage57_U1_partial_order_bridge_20261124 <> OrderBridge.p var
+R657:657 stage57_U1_partial_order_bridge_20261124 <> OrderBridge.q var
+R659:659 stage57_U1_partial_order_bridge_20261124 <> x:7 var
+R663:666 Coq.Init.Datatypes <> None constr
+R699:715 stage57_U1_partial_order_bridge_20261124 <> compose_partial def
+R754:764 stage57_U1_partial_order_bridge_20261124 OrderBridge <> sec
+R774:798 stage57_U1_partial_order_bridge_20261124 <> execution_condition_exact thm
+R807:831 stage57_U1_partial_order_bridge_20261124 <> failed_predecessor_blocks thm
+R852:876 stage57_U1_partial_order_bridge_20261124 <> execution_condition_exact thm
+R897:921 stage57_U1_partial_order_bridge_20261124 <> failed_predecessor_blocks thm

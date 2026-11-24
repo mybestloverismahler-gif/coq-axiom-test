@@ -1,0 +1,30 @@
+Require Import Coq.Bool.Bool.
+Require Import stage57_U1_occurs_decider_candidate.
+Import stage57_U1_occurs_decider_candidate.
+Import stage57_U1_nested_occurs_candidate.
+Import stage57_U1_expr_equality_candidate.
+
+Theorem occursb_correct :
+  forall p e,
+    occursb p e = true <-> occurs p e.
+Proof.
+  intros p e.
+  induction e;
+    cbn [occursb occurs];
+    match goal with
+    | |- context [expr_eq_dec p ?x] =>
+        destruct (expr_eq_dec p x)
+          as [Heq | Hneq]
+    end.
+  all: try (
+    split;
+    [intro _; left; exact Heq
+    |intro _; reflexivity]
+  ).
+  all: cbn [occursb occurs];
+       rewrite ?orb_true_iff;
+       rewrite ?IHe, ?IHe1, ?IHe2;
+       tauto.
+Qed.
+
+Print Assumptions occursb_correct.

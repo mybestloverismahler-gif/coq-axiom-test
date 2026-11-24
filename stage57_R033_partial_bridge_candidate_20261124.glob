@@ -1,0 +1,139 @@
+DIGEST 153532358be7aea38493b39503b41d46
+Fstage57_R033_partial_bridge_candidate_20261124
+R15:40 stage57_T3_T4_U1_candidate <> <> lib
+R60:85 stage57_T3_T4_U1_candidate <> <> modtype
+mod 50:55 <> Legacy
+sec 97:109 <> PartialBridge
+binder 121:121 <> A:1
+var 142:143 PartialBridge dx
+var 145:146 PartialBridge dy
+R151:154 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R150:150 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.A var
+R155:160 Coq.Init.Datatypes <> option ind
+R162:162 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.A var
+def 177:191 <> compose_partial
+R203:206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R202:202 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.A var
+R207:212 Coq.Init.Datatypes <> option ind
+R214:214 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.A var
+binder 196:196 <> p:4
+binder 198:198 <> q:5
+R222:222 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.A var
+binder 218:218 <> f:6
+R227:232 Coq.Init.Datatypes <> option ind
+R234:234 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.A var
+R247:247 stage57_R033_partial_bridge_candidate_20261124 <> q:5 var
+R249:249 stage57_R033_partial_bridge_candidate_20261124 <> f:6 var
+R260:263 Coq.Init.Datatypes <> Some constr
+R270:270 stage57_R033_partial_bridge_candidate_20261124 <> p:4 var
+R278:281 Coq.Init.Datatypes <> None constr
+R286:289 Coq.Init.Datatypes <> None constr
+def 310:322 <> r033_eligible
+R329:329 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.A var
+binder 325:325 <> f:7
+R344:350 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R356:361 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 351:351 <> g:8
+binder 353:353 <> h:9
+binder 355:355 <> v:10
+R375:378 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R366:368 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R362:363 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.dy var
+R365:365 stage57_R033_partial_bridge_candidate_20261124 <> f:7 var
+R369:372 Coq.Init.Datatypes <> Some constr
+R374:374 stage57_R033_partial_bridge_candidate_20261124 <> g:8 var
+R392:399 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R383:385 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R379:380 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.dx var
+R382:382 stage57_R033_partial_bridge_candidate_20261124 <> g:8 var
+R386:389 Coq.Init.Datatypes <> Some constr
+R391:391 stage57_R033_partial_bridge_candidate_20261124 <> v:10 var
+R413:416 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R404:406 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R400:401 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.dx var
+R403:403 stage57_R033_partial_bridge_candidate_20261124 <> f:7 var
+R407:410 Coq.Init.Datatypes <> Some constr
+R412:412 stage57_R033_partial_bridge_candidate_20261124 <> h:9 var
+R421:423 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R417:418 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.dy var
+R420:420 stage57_R033_partial_bridge_candidate_20261124 <> h:9 var
+R424:427 Coq.Init.Datatypes <> Some constr
+R429:429 stage57_R033_partial_bridge_candidate_20261124 <> v:10 var
+prf 441:459 <> r033_partial_bridge
+binder 470:470 <> f:11
+R490:493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R475:487 stage57_R033_partial_bridge_candidate_20261124 <> r033_eligible def
+R489:489 stage57_R033_partial_bridge_candidate_20261124 <> f:11 var
+R494:500 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R502:507 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 501:501 <> v:12
+R540:547 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R531:533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R508:522 stage57_R033_partial_bridge_candidate_20261124 <> compose_partial def
+R524:525 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.dx var
+R527:528 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.dy var
+R530:530 stage57_R033_partial_bridge_candidate_20261124 <> f:11 var
+R534:537 Coq.Init.Datatypes <> Some constr
+R539:539 stage57_R033_partial_bridge_candidate_20261124 <> v:12 var
+R571:573 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R548:562 stage57_R033_partial_bridge_candidate_20261124 <> compose_partial def
+R564:565 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.dy var
+R567:568 stage57_R033_partial_bridge_candidate_20261124 <> PartialBridge.dx var
+R570:570 stage57_R033_partial_bridge_candidate_20261124 <> f:11 var
+R574:577 Coq.Init.Datatypes <> Some constr
+R579:579 stage57_R033_partial_bridge_candidate_20261124 <> v:12 var
+R652:666 stage57_R033_partial_bridge_candidate_20261124 <> compose_partial def
+prf 722:742 <> partial_result_unique
+binder 753:753 <> p:13
+binder 755:755 <> q:14
+binder 757:757 <> f:15
+binder 759:759 <> u:16
+binder 761:761 <> v:17
+R796:801 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R787:789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R766:780 stage57_R033_partial_bridge_candidate_20261124 <> compose_partial def
+R782:782 stage57_R033_partial_bridge_candidate_20261124 <> p:13 var
+R784:784 stage57_R033_partial_bridge_candidate_20261124 <> q:14 var
+R786:786 stage57_R033_partial_bridge_candidate_20261124 <> f:15 var
+R790:793 Coq.Init.Datatypes <> Some constr
+R795:795 stage57_R033_partial_bridge_candidate_20261124 <> u:16 var
+R832:835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R823:825 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R802:816 stage57_R033_partial_bridge_candidate_20261124 <> compose_partial def
+R818:818 stage57_R033_partial_bridge_candidate_20261124 <> p:13 var
+R820:820 stage57_R033_partial_bridge_candidate_20261124 <> q:14 var
+R822:822 stage57_R033_partial_bridge_candidate_20261124 <> f:15 var
+R826:829 Coq.Init.Datatypes <> Some constr
+R831:831 stage57_R033_partial_bridge_candidate_20261124 <> v:17 var
+R837:839 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R836:836 stage57_R033_partial_bridge_candidate_20261124 <> u:16 var
+R840:840 stage57_R033_partial_bridge_candidate_20261124 <> v:17 var
+R931:943 stage57_R033_partial_bridge_candidate_20261124 PartialBridge <> sec
+prf 955:971 <> total_case_legacy
+binder 985:985 <> A:18
+R1003:1006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1002:1002 stage57_R033_partial_bridge_candidate_20261124 <> A:18 var
+R1007:1007 stage57_R033_partial_bridge_candidate_20261124 <> A:18 var
+binder 996:996 <> p:19
+binder 998:998 <> q:20
+R1015:1015 stage57_R033_partial_bridge_candidate_20261124 <> A:18 var
+binder 1011:1011 <> f:21
+R1044:1049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1021:1037 stage57_R033_partial_bridge_candidate_20261124 <> commute_on def
+R1043:1043 stage57_R033_partial_bridge_candidate_20261124 <> f:21 var
+R1041:1041 stage57_R033_partial_bridge_candidate_20261124 <> q:20 var
+R1039:1039 stage57_R033_partial_bridge_candidate_20261124 <> p:19 var
+R1050:1062 stage57_R033_partial_bridge_candidate_20261124 <> r033_eligible def
+R1116:1116 stage57_R033_partial_bridge_candidate_20261124 <> f:21 var
+binder 1099:1099 <> x:22
+R1104:1107 Coq.Init.Datatypes <> Some constr
+R1110:1110 stage57_R033_partial_bridge_candidate_20261124 <> q:20 var
+R1112:1112 stage57_R033_partial_bridge_candidate_20261124 <> x:22 var
+binder 1073:1073 <> x:23
+R1078:1081 Coq.Init.Datatypes <> Some constr
+R1084:1084 stage57_R033_partial_bridge_candidate_20261124 <> p:19 var
+R1086:1086 stage57_R033_partial_bridge_candidate_20261124 <> x:23 var
+R1155:1171 stage57_R033_partial_bridge_candidate_20261124 <> commute_on def
+R1281:1299 stage57_R033_partial_bridge_candidate_20261124 <> r033_partial_bridge thm
+R1320:1340 stage57_R033_partial_bridge_candidate_20261124 <> partial_result_unique thm
+R1361:1377 stage57_R033_partial_bridge_candidate_20261124 <> total_case_legacy thm

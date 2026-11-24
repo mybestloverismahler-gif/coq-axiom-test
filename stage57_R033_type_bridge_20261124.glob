@@ -1,0 +1,117 @@
+DIGEST b2c4170eb59c4656000c7ec916f1298d
+Fstage57_R033_type_bridge_20261124
+R15:63 stage57_R012_R1603_scoped_type_candidate_20261122 <> <> lib
+R78:126 stage57_R012_R1603_scoped_type_candidate_20261122 <> <> modtype
+mod 73:73 <> S
+ind 140:147 <> field_ty
+constr 154:165 <> ExistingType
+constr 187:198 <> SpatialField
+R172:182 stage57_R033_type_bridge_20261124 <> scoped_ty ind
+binder 168:168 <> t:3
+R205:207 Coq.Init.Datatypes <> nat ind
+binder 201:201 <> n:4
+scheme 140:147 <> field_ty_rect
+scheme 140:147 <> field_ty_ind
+scheme 140:147 <> field_ty_rec
+scheme 140:147 <> field_ty_sind
+ind 222:231 <> field_expr
+constr 238:249 <> ExistingExpr
+constr 273:277 <> Field
+constr 281:282 <> Dx
+constr 303:304 <> Dy
+R256:268 stage57_R033_type_bridge_20261124 <> scoped_expr ind
+binder 252:252 <> e:7
+R289:298 stage57_R033_type_bridge_20261124 <> field_expr:5 ind
+binder 285:285 <> e:8
+R311:320 stage57_R033_type_bridge_20261124 <> field_expr:5 ind
+binder 307:307 <> e:9
+scheme 222:231 <> field_expr_rect
+scheme 222:231 <> field_expr_ind
+scheme 222:231 <> field_expr_rec
+scheme 222:231 <> field_expr_sind
+def 334:344 <> infer_field
+R351:360 stage57_R033_type_bridge_20261124 <> field_expr ind
+binder 347:347 <> e:10
+R367:372 Coq.Init.Datatypes <> option ind
+R374:381 stage57_R033_type_bridge_20261124 <> field_ty ind
+R394:394 stage57_R033_type_bridge_20261124 <> e:10 var
+R405:416 stage57_R033_type_bridge_20261124 <> ExistingExpr constr
+R435:448 stage57_R033_type_bridge_20261124 <> infer_scoped def
+R465:468 Coq.Init.Datatypes <> Some constr
+R475:478 Coq.Init.Datatypes <> Some constr
+R481:492 stage57_R033_type_bridge_20261124 <> ExistingType constr
+R505:508 Coq.Init.Datatypes <> None constr
+R513:516 Coq.Init.Datatypes <> None constr
+R532:536 stage57_R033_type_bridge_20261124 <> Field constr
+R541:544 Coq.Init.Datatypes <> Some constr
+R547:558 stage57_R033_type_bridge_20261124 <> SpatialField constr
+R567:568 stage57_R033_type_bridge_20261124 <> Dx constr
+R574:575 stage57_R033_type_bridge_20261124 <> Dy constr
+R594:604 stage57_R033_type_bridge_20261124 <> infer_field:11 def
+R621:624 Coq.Init.Datatypes <> Some constr
+R627:638 stage57_R033_type_bridge_20261124 <> SpatialField constr
+R656:659 Coq.Init.Datatypes <> Some constr
+R662:673 stage57_R033_type_bridge_20261124 <> SpatialField constr
+R676:686 Coq.Init.Datatypes <> S constr
+R705:708 Coq.Init.Datatypes <> None constr
+R594:604 stage57_R033_type_bridge_20261124 <> infer_field:11 def
+R621:624 Coq.Init.Datatypes <> Some constr
+R627:638 stage57_R033_type_bridge_20261124 <> SpatialField constr
+R656:659 Coq.Init.Datatypes <> Some constr
+R662:673 stage57_R033_type_bridge_20261124 <> SpatialField constr
+R676:686 Coq.Init.Datatypes <> S constr
+R705:708 Coq.Init.Datatypes <> None constr
+prf 736:758 <> existing_type_preserved
+binder 771:771 <> e:13
+binder 773:773 <> t:14
+R803:808 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R794:796 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R778:791 stage57_R033_type_bridge_20261124 <> infer_scoped def
+R793:793 stage57_R033_type_bridge_20261124 <> e:13 var
+R797:800 Coq.Init.Datatypes <> Some constr
+R802:802 stage57_R033_type_bridge_20261124 <> t:14 var
+R837:843 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R809:819 stage57_R033_type_bridge_20261124 <> infer_field def
+R822:833 stage57_R033_type_bridge_20261124 <> ExistingExpr constr
+R835:835 stage57_R033_type_bridge_20261124 <> e:13 var
+R844:847 Coq.Init.Datatypes <> Some constr
+R850:861 stage57_R033_type_bridge_20261124 <> ExistingType constr
+R863:863 stage57_R033_type_bridge_20261124 <> t:14 var
+prf 937:950 <> r033_same_type
+R1011:1016 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R983:989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R956:966 stage57_R033_type_bridge_20261124 <> infer_field def
+R969:970 stage57_R033_type_bridge_20261124 <> Dx constr
+R973:974 stage57_R033_type_bridge_20261124 <> Dy constr
+R976:980 stage57_R033_type_bridge_20261124 <> Field constr
+R990:993 Coq.Init.Datatypes <> Some constr
+R996:1007 stage57_R033_type_bridge_20261124 <> SpatialField constr
+R1044:1050 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1017:1027 stage57_R033_type_bridge_20261124 <> infer_field def
+R1030:1031 stage57_R033_type_bridge_20261124 <> Dy constr
+R1034:1035 stage57_R033_type_bridge_20261124 <> Dx constr
+R1037:1041 stage57_R033_type_bridge_20261124 <> Field constr
+R1051:1054 Coq.Init.Datatypes <> Some constr
+R1057:1068 stage57_R033_type_bridge_20261124 <> SpatialField constr
+prf 1117:1133 <> field_type_unique
+binder 1146:1146 <> e:15
+binder 1148:1148 <> a:16
+binder 1150:1150 <> b:17
+R1177:1182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1168:1170 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1155:1165 stage57_R033_type_bridge_20261124 <> infer_field def
+R1167:1167 stage57_R033_type_bridge_20261124 <> e:15 var
+R1171:1174 Coq.Init.Datatypes <> Some constr
+R1176:1176 stage57_R033_type_bridge_20261124 <> a:16 var
+R1205:1208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1196:1198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1183:1193 stage57_R033_type_bridge_20261124 <> infer_field def
+R1195:1195 stage57_R033_type_bridge_20261124 <> e:15 var
+R1199:1202 Coq.Init.Datatypes <> Some constr
+R1204:1204 stage57_R033_type_bridge_20261124 <> b:17 var
+R1210:1212 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1209:1209 stage57_R033_type_bridge_20261124 <> a:16 var
+R1213:1213 stage57_R033_type_bridge_20261124 <> b:17 var
+R1313:1335 stage57_R033_type_bridge_20261124 <> existing_type_preserved thm
+R1356:1369 stage57_R033_type_bridge_20261124 <> r033_same_type thm
+R1390:1406 stage57_R033_type_bridge_20261124 <> field_type_unique thm

@@ -1,0 +1,72 @@
+DIGEST ec0abe0edce2cc45dda176703710de15
+Fstage57_T3_two_models_token_bridge
+R15:35 stage57_T3_relational <> <> lib
+R53:75 stage57_T3_injective_v1 <> <> lib
+R91:111 stage57_T3_relational <> <> modtype
+mod 86:86 <> R
+R126:148 stage57_T3_injective_v1 <> <> modtype
+mod 121:121 <> I
+def 163:168 <> R_to_I
+R173:179 stage57_T3_two_models_token_bridge <> token ind
+binder 171:171 <> t:1
+R184:190 stage57_T3_two_models_token_bridge <> token ind
+R203:203 stage57_T3_two_models_token_bridge <> t:1 var
+R214:217 stage57_T3_two_models_token_bridge <> Tx constr
+R222:225 stage57_T3_two_models_token_bridge <> Tx constr
+R231:234 stage57_T3_two_models_token_bridge <> Ty constr
+R239:242 stage57_T3_two_models_token_bridge <> Ty constr
+R248:251 stage57_T3_two_models_token_bridge <> Tp constr
+R256:259 stage57_T3_two_models_token_bridge <> Tp constr
+R265:268 stage57_T3_two_models_token_bridge <> TL constr
+R273:276 stage57_T3_two_models_token_bridge <> TL constr
+R282:285 stage57_T3_two_models_token_bridge <> TR constr
+R290:293 stage57_T3_two_models_token_bridge <> TR constr
+R299:304 stage57_T3_two_models_token_bridge <> Tneg constr
+R309:314 stage57_T3_two_models_token_bridge <> Tneg constr
+R320:325 stage57_T3_two_models_token_bridge <> Tadd constr
+R330:335 stage57_T3_two_models_token_bridge <> Tadd constr
+R341:347 stage57_T3_two_models_token_bridge <> Tpair constr
+R352:358 stage57_T3_two_models_token_bridge <> Tpair constr
+R364:369 stage57_T3_two_models_token_bridge <> Tfst constr
+R374:379 stage57_T3_two_models_token_bridge <> Tfst constr
+def 400:405 <> I_to_R
+R410:416 stage57_T3_two_models_token_bridge <> token ind
+binder 408:408 <> t:3
+R421:427 stage57_T3_two_models_token_bridge <> token ind
+R440:440 stage57_T3_two_models_token_bridge <> t:3 var
+R451:454 stage57_T3_two_models_token_bridge <> Tx constr
+R459:462 stage57_T3_two_models_token_bridge <> Tx constr
+R468:471 stage57_T3_two_models_token_bridge <> Ty constr
+R476:479 stage57_T3_two_models_token_bridge <> Ty constr
+R485:488 stage57_T3_two_models_token_bridge <> Tp constr
+R493:496 stage57_T3_two_models_token_bridge <> Tp constr
+R502:505 stage57_T3_two_models_token_bridge <> TL constr
+R510:513 stage57_T3_two_models_token_bridge <> TL constr
+R519:522 stage57_T3_two_models_token_bridge <> TR constr
+R527:530 stage57_T3_two_models_token_bridge <> TR constr
+R536:541 stage57_T3_two_models_token_bridge <> Tneg constr
+R546:551 stage57_T3_two_models_token_bridge <> Tneg constr
+R557:562 stage57_T3_two_models_token_bridge <> Tadd constr
+R567:572 stage57_T3_two_models_token_bridge <> Tadd constr
+R578:584 stage57_T3_two_models_token_bridge <> Tpair constr
+R589:595 stage57_T3_two_models_token_bridge <> Tpair constr
+R601:606 stage57_T3_two_models_token_bridge <> Tfst constr
+R611:616 stage57_T3_two_models_token_bridge <> Tfst constr
+prf 634:650 <> token_R_roundtrip
+R665:671 stage57_T3_two_models_token_bridge <> token ind
+binder 663:663 <> t:5
+R691:693 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R674:679 stage57_T3_two_models_token_bridge <> I_to_R def
+R682:687 stage57_T3_two_models_token_bridge <> R_to_I def
+R689:689 stage57_T3_two_models_token_bridge <> t:5 var
+R694:694 stage57_T3_two_models_token_bridge <> t:5 var
+prf 754:770 <> token_I_roundtrip
+R785:791 stage57_T3_two_models_token_bridge <> token ind
+binder 783:783 <> t:6
+R811:813 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R794:799 stage57_T3_two_models_token_bridge <> R_to_I def
+R802:807 stage57_T3_two_models_token_bridge <> I_to_R def
+R809:809 stage57_T3_two_models_token_bridge <> t:6 var
+R814:814 stage57_T3_two_models_token_bridge <> t:6 var
+R884:900 stage57_T3_two_models_token_bridge <> token_R_roundtrip thm
+R921:937 stage57_T3_two_models_token_bridge <> token_I_roundtrip thm

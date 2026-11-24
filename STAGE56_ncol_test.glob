@@ -1,0 +1,41 @@
+DIGEST a40e7309968600abe76b85277fd324e6
+FSTAGE56_ncol_test
+R15:42 GeoCoq.Axioms.hilbert_axioms <> <> lib
+R60:76 STAGE56_plan_test <> <> lib
+R94:118 STAGE56_col_transfer_v003 <> <> lib
+sec 130:133 <> Test
+R150:167 GeoCoq.Axioms.hilbert_axioms <> Hilbert_neutral_2D class
+binder 146:146 <> H:2
+prf 178:196 <> stage56_ncol_exists
+R215:219 GeoCoq.Axioms.hilbert_axioms <> Point meth
+binder 209:209 <> A:3
+binder 211:211 <> B:4
+R228:235 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R223:226 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R222:222 STAGE56_ncol_test <> A:3 var
+R227:227 STAGE56_ncol_test <> B:4 var
+R236:242 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R252:253 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R247:251 GeoCoq.Axioms.hilbert_axioms <> Point meth
+binder 243:243 <> C:5
+R254:255 Coq.Init.Logic <> ::type_scope:'~'_x not
+R256:259 GeoCoq.Axioms.hilbert_axioms <> ColH meth
+R265:265 STAGE56_ncol_test <> C:5 var
+R263:263 STAGE56_ncol_test <> B:4 var
+R261:261 STAGE56_ncol_test <> A:3 var
+R304:315 STAGE56_plan_test <> stage56_plan thm
+R353:366 GeoCoq.Axioms.hilbert_axioms <> line_existence meth
+R353:366 GeoCoq.Axioms.hilbert_axioms <> line_existence meth
+R407:416 GeoCoq.Axioms.hilbert_axioms <> IncidL_dec meth
+R407:416 GeoCoq.Axioms.hilbert_axioms <> IncidL_dec meth
+R451:460 GeoCoq.Axioms.hilbert_axioms <> IncidL_dec meth
+R451:460 GeoCoq.Axioms.hilbert_axioms <> IncidL_dec meth
+R497:506 GeoCoq.Axioms.hilbert_axioms <> IncidL_dec meth
+R497:506 GeoCoq.Axioms.hilbert_axioms <> IncidL_dec meth
+R658:677 STAGE56_col_transfer_v003 <> stage56_col_transfer thm
+R658:677 STAGE56_col_transfer_v003 <> stage56_col_transfer thm
+R757:776 STAGE56_col_transfer_v003 <> stage56_col_transfer thm
+R757:776 STAGE56_col_transfer_v003 <> stage56_col_transfer thm
+R852:871 STAGE56_col_transfer_v003 <> stage56_col_transfer thm
+R852:871 STAGE56_col_transfer_v003 <> stage56_col_transfer thm
+R910:913 STAGE56_ncol_test Test <> sec

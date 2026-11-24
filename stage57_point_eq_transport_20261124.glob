@@ -1,0 +1,62 @@
+DIGEST d009179d3daae294acd732cf3ed38417
+Fstage57_point_eq_transport_20261124
+R24:38 Coq.Logic.Eqdep_dec <> <> lib
+R56:82 GeoCoq.Axioms.tarski_axioms <> <> lib
+sec 94:107 <> PointTransport
+R125:152 GeoCoq.Axioms.tarski_axioms <> Tarski_neutral_dimensionless class
+binder 120:121 <> Tn:1
+R172:229 GeoCoq.Axioms.tarski_axioms <> Tarski_neutral_dimensionless_with_decidable_point_equality class
+R231:232 stage57_point_eq_transport_20261124 <> PointTransport.Tn var
+binder 165:166 <> Td:2
+prf 245:253 <> point_UIP
+R273:278 GeoCoq.Axioms.tarski_axioms <> Tpoint meth
+binder 267:267 <> p:3
+binder 269:269 <> q:4
+R289:291 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R288:288 stage57_point_eq_transport_20261124 <> p:3 var
+R292:292 stage57_point_eq_transport_20261124 <> q:4 var
+binder 282:282 <> h:5
+binder 284:284 <> k:6
+R301:303 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R300:300 stage57_point_eq_transport_20261124 <> h:5 var
+R304:304 stage57_point_eq_transport_20261124 <> k:6 var
+R322:338 Coq.Logic.Eqdep_dec <> eq_proofs_unicity thm
+R322:338 Coq.Logic.Eqdep_dec <> eq_proofs_unicity thm
+R351:377 GeoCoq.Axioms.tarski_axioms <> point_equality_decidability meth
+R379:380 stage57_point_eq_transport_20261124 <> PointTransport.Tn var
+R382:383 stage57_point_eq_transport_20261124 <> PointTransport.Td var
+R351:377 GeoCoq.Axioms.tarski_axioms <> point_equality_decidability meth
+R379:380 stage57_point_eq_transport_20261124 <> PointTransport.Tn var
+R382:383 stage57_point_eq_transport_20261124 <> PointTransport.Td var
+prf 401:416 <> point_eq_rect_eq
+R434:439 GeoCoq.Axioms.tarski_axioms <> Tpoint meth
+binder 430:430 <> p:7
+R453:456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R447:452 GeoCoq.Axioms.tarski_axioms <> Tpoint meth
+binder 443:443 <> Q:8
+R477:477 stage57_point_eq_transport_20261124 <> Q:8 var
+R479:479 stage57_point_eq_transport_20261124 <> p:7 var
+binder 473:473 <> x:9
+R488:490 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R487:487 stage57_point_eq_transport_20261124 <> p:7 var
+R491:491 stage57_point_eq_transport_20261124 <> p:7 var
+binder 483:483 <> h:10
+R500:502 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R499:499 stage57_point_eq_transport_20261124 <> x:9 var
+R503:509 Coq.Init.Logic <> eq_rect scheme
+R519:519 stage57_point_eq_transport_20261124 <> h:10 var
+R517:517 stage57_point_eq_transport_20261124 <> p:7 var
+R515:515 stage57_point_eq_transport_20261124 <> x:9 var
+R513:513 stage57_point_eq_transport_20261124 <> Q:8 var
+R511:511 stage57_point_eq_transport_20261124 <> p:7 var
+R558:566 stage57_point_eq_transport_20261124 <> point_UIP thm
+R574:580 Coq.Init.Logic <> eq_refl constr
+R558:566 stage57_point_eq_transport_20261124 <> point_UIP thm
+R574:580 Coq.Init.Logic <> eq_refl constr
+R558:566 stage57_point_eq_transport_20261124 <> point_UIP thm
+R574:580 Coq.Init.Logic <> eq_refl constr
+R609:622 stage57_point_eq_transport_20261124 PointTransport <> sec
+R632:640 stage57_point_eq_transport_20261124 <> point_UIP thm
+R649:664 stage57_point_eq_transport_20261124 <> point_eq_rect_eq thm
+R685:693 stage57_point_eq_transport_20261124 <> point_UIP thm
+R714:729 stage57_point_eq_transport_20261124 <> point_eq_rect_eq thm

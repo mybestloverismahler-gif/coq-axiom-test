@@ -1,0 +1,282 @@
+DIGEST 613037b991f0d6ab2535945be93bb812
+Fstage57_sum_exists_2D_v2_20261124
+R15:46 GeoCoq.Main.Tarski_dev.Ch14_prod <> <> lib
+R64:93 stage57_projection_2D_20261124 <> <> lib
+R111:142 stage57_par_trans_2D_v4_20261124 <> <> lib
+sec 154:165 <> Arithmetic2D
+R182:209 GeoCoq.Axioms.tarski_axioms <> Tarski_neutral_dimensionless class
+binder 177:178 <> Tn:1
+R227:284 GeoCoq.Axioms.tarski_axioms <> Tarski_neutral_dimensionless_with_decidable_point_equality class
+R286:287 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.Tn var
+binder 222:223 <> Td:2
+R305:313 GeoCoq.Axioms.tarski_axioms <> Tarski_2D class
+R315:316 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.Td var
+binder 300:301 <> T2:3
+R334:349 GeoCoq.Axioms.tarski_axioms <> Tarski_euclidean class
+R351:352 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.Td var
+binder 329:330 <> TE:4
+var 368:369 Arithmetic2D HD
+R390:395 GeoCoq.Axioms.tarski_axioms <> Tpoint meth
+binder 380:380 <> A:5
+binder 382:382 <> B:6
+binder 384:384 <> C:7
+binder 386:386 <> D:8
+R400:400 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R433:439 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R401:407 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R409:410 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 408:408 <> X:9
+R420:423 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R411:413 GeoCoq.Axioms.Definitions <> Col def
+R415:415 stage57_sum_exists_2D_v2_20261124 <> X:9 var
+R417:417 stage57_sum_exists_2D_v2_20261124 <> A:5 var
+R419:419 stage57_sum_exists_2D_v2_20261124 <> B:6 var
+R424:426 GeoCoq.Axioms.Definitions <> Col def
+R428:428 stage57_sum_exists_2D_v2_20261124 <> X:9 var
+R430:430 stage57_sum_exists_2D_v2_20261124 <> C:7 var
+R432:432 stage57_sum_exists_2D_v2_20261124 <> D:8 var
+R440:442 Coq.Init.Logic <> ::type_scope:'~'_x not
+R475:475 Coq.Init.Logic <> ::type_scope:'~'_x not
+R443:449 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R451:452 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 450:450 <> X:10
+R462:465 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R453:455 GeoCoq.Axioms.Definitions <> Col def
+R457:457 stage57_sum_exists_2D_v2_20261124 <> X:10 var
+R459:459 stage57_sum_exists_2D_v2_20261124 <> A:5 var
+R461:461 stage57_sum_exists_2D_v2_20261124 <> B:6 var
+R466:468 GeoCoq.Axioms.Definitions <> Col def
+R470:470 stage57_sum_exists_2D_v2_20261124 <> X:10 var
+R472:472 stage57_sum_exists_2D_v2_20261124 <> C:7 var
+R474:474 stage57_sum_exists_2D_v2_20261124 <> D:8 var
+var 488:488 Arithmetic2D O
+var 490:490 Arithmetic2D E
+var 492:493 Arithmetic2D E'
+R497:502 GeoCoq.Axioms.tarski_axioms <> Tpoint meth
+var 514:520 Arithmetic2D grid_ok
+R524:525 Coq.Init.Logic <> ::type_scope:'~'_x not
+R526:528 GeoCoq.Axioms.Definitions <> Col def
+R530:530 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R532:532 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R534:535 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+prf 545:563 <> sum_exists_2D_local
+binder 574:574 <> A:16
+binder 576:576 <> B:17
+R589:592 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R580:582 GeoCoq.Axioms.Definitions <> Col def
+R584:584 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R586:586 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R588:588 stage57_sum_exists_2D_v2_20261124 <> A:16 var
+R602:606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R593:595 GeoCoq.Axioms.Definitions <> Col def
+R597:597 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R599:599 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R601:601 stage57_sum_exists_2D_v2_20261124 <> B:17 var
+R607:613 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R615:616 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 614:614 <> C:18
+R617:619 GeoCoq.Axioms.Definitions <> Sum def
+R621:621 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R623:623 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R625:626 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R628:628 stage57_sum_exists_2D_v2_20261124 <> A:16 var
+R630:630 stage57_sum_exists_2D_v2_20261124 <> B:17 var
+R632:632 stage57_sum_exists_2D_v2_20261124 <> C:18 var
+R670:676 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.grid_ok var
+R670:676 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.grid_ok var
+R692:695 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R691:691 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R696:696 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R692:695 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R691:691 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R696:696 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R767:770 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R766:766 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R771:772 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R767:770 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R766:766 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R771:772 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R846:858 GeoCoq.Main.Tarski_dev.Ch02_cong <> eq_dec_points thm
+R860:860 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R846:858 GeoCoq.Main.Tarski_dev.Ch02_cong <> eq_dec_points thm
+R860:860 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R910:912 GeoCoq.Axioms.Definitions <> Sum def
+R943:945 GeoCoq.Axioms.Definitions <> Ar2 def
+R981:981 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R981:981 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R1013:1014 GeoCoq.Axioms.Definitions <> Pj def
+R1097:1109 GeoCoq.Main.Tarski_dev.Ch02_cong <> eq_dec_points thm
+R1111:1111 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R1097:1109 GeoCoq.Main.Tarski_dev.Ch02_cong <> eq_dec_points thm
+R1111:1111 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R1247:1254 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R1257:1259 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+binder 1255:1256 <> A':19
+R1260:1263 GeoCoq.Axioms.Definitions <> Proj def
+R1267:1268 stage57_sum_exists_2D_v2_20261124 <> A':19 var
+R1270:1270 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R1272:1273 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R1275:1275 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R1277:1278 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R1247:1254 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R1257:1259 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+binder 1255:1256 <> A':20
+R1260:1263 GeoCoq.Axioms.Definitions <> Proj def
+R1267:1268 stage57_sum_exists_2D_v2_20261124 <> A':20 var
+R1270:1270 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R1272:1273 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R1275:1275 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R1277:1278 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R1295:1320 stage57_projection_2D_20261124 <> project_existence_2D_local thm
+R1322:1323 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.HD var
+R1328:1328 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R1330:1331 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R1333:1333 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R1335:1336 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R1295:1320 stage57_projection_2D_20261124 <> project_existence_2D_local thm
+R1322:1323 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.HD var
+R1328:1328 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R1330:1331 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R1333:1333 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R1335:1336 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R1432:1433 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R1432:1433 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R1531:1549 GeoCoq.Main.Tarski_dev.Ch12_parallel <> parallel_existence1 thm
+R1551:1551 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R1553:1553 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R1531:1549 GeoCoq.Main.Tarski_dev.Ch12_parallel <> parallel_existence1 thm
+R1551:1551 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R1553:1553 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R1591:1596 Coq.Init.Logic <> unique def
+R1630:1633 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1630:1633 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1680:1690 GeoCoq.Main.Annexes.project <> project_col thm
+R1680:1690 GeoCoq.Main.Annexes.project <> project_col thm
+R1728:1745 GeoCoq.Main.Tarski_dev.Ch06_out_lines <> col_transitivity_1 thm
+R1728:1745 GeoCoq.Main.Tarski_dev.Ch06_out_lines <> col_transitivity_1 thm
+R1772:1784 GeoCoq.Main.Tarski_dev.Ch02_cong <> eq_dec_points thm
+R1788:1788 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R1772:1784 GeoCoq.Main.Tarski_dev.Ch02_cong <> eq_dec_points thm
+R1788:1788 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R1836:1838 GeoCoq.Axioms.Definitions <> Sum def
+R1869:1871 GeoCoq.Axioms.Definitions <> Ar2 def
+R1948:1949 GeoCoq.Axioms.Definitions <> Pj def
+R1965:1968 GeoCoq.Axioms.Definitions <> Proj def
+R2084:2095 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R2084:2095 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R2358:2358 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R2358:2358 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R2501:2512 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R2501:2512 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R2529:2536 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_comm thm
+R2529:2536 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_comm thm
+R2585:2592 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R2595:2596 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+binder 2593:2594 <> C':21
+R2597:2600 GeoCoq.Axioms.Definitions <> Proj def
+R2604:2605 stage57_sum_exists_2D_v2_20261124 <> C':21 var
+R2612:2612 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R2614:2615 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R2585:2592 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R2595:2596 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+binder 2593:2594 <> C':22
+R2597:2600 GeoCoq.Axioms.Definitions <> Proj def
+R2604:2605 stage57_sum_exists_2D_v2_20261124 <> C':22 var
+R2612:2612 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R2614:2615 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R2632:2657 stage57_projection_2D_20261124 <> project_existence_2D_local thm
+R2659:2660 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.HD var
+R2670:2670 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R2672:2673 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R2632:2657 stage57_projection_2D_20261124 <> project_existence_2D_local thm
+R2659:2660 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.HD var
+R2670:2670 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R2672:2673 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R2695:2707 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_distincts thm
+R2695:2707 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_distincts thm
+R2769:2771 GeoCoq.Axioms.Definitions <> Par def
+R2773:2773 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R2775:2775 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R2777:2777 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R2779:2780 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R2769:2771 GeoCoq.Axioms.Definitions <> Par def
+R2773:2773 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R2775:2775 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R2777:2777 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R2779:2780 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R2799:2816 stage57_par_trans_2D_v4_20261124 <> par_trans_2D_local thm
+R2799:2816 stage57_par_trans_2D_v4_20261124 <> par_trans_2D_local thm
+R2859:2870 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R2859:2870 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R2942:2942 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R2942:2942 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R3036:3041 Coq.Init.Logic <> unique def
+R3075:3082 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R3093:3094 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R3087:3092 GeoCoq.Axioms.tarski_axioms <> Tpoint meth
+binder 3083:3083 <> C:23
+R3095:3098 GeoCoq.Axioms.Definitions <> Proj def
+R3103:3103 stage57_sum_exists_2D_v2_20261124 <> C:23 var
+R3105:3105 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R3107:3107 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R3075:3082 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R3093:3094 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R3087:3092 GeoCoq.Axioms.tarski_axioms <> Tpoint meth
+binder 3083:3083 <> C:24
+R3095:3098 GeoCoq.Axioms.Definitions <> Proj def
+R3103:3103 stage57_sum_exists_2D_v2_20261124 <> C:24 var
+R3105:3105 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R3107:3107 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R3129:3154 stage57_projection_2D_20261124 <> project_existence_2D_local thm
+R3156:3157 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.HD var
+R3163:3163 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R3165:3165 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R3129:3154 stage57_projection_2D_20261124 <> project_existence_2D_local thm
+R3156:3157 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.HD var
+R3163:3163 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R3165:3165 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R3303:3317 GeoCoq.Main.Annexes.project <> project_par_dir thm
+R3324:3324 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R3326:3327 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R3329:3329 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R3331:3332 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R3303:3317 GeoCoq.Main.Annexes.project <> project_par_dir thm
+R3324:3324 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.O var
+R3326:3327 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R3329:3329 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R3331:3332 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E' var
+R3356:3358 GeoCoq.Axioms.Definitions <> Col def
+R3360:3360 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R3356:3358 GeoCoq.Axioms.Definitions <> Col def
+R3360:3360 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R3437:3437 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R3437:3437 stage57_sum_exists_2D_v2_20261124 <> Arithmetic2D.E var
+R3503:3519 GeoCoq.Main.Tarski_dev.Ch04_col <> col_permutation_2 thm
+R3503:3519 GeoCoq.Main.Tarski_dev.Ch04_col <> col_permutation_2 thm
+R3534:3551 GeoCoq.Main.Tarski_dev.Ch06_out_lines <> col_transitivity_1 thm
+R3534:3551 GeoCoq.Main.Tarski_dev.Ch06_out_lines <> col_transitivity_1 thm
+R3633:3636 GeoCoq.Axioms.Definitions <> Proj def
+R3716:3721 Coq.Init.Logic <> unique def
+R3755:3758 GeoCoq.Axioms.Definitions <> Proj def
+R3804:3806 GeoCoq.Axioms.Definitions <> Sum def
+R3833:3835 GeoCoq.Axioms.Definitions <> Ar2 def
+R3904:3905 GeoCoq.Axioms.Definitions <> Pj def
+R3973:3984 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R3973:3984 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R4059:4069 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_col_par thm
+R4059:4069 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_col_par thm
+R4441:4458 GeoCoq.Main.Tarski_dev.Ch06_out_lines <> col_transitivity_1 thm
+R4441:4458 GeoCoq.Main.Tarski_dev.Ch06_out_lines <> col_transitivity_1 thm
+R4720:4731 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R4720:4731 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R4836:4853 stage57_par_trans_2D_v4_20261124 <> par_trans_2D_local thm
+R4836:4853 stage57_par_trans_2D_v4_20261124 <> par_trans_2D_local thm
+R4882:4893 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R4882:4893 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R4912:4925 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_right_comm thm
+R4912:4925 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_right_comm thm
+R4958:4969 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R4958:4969 GeoCoq.Main.Tarski_dev.Ch12_parallel <> par_symmetry thm
+R5055:5066 stage57_sum_exists_2D_v2_20261124 Arithmetic2D <> sec
+R5075:5093 stage57_sum_exists_2D_v2_20261124 <> sum_exists_2D_local thm
+R5114:5132 stage57_sum_exists_2D_v2_20261124 <> sum_exists_2D_local thm

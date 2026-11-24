@@ -1,0 +1,31 @@
+Welcome to Coq 8.18.0
+
+Coq < 
+Coq < stage51_plan_prime
+     : exists P Q R : hilbert_axioms.Point, ~ hilbert_axioms.ColH P Q R
+where
+?Hi : [ |- hilbert_axioms.Hilbert_neutral_dimensionless]
+
+Coq < stage51_col_transfer
+     : forall (A B C : hilbert_axioms.Point) (l : hilbert_axioms.Line),
+       A <> B ->
+       hilbert_axioms.IncidL A l ->
+       hilbert_axioms.IncidL B l ->
+       hilbert_axioms.ColH A B C -> hilbert_axioms.IncidL C l
+where
+?Hi : [ |- hilbert_axioms.Hilbert_neutral_dimensionless]
+
+Coq < stage51_ncol_exists
+     : forall A B : hilbert_axioms.Point,
+       A <> B -> exists D : hilbert_axioms.Point, ~ hilbert_axioms.ColH A B D
+where
+?Hi : [ |- hilbert_axioms.Hilbert_neutral_dimensionless]
+
+Coq < Fetching opaque proofs from disk for STAGE52_GeoCoq_candidate_v5_20261124
+Closed under the global context
+
+Coq < Closed under the global context
+
+Coq < Closed under the global context
+
+Coq < 

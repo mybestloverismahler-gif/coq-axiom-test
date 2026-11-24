@@ -1,0 +1,61 @@
+DIGEST 429383921c1a0edd441d6bfb8b68d05c
+Fstage57_U1_nested_occurs_candidate
+R15:40 stage57_T3_T4_U1_candidate <> <> lib
+R55:80 stage57_T3_T4_U1_candidate <> <> modtype
+mod 50:50 <> B
+def 93:98 <> occurs
+R107:112 stage57_U1_nested_occurs_candidate <> expr ind
+binder 101:101 <> p:1
+R107:112 stage57_U1_nested_occurs_candidate <> expr ind
+binder 103:103 <> e:2
+R143:148 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R139:141 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R138:138 stage57_U1_nested_occurs_candidate <> p:1 var
+R142:142 stage57_U1_nested_occurs_candidate <> e:2 var
+R155:155 stage57_U1_nested_occurs_candidate <> e:2 var
+R166:170 stage57_U1_nested_occurs_candidate <> Neg constr
+R177:182 stage57_U1_nested_occurs_candidate <> occurs:3 def
+R184:184 stage57_U1_nested_occurs_candidate <> p:1 var
+R192:196 stage57_U1_nested_occurs_candidate <> Fst constr
+R203:208 stage57_U1_nested_occurs_candidate <> occurs:3 def
+R210:210 stage57_U1_nested_occurs_candidate <> p:1 var
+R218:222 stage57_U1_nested_occurs_candidate <> Add constr
+R241:244 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R231:236 stage57_U1_nested_occurs_candidate <> occurs:3 def
+R238:238 stage57_U1_nested_occurs_candidate <> p:1 var
+R245:250 stage57_U1_nested_occurs_candidate <> occurs:3 def
+R252:252 stage57_U1_nested_occurs_candidate <> p:1 var
+R260:265 stage57_U1_nested_occurs_candidate <> Pair constr
+R284:287 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R274:279 stage57_U1_nested_occurs_candidate <> occurs:3 def
+R281:281 stage57_U1_nested_occurs_candidate <> p:1 var
+R288:293 stage57_U1_nested_occurs_candidate <> occurs:3 def
+R295:295 stage57_U1_nested_occurs_candidate <> p:1 var
+R308:312 Coq.Init.Logic <> False ind
+prf 330:344 <> nested_detected
+R350:355 stage57_U1_nested_occurs_candidate <> occurs def
+R357:360 stage57_U1_nested_occurs_candidate <> Ex constr
+R363:367 stage57_U1_nested_occurs_candidate <> Neg constr
+R370:374 stage57_U1_nested_occurs_candidate <> Add constr
+R376:379 stage57_U1_nested_occurs_candidate <> Ex constr
+R381:384 stage57_U1_nested_occurs_candidate <> Ey constr
+prf 423:433 <> occurs_refl
+binder 446:446 <> p:5
+R449:454 stage57_U1_nested_occurs_candidate <> occurs def
+R456:456 stage57_U1_nested_occurs_candidate <> p:5 var
+R458:458 stage57_U1_nested_occurs_candidate <> p:5 var
+prf 533:553 <> direct_implies_occurs
+binder 566:566 <> p:6
+binder 568:568 <> e:7
+R591:594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R575:586 stage57_U1_nested_occurs_candidate <> depends_on def
+R588:588 stage57_U1_nested_occurs_candidate <> p:6 var
+R590:590 stage57_U1_nested_occurs_candidate <> e:7 var
+R595:600 stage57_U1_nested_occurs_candidate <> occurs def
+R602:602 stage57_U1_nested_occurs_candidate <> p:6 var
+R604:604 stage57_U1_nested_occurs_candidate <> e:7 var
+R683:693 stage57_U1_nested_occurs_candidate <> occurs_refl thm
+R683:693 stage57_U1_nested_occurs_candidate <> occurs_refl thm
+R683:693 stage57_U1_nested_occurs_candidate <> occurs_refl thm
+R720:734 stage57_U1_nested_occurs_candidate <> nested_detected thm
+R755:775 stage57_U1_nested_occurs_candidate <> direct_implies_occurs thm

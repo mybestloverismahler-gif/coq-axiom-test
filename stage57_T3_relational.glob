@@ -1,0 +1,239 @@
+DIGEST 9f03cde90d8c089cd30abaf30fecfb71
+Fstage57_T3_relational
+R146:159 Coq.Lists.List <> <> lib
+R169:181 Coq.Lists.List ListNotations <> mod
+ind 195:199 <> token
+constr 213:214 <> Tx
+constr 218:219 <> Ty
+constr 223:224 <> Tp
+constr 228:229 <> TL
+constr 233:234 <> TR
+constr 238:241 <> Tneg
+constr 245:248 <> Tadd
+constr 252:256 <> Tpair
+constr 260:263 <> Tfst
+scheme 195:199 <> token_rect
+scheme 195:199 <> token_ind
+scheme 195:199 <> token_rec
+scheme 195:199 <> token_sind
+ind 277:280 <> expr
+constr 294:295 <> Ex
+constr 299:300 <> Ey
+constr 304:305 <> Ep
+constr 309:312 <> ENeg
+constr 327:330 <> EAdd
+constr 347:351 <> EPair
+constr 368:371 <> EFst
+R319:322 stage57_T3_relational <> expr:3 ind
+binder 315:315 <> e:5
+R339:342 stage57_T3_relational <> expr:3 ind
+binder 333:333 <> a:6
+binder 335:335 <> b:7
+R360:363 stage57_T3_relational <> expr:3 ind
+binder 354:354 <> a:8
+binder 356:356 <> b:9
+R378:381 stage57_T3_relational <> expr:3 ind
+binder 374:374 <> e:10
+scheme 277:280 <> expr_rect
+scheme 277:280 <> expr_ind
+scheme 277:280 <> expr_rec
+scheme 277:280 <> expr_sind
+def 445:453 <> parse_one
+R463:465 Coq.Init.Datatypes <> nat ind
+binder 456:459 <> fuel:11
+R474:477 Coq.Init.Datatypes <> list ind
+R479:483 stage57_T3_relational <> token ind
+binder 469:470 <> ts:12
+R490:495 Coq.Init.Datatypes <> option ind
+R502:504 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R498:501 stage57_T3_relational <> expr ind
+R505:508 Coq.Init.Datatypes <> list ind
+R510:514 stage57_T3_relational <> token ind
+R528:531 stage57_T3_relational <> fuel:11 var
+R542:542 Coq.Init.Datatypes <> O constr
+R547:550 Coq.Init.Datatypes <> None constr
+R556:556 Coq.Init.Datatypes <> S constr
+R575:576 stage57_T3_relational <> ts:12 var
+R593:596 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R591:592 stage57_T3_relational <> Tx constr
+R605:608 Coq.Init.Datatypes <> Some constr
+R610:610 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R613:614 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R619:619 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R611:612 stage57_T3_relational <> Ex constr
+R631:634 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R629:630 stage57_T3_relational <> Ty constr
+R643:646 Coq.Init.Datatypes <> Some constr
+R648:648 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R651:652 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R657:657 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R649:650 stage57_T3_relational <> Ey constr
+R669:672 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R667:668 stage57_T3_relational <> Tp constr
+R681:684 Coq.Init.Datatypes <> Some constr
+R686:686 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R689:690 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R695:695 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R687:688 stage57_T3_relational <> Ep constr
+R707:710 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R705:706 stage57_T3_relational <> TL constr
+R715:718 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R711:714 stage57_T3_relational <> Tneg constr
+R743:751 stage57_T3_relational <> parse_one:13 def
+R777:780 Coq.Init.Datatypes <> Some constr
+R782:782 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R784:785 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R796:796 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R788:791 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R786:787 stage57_T3_relational <> TR constr
+R801:804 Coq.Init.Datatypes <> Some constr
+R806:806 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R813:814 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R819:819 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R807:810 stage57_T3_relational <> ENeg constr
+R838:841 Coq.Init.Datatypes <> None constr
+R867:870 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R865:866 stage57_T3_relational <> TL constr
+R875:878 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R871:874 stage57_T3_relational <> Tfst constr
+R903:911 stage57_T3_relational <> parse_one:13 def
+R937:940 Coq.Init.Datatypes <> Some constr
+R942:942 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R944:945 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R956:956 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R948:951 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R946:947 stage57_T3_relational <> TR constr
+R961:964 Coq.Init.Datatypes <> Some constr
+R966:966 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R973:974 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R979:979 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R967:970 stage57_T3_relational <> EFst constr
+R998:1001 Coq.Init.Datatypes <> None constr
+R1027:1030 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1025:1026 stage57_T3_relational <> TL constr
+R1035:1038 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1031:1034 stage57_T3_relational <> Tadd constr
+R1063:1071 stage57_T3_relational <> parse_one:13 def
+R1097:1100 Coq.Init.Datatypes <> Some constr
+R1102:1102 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1104:1105 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1110:1110 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1135:1143 stage57_T3_relational <> parse_one:13 def
+R1173:1176 Coq.Init.Datatypes <> Some constr
+R1178:1178 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1180:1181 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1192:1192 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1184:1187 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1182:1183 stage57_T3_relational <> TR constr
+R1197:1200 Coq.Init.Datatypes <> Some constr
+R1202:1202 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1211:1212 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1217:1217 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1203:1206 stage57_T3_relational <> EAdd constr
+R1240:1243 Coq.Init.Datatypes <> None constr
+R1280:1283 Coq.Init.Datatypes <> None constr
+R1309:1312 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1307:1308 stage57_T3_relational <> TL constr
+R1318:1321 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1313:1317 stage57_T3_relational <> Tpair constr
+R1346:1354 stage57_T3_relational <> parse_one:13 def
+R1380:1383 Coq.Init.Datatypes <> Some constr
+R1385:1385 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1387:1388 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1393:1393 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1418:1426 stage57_T3_relational <> parse_one:13 def
+R1456:1459 Coq.Init.Datatypes <> Some constr
+R1461:1461 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1463:1464 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1475:1475 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1467:1470 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1465:1466 stage57_T3_relational <> TR constr
+R1480:1483 Coq.Init.Datatypes <> Some constr
+R1485:1485 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1495:1496 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1501:1501 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1486:1490 stage57_T3_relational <> EPair constr
+R1524:1527 Coq.Init.Datatypes <> None constr
+R1564:1567 Coq.Init.Datatypes <> None constr
+R1596:1599 Coq.Init.Datatypes <> None constr
+def 1630:1643 <> parse_complete
+R1653:1655 Coq.Init.Datatypes <> nat ind
+binder 1646:1649 <> fuel:16
+R1664:1667 Coq.Init.Datatypes <> list ind
+R1669:1673 stage57_T3_relational <> token ind
+binder 1659:1660 <> ts:17
+R1680:1685 Coq.Init.Datatypes <> option ind
+R1687:1690 stage57_T3_relational <> expr ind
+R1703:1711 stage57_T3_relational <> parse_one def
+R1713:1716 stage57_T3_relational <> fuel:16 var
+R1718:1719 stage57_T3_relational <> ts:17 var
+R1730:1733 Coq.Init.Datatypes <> Some constr
+R1735:1735 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1737:1738 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1741:1741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1739:1740 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1746:1749 Coq.Init.Datatypes <> Some constr
+R1762:1765 Coq.Init.Datatypes <> None constr
+prf 1783:1808 <> T3_parse_unique_fixed_fuel
+binder 1821:1824 <> fuel:18
+binder 1826:1827 <> ts:19
+binder 1829:1829 <> a:20
+binder 1831:1831 <> b:21
+R1869:1876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1860:1862 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1838:1851 stage57_T3_relational <> parse_complete def
+R1853:1856 stage57_T3_relational <> fuel:18 var
+R1858:1859 stage57_T3_relational <> ts:19 var
+R1863:1866 Coq.Init.Datatypes <> Some constr
+R1868:1868 stage57_T3_relational <> a:20 var
+R1908:1915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1899:1901 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1877:1890 stage57_T3_relational <> parse_complete def
+R1892:1895 stage57_T3_relational <> fuel:18 var
+R1897:1898 stage57_T3_relational <> ts:19 var
+R1902:1905 Coq.Init.Datatypes <> Some constr
+R1907:1907 stage57_T3_relational <> b:21 var
+R1917:1919 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1916:1916 stage57_T3_relational <> a:20 var
+R1920:1920 stage57_T3_relational <> b:21 var
+def 2023:2035 <> T3_accept_add
+R2080:2082 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2041:2054 stage57_T3_relational <> parse_complete def
+R2058:2058 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2061:2062 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2067:2068 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2071:2072 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2075:2076 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2079:2079 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2059:2060 stage57_T3_relational <> TL constr
+R2063:2066 stage57_T3_relational <> Tadd constr
+R2069:2070 stage57_T3_relational <> Tx constr
+R2073:2074 stage57_T3_relational <> Ty constr
+R2077:2078 stage57_T3_relational <> TR constr
+R2083:2086 Coq.Init.Datatypes <> Some constr
+R2089:2092 stage57_T3_relational <> EAdd constr
+R2094:2095 stage57_T3_relational <> Ex constr
+R2097:2098 stage57_T3_relational <> Ey constr
+def 2136:2164 <> T3_reject_missing_parenthesis
+R2205:2207 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2170:2183 stage57_T3_relational <> parse_complete def
+R2187:2187 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2190:2191 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2196:2197 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2200:2201 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2204:2204 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2188:2189 stage57_T3_relational <> TL constr
+R2192:2195 stage57_T3_relational <> Tadd constr
+R2198:2199 stage57_T3_relational <> Tx constr
+R2202:2203 stage57_T3_relational <> Ty constr
+R2208:2211 Coq.Init.Datatypes <> None constr
+def 2248:2268 <> T3_reject_extra_input
+R2299:2301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2274:2287 stage57_T3_relational <> parse_complete def
+R2291:2291 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2294:2295 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2298:2298 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2292:2293 stage57_T3_relational <> Tx constr
+R2296:2297 stage57_T3_relational <> Ty constr
+R2302:2305 Coq.Init.Datatypes <> None constr
+R2352:2377 stage57_T3_relational <> T3_parse_unique_fixed_fuel thm

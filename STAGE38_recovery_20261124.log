@@ -1,0 +1,77 @@
+Welcome to Coq 8.18.0
+
+Coq < [Loading ML file ring_plugin.cmxs (using legacy method) ... done]
+[Loading ML file zify_plugin.cmxs (using legacy method) ... done]
+[Loading ML file micromega_plugin.cmxs (using legacy method) ... done]
+[Loading ML file extraction_plugin.cmxs (using legacy method) ... done]
+[Loading ML file funind_plugin.cmxs (using legacy method) ... done]
+[Loading ML file rtauto_plugin.cmxs (using legacy method) ... done]
+
+Coq < between_one
+     : forall A B C : hilbert_axioms.Point,
+       A <> B ->
+       A <> C ->
+       B <> C ->
+       hilbert_axioms.ColH A B C ->
+       hilbert_axioms.BetH A B C \/
+       hilbert_axioms.BetH B C A \/ hilbert_axioms.BetH B A C
+where
+?Hi : [ |- hilbert_axioms.Hilbert_neutral_dimensionless]
+
+Coq < betH_trans0
+     : forall A B C D : hilbert_axioms.Point,
+       hilbert_axioms.BetH A B C ->
+       hilbert_axioms.BetH A C D ->
+       hilbert_axioms.BetH B C D /\ hilbert_axioms.BetH A B D
+where
+?Hi : [ |- hilbert_axioms.Hilbert_neutral_dimensionless]
+
+Coq < betH2_out
+     : forall A B C D : hilbert_axioms.Point,
+       B <> C ->
+       hilbert_axioms.BetH A B D ->
+       hilbert_axioms.BetH A C D ->
+       hilbert_axioms.BetH A B C \/ hilbert_axioms.BetH A C B
+where
+?Hi : [ |- hilbert_axioms.Hilbert_neutral_dimensionless]
+
+Coq < Fetching opaque proofs from disk for GeoCoq.Main.Meta_theory.Models.hilbert_to_tarski
+Fetching opaque proofs from disk for Coq.Classes.Morphisms
+Fetching opaque proofs from disk for GeoCoq.Coinc.ColR
+Fetching opaque proofs from disk for Coq.MSets.MSetList
+Fetching opaque proofs from disk for Coq.Init.Logic
+Fetching opaque proofs from disk for Coq.Structures.OrdersFacts
+Fetching opaque proofs from disk for GeoCoq.Coinc.Utils.sets
+Fetching opaque proofs from disk for Coq.PArith.BinPos
+Fetching opaque proofs from disk for Coq.PArith.Pnat
+Fetching opaque proofs from disk for Coq.Arith.PeanoNat
+Fetching opaque proofs from disk for Coq.Init.Peano
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZAdd
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZBase
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NOrder
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NBase
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZOrder
+Fetching opaque proofs from disk for Coq.Structures.OrdersTac
+Fetching opaque proofs from disk for Coq.Classes.Morphisms_Prop
+Fetching opaque proofs from disk for Coq.Init.Datatypes
+Fetching opaque proofs from disk for Coq.Bool.Bool
+Fetching opaque proofs from disk for Coq.Structures.Equalities
+Fetching opaque proofs from disk for Coq.MSets.MSetFacts
+Fetching opaque proofs from disk for Coq.MSets.MSetInterface
+Fetching opaque proofs from disk for Coq.Lists.SetoidList
+Fetching opaque proofs from disk for Coq.Structures.Orders
+Fetching opaque proofs from disk for Coq.Structures.OrdersLists
+Fetching opaque proofs from disk for Coq.Structures.GenericMinMax
+Fetching opaque proofs from disk for Coq.Structures.OrdersEx
+Fetching opaque proofs from disk for Coq.Lists.List
+Fetching opaque proofs from disk for Coq.MSets.MSetProperties
+Fetching opaque proofs from disk for Coq.MSets.MSetEqProperties
+Fetching opaque proofs from disk for Coq.MSets.MSetDecide
+Closed under the global context
+
+Coq < Fetching opaque proofs from disk for Coq.Classes.RelationClasses
+Closed under the global context
+
+Coq < Closed under the global context
+
+Coq < 

@@ -1,0 +1,94 @@
+DIGEST a891cf7db35099c38c87c12da2bfca49
+Fstage57_U1_acyclic_v6_20261124
+R15:32 Coq.Arith.PeanoNat <> <> lib
+R50:52 Coq.micromega.Lia <> <> lib
+R70:85 Coq.Arith.Wf_nat <> <> lib
+R103:139 stage57_U1_strict_dependency_20261124 <> <> lib
+R155:180 stage57_T3_T4_U1_candidate <> <> modtype
+mod 150:150 <> B
+R195:228 stage57_U1_nested_occurs_candidate <> <> modtype
+mod 190:190 <> N
+R243:279 stage57_U1_strict_dependency_20261124 <> <> modtype
+mod 238:238 <> D
+def 292:300 <> expr_size
+R307:312 stage57_U1_acyclic_v6_20261124 <> expr ind
+binder 303:303 <> e:1
+R317:319 Coq.Init.Datatypes <> nat ind
+R332:332 stage57_U1_acyclic_v6_20261124 <> e:1 var
+R343:347 stage57_U1_acyclic_v6_20261124 <> Neg constr
+R354:354 Coq.Init.Datatypes <> S constr
+R357:365 stage57_U1_acyclic_v6_20261124 <> expr_size:2 def
+R374:378 stage57_U1_acyclic_v6_20261124 <> Fst constr
+R385:385 Coq.Init.Datatypes <> S constr
+R388:396 stage57_U1_acyclic_v6_20261124 <> expr_size:2 def
+R405:409 stage57_U1_acyclic_v6_20261124 <> Add constr
+R418:418 Coq.Init.Datatypes <> S constr
+R432:434 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R421:429 stage57_U1_acyclic_v6_20261124 <> expr_size:2 def
+R435:443 stage57_U1_acyclic_v6_20261124 <> expr_size:2 def
+R452:457 stage57_U1_acyclic_v6_20261124 <> Pair constr
+R466:466 Coq.Init.Datatypes <> S constr
+R480:482 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R469:477 stage57_U1_acyclic_v6_20261124 <> expr_size:2 def
+R483:491 stage57_U1_acyclic_v6_20261124 <> expr_size:2 def
+prf 521:531 <> occurs_size
+binder 544:544 <> p:4
+binder 546:546 <> e:5
+R561:566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R549:556 stage57_U1_acyclic_v6_20261124 <> occurs def
+R558:558 stage57_U1_acyclic_v6_20261124 <> p:4 var
+R560:560 stage57_U1_acyclic_v6_20261124 <> e:5 var
+R578:581 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R567:575 stage57_U1_acyclic_v6_20261124 <> expr_size def
+R577:577 stage57_U1_acyclic_v6_20261124 <> p:4 var
+R582:590 stage57_U1_acyclic_v6_20261124 <> expr_size def
+R592:592 stage57_U1_acyclic_v6_20261124 <> e:5 var
+R636:643 stage57_U1_acyclic_v6_20261124 <> occurs def
+R645:653 stage57_U1_acyclic_v6_20261124 <> expr_size def
+R737:747 Coq.Arith.PeanoNat Nat le_refl thm
+R737:747 Coq.Arith.PeanoNat Nat le_refl thm
+R737:747 Coq.Arith.PeanoNat Nat le_refl thm
+R737:747 Coq.Arith.PeanoNat Nat le_refl thm
+R737:747 Coq.Arith.PeanoNat Nat le_refl thm
+R737:747 Coq.Arith.PeanoNat Nat le_refl thm
+R737:747 Coq.Arith.PeanoNat Nat le_refl thm
+R737:747 Coq.Arith.PeanoNat Nat le_refl thm
+prf 936:957 <> strict_dependency_size
+binder 970:970 <> p:6
+binder 972:972 <> e:7
+R998:1003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R975:993 stage57_U1_acyclic_v6_20261124 <> strict_dependency def
+R995:995 stage57_U1_acyclic_v6_20261124 <> p:6 var
+R997:997 stage57_U1_acyclic_v6_20261124 <> e:7 var
+R1015:1017 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1004:1012 stage57_U1_acyclic_v6_20261124 <> expr_size def
+R1014:1014 stage57_U1_acyclic_v6_20261124 <> p:6 var
+R1018:1026 stage57_U1_acyclic_v6_20261124 <> expr_size def
+R1028:1028 stage57_U1_acyclic_v6_20261124 <> e:7 var
+R1080:1087 stage57_U1_acyclic_v6_20261124 <> occurs def
+R1174:1182 stage57_U1_acyclic_v6_20261124 <> expr_size def
+R1210:1220 stage57_U1_acyclic_v6_20261124 <> occurs_size thm
+R1210:1220 stage57_U1_acyclic_v6_20261124 <> occurs_size thm
+R1210:1220 stage57_U1_acyclic_v6_20261124 <> occurs_size thm
+R1210:1220 stage57_U1_acyclic_v6_20261124 <> occurs_size thm
+R1210:1220 stage57_U1_acyclic_v6_20261124 <> occurs_size thm
+R1290:1300 stage57_U1_acyclic_v6_20261124 <> occurs_size thm
+R1290:1300 stage57_U1_acyclic_v6_20261124 <> occurs_size thm
+R1290:1300 stage57_U1_acyclic_v6_20261124 <> occurs_size thm
+R1290:1300 stage57_U1_acyclic_v6_20261124 <> occurs_size thm
+R1290:1300 stage57_U1_acyclic_v6_20261124 <> occurs_size thm
+prf 1328:1350 <> dependency_well_founded
+R1356:1367 Coq.Init.Wf <> well_founded def
+R1369:1387 stage57_U1_acyclic_v6_20261124 <> strict_dependency def
+R1406:1427 Coq.Arith.Wf_nat <> well_founded_lt_compat thm
+R1436:1444 stage57_U1_acyclic_v6_20261124 <> expr_size def
+R1429:1434 stage57_U1_acyclic_v6_20261124 <> expr ind
+R1406:1427 Coq.Arith.Wf_nat <> well_founded_lt_compat thm
+R1436:1444 stage57_U1_acyclic_v6_20261124 <> expr_size def
+R1429:1434 stage57_U1_acyclic_v6_20261124 <> expr ind
+R1456:1477 stage57_U1_acyclic_v6_20261124 <> strict_dependency_size thm
+R1456:1477 stage57_U1_acyclic_v6_20261124 <> strict_dependency_size thm
+R1492:1514 stage57_U1_acyclic_v6_20261124 <> dependency_well_founded thm
+R1535:1545 stage57_U1_acyclic_v6_20261124 <> occurs_size thm
+R1566:1587 stage57_U1_acyclic_v6_20261124 <> strict_dependency_size thm
+R1608:1630 stage57_U1_acyclic_v6_20261124 <> dependency_well_founded thm

@@ -1,0 +1,19 @@
+DIGEST 564d34ff6374a0684245a91e29d464be
+Fstage57_U1_expr_equality_candidate
+R15:40 stage57_T3_T4_U1_candidate <> <> lib
+R55:80 stage57_T3_T4_U1_candidate <> <> modtype
+mod 50:50 <> B
+prf 92:102 <> expr_eq_dec
+R121:126 stage57_U1_expr_equality_candidate <> expr ind
+binder 115:115 <> x:1
+binder 117:117 <> y:2
+R129:129 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R135:139 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R146:146 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R131:133 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R130:130 stage57_U1_expr_equality_candidate <> x:1 var
+R134:134 stage57_U1_expr_equality_candidate <> y:2 var
+R141:144 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R140:140 stage57_U1_expr_equality_candidate <> x:1 var
+R145:145 stage57_U1_expr_equality_candidate <> y:2 var
+R203:213 stage57_U1_expr_equality_candidate <> expr_eq_dec thm

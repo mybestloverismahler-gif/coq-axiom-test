@@ -1,0 +1,37 @@
+DIGEST 244cf56cd697c63c45b6da7978ef1661
+Fstage57_T3_parse_sound_20261119
+R15:28 Coq.Lists.List <> <> lib
+R46:68 stage57_T3_injective_v1 <> <> lib
+R86:113 stage57_T3_IH_steps_20261119 <> <> lib
+R123:135 Coq.Lists.List ListNotations <> mod
+prf 147:160 <> T3_parse_sound
+binder 173:176 <> fuel:1
+binder 178:178 <> s:2
+binder 180:180 <> a:3
+binder 182:182 <> r:4
+R219:226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R205:207 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R189:197 stage57_T3_injective_v1 <> parse_one def
+R199:202 stage57_T3_parse_sound_20261119 <> fuel:1 var
+R204:204 stage57_T3_parse_sound_20261119 <> s:2 var
+R208:211 Coq.Init.Datatypes <> Some constr
+R213:213 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R215:216 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R218:218 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R214:214 stage57_T3_parse_sound_20261119 <> a:3 var
+R217:217 stage57_T3_parse_sound_20261119 <> r:4 var
+R228:230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R227:227 stage57_T3_parse_sound_20261119 <> s:2 var
+R239:242 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R231:236 stage57_T3_injective_v1 <> encode def
+R238:238 stage57_T3_parse_sound_20261119 <> a:3 var
+R243:243 stage57_T3_parse_sound_20261119 <> r:4 var
+R551:564 stage57_T3_IH_steps_20261119 <> T3_neg_IH_step thm
+R551:564 stage57_T3_IH_steps_20261119 <> T3_neg_IH_step thm
+R587:600 stage57_T3_IH_steps_20261119 <> T3_add_IH_step thm
+R587:600 stage57_T3_IH_steps_20261119 <> T3_add_IH_step thm
+R623:637 stage57_T3_IH_steps_20261119 <> T3_pair_IH_step thm
+R623:637 stage57_T3_IH_steps_20261119 <> T3_pair_IH_step thm
+R660:673 stage57_T3_IH_steps_20261119 <> T3_fst_IH_step thm
+R660:673 stage57_T3_IH_steps_20261119 <> T3_fst_IH_step thm
+R706:719 stage57_T3_parse_sound_20261119 <> T3_parse_sound thm

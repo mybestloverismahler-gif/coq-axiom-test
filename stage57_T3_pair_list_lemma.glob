@@ -1,0 +1,16 @@
+DIGEST af1bb2ed298d1e873187d5d9b6ce0afe
+Fstage57_T3_pair_list_lemma
+R168:181 Coq.Lists.List <> <> lib
+R199:213 Coq.Arith.Arith <> <> lib
+R231:233 Coq.micromega.Lia <> <> lib
+R243:255 Coq.Lists.List ListNotations <> mod
+ind 269:273 <> token
+constr 287:288 <> Tx
+constr 292:293 <> Ty
+constr 297:298 <> Tp
+constr 302:303 <> TL
+constr 307:308 <> TR
+constr 312:315 <> Tneg
+constr 319:323 <> Tpair
+constr 327:331 <> Tpair
+constr 335:338 <> Tfst

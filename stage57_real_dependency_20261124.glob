@@ -1,0 +1,9 @@
+DIGEST ed65aec94de7448136b0f988a1e2b04b
+Fstage57_real_dependency_20261124
+R24:28 Coq.Reals.Reals <> <> lib
+R38:42 Coq.Reals.Rdefinitions RbaseSymbolsImpl Rplus defax
+R63:67 Coq.Reals.Rdefinitions RbaseSymbolsImpl Rplus defax
+R77:81 Coq.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R102:106 Coq.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R116:127 Coq.Reals.Raxioms <> completeness thm
+R148:159 Coq.Reals.Raxioms <> completeness thm

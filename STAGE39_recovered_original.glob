@@ -1,0 +1,226 @@
+DIGEST bd44668a7a94ed9585d5c53b4149a4e1
+FSTAGE39_recovered_original
+rec 208:222 <> WeakIncidence39
+proj 231:234 <> Pt39
+proj 246:249 <> Ln39
+proj 261:266 <> EqLn39
+proj 294:297 <> On39
+proj 325:337 <> line_unique39
+proj 437:449 <> on_morphism39
+R274:277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R270:273 STAGE39_recovered_original <> Ln39:3 meth
+R282:285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R278:281 STAGE39_recovered_original <> Ln39:3 meth
+R305:308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R301:304 STAGE39_recovered_original <> Pt39:2 meth
+R313:316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R309:312 STAGE39_recovered_original <> Ln39:3 meth
+binder 348:348 <> A:6
+binder 350:350 <> B:7
+binder 352:352 <> l:8
+binder 354:354 <> m:9
+R367:370 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R362:365 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R361:361 STAGE39_recovered_original <> A:6 var
+R366:366 STAGE39_recovered_original <> B:7 var
+R379:382 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R371:374 STAGE39_recovered_original <> On39:5 meth
+R378:378 STAGE39_recovered_original <> l:8 var
+R376:376 STAGE39_recovered_original <> A:6 var
+R391:398 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R383:386 STAGE39_recovered_original <> On39:5 meth
+R390:390 STAGE39_recovered_original <> l:8 var
+R388:388 STAGE39_recovered_original <> B:7 var
+R407:410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R399:402 STAGE39_recovered_original <> On39:5 meth
+R406:406 STAGE39_recovered_original <> m:9 var
+R404:404 STAGE39_recovered_original <> A:6 var
+R419:422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R411:414 STAGE39_recovered_original <> On39:5 meth
+R418:418 STAGE39_recovered_original <> m:9 var
+R416:416 STAGE39_recovered_original <> B:7 var
+R423:428 STAGE39_recovered_original <> EqLn39:4 meth
+R432:432 STAGE39_recovered_original <> m:9 var
+R430:430 STAGE39_recovered_original <> l:8 var
+binder 460:460 <> A:11
+binder 462:462 <> l:12
+binder 464:464 <> m:13
+R475:478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R467:470 STAGE39_recovered_original <> On39:5 meth
+R474:474 STAGE39_recovered_original <> l:12 var
+R472:472 STAGE39_recovered_original <> A:11 var
+R489:492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R479:484 STAGE39_recovered_original <> EqLn39:4 meth
+R488:488 STAGE39_recovered_original <> m:13 var
+R486:486 STAGE39_recovered_original <> l:12 var
+R493:496 STAGE39_recovered_original <> On39:5 meth
+R500:500 STAGE39_recovered_original <> m:13 var
+R498:498 STAGE39_recovered_original <> A:11 var
+sec 514:522 <> OrderBase
+R539:553 STAGE39_recovered_original <> WeakIncidence39 class
+binder 535:535 <> W:15
+def 569:573 <> Col39
+R584:587 STAGE39_recovered_original <> Pt39 meth
+binder 576:576 <> A:16
+binder 578:578 <> B:17
+binder 580:580 <> C:18
+R602:608 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R617:618 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R613:616 STAGE39_recovered_original <> Ln39 meth
+binder 609:609 <> l:19
+R627:630 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R619:622 STAGE39_recovered_original <> On39 meth
+R626:626 STAGE39_recovered_original <> l:19 var
+R624:624 STAGE39_recovered_original <> A:16 var
+R639:642 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R631:634 STAGE39_recovered_original <> On39 meth
+R638:638 STAGE39_recovered_original <> l:19 var
+R636:636 STAGE39_recovered_original <> B:17 var
+R643:646 STAGE39_recovered_original <> On39 meth
+R650:650 STAGE39_recovered_original <> l:19 var
+R648:648 STAGE39_recovered_original <> C:18 var
+var 663:667 OrderBase Bet39
+R675:678 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R671:674 STAGE39_recovered_original <> Pt39 meth
+R683:686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R679:682 STAGE39_recovered_original <> Pt39 meth
+R691:694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R687:690 STAGE39_recovered_original <> Pt39 meth
+var 712:727 OrderBase bet_outer_diff39
+binder 738:738 <> A:21
+binder 740:740 <> B:22
+binder 742:742 <> C:23
+R756:759 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R745:749 STAGE39_recovered_original <> OrderBase.Bet39 var
+R751:751 STAGE39_recovered_original <> A:21 var
+R753:753 STAGE39_recovered_original <> B:22 var
+R755:755 STAGE39_recovered_original <> C:23 var
+R761:764 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R760:760 STAGE39_recovered_original <> A:21 var
+R765:765 STAGE39_recovered_original <> C:23 var
+var 779:788 OrderBase bet_comm39
+binder 799:799 <> A:25
+binder 801:801 <> B:26
+binder 803:803 <> C:27
+R817:820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R806:810 STAGE39_recovered_original <> OrderBase.Bet39 var
+R812:812 STAGE39_recovered_original <> A:25 var
+R814:814 STAGE39_recovered_original <> B:26 var
+R816:816 STAGE39_recovered_original <> C:27 var
+R821:825 STAGE39_recovered_original <> OrderBase.Bet39 var
+R827:827 STAGE39_recovered_original <> C:27 var
+R829:829 STAGE39_recovered_original <> B:26 var
+R831:831 STAGE39_recovered_original <> A:25 var
+var 845:858 OrderBase bet_only_one39
+binder 869:869 <> A:29
+binder 871:871 <> B:30
+binder 873:873 <> C:31
+R887:890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R876:880 STAGE39_recovered_original <> OrderBase.Bet39 var
+R882:882 STAGE39_recovered_original <> A:29 var
+R884:884 STAGE39_recovered_original <> B:30 var
+R886:886 STAGE39_recovered_original <> C:31 var
+R891:892 Coq.Init.Logic <> ::type_scope:'~'_x not
+R893:897 STAGE39_recovered_original <> OrderBase.Bet39 var
+R899:899 STAGE39_recovered_original <> B:30 var
+R901:901 STAGE39_recovered_original <> C:31 var
+R903:903 STAGE39_recovered_original <> A:29 var
+var 917:925 OrderBase bet_col39
+binder 936:936 <> A:33
+binder 938:938 <> B:34
+binder 940:940 <> C:35
+R954:957 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R943:947 STAGE39_recovered_original <> OrderBase.Bet39 var
+R949:949 STAGE39_recovered_original <> A:33 var
+R951:951 STAGE39_recovered_original <> B:34 var
+R953:953 STAGE39_recovered_original <> C:35 var
+R958:962 STAGE39_recovered_original <> Col39 def
+R964:964 STAGE39_recovered_original <> A:33 var
+R966:966 STAGE39_recovered_original <> B:34 var
+R968:968 STAGE39_recovered_original <> C:35 var
+prf 978:992 <> bet_left_diff39
+binder 1003:1003 <> A:37
+binder 1005:1005 <> B:38
+binder 1007:1007 <> C:39
+R1025:1028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1014:1018 STAGE39_recovered_original <> OrderBase.Bet39 var
+R1020:1020 STAGE39_recovered_original <> A:37 var
+R1022:1022 STAGE39_recovered_original <> B:38 var
+R1024:1024 STAGE39_recovered_original <> C:39 var
+R1030:1033 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1029:1029 STAGE39_recovered_original <> A:37 var
+R1034:1034 STAGE39_recovered_original <> B:38 var
+R1093:1102 STAGE39_recovered_original <> OrderBase.bet_comm39 var
+R1093:1102 STAGE39_recovered_original <> OrderBase.bet_comm39 var
+R1131:1144 STAGE39_recovered_original <> OrderBase.bet_only_one39 var
+R1131:1144 STAGE39_recovered_original <> OrderBase.bet_only_one39 var
+prf 1173:1188 <> bet_right_diff39
+binder 1199:1199 <> A:40
+binder 1201:1201 <> B:41
+binder 1203:1203 <> C:42
+R1221:1224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1210:1214 STAGE39_recovered_original <> OrderBase.Bet39 var
+R1216:1216 STAGE39_recovered_original <> A:40 var
+R1218:1218 STAGE39_recovered_original <> B:41 var
+R1220:1220 STAGE39_recovered_original <> C:42 var
+R1226:1229 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1225:1225 STAGE39_recovered_original <> B:41 var
+R1230:1230 STAGE39_recovered_original <> C:42 var
+R1289:1298 STAGE39_recovered_original <> OrderBase.bet_comm39 var
+R1289:1298 STAGE39_recovered_original <> OrderBase.bet_comm39 var
+R1327:1340 STAGE39_recovered_original <> OrderBase.bet_only_one39 var
+R1327:1340 STAGE39_recovered_original <> OrderBase.bet_only_one39 var
+prf 1369:1386 <> bet_all_distinct39
+binder 1397:1397 <> A:43
+binder 1399:1399 <> B:44
+binder 1401:1401 <> C:45
+R1419:1422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1408:1412 STAGE39_recovered_original <> OrderBase.Bet39 var
+R1414:1414 STAGE39_recovered_original <> A:43 var
+R1416:1416 STAGE39_recovered_original <> B:44 var
+R1418:1418 STAGE39_recovered_original <> C:45 var
+R1429:1432 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1424:1427 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1423:1423 STAGE39_recovered_original <> A:43 var
+R1428:1428 STAGE39_recovered_original <> B:44 var
+R1439:1442 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1434:1437 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1433:1433 STAGE39_recovered_original <> B:44 var
+R1438:1438 STAGE39_recovered_original <> C:45 var
+R1444:1447 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1443:1443 STAGE39_recovered_original <> A:43 var
+R1448:1448 STAGE39_recovered_original <> C:45 var
+R1503:1517 STAGE39_recovered_original <> bet_left_diff39 thm
+R1503:1517 STAGE39_recovered_original <> bet_left_diff39 thm
+R1540:1555 STAGE39_recovered_original <> bet_right_diff39 thm
+R1540:1555 STAGE39_recovered_original <> bet_right_diff39 thm
+R1578:1593 STAGE39_recovered_original <> OrderBase.bet_outer_diff39 var
+R1578:1593 STAGE39_recovered_original <> OrderBase.bet_outer_diff39 var
+prf 1617:1631 <> col_transport39
+binder 1642:1642 <> L:46
+binder 1644:1644 <> M:47
+binder 1646:1646 <> R:48
+binder 1648:1648 <> D:49
+R1666:1669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1655:1659 STAGE39_recovered_original <> OrderBase.Bet39 var
+R1661:1661 STAGE39_recovered_original <> L:46 var
+R1663:1663 STAGE39_recovered_original <> M:47 var
+R1665:1665 STAGE39_recovered_original <> R:48 var
+R1681:1684 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1670:1674 STAGE39_recovered_original <> Col39 def
+R1676:1676 STAGE39_recovered_original <> L:46 var
+R1678:1678 STAGE39_recovered_original <> M:47 var
+R1680:1680 STAGE39_recovered_original <> D:49 var
+R1685:1689 STAGE39_recovered_original <> Col39 def
+R1691:1691 STAGE39_recovered_original <> L:46 var
+R1693:1693 STAGE39_recovered_original <> R:48 var
+R1695:1695 STAGE39_recovered_original <> D:49 var
+R1747:1761 STAGE39_recovered_original <> bet_left_diff39 thm
+R1747:1761 STAGE39_recovered_original <> bet_left_diff39 thm
+R1795:1803 STAGE39_recovered_original <> OrderBase.bet_col39 var
+R1795:1803 STAGE39_recovered_original <> OrderBase.bet_col39 var
+R1892:1904 STAGE39_recovered_original <> line_unique39 meth
+R1892:1904 STAGE39_recovered_original <> line_unique39 meth
+R2008:2020 STAGE39_recovered_original <> on_morphism39 meth
+R2008:2020 STAGE39_recovered_original <> on_morphism39 meth
+R2345:2353 STAGE39_recovered_original OrderBase <> sec

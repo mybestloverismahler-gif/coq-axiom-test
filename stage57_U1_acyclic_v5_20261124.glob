@@ -1,0 +1,46 @@
+DIGEST c55311b54e8624249aedf3587381ef00
+Fstage57_U1_acyclic_v5_20261124
+R15:17 Coq.micromega.Lia <> <> lib
+R35:50 Coq.Arith.Wf_nat <> <> lib
+R68:104 stage57_U1_strict_dependency_20261124 <> <> lib
+R120:145 stage57_T3_T4_U1_candidate <> <> modtype
+mod 115:115 <> B
+R160:193 stage57_U1_nested_occurs_candidate <> <> modtype
+mod 155:155 <> N
+R208:244 stage57_U1_strict_dependency_20261124 <> <> modtype
+mod 203:203 <> D
+def 257:265 <> expr_size
+R272:277 stage57_U1_acyclic_v5_20261124 <> expr ind
+binder 268:268 <> e:1
+R282:284 Coq.Init.Datatypes <> nat ind
+R297:297 stage57_U1_acyclic_v5_20261124 <> e:1 var
+R308:312 stage57_U1_acyclic_v5_20261124 <> Neg constr
+R319:319 Coq.Init.Datatypes <> S constr
+R322:330 stage57_U1_acyclic_v5_20261124 <> expr_size:2 def
+R339:343 stage57_U1_acyclic_v5_20261124 <> Fst constr
+R350:350 Coq.Init.Datatypes <> S constr
+R353:361 stage57_U1_acyclic_v5_20261124 <> expr_size:2 def
+R370:374 stage57_U1_acyclic_v5_20261124 <> Add constr
+R383:383 Coq.Init.Datatypes <> S constr
+R397:399 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R386:394 stage57_U1_acyclic_v5_20261124 <> expr_size:2 def
+R400:408 stage57_U1_acyclic_v5_20261124 <> expr_size:2 def
+R417:422 stage57_U1_acyclic_v5_20261124 <> Pair constr
+R431:431 Coq.Init.Datatypes <> S constr
+R445:447 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R434:442 stage57_U1_acyclic_v5_20261124 <> expr_size:2 def
+R448:456 stage57_U1_acyclic_v5_20261124 <> expr_size:2 def
+prf 486:496 <> occurs_size
+binder 509:509 <> p:4
+binder 511:511 <> e:5
+R526:531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R514:521 stage57_U1_acyclic_v5_20261124 <> occurs def
+R523:523 stage57_U1_acyclic_v5_20261124 <> p:4 var
+R525:525 stage57_U1_acyclic_v5_20261124 <> e:5 var
+R543:546 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R532:540 stage57_U1_acyclic_v5_20261124 <> expr_size def
+R542:542 stage57_U1_acyclic_v5_20261124 <> p:4 var
+R547:555 stage57_U1_acyclic_v5_20261124 <> expr_size def
+R557:557 stage57_U1_acyclic_v5_20261124 <> e:5 var
+R601:608 stage57_U1_acyclic_v5_20261124 <> occurs def
+R610:618 stage57_U1_acyclic_v5_20261124 <> expr_size def

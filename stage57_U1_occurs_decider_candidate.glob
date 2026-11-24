@@ -1,0 +1,64 @@
+DIGEST b9ebb41dc6801f77f55e315d67d2dbc8
+Fstage57_U1_occurs_decider_candidate
+R15:27 Coq.Bool.Bool <> <> lib
+R45:70 stage57_T3_T4_U1_candidate <> <> lib
+R88:121 stage57_U1_expr_equality_candidate <> <> lib
+R139:172 stage57_U1_nested_occurs_candidate <> <> lib
+R188:213 stage57_T3_T4_U1_candidate <> <> modtype
+mod 183:183 <> B
+def 226:232 <> occursb
+R241:246 stage57_U1_occurs_decider_candidate <> expr ind
+binder 235:235 <> p:1
+binder 237:237 <> e:2
+R251:254 Coq.Init.Datatypes <> bool ind
+R264:274 stage57_U1_expr_equality_candidate <> expr_eq_dec thm
+R276:276 stage57_U1_occurs_decider_candidate <> p:1 var
+R278:278 stage57_U1_occurs_decider_candidate <> e:2 var
+R307:307 stage57_U1_occurs_decider_candidate <> e:2 var
+R320:324 stage57_U1_occurs_decider_candidate <> Neg constr
+R331:337 stage57_U1_occurs_decider_candidate <> occursb:3 def
+R339:339 stage57_U1_occurs_decider_candidate <> p:1 var
+R349:353 stage57_U1_occurs_decider_candidate <> Fst constr
+R360:366 stage57_U1_occurs_decider_candidate <> occursb:3 def
+R368:368 stage57_U1_occurs_decider_candidate <> p:1 var
+R378:382 stage57_U1_occurs_decider_candidate <> Add constr
+R391:393 Coq.Init.Datatypes <> orb def
+R410:416 stage57_U1_occurs_decider_candidate <> occursb:3 def
+R418:418 stage57_U1_occurs_decider_candidate <> p:1 var
+R396:402 stage57_U1_occurs_decider_candidate <> occursb:3 def
+R404:404 stage57_U1_occurs_decider_candidate <> p:1 var
+R429:434 stage57_U1_occurs_decider_candidate <> Pair constr
+R443:445 Coq.Init.Datatypes <> orb def
+R462:468 stage57_U1_occurs_decider_candidate <> occursb:3 def
+R470:470 stage57_U1_occurs_decider_candidate <> p:1 var
+R448:454 stage57_U1_occurs_decider_candidate <> occursb:3 def
+R456:456 stage57_U1_occurs_decider_candidate <> p:1 var
+R486:490 Coq.Init.Datatypes <> false constr
+R285:288 Coq.Init.Datatypes <> true constr
+def 510:520 <> test_nested
+R564:566 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R526:532 stage57_U1_occurs_decider_candidate <> occursb def
+R534:537 stage57_U1_occurs_decider_candidate <> Ex constr
+R540:544 stage57_U1_occurs_decider_candidate <> Neg constr
+R547:551 stage57_U1_occurs_decider_candidate <> Add constr
+R553:556 stage57_U1_occurs_decider_candidate <> Ex constr
+R558:561 stage57_U1_occurs_decider_candidate <> Ey constr
+R567:570 Coq.Init.Datatypes <> true constr
+def 607:617 <> test_absent
+R661:663 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R623:629 stage57_U1_occurs_decider_candidate <> occursb def
+R631:634 stage57_U1_occurs_decider_candidate <> Ep constr
+R637:641 stage57_U1_occurs_decider_candidate <> Neg constr
+R644:648 stage57_U1_occurs_decider_candidate <> Add constr
+R650:653 stage57_U1_occurs_decider_candidate <> Ex constr
+R655:658 stage57_U1_occurs_decider_candidate <> Ey constr
+R664:668 Coq.Init.Datatypes <> false constr
+def 705:713 <> test_self
+R736:738 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R719:725 stage57_U1_occurs_decider_candidate <> occursb def
+R727:730 stage57_U1_occurs_decider_candidate <> Ex constr
+R732:735 stage57_U1_occurs_decider_candidate <> Ex constr
+R739:742 Coq.Init.Datatypes <> true constr
+R789:799 stage57_U1_occurs_decider_candidate <> test_nested ex
+R820:830 stage57_U1_occurs_decider_candidate <> test_absent ex
+R851:859 stage57_U1_occurs_decider_candidate <> test_self ex

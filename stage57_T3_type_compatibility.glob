@@ -1,0 +1,8 @@
+DIGEST 9462a5410121def7454eab85307f739f
+Fstage57_T3_type_compatibility
+R15:38 stage57_T3_derives_check <> <> lib
+R56:78 stage57_T3_injective_v1 <> <> lib
+R98:126 stage57_T3_derives_check <> expr ind
+binder 94:94 <> a:1
+R134:163 stage57_T3_injective_v1 <> encode def
+R165:165 stage57_T3_type_compatibility <> a:1 var

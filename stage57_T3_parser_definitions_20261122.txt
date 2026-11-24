@@ -1,0 +1,184 @@
+Welcome to Coq 8.18.0
+[Loading ML file ring_plugin.cmxs (using legacy method) ... done]
+[Loading ML file zify_plugin.cmxs (using legacy method) ... done]
+[Loading ML file micromega_plugin.cmxs (using legacy method) ... done]
+stage57_T3_relational.parse_one =
+fix parse_one
+  (fuel : nat) (ts : list stage57_T3_relational.token) {struct fuel} :
+    option (stage57_T3_relational.expr * list stage57_T3_relational.token) :=
+  match fuel with
+  | 0 => None
+  | S k =>
+      match ts with
+      | (stage57_T3_relational.Tx :: rest)%list =>
+          Some (stage57_T3_relational.Ex, rest)
+      | (stage57_T3_relational.Ty :: rest)%list =>
+          Some (stage57_T3_relational.Ey, rest)
+      | (stage57_T3_relational.Tp :: rest)%list =>
+          Some (stage57_T3_relational.Ep, rest)
+      | (stage57_T3_relational.TL :: stage57_T3_relational.Tneg :: rest0)%list =>
+          match parse_one k rest0 with
+          | Some (e, (stage57_T3_relational.TR :: tail)%list) =>
+              Some (stage57_T3_relational.ENeg e, tail)
+          | Some (e, nil) | Some (e, (stage57_T3_relational.Tx :: _)%list) |
+            Some (e, (stage57_T3_relational.Ty :: _)%list) |
+            Some (e, (stage57_T3_relational.Tp :: _)%list) |
+            Some (e, (stage57_T3_relational.TL :: _)%list) |
+            Some (e, (stage57_T3_relational.Tneg :: _)%list) |
+            Some (e, (stage57_T3_relational.Tadd :: _)%list) |
+            Some (e, (stage57_T3_relational.Tpair :: _)%list) |
+            Some (e, (stage57_T3_relational.Tfst :: _)%list) => None
+          | None => None
+          end
+      | (stage57_T3_relational.TL :: stage57_T3_relational.Tadd :: rest0)%list =>
+          match parse_one k rest0 with
+          | Some (a, rem1) =>
+              match parse_one k rem1 with
+              | Some (b, (stage57_T3_relational.TR :: tail)%list) =>
+                  Some (stage57_T3_relational.EAdd a b, tail)
+              | Some (b, nil) |
+                Some (b, (stage57_T3_relational.Tx :: _)%list) |
+                Some (b, (stage57_T3_relational.Ty :: _)%list) |
+                Some (b, (stage57_T3_relational.Tp :: _)%list) |
+                Some (b, (stage57_T3_relational.TL :: _)%list) |
+                Some (b, (stage57_T3_relational.Tneg :: _)%list) |
+                Some (b, (stage57_T3_relational.Tadd :: _)%list) |
+                Some (b, (stage57_T3_relational.Tpair :: _)%list) |
+                Some (b, (stage57_T3_relational.Tfst :: _)%list) => None
+              | None => None
+              end
+          | None => None
+          end
+      | (stage57_T3_relational.TL :: stage57_T3_relational.Tpair :: rest0)%list =>
+          match parse_one k rest0 with
+          | Some (a, rem1) =>
+              match parse_one k rem1 with
+              | Some (b, (stage57_T3_relational.TR :: tail)%list) =>
+                  Some (stage57_T3_relational.EPair a b, tail)
+              | Some (b, nil) |
+                Some (b, (stage57_T3_relational.Tx :: _)%list) |
+                Some (b, (stage57_T3_relational.Ty :: _)%list) |
+                Some (b, (stage57_T3_relational.Tp :: _)%list) |
+                Some (b, (stage57_T3_relational.TL :: _)%list) |
+                Some (b, (stage57_T3_relational.Tneg :: _)%list) |
+                Some (b, (stage57_T3_relational.Tadd :: _)%list) |
+                Some (b, (stage57_T3_relational.Tpair :: _)%list) |
+                Some (b, (stage57_T3_relational.Tfst :: _)%list) => None
+              | None => None
+              end
+          | None => None
+          end
+      | (stage57_T3_relational.TL :: stage57_T3_relational.Tfst :: rest0)%list =>
+          match parse_one k rest0 with
+          | Some (e, (stage57_T3_relational.TR :: tail)%list) =>
+              Some (stage57_T3_relational.EFst e, tail)
+          | Some (e, nil) | Some (e, (stage57_T3_relational.Tx :: _)%list) |
+            Some (e, (stage57_T3_relational.Ty :: _)%list) |
+            Some (e, (stage57_T3_relational.Tp :: _)%list) |
+            Some (e, (stage57_T3_relational.TL :: _)%list) |
+            Some (e, (stage57_T3_relational.Tneg :: _)%list) |
+            Some (e, (stage57_T3_relational.Tadd :: _)%list) |
+            Some (e, (stage57_T3_relational.Tpair :: _)%list) |
+            Some (e, (stage57_T3_relational.Tfst :: _)%list) => None
+          | None => None
+          end
+      | _ => None
+      end
+  end
+     : nat ->
+       list stage57_T3_relational.token ->
+       option (stage57_T3_relational.expr * list stage57_T3_relational.token)
+
+Arguments stage57_T3_relational.parse_one fuel%nat_scope ts%list_scope
+stage57_T3_injective_v1.parse_one =
+fix parse_one
+  (fuel : nat) (ts : list stage57_T3_injective_v1.token) {struct fuel} :
+    option
+      (stage57_T3_injective_v1.expr * list stage57_T3_injective_v1.token) :=
+  match fuel with
+  | 0 => None
+  | S k =>
+      match ts with
+      | (stage57_T3_injective_v1.Tx :: rest)%list =>
+          Some (stage57_T3_injective_v1.Ex, rest)
+      | (stage57_T3_injective_v1.Ty :: rest)%list =>
+          Some (stage57_T3_injective_v1.Ey, rest)
+      | (stage57_T3_injective_v1.Tp :: rest)%list =>
+          Some (stage57_T3_injective_v1.Ep, rest)
+      | (stage57_T3_injective_v1.TL :: stage57_T3_injective_v1.Tneg :: rest0)%list =>
+          match parse_one k rest0 with
+          | Some (a, (stage57_T3_injective_v1.TR :: tail)%list) =>
+              Some (stage57_T3_injective_v1.ENeg a, tail)
+          | Some (a, nil) |
+            Some (a, (stage57_T3_injective_v1.Tx :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.Ty :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.Tp :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.TL :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.Tneg :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.Tadd :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.Tpair :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.Tfst :: _)%list) => None
+          | None => None
+          end
+      | (stage57_T3_injective_v1.TL :: stage57_T3_injective_v1.Tadd :: rest0)%list =>
+          match parse_one k rest0 with
+          | Some (a, rem1) =>
+              match parse_one k rem1 with
+              | Some (b, (stage57_T3_injective_v1.TR :: tail)%list) =>
+                  Some (stage57_T3_injective_v1.EAdd a b, tail)
+              | Some (b, nil) |
+                Some (b, (stage57_T3_injective_v1.Tx :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.Ty :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.Tp :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.TL :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.Tneg :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.Tadd :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.Tpair :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.Tfst :: _)%list) => None
+              | None => None
+              end
+          | None => None
+          end
+      | (stage57_T3_injective_v1.TL :: stage57_T3_injective_v1.Tpair :: rest0)%list =>
+          match parse_one k rest0 with
+          | Some (a, rem1) =>
+              match parse_one k rem1 with
+              | Some (b, (stage57_T3_injective_v1.TR :: tail)%list) =>
+                  Some (stage57_T3_injective_v1.EPair a b, tail)
+              | Some (b, nil) |
+                Some (b, (stage57_T3_injective_v1.Tx :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.Ty :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.Tp :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.TL :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.Tneg :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.Tadd :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.Tpair :: _)%list) |
+                Some (b, (stage57_T3_injective_v1.Tfst :: _)%list) => None
+              | None => None
+              end
+          | None => None
+          end
+      | (stage57_T3_injective_v1.TL :: stage57_T3_injective_v1.Tfst :: rest0)%list =>
+          match parse_one k rest0 with
+          | Some (a, (stage57_T3_injective_v1.TR :: tail)%list) =>
+              Some (stage57_T3_injective_v1.EFst a, tail)
+          | Some (a, nil) |
+            Some (a, (stage57_T3_injective_v1.Tx :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.Ty :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.Tp :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.TL :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.Tneg :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.Tadd :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.Tpair :: _)%list) |
+            Some (a, (stage57_T3_injective_v1.Tfst :: _)%list) => None
+          | None => None
+          end
+      | _ => None
+      end
+  end
+     : nat ->
+       list stage57_T3_injective_v1.token ->
+       option
+         (stage57_T3_injective_v1.expr * list stage57_T3_injective_v1.token)
+
+Arguments stage57_T3_injective_v1.parse_one fuel%nat_scope ts%list_scope

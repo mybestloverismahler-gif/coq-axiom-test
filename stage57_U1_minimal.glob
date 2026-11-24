@@ -1,0 +1,20 @@
+DIGEST f87251754458e5181f08226f23d368a0
+Fstage57_U1_minimal
+def 11:11 <> f
+R18:20 Coq.Init.Datatypes <> nat ind
+binder 14:14 <> x:1
+R26:26 Coq.Init.Datatypes <> S constr
+R28:28 stage57_U1_minimal <> x:1 var
+def 42:42 <> g
+R49:51 Coq.Init.Datatypes <> nat ind
+binder 45:45 <> x:2
+R58:60 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R57:57 stage57_U1_minimal <> x:2 var
+R61:61 stage57_U1_minimal <> x:2 var
+prf 72:84 <> U1_noncommute
+R95:98 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R88:88 stage57_U1_minimal <> f def
+R91:91 stage57_U1_minimal <> g def
+R99:99 stage57_U1_minimal <> g def
+R102:102 stage57_U1_minimal <> f def
+R152:164 stage57_U1_minimal <> U1_noncommute thm

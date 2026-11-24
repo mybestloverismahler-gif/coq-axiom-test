@@ -1,0 +1,109 @@
+DIGEST 5ec38e303780fefe4e95d0bdf5cfc3de
+Fstage57_T3_T4_type_connection_20261121
+R15:40 stage57_T3_T4_U1_candidate <> <> lib
+R55:80 stage57_T3_T4_U1_candidate <> <> modtype
+mod 50:50 <> B
+def 95:105 <> typed_parse
+R113:116 Coq.Init.Datatypes <> list ind
+R118:122 stage57_T3_T4_type_connection_20261121 <> tok ind
+binder 108:109 <> ts:1
+R127:132 Coq.Init.Datatypes <> option ind
+R141:143 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R135:140 stage57_T3_T4_type_connection_20261121 <> expr ind
+R144:147 stage57_T3_T4_type_connection_20261121 <> ty ind
+R161:176 stage57_T3_T4_type_connection_20261121 <> parse_complete def
+R178:179 stage57_T3_T4_type_connection_20261121 <> ts:1 var
+R190:193 Coq.Init.Datatypes <> None constr
+R198:201 Coq.Init.Datatypes <> None constr
+R207:210 Coq.Init.Datatypes <> Some constr
+R229:235 stage57_T3_T4_type_connection_20261121 <> infer def
+R252:255 Coq.Init.Datatypes <> None constr
+R260:263 Coq.Init.Datatypes <> None constr
+R273:276 Coq.Init.Datatypes <> Some constr
+R283:286 Coq.Init.Datatypes <> Some constr
+R288:288 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R290:291 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R293:293 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+prf 321:337 <> typed_parse_sound
+binder 350:351 <> ts:2
+binder 353:353 <> e:3
+binder 355:355 <> t:4
+R390:397 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R376:378 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R362:372 stage57_T3_T4_type_connection_20261121 <> typed_parse def
+R374:375 stage57_T3_T4_type_connection_20261121 <> ts:2 var
+R379:382 Coq.Init.Datatypes <> Some constr
+R384:384 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R386:387 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R389:389 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R385:385 stage57_T3_T4_type_connection_20261121 <> e:3 var
+R388:388 stage57_T3_T4_type_connection_20261121 <> t:4 var
+R426:429 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R417:419 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R398:413 stage57_T3_T4_type_connection_20261121 <> parse_complete def
+R415:416 stage57_T3_T4_type_connection_20261121 <> ts:2 var
+R420:423 Coq.Init.Datatypes <> Some constr
+R425:425 stage57_T3_T4_type_connection_20261121 <> e:3 var
+R430:439 stage57_T3_T4_type_connection_20261121 <> has_type def
+R441:441 stage57_T3_T4_type_connection_20261121 <> e:3 var
+R443:443 stage57_T3_T4_type_connection_20261121 <> t:4 var
+R481:491 stage57_T3_T4_type_connection_20261121 <> typed_parse def
+R511:526 stage57_T3_T4_type_connection_20261121 <> parse_complete def
+R511:526 stage57_T3_T4_type_connection_20261121 <> parse_complete def
+R579:585 stage57_T3_T4_type_connection_20261121 <> infer def
+R579:585 stage57_T3_T4_type_connection_20261121 <> infer def
+prf 697:714 <> typed_parse_unique
+binder 727:728 <> ts:5
+binder 730:731 <> e1:6
+binder 733:734 <> t1:7
+binder 736:737 <> e2:8
+binder 739:740 <> t2:9
+R777:784 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R761:763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R747:757 stage57_T3_T4_type_connection_20261121 <> typed_parse def
+R759:760 stage57_T3_T4_type_connection_20261121 <> ts:5 var
+R764:767 Coq.Init.Datatypes <> Some constr
+R769:769 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R772:773 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R776:776 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R770:771 stage57_T3_T4_type_connection_20261121 <> e1:6 var
+R774:775 stage57_T3_T4_type_connection_20261121 <> t1:7 var
+R815:822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R799:801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R785:795 stage57_T3_T4_type_connection_20261121 <> typed_parse def
+R797:798 stage57_T3_T4_type_connection_20261121 <> ts:5 var
+R802:805 Coq.Init.Datatypes <> Some constr
+R807:807 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R810:811 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R814:814 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R808:809 stage57_T3_T4_type_connection_20261121 <> e2:8 var
+R812:813 stage57_T3_T4_type_connection_20261121 <> t2:9 var
+R830:833 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R825:827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R823:824 stage57_T3_T4_type_connection_20261121 <> e1:6 var
+R828:829 stage57_T3_T4_type_connection_20261121 <> e2:8 var
+R836:838 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R834:835 stage57_T3_T4_type_connection_20261121 <> t1:7 var
+R839:840 stage57_T3_T4_type_connection_20261121 <> t2:9 var
+prf 960:986 <> typed_parse_rejects_untyped
+binder 999:1000 <> ts:10
+binder 1002:1002 <> e:11
+R1037:1044 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1028:1030 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1009:1024 stage57_T3_T4_type_connection_20261121 <> parse_complete def
+R1026:1027 stage57_T3_T4_type_connection_20261121 <> ts:10 var
+R1031:1034 Coq.Init.Datatypes <> Some constr
+R1036:1036 stage57_T3_T4_type_connection_20261121 <> e:11 var
+R1061:1068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1054:1056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1045:1051 stage57_T3_T4_type_connection_20261121 <> infer def
+R1053:1053 stage57_T3_T4_type_connection_20261121 <> e:11 var
+R1057:1060 Coq.Init.Datatypes <> None constr
+R1083:1085 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1069:1079 stage57_T3_T4_type_connection_20261121 <> typed_parse def
+R1081:1082 stage57_T3_T4_type_connection_20261121 <> ts:10 var
+R1086:1089 Coq.Init.Datatypes <> None constr
+R1129:1139 stage57_T3_T4_type_connection_20261121 <> typed_parse def
+R1199:1215 stage57_T3_T4_type_connection_20261121 <> typed_parse_sound thm
+R1236:1253 stage57_T3_T4_type_connection_20261121 <> typed_parse_unique thm
+R1274:1300 stage57_T3_T4_type_connection_20261121 <> typed_parse_rejects_untyped thm

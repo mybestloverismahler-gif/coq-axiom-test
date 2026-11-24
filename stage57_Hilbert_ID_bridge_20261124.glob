@@ -1,0 +1,16 @@
+DIGEST 31ea535d70170d41632b62309e0cea43
+Fstage57_Hilbert_ID_bridge_20261124
+R15:38 Coq.Logic.Classical_Prop <> <> lib
+R56:103 GeoCoq.Main.Meta_theory.Models.hilbert_to_tarski <> <> lib
+R113:126 GeoCoq.Axioms.hilbert_axioms <> <> mod
+prf 138:156 <> intersection_bridge
+R166:194 GeoCoq.Axioms.hilbert_axioms <> Hilbert_neutral_dimensionless class
+binder 161:162 <> Hi:1
+R205:221 GeoCoq.Axioms.hilbert_axioms <> Hilbert_euclidean class
+R223:224 stage57_Hilbert_ID_bridge_20261124 <> Hi:1 var
+binder 200:201 <> HE:2
+R231:250 GeoCoq.Axioms.hilbert_axioms <> Hilbert_euclidean_ID class
+R252:253 stage57_Hilbert_ID_bridge_20261124 <> HE:2 var
+R300:306 Coq.Logic.Classical_Prop <> classic prfax
+R300:306 Coq.Logic.Classical_Prop <> classic prfax
+R333:351 stage57_Hilbert_ID_bridge_20261124 <> intersection_bridge thm

@@ -1,0 +1,16 @@
+Welcome to Coq 8.18.0
+
+Coq < [Loading ML file ring_plugin.cmxs (using legacy method) ... done]
+
+Coq < occursb_correct
+     : forall p e : stage57_U1_occurs_decider_candidate.B.expr,
+       stage57_U1_occurs_decider_candidate.occursb p e = true <->
+       stage57_U1_nested_occurs_candidate.occurs p e
+
+Coq < Fetching opaque proofs from disk for stage57_U1_occurs_correct_candidate
+Fetching opaque proofs from disk for Coq.Classes.Morphisms
+Fetching opaque proofs from disk for Coq.Init.Logic
+Fetching opaque proofs from disk for Coq.Bool.Bool
+Closed under the global context
+
+Coq < 

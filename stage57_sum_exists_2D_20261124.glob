@@ -1,0 +1,57 @@
+DIGEST e3e41efd0a0f51d5e70d939fc2853c50
+Fstage57_sum_exists_2D_20261124
+R15:46 GeoCoq.Main.Tarski_dev.Ch14_prod <> <> lib
+R64:93 stage57_projection_2D_20261124 <> <> lib
+R111:142 stage57_par_trans_2D_v4_20261124 <> <> lib
+sec 154:165 <> Arithmetic2D
+R182:209 GeoCoq.Axioms.tarski_axioms <> Tarski_neutral_dimensionless class
+binder 177:178 <> Tn:1
+R227:284 GeoCoq.Axioms.tarski_axioms <> Tarski_neutral_dimensionless_with_decidable_point_equality class
+R286:287 stage57_sum_exists_2D_20261124 <> Arithmetic2D.Tn var
+binder 222:223 <> Td:2
+R305:313 GeoCoq.Axioms.tarski_axioms <> Tarski_2D class
+R315:316 stage57_sum_exists_2D_20261124 <> Arithmetic2D.Td var
+binder 300:301 <> T2:3
+R334:349 GeoCoq.Axioms.tarski_axioms <> Tarski_euclidean class
+R351:352 stage57_sum_exists_2D_20261124 <> Arithmetic2D.Td var
+binder 329:330 <> TE:4
+var 368:369 Arithmetic2D HD
+R390:395 GeoCoq.Axioms.tarski_axioms <> Tpoint meth
+binder 380:380 <> A:5
+binder 382:382 <> B:6
+binder 384:384 <> C:7
+binder 386:386 <> D:8
+R400:400 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R433:439 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R401:407 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R409:410 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 408:408 <> X:9
+R420:423 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R411:413 GeoCoq.Axioms.Definitions <> Col def
+R415:415 stage57_sum_exists_2D_20261124 <> X:9 var
+R417:417 stage57_sum_exists_2D_20261124 <> A:5 var
+R419:419 stage57_sum_exists_2D_20261124 <> B:6 var
+R424:426 GeoCoq.Axioms.Definitions <> Col def
+R428:428 stage57_sum_exists_2D_20261124 <> X:9 var
+R430:430 stage57_sum_exists_2D_20261124 <> C:7 var
+R432:432 stage57_sum_exists_2D_20261124 <> D:8 var
+R440:442 Coq.Init.Logic <> ::type_scope:'~'_x not
+R475:475 Coq.Init.Logic <> ::type_scope:'~'_x not
+R443:449 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R451:452 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 450:450 <> X:10
+R462:465 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R453:455 GeoCoq.Axioms.Definitions <> Col def
+R457:457 stage57_sum_exists_2D_20261124 <> X:10 var
+R459:459 stage57_sum_exists_2D_20261124 <> A:5 var
+R461:461 stage57_sum_exists_2D_20261124 <> B:6 var
+R466:468 GeoCoq.Axioms.Definitions <> Col def
+R470:470 stage57_sum_exists_2D_20261124 <> X:10 var
+R472:472 stage57_sum_exists_2D_20261124 <> C:7 var
+R474:474 stage57_sum_exists_2D_20261124 <> D:8 var
+prf 485:503 <> sum_exists_2D_local
+binder 514:514 <> A:12
+binder 516:516 <> B:13
+R529:532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R520:522 GeoCoq.Axioms.Definitions <> Col def
+R524:524 Coq.Init.Datatypes <> O constr

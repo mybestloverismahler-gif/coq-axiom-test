@@ -1,0 +1,28 @@
+DIGEST af148898ea57e12cd377f2c5a10e98ca
+Fstage57_T1_T2_same_model_20261119
+R15:28 Coq.Lists.List <> <> lib
+R38:50 Coq.Lists.List ListNotations <> mod
+R68:90 stage57_T3_injective_v1 <> <> lib
+prf 102:114 <> T1_same_model
+R120:123 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R118:119 stage57_T3_injective_v1 <> Tx constr
+R124:125 stage57_T3_injective_v1 <> Ty constr
+prf 163:175 <> T2_same_model
+R194:197 Coq.Init.Datatypes <> list ind
+R199:203 stage57_T3_injective_v1 <> token ind
+binder 188:188 <> a:1
+binder 190:190 <> b:2
+R208:214 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R229:230 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R219:222 Coq.Init.Datatypes <> list ind
+R224:228 stage57_T3_injective_v1 <> token ind
+binder 215:215 <> c:3
+R232:234 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R231:231 stage57_T1_T2_same_model_20261119 <> c:3 var
+R236:239 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R235:235 stage57_T1_T2_same_model_20261119 <> a:1 var
+R240:240 stage57_T1_T2_same_model_20261119 <> b:2 var
+R275:278 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R275:278 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R322:334 stage57_T1_T2_same_model_20261119 <> T1_same_model thm
+R355:367 stage57_T1_T2_same_model_20261119 <> T2_same_model thm

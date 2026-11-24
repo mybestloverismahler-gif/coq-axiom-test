@@ -1,0 +1,79 @@
+DIGEST 3e05fbba773522f968dd48d67216e247
+Fstage57_R010_DEL_parser_20261121
+R15:28 Coq.Lists.List <> <> lib
+R46:71 stage57_T3_T4_U1_candidate <> <> lib
+R89:125 stage57_R010_DEL_token_audit_20261121 <> <> lib
+R143:190 stage57_R010_legacy_parser_preservation_20261121 <> <> lib
+R206:231 stage57_T3_T4_U1_candidate <> <> modtype
+mod 201:201 <> B
+R246:282 stage57_R010_DEL_token_audit_20261121 <> <> modtype
+mod 241:241 <> R
+R297:344 stage57_R010_legacy_parser_preservation_20261121 <> <> modtype
+mod 292:292 <> P
+ind 358:370 <> extended_expr
+constr 384:393 <> LegacyExpr
+constr 423:429 <> DELExpr
+R403:406 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R397:402 stage57_R010_DEL_parser_20261121 <> expr ind
+R407:419 stage57_R010_DEL_parser_20261121 <> extended_expr:1 ind
+R433:445 stage57_R010_DEL_parser_20261121 <> extended_expr:1 ind
+scheme 358:370 <> extended_expr_rect
+scheme 358:370 <> extended_expr_ind
+scheme 358:370 <> extended_expr_rec
+scheme 358:370 <> extended_expr_sind
+def 460:473 <> parse_extended
+R481:484 Coq.Init.Datatypes <> list ind
+R486:501 stage57_R010_DEL_parser_20261121 <> extended_token ind
+binder 476:477 <> xs:3
+R508:513 Coq.Init.Datatypes <> option ind
+R515:527 stage57_R010_DEL_parser_20261121 <> extended_expr ind
+R540:552 stage57_R010_DEL_parser_20261121 <> restore_old def
+R554:555 stage57_R010_DEL_parser_20261121 <> xs:3 var
+R566:569 Coq.Init.Datatypes <> Some constr
+R578:587 Coq.Init.Datatypes <> option_map def
+R601:616 stage57_R010_DEL_parser_20261121 <> parse_complete def
+R589:598 stage57_R010_DEL_parser_20261121 <> LegacyExpr constr
+R627:630 Coq.Init.Datatypes <> None constr
+R647:648 stage57_R010_DEL_parser_20261121 <> xs:3 var
+R668:671 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R663:667 stage57_R010_DEL_parser_20261121 <> DEL constr
+R672:674 Coq.Init.Datatypes <> nil constr
+R679:682 Coq.Init.Datatypes <> Some constr
+R684:690 stage57_R010_DEL_parser_20261121 <> DELExpr constr
+R705:708 Coq.Init.Datatypes <> None constr
+prf 736:747 <> DEL_accepted
+R782:784 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R753:766 stage57_R010_DEL_parser_20261121 <> parse_extended def
+R774:777 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R769:773 stage57_R010_DEL_parser_20261121 <> DEL constr
+R778:780 Coq.Init.Datatypes <> nil constr
+R785:788 Coq.Init.Datatypes <> Some constr
+R790:796 stage57_R010_DEL_parser_20261121 <> DELExpr constr
+prf 833:858 <> old_parser_preserved_again
+R876:879 Coq.Init.Datatypes <> list ind
+R881:885 stage57_R010_DEL_parser_20261121 <> tok ind
+binder 871:872 <> xs:5
+R923:927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R890:903 stage57_R010_DEL_parser_20261121 <> parse_extended def
+R906:918 stage57_R010_DEL_parser_20261121 <> lift_tokens def
+R920:921 stage57_R010_DEL_parser_20261121 <> xs:5 var
+R928:937 Coq.Init.Datatypes <> option_map def
+R951:966 stage57_R010_DEL_parser_20261121 <> parse_complete def
+R968:969 stage57_R010_DEL_parser_20261121 <> xs:5 var
+R939:948 stage57_R010_DEL_parser_20261121 <> LegacyExpr constr
+R1001:1014 stage57_R010_DEL_parser_20261121 <> parse_extended def
+R1027:1044 stage57_R010_DEL_parser_20261121 <> restore_old_lift thm
+R1027:1044 stage57_R010_DEL_parser_20261121 <> restore_old_lift thm
+R1027:1044 stage57_R010_DEL_parser_20261121 <> restore_old_lift thm
+prf 1076:1096 <> repeated_DEL_rejected
+R1140:1142 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1102:1115 stage57_R010_DEL_parser_20261121 <> parse_extended def
+R1123:1126 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1118:1122 stage57_R010_DEL_parser_20261121 <> DEL constr
+R1132:1135 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1127:1131 stage57_R010_DEL_parser_20261121 <> DEL constr
+R1136:1138 Coq.Init.Datatypes <> nil constr
+R1143:1146 Coq.Init.Datatypes <> None constr
+R1193:1204 stage57_R010_DEL_parser_20261121 <> DEL_accepted thm
+R1225:1250 stage57_R010_DEL_parser_20261121 <> old_parser_preserved_again thm
+R1271:1291 stage57_R010_DEL_parser_20261121 <> repeated_DEL_rejected thm

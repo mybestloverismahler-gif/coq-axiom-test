@@ -1,0 +1,43 @@
+DIGEST 7a08b7f29a8104b29592c4ea5e96806e
+Fstage57_U1_deterministic
+def 11:11 <> f
+R18:20 Coq.Init.Datatypes <> nat ind
+binder 14:14 <> x:1
+R26:26 Coq.Init.Datatypes <> S constr
+R28:28 stage57_U1_deterministic <> x:1 var
+def 42:42 <> g
+R49:51 Coq.Init.Datatypes <> nat ind
+binder 45:45 <> x:2
+R58:60 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R57:57 stage57_U1_deterministic <> x:2 var
+R61:61 stage57_U1_deterministic <> x:2 var
+ind 74:79 <> result
+constr 107:115 <> result_fg
+R86:89 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R83:85 Coq.Init.Datatypes <> nat ind
+R93:96 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R90:92 Coq.Init.Datatypes <> nat ind
+binder 126:126 <> x:5
+R129:134 stage57_U1_deterministic <> result:3 ind
+R139:139 stage57_U1_deterministic <> f def
+R142:142 stage57_U1_deterministic <> g def
+R144:144 stage57_U1_deterministic <> x:5 var
+R136:136 stage57_U1_deterministic <> x:5 var
+scheme 74:79 <> result_ind
+scheme 74:79 <> result_sind
+prf 157:172 <> U1_deterministic
+binder 183:183 <> x:6
+binder 185:185 <> y:7
+binder 187:187 <> z:8
+R200:203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R190:195 stage57_U1_deterministic <> result ind
+R197:197 stage57_U1_deterministic <> x:6 var
+R199:199 stage57_U1_deterministic <> y:7 var
+R214:217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R204:209 stage57_U1_deterministic <> result ind
+R211:211 stage57_U1_deterministic <> x:6 var
+R213:213 stage57_U1_deterministic <> z:8 var
+R219:221 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R218:218 stage57_U1_deterministic <> y:7 var
+R222:222 stage57_U1_deterministic <> z:8 var
+R316:331 stage57_U1_deterministic <> U1_deterministic thm

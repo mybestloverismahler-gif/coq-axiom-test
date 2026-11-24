@@ -1,0 +1,33 @@
+Welcome to Coq 8.18.0
+
+Coq < Toplevel input, characters 0-90:
+> Require Import stage57_T3_T4_type_connection_20261121 stage57_U1_occurs_correct_candidate.
+> ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error:
+Compiled library stage57_T3_T4_type_connection_20261121 (in file /workspaces/coq-axiom-test/stage57_T3_T4_type_connection_20261121.vo) makes inconsistent assumptions over library Coq.Init.Ltac
+
+Coq < Toplevel input, characters 18-35:
+> Print Assumptions typed_parse_sound.
+>                   ^^^^^^^^^^^^^^^^^
+Error: The reference typed_parse_sound was not found in the current
+environment.
+
+Coq < Toplevel input, characters 18-36:
+> Print Assumptions typed_parse_unique.
+>                   ^^^^^^^^^^^^^^^^^^
+Error: The reference typed_parse_unique was not found in the current
+environment.
+
+Coq < Toplevel input, characters 18-45:
+> Print Assumptions typed_parse_rejects_untyped.
+>                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error: The reference typed_parse_rejects_untyped was not found in the current
+environment.
+
+Coq < Toplevel input, characters 18-33:
+> Print Assumptions occursb_correct.
+>                   ^^^^^^^^^^^^^^^
+Error: The reference occursb_correct was not found in the current
+environment.
+
+Coq < 

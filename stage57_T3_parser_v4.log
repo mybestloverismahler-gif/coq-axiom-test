@@ -1,0 +1,104 @@
+1 goal
+  
+  k : nat
+  IH : forall ts : list TB.R.token,
+       I.parse_one k (map TB.R_to_I ts) = convert_result (R.parse_one k ts)
+  rest : list TB.R.token
+  ============================
+  match map TB.R_to_I rest with
+  | I.Tneg :: rest0 =>
+      match I.parse_one k rest0 with
+      | Some (a, I.TR :: tail) => Some (I.ENeg a, tail)
+      | Some (a, []) | Some (a, I.Tx :: _) | Some (a, I.Ty :: _) |
+        Some (a, I.Tp :: _) | Some (a, I.TL :: _) | 
+        Some (a, I.Tneg :: _) | Some (a, I.Tadd :: _) |
+        Some (a, I.Tpair :: _) | Some (a, I.Tfst :: _) => None
+      | None => None
+      end
+  | I.Tadd :: rest0 =>
+      match I.parse_one k rest0 with
+      | Some (a, rem1) =>
+          match I.parse_one k rem1 with
+          | Some (b, I.TR :: tail) => Some (I.EAdd a b, tail)
+          | Some (b, []) | Some (b, I.Tx :: _) | Some (b, I.Ty :: _) |
+            Some (b, I.Tp :: _) | Some (b, I.TL :: _) |
+            Some (b, I.Tneg :: _) | Some (b, I.Tadd :: _) |
+            Some (b, I.Tpair :: _) | Some (b, I.Tfst :: _) => None
+          | None => None
+          end
+      | None => None
+      end
+  | I.Tpair :: rest0 =>
+      match I.parse_one k rest0 with
+      | Some (a, rem1) =>
+          match I.parse_one k rem1 with
+          | Some (b, I.TR :: tail) => Some (I.EPair a b, tail)
+          | Some (b, []) | Some (b, I.Tx :: _) | Some (b, I.Ty :: _) |
+            Some (b, I.Tp :: _) | Some (b, I.TL :: _) |
+            Some (b, I.Tneg :: _) | Some (b, I.Tadd :: _) |
+            Some (b, I.Tpair :: _) | Some (b, I.Tfst :: _) => None
+          | None => None
+          end
+      | None => None
+      end
+  | I.Tfst :: rest0 =>
+      match I.parse_one k rest0 with
+      | Some (a, I.TR :: tail) => Some (I.EFst a, tail)
+      | Some (a, []) | Some (a, I.Tx :: _) | Some (a, I.Ty :: _) |
+        Some (a, I.Tp :: _) | Some (a, I.TL :: _) | 
+        Some (a, I.Tneg :: _) | Some (a, I.Tadd :: _) |
+        Some (a, I.Tpair :: _) | Some (a, I.Tfst :: _) => None
+      | None => None
+      end
+  | _ => None
+  end =
+  convert_result
+    match rest with
+    | R.Tneg :: rest0 =>
+        match R.parse_one k rest0 with
+        | Some (e, R.TR :: tail) => Some (R.ENeg e, tail)
+        | Some (e, []) | Some (e, R.Tx :: _) | Some (e, R.Ty :: _) |
+          Some (e, R.Tp :: _) | Some (e, R.TL :: _) | 
+          Some (e, R.Tneg :: _) | Some (e, R.Tadd :: _) |
+          Some (e, R.Tpair :: _) | Some (e, R.Tfst :: _) => None
+        | None => None
+        end
+    | R.Tadd :: rest0 =>
+        match R.parse_one k rest0 with
+        | Some (a, rem1) =>
+            match R.parse_one k rem1 with
+            | Some (b, R.TR :: tail) => Some (R.EAdd a b, tail)
+            | Some (b, []) | Some (b, R.Tx :: _) | 
+              Some (b, R.Ty :: _) | Some (b, R.Tp :: _) |
+              Some (b, R.TL :: _) | Some (b, R.Tneg :: _) |
+              Some (b, R.Tadd :: _) | Some (b, R.Tpair :: _) |
+              Some (b, R.Tfst :: _) => None
+            | None => None
+            end
+        | None => None
+        end
+    | R.Tpair :: rest0 =>
+        match R.parse_one k rest0 with
+        | Some (a, rem1) =>
+            match R.parse_one k rem1 with
+            | Some (b, R.TR :: tail) => Some (R.EPair a b, tail)
+            | Some (b, []) | Some (b, R.Tx :: _) | 
+              Some (b, R.Ty :: _) | Some (b, R.Tp :: _) |
+              Some (b, R.TL :: _) | Some (b, R.Tneg :: _) |
+              Some (b, R.Tadd :: _) | Some (b, R.Tpair :: _) |
+              Some (b, R.Tfst :: _) => None
+            | None => None
+            end
+        | None => None
+        end
+    | R.Tfst :: rest0 =>
+        match R.parse_one k rest0 with
+        | Some (e, R.TR :: tail) => Some (R.EFst e, tail)
+        | Some (e, []) | Some (e, R.Tx :: _) | Some (e, R.Ty :: _) |
+          Some (e, R.Tp :: _) | Some (e, R.TL :: _) | 
+          Some (e, R.Tneg :: _) | Some (e, R.Tadd :: _) |
+          Some (e, R.Tpair :: _) | Some (e, R.Tfst :: _) => None
+        | None => None
+        end
+    | _ => None
+    end

@@ -1,0 +1,112 @@
+DIGEST 8bcebdd3a3d1c03e0bed93147477a5bc
+Fstage57_T3_T4_guarantee_bridge_20261121
+R24:27 Coq.Lists.List <> <> lib
+R37:49 Coq.Lists.List ListNotations <> mod
+R67:104 stage57_parser_bridge_general_20261121 <> <> lib
+R122:159 stage57_T3_T4_type_connection_20261121 <> <> lib
+R174:196 stage57_T3_injective_v1 <> <> modtype
+mod 169:169 <> A
+R211:236 stage57_T3_T4_U1_candidate <> <> modtype
+mod 206:206 <> B
+R251:285 stage57_T3_T4_token_bridge_20261121 <> <> modtype
+mod 246:246 <> T
+R300:333 stage57_T3_T4_expr_bridge_20261121 <> <> modtype
+mod 295:295 <> E
+R348:385 stage57_parser_bridge_general_20261121 <> <> modtype
+mod 343:343 <> P
+R400:437 stage57_T3_T4_type_connection_20261121 <> <> modtype
+mod 395:395 <> C
+prf 449:468 <> A_to_B_parse_success
+binder 481:484 <> fuel:1
+binder 486:487 <> ts:2
+binder 489:489 <> e:3
+binder 491:494 <> rest:4
+R537:544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R520:522 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R501:511 stage57_T3_T4_guarantee_bridge_20261121 <> parse_one def
+R513:516 stage57_T3_T4_guarantee_bridge_20261121 <> fuel:1 var
+R518:519 stage57_T3_T4_guarantee_bridge_20261121 <> ts:2 var
+R523:526 Coq.Init.Datatypes <> Some constr
+R528:528 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R530:531 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R536:536 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R529:529 stage57_T3_T4_guarantee_bridge_20261121 <> e:3 var
+R532:535 stage57_T3_T4_guarantee_bridge_20261121 <> rest:4 var
+R573:581 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R545:551 stage57_T3_T4_guarantee_bridge_20261121 <> parse def
+R553:556 stage57_T3_T4_guarantee_bridge_20261121 <> fuel:1 var
+R559:561 Coq.Lists.List <> map def
+R570:571 stage57_T3_T4_guarantee_bridge_20261121 <> ts:2 var
+R563:568 stage57_T3_T4_guarantee_bridge_20261121 <> to_B def
+R582:585 Coq.Init.Datatypes <> Some constr
+R587:587 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R601:602 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R618:618 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R588:598 stage57_T3_T4_guarantee_bridge_20261121 <> expr_to_B def
+R600:600 stage57_T3_T4_guarantee_bridge_20261121 <> e:3 var
+R603:605 Coq.Lists.List <> map def
+R614:617 stage57_T3_T4_guarantee_bridge_20261121 <> rest:4 var
+R607:612 stage57_T3_T4_guarantee_bridge_20261121 <> to_B def
+R665:687 stage57_T3_T4_guarantee_bridge_20261121 <> parser_bridge_general thm
+R665:687 stage57_T3_T4_guarantee_bridge_20261121 <> parser_bridge_general thm
+R665:687 stage57_T3_T4_guarantee_bridge_20261121 <> parser_bridge_general thm
+R699:714 stage57_T3_T4_guarantee_bridge_20261121 <> convert_result def
+R769:788 stage57_T3_T4_guarantee_bridge_20261121 <> A_to_B_parse_success thm
+prf 800:820 <> A_to_T4_typed_success
+R839:842 Coq.Init.Datatypes <> list ind
+R844:850 stage57_T3_T4_guarantee_bridge_20261121 <> token ind
+binder 834:835 <> ts:5
+R858:863 stage57_T3_T4_guarantee_bridge_20261121 <> expr ind
+binder 854:854 <> e:6
+R871:874 stage57_T3_T4_guarantee_bridge_20261121 <> ty ind
+binder 867:867 <> t:7
+R927:934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R912:914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R882:892 stage57_T3_T4_guarantee_bridge_20261121 <> parse_one def
+R895:895 Coq.Init.Datatypes <> S constr
+R898:903 Coq.Init.Datatypes <> length def
+R905:906 stage57_T3_T4_guarantee_bridge_20261121 <> ts:5 var
+R910:911 stage57_T3_T4_guarantee_bridge_20261121 <> ts:5 var
+R915:918 Coq.Init.Datatypes <> Some constr
+R920:920 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R922:923 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R926:926 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R921:921 stage57_T3_T4_guarantee_bridge_20261121 <> e:6 var
+R924:925 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R967:974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R958:960 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R935:941 stage57_T3_T4_guarantee_bridge_20261121 <> infer def
+R944:954 stage57_T3_T4_guarantee_bridge_20261121 <> expr_to_B def
+R956:956 stage57_T3_T4_guarantee_bridge_20261121 <> e:6 var
+R961:964 Coq.Init.Datatypes <> Some constr
+R966:966 stage57_T3_T4_guarantee_bridge_20261121 <> t:7 var
+R1047:1049 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R975:1024 stage57_T3_T4_type_connection_20261121 <> typed_parse def
+R1033:1035 Coq.Lists.List <> map def
+R1044:1045 stage57_T3_T4_guarantee_bridge_20261121 <> ts:5 var
+R1037:1042 stage57_T3_T4_guarantee_bridge_20261121 <> to_B def
+R1050:1053 Coq.Init.Datatypes <> Some constr
+R1055:1055 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1069:1070 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1072:1072 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1056:1066 stage57_T3_T4_guarantee_bridge_20261121 <> expr_to_B def
+R1068:1068 stage57_T3_T4_guarantee_bridge_20261121 <> e:6 var
+R1071:1071 stage57_T3_T4_guarantee_bridge_20261121 <> t:7 var
+R1121:1170 stage57_T3_T4_type_connection_20261121 <> typed_parse def
+R1182:1197 stage57_T3_T4_guarantee_bridge_20261121 <> parse_complete def
+R1210:1219 Coq.Lists.List <> map_length thm
+R1210:1219 Coq.Lists.List <> map_length thm
+R1210:1219 Coq.Lists.List <> map_length thm
+R1233:1252 stage57_T3_T4_guarantee_bridge_20261121 <> A_to_B_parse_success thm
+R1255:1255 Coq.Init.Datatypes <> S constr
+R1258:1263 Coq.Init.Datatypes <> length def
+R1275:1276 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1233:1252 stage57_T3_T4_guarantee_bridge_20261121 <> A_to_B_parse_success thm
+R1255:1255 Coq.Init.Datatypes <> S constr
+R1258:1263 Coq.Init.Datatypes <> length def
+R1275:1276 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1233:1252 stage57_T3_T4_guarantee_bridge_20261121 <> A_to_B_parse_success thm
+R1255:1255 Coq.Init.Datatypes <> S constr
+R1258:1263 Coq.Init.Datatypes <> length def
+R1275:1276 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1351:1371 stage57_T3_T4_guarantee_bridge_20261121 <> A_to_T4_typed_success thm

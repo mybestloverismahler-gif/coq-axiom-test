@@ -1,0 +1,25 @@
+DIGEST c5e9084a151cf79fbe4a8eb1827ae74a
+Fstage57_T4_totality_counterexample_20261121
+R15:40 stage57_T3_T4_U1_candidate <> <> lib
+R55:80 stage57_T3_T4_U1_candidate <> <> modtype
+mod 50:50 <> B
+prf 92:120 <> T4_not_total_in_current_model
+R126:128 Coq.Init.Logic <> ::type_scope:'~'_x not
+R179:179 Coq.Init.Logic <> ::type_scope:'~'_x not
+R140:145 stage57_T4_totality_counterexample_20261121 <> expr ind
+binder 136:136 <> e:1
+R148:154 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R163:164 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R159:162 stage57_T4_totality_counterexample_20261121 <> ty ind
+binder 155:155 <> t:2
+R165:174 stage57_T4_totality_counterexample_20261121 <> has_type def
+R176:176 stage57_T4_totality_counterexample_20261121 <> e:1 var
+R178:178 stage57_T4_totality_counterexample_20261121 <> t:2 var
+R215:219 stage57_T4_totality_counterexample_20261121 <> Add constr
+R221:224 stage57_T4_totality_counterexample_20261121 <> Ex constr
+R226:229 stage57_T4_totality_counterexample_20261121 <> Ep constr
+R215:219 stage57_T4_totality_counterexample_20261121 <> Add constr
+R221:224 stage57_T4_totality_counterexample_20261121 <> Ex constr
+R226:229 stage57_T4_totality_counterexample_20261121 <> Ep constr
+R253:262 stage57_T4_totality_counterexample_20261121 <> has_type def
+R326:354 stage57_T4_totality_counterexample_20261121 <> T4_not_total_in_current_model thm

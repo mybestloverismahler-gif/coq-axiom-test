@@ -1,0 +1,1318 @@
+Welcome to Chicken 8.18.0
+[intern /workspaces/coq-axiom-test/STAGE52_GeoCoq_candidate_v5_20261124.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/user-contrib/GeoCoq/Axioms/hilbert_axioms.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Setoids/Setoid.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/ssr/ssrsetoid.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Classes/RelationClasses.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Relations/Relation_Definitions.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Prelude.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Tauto.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Datatypes.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Logic.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Ltac.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Notations.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Tactics.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Specif.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Wf.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Peano.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Nat.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Number.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Hexadecimal.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Decimal.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Init/Byte.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Program/Tactics.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Classes/Init.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Program/Basics.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/ssr/ssrunder.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/ssr/ssrclasses.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Classes/SetoidTactics.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Classes/Equivalence.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Classes/Morphisms.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Classes/Morphisms_Prop.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Classes/CMorphisms.vo ...
+ done]
+
+[intern /home/codespace/.opam/default/lib/coq/theories/Classes/CRelationClasses.vo ...
+ done]
+
+
+Ordered list:
+  Coq.Init.Ltac
+  Coq.Init.Notations
+  Coq.Init.Logic
+  Coq.Init.Datatypes
+  Coq.Init.Tauto
+  Coq.Init.Specif
+  Coq.Init.Tactics
+  Coq.Init.Wf
+  Coq.Init.Decimal
+  Coq.Init.Hexadecimal
+  Coq.Init.Number
+  Coq.Init.Nat
+  Coq.Init.Peano
+  Coq.Init.Byte
+  Coq.Init.Prelude
+  Coq.Relations.Relation_Definitions
+  Coq.Program.Tactics
+  Coq.Program.Basics
+  Coq.Classes.Init
+  Coq.Classes.RelationClasses
+  Coq.ssr.ssrclasses
+  Coq.ssr.ssrunder
+  Coq.ssr.ssrsetoid
+  Coq.Classes.Morphisms
+  Coq.Classes.Equivalence
+  Coq.Classes.Morphisms_Prop
+  Coq.Classes.CRelationClasses
+  Coq.Classes.CMorphisms
+  Coq.Classes.SetoidTactics
+  Coq.Setoids.Setoid
+  GeoCoq.Axioms.hilbert_axioms
+  STAGE52_GeoCoq_candidate_v5_20261124
+  
+Checking library: Coq.Init.Ltac
+  checking module: Coq.Init.Ltac
+Checking library: Coq.Init.Notations
+  checking module: Coq.Init.Notations
+  checking module: Coq.Init.Notations.IfNotations
+Checking library: Coq.Init.Logic
+  checking module: Coq.Init.Logic
+  checking cst:Coq.Init.Logic.True_rect
+  checking cst:Coq.Init.Logic.True_ind
+  checking cst:Coq.Init.Logic.True_rec
+  checking cst:Coq.Init.Logic.True_sind
+  checking cst:Coq.Init.Logic.False_rect
+  checking cst:Coq.Init.Logic.False_ind
+  checking cst:Coq.Init.Logic.False_rec
+  checking cst:Coq.Init.Logic.False_sind
+  checking cst:Coq.Init.Logic.not
+  checking cst:Coq.Init.Logic.notT
+  checking cst:Coq.Init.Logic.and_rect
+  checking cst:Coq.Init.Logic.and_ind
+  checking cst:Coq.Init.Logic.and_rec
+  checking cst:Coq.Init.Logic.and_sind
+  checking cst:Coq.Init.Logic.proj1
+  checking cst:Coq.Init.Logic.proj2
+  checking cst:Coq.Init.Logic.or_ind
+  checking cst:Coq.Init.Logic.or_sind
+  checking cst:Coq.Init.Logic.iff
+  checking cst:Coq.Init.Logic.iff_refl
+  checking cst:Coq.Init.Logic.iff_trans
+  checking cst:Coq.Init.Logic.iff_sym
+  checking cst:Coq.Init.Logic.and_iff_compat_l
+  checking cst:Coq.Init.Logic.and_iff_compat_r
+  checking cst:Coq.Init.Logic.or_iff_compat_l
+  checking cst:Coq.Init.Logic.or_iff_compat_r
+  checking cst:Coq.Init.Logic.imp_iff_compat_l
+  checking cst:Coq.Init.Logic.imp_iff_compat_r
+  checking cst:Coq.Init.Logic.not_iff_compat
+  checking cst:Coq.Init.Logic.neg_false
+  checking cst:Coq.Init.Logic.and_cancel_l
+  checking cst:Coq.Init.Logic.and_cancel_r
+  checking cst:Coq.Init.Logic.and_comm
+  checking cst:Coq.Init.Logic.and_assoc
+  checking cst:Coq.Init.Logic.or_cancel_l
+  checking cst:Coq.Init.Logic.or_cancel_r
+  checking cst:Coq.Init.Logic.or_comm
+  checking cst:Coq.Init.Logic.or_assoc
+  checking cst:Coq.Init.Logic.iff_and
+  checking cst:Coq.Init.Logic.iff_to_and
+  checking cst:Coq.Init.Logic.ex_ind
+  checking cst:Coq.Init.Logic.ex_sind
+  checking cst:Coq.Init.Logic.ex_proj1
+  checking cst:Coq.Init.Logic.ex_proj2
+  checking cst:Coq.Init.Logic.ex2_ind
+  checking cst:Coq.Init.Logic.ex2_sind
+  checking cst:Coq.Init.Logic.ex_of_ex2
+  checking cst:Coq.Init.Logic.ex_proj3
+  checking cst:Coq.Init.Logic.all
+  checking cst:Coq.Init.Logic.inst
+  checking cst:Coq.Init.Logic.gen
+  checking cst:Coq.Init.Logic.eq_rect
+  checking cst:Coq.Init.Logic.eq_ind
+  checking cst:Coq.Init.Logic.eq_rec
+  checking cst:Coq.Init.Logic.eq_sind
+  checking cst:Coq.Init.Logic.absurd
+  checking cst:Coq.Init.Logic.eq_sym
+  checking cst:Coq.Init.Logic.eq_trans
+  checking cst:Coq.Init.Logic.eq_trans_r
+  checking cst:Coq.Init.Logic.f_equal
+  checking cst:Coq.Init.Logic.not_eq_sym
+  checking cst:Coq.Init.Logic.eq_sind_r
+  checking cst:Coq.Init.Logic.eq_ind_r
+  checking cst:Coq.Init.Logic.eq_rec_r
+  checking cst:Coq.Init.Logic.eq_rect_r
+  checking module: Coq.Init.Logic.EqNotations
+  checking cst:Coq.Init.Logic.f_equal_dep
+  checking cst:Coq.Init.Logic.f_equal_dep2
+  checking cst:Coq.Init.Logic.rew_opp_r
+  checking cst:Coq.Init.Logic.rew_opp_l
+  checking cst:Coq.Init.Logic.f_equal2
+  checking cst:Coq.Init.Logic.f_equal3
+  checking cst:Coq.Init.Logic.f_equal4
+  checking cst:Coq.Init.Logic.f_equal5
+  checking cst:Coq.Init.Logic.f_equal_compose
+  checking cst:Coq.Init.Logic.eq_trans_refl_l
+  checking cst:Coq.Init.Logic.eq_trans_refl_r
+  checking cst:Coq.Init.Logic.eq_sym_involutive
+  checking cst:Coq.Init.Logic.eq_trans_sym_inv_l
+  checking cst:Coq.Init.Logic.eq_trans_sym_inv_r
+  checking cst:Coq.Init.Logic.eq_trans_assoc
+  checking cst:Coq.Init.Logic.rew_map
+  checking cst:Coq.Init.Logic.eq_trans_map
+  checking cst:Coq.Init.Logic.map_subst
+  checking cst:Coq.Init.Logic.map_subst_map
+  checking cst:Coq.Init.Logic.rew_swap
+  checking cst:Coq.Init.Logic.rew_compose
+  checking cst:Coq.Init.Logic.eq_id_comm_l
+  checking cst:Coq.Init.Logic.eq_id_comm_r
+  checking cst:Coq.Init.Logic.eq_refl_map_distr
+  checking cst:Coq.Init.Logic.eq_trans_map_distr
+  checking cst:Coq.Init.Logic.eq_sym_map_distr
+  checking cst:Coq.Init.Logic.eq_trans_sym_distr
+  checking cst:Coq.Init.Logic.eq_trans_rew_distr
+  checking cst:Coq.Init.Logic.rew_const
+  checking cst:Coq.Init.Logic.subrelation
+  checking cst:Coq.Init.Logic.unique
+  checking cst:Coq.Init.Logic.uniqueness
+  checking cst:Coq.Init.Logic.unique_existence
+  checking cst:Coq.Init.Logic.forall_exists_unique_domain_coincide
+  checking cst:Coq.Init.Logic.forall_exists_coincide_unique_domain
+  checking cst:Coq.Init.Logic.inhabited_ind
+  checking cst:Coq.Init.Logic.inhabited_sind
+  checking cst:Coq.Init.Logic.exists_inhabited
+  checking cst:Coq.Init.Logic.inhabited_covariant
+  checking cst:Coq.Init.Logic.eq_stepl
+  checking cst:Coq.Init.Logic.iff_stepl
+  checking cst:Coq.Init.Logic.ex_eta
+  checking cst:Coq.Init.Logic.ex2_eta
+  checking cst:Coq.Init.Logic.ex_rect
+  checking cst:Coq.Init.Logic.ex_rec
+  checking cst:Coq.Init.Logic.ex_proj1_eq
+  checking cst:Coq.Init.Logic.ex_proj2_eq
+  checking cst:Coq.Init.Logic.eq_ex_intro_uncurried
+  checking cst:Coq.Init.Logic.eq_ex_uncurried
+  checking cst:Coq.Init.Logic.eq_ex_intro
+  checking cst:Coq.Init.Logic.eq_ex
+  checking cst:Coq.Init.Logic.eq_ex_intro_l
+  checking cst:Coq.Init.Logic.eq_ex_intro_r
+  checking cst:Coq.Init.Logic.eq_ex_eta
+  checking cst:Coq.Init.Logic.eq_ex_rect
+  checking cst:Coq.Init.Logic.eq_ex_rec
+  checking cst:Coq.Init.Logic.eq_ex_ind
+  checking cst:Coq.Init.Logic.eq_ex_rect_ex_intro_l
+  checking cst:Coq.Init.Logic.eq_ex_rect_ex_intro_r
+  checking cst:Coq.Init.Logic.eq_ex_rect_ex_intro
+  checking cst:Coq.Init.Logic.eq_ex_rect_uncurried
+  checking cst:Coq.Init.Logic.eq_ex_rec_uncurried
+  checking cst:Coq.Init.Logic.eq_ex_ind_uncurried
+  checking cst:Coq.Init.Logic.eq_ex_hprop
+  checking cst:Coq.Init.Logic.eq_ex_intro_hprop
+  checking cst:Coq.Init.Logic.eq_ex_uncurried_iff
+  checking cst:Coq.Init.Logic.eq_ex_hprop_iff
+  checking cst:Coq.Init.Logic.rew_ex
+  checking cst:Coq.Init.Logic.ex2_rect
+  checking cst:Coq.Init.Logic.ex2_rec
+  checking cst:Coq.Init.Logic.ex_of_ex2_eq
+  checking cst:Coq.Init.Logic.ex_proj1_of_ex2_eq
+  checking cst:Coq.Init.Logic.ex_proj2_of_ex2_eq
+  checking cst:Coq.Init.Logic.ex_proj3_eq
+  checking cst:Coq.Init.Logic.eq_ex_intro2_uncurried
+  checking cst:Coq.Init.Logic.eq_ex2_uncurried
+  checking cst:Coq.Init.Logic.eq_ex2
+  checking cst:Coq.Init.Logic.eq_ex_intro2
+  checking cst:Coq.Init.Logic.eq_ex_intro2_l
+  checking cst:Coq.Init.Logic.eq_ex_intro2_r
+  checking cst:Coq.Init.Logic.eq_ex2_hprop
+  checking cst:Coq.Init.Logic.eq_ex_intro2_hprop_nondep
+  checking cst:Coq.Init.Logic.eq_ex_intro2_hprop
+  checking cst:Coq.Init.Logic.eq_ex2_uncurried_iff
+  checking cst:Coq.Init.Logic.eq_ex2_eta
+  checking cst:Coq.Init.Logic.eq_ex2_rect
+  checking cst:Coq.Init.Logic.eq_ex2_rec
+  checking cst:Coq.Init.Logic.eq_ex2_ind
+  checking cst:Coq.Init.Logic.eq_ex2_rect_ex_intro2_l
+  checking cst:Coq.Init.Logic.eq_ex2_rect_ex_intro2_r
+  checking cst:Coq.Init.Logic.eq_ex2_rect_ex_intro2
+  checking cst:Coq.Init.Logic.eq_ex2_rect_uncurried
+  checking cst:Coq.Init.Logic.eq_ex2_rec_uncurried
+  checking cst:Coq.Init.Logic.eq_ex2_ind_uncurried
+  checking cst:Coq.Init.Logic.eq_ex2_hprop_iff
+  checking cst:Coq.Init.Logic.eq_ex2_nondep
+  checking cst:Coq.Init.Logic.rew_ex2
+Checking library: Coq.Init.Datatypes
+  checking module: Coq.Init.Datatypes
+  checking cst:Coq.Init.Datatypes.Empty_set_rect
+  checking cst:Coq.Init.Datatypes.Empty_set_ind
+  checking cst:Coq.Init.Datatypes.Empty_set_rec
+  checking cst:Coq.Init.Datatypes.Empty_set_sind
+  checking cst:Coq.Init.Datatypes.unit_rect
+  checking cst:Coq.Init.Datatypes.unit_ind
+  checking cst:Coq.Init.Datatypes.unit_rec
+  checking cst:Coq.Init.Datatypes.unit_sind
+  checking cst:Coq.Init.Datatypes.bool_rect
+  checking cst:Coq.Init.Datatypes.bool_ind
+  checking cst:Coq.Init.Datatypes.bool_rec
+  checking cst:Coq.Init.Datatypes.bool_sind
+  checking cst:Coq.Init.Datatypes.andb
+  checking cst:Coq.Init.Datatypes.orb
+  checking cst:Coq.Init.Datatypes.implb
+  checking cst:Coq.Init.Datatypes.xorb
+  checking cst:Coq.Init.Datatypes.negb
+  checking cst:Coq.Init.Datatypes.andb_prop
+  checking cst:Coq.Init.Datatypes.andb_true_intro
+  checking cst:Coq.Init.Datatypes.eq_true_rect
+  checking cst:Coq.Init.Datatypes.eq_true_ind
+  checking cst:Coq.Init.Datatypes.eq_true_rec
+  checking cst:Coq.Init.Datatypes.eq_true_sind
+  checking cst:Coq.Init.Datatypes.is_true
+  checking cst:Coq.Init.Datatypes.eq_true_ind_r
+  checking cst:Coq.Init.Datatypes.eq_true_rec_r
+  checking cst:Coq.Init.Datatypes.eq_true_rect_r
+  checking cst:Coq.Init.Datatypes.BoolSpec_ind
+  checking cst:Coq.Init.Datatypes.BoolSpec_sind
+  checking cst:Coq.Init.Datatypes.nat_rect
+  checking cst:Coq.Init.Datatypes.nat_ind
+  checking cst:Coq.Init.Datatypes.nat_rec
+  checking cst:Coq.Init.Datatypes.nat_sind
+  checking cst:Coq.Init.Datatypes.option_rect
+  checking cst:Coq.Init.Datatypes.option_ind
+  checking cst:Coq.Init.Datatypes.option_rec
+  checking cst:Coq.Init.Datatypes.option_sind
+  checking cst:Coq.Init.Datatypes.option_map
+  checking cst:Coq.Init.Datatypes.sum_rect
+  checking cst:Coq.Init.Datatypes.sum_ind
+  checking cst:Coq.Init.Datatypes.sum_rec
+  checking cst:Coq.Init.Datatypes.sum_sind
+  checking cst:Coq.Init.Datatypes.prod_rect
+  checking cst:Coq.Init.Datatypes.prod_ind
+  checking cst:Coq.Init.Datatypes.prod_rec
+  checking cst:Coq.Init.Datatypes.prod_sind
+  checking cst:Coq.Init.Datatypes.fst
+  checking cst:Coq.Init.Datatypes.snd
+  checking cst:Coq.Init.Datatypes.surjective_pairing
+  checking cst:Coq.Init.Datatypes.injective_projections
+  checking cst:Coq.Init.Datatypes.pair_equal_spec
+  checking cst:Coq.Init.Datatypes.curry
+  checking cst:Coq.Init.Datatypes.uncurry
+  checking cst:Coq.Init.Datatypes.rew_pair
+  checking cst:Coq.Init.Datatypes.list_rect
+  checking cst:Coq.Init.Datatypes.list_ind
+  checking cst:Coq.Init.Datatypes.list_rec
+  checking cst:Coq.Init.Datatypes.list_sind
+  checking cst:Coq.Init.Datatypes.length
+  checking cst:Coq.Init.Datatypes.app
+  checking cst:Coq.Init.Datatypes.comparison_rect
+  checking cst:Coq.Init.Datatypes.comparison_ind
+  checking cst:Coq.Init.Datatypes.comparison_rec
+  checking cst:Coq.Init.Datatypes.comparison_sind
+  checking cst:Coq.Init.Datatypes.comparison_eq_stable
+  checking cst:Coq.Init.Datatypes.CompOpp
+  checking cst:Coq.Init.Datatypes.CompOpp_involutive
+  checking cst:Coq.Init.Datatypes.CompOpp_inj
+  checking cst:Coq.Init.Datatypes.CompOpp_iff
+  checking cst:Coq.Init.Datatypes.CompareSpec_ind
+  checking cst:Coq.Init.Datatypes.CompareSpec_sind
+  checking cst:Coq.Init.Datatypes.CompareSpecT_rect
+  checking cst:Coq.Init.Datatypes.CompareSpecT_ind
+  checking cst:Coq.Init.Datatypes.CompareSpecT_rec
+  checking cst:Coq.Init.Datatypes.CompareSpecT_sind
+  checking cst:Coq.Init.Datatypes.CompareSpec2Type
+  checking cst:Coq.Init.Datatypes.CompSpec
+  checking cst:Coq.Init.Datatypes.CompSpecT
+  checking cst:Coq.Init.Datatypes.CompSpec2Type
+  checking cst:Coq.Init.Datatypes.ID
+  checking cst:Coq.Init.Datatypes.id
+  checking cst:Coq.Init.Datatypes.IDProp
+  checking cst:Coq.Init.Datatypes.idProp
+Checking library: Coq.Init.Tauto
+  checking module: Coq.Init.Tauto
+Checking library: Coq.Init.Specif
+  checking module: Coq.Init.Specif
+  checking cst:Coq.Init.Specif.sig_rect
+  checking cst:Coq.Init.Specif.sig_ind
+  checking cst:Coq.Init.Specif.sig_rec
+  checking cst:Coq.Init.Specif.sig_sind
+  checking cst:Coq.Init.Specif.sig2_rect
+  checking cst:Coq.Init.Specif.sig2_ind
+  checking cst:Coq.Init.Specif.sig2_rec
+  checking cst:Coq.Init.Specif.sig2_sind
+  checking cst:Coq.Init.Specif.sigT_rect
+  checking cst:Coq.Init.Specif.sigT_ind
+  checking cst:Coq.Init.Specif.sigT_rec
+  checking cst:Coq.Init.Specif.sigT_sind
+  checking cst:Coq.Init.Specif.sigT2_rect
+  checking cst:Coq.Init.Specif.sigT2_ind
+  checking cst:Coq.Init.Specif.sigT2_rec
+  checking cst:Coq.Init.Specif.sigT2_sind
+  checking cst:Coq.Init.Specif.proj1_sig
+  checking cst:Coq.Init.Specif.proj2_sig
+  checking cst:Coq.Init.Specif.sig_of_sig2
+  checking cst:Coq.Init.Specif.proj3_sig
+  checking cst:Coq.Init.Specif.projT1
+  checking cst:Coq.Init.Specif.projT2
+  checking module: Coq.Init.Specif.SigTNotations
+  checking cst:Coq.Init.Specif.sigT_of_sigT2
+  checking cst:Coq.Init.Specif.projT3
+  checking cst:Coq.Init.Specif.sig_of_sigT
+  checking cst:Coq.Init.Specif.sigT_of_sig
+  checking cst:Coq.Init.Specif.sig2_of_sigT2
+  checking cst:Coq.Init.Specif.sigT2_of_sig2
+  checking cst:Coq.Init.Specif.ex_of_sig
+  checking cst:Coq.Init.Specif.ex_of_sigT
+  checking cst:Coq.Init.Specif.ex2_of_sig2
+  checking cst:Coq.Init.Specif.ex2_of_sigT2
+  checking cst:Coq.Init.Specif.sigT_eta
+  checking cst:Coq.Init.Specif.sig_eta
+  checking cst:Coq.Init.Specif.sigT2_eta
+  checking cst:Coq.Init.Specif.sig2_eta
+  checking cst:Coq.Init.Specif.exists_to_inhabited_sig
+  checking cst:Coq.Init.Specif.inhabited_sig_to_exists
+  checking cst:Coq.Init.Specif.sigT_of_prod
+  checking cst:Coq.Init.Specif.prod_of_sigT
+  checking cst:Coq.Init.Specif.sigT_prod_sigT
+  checking cst:Coq.Init.Specif.prod_sigT_prod
+  checking cst:Coq.Init.Specif.projT1_eq
+  checking cst:Coq.Init.Specif.projT2_eq
+  checking cst:Coq.Init.Specif.eq_existT_uncurried
+  checking cst:Coq.Init.Specif.eq_sigT_uncurried
+  checking cst:Coq.Init.Specif.eq_existT_curried
+  checking cst:Coq.Init.Specif.eq_existT_curried_map
+  checking cst:Coq.Init.Specif.eq_existT_curried_trans
+  checking cst:Coq.Init.Specif.eq_existT_curried_congr
+  checking cst:Coq.Init.Specif.eq_sigT
+  checking cst:Coq.Init.Specif.eq_existT_l
+  checking cst:Coq.Init.Specif.eq_existT_r
+  checking cst:Coq.Init.Specif.eq_sigT_hprop
+  checking cst:Coq.Init.Specif.eq_sigT_uncurried_iff
+  checking cst:Coq.Init.Specif.eq_sigT_rect
+  checking cst:Coq.Init.Specif.eq_sigT_rec
+  checking cst:Coq.Init.Specif.eq_sigT_ind
+  checking cst:Coq.Init.Specif.eq_sigT_rect_existT_l
+  checking cst:Coq.Init.Specif.eq_sigT_rect_existT_r
+  checking cst:Coq.Init.Specif.eq_sigT_rect_existT
+  checking cst:Coq.Init.Specif.eq_sigT_rect_uncurried
+  checking cst:Coq.Init.Specif.eq_sigT_rec_uncurried
+  checking cst:Coq.Init.Specif.eq_sigT_ind_uncurried
+  checking cst:Coq.Init.Specif.eq_sigT_hprop_iff
+  checking cst:Coq.Init.Specif.eq_sigT_nondep
+  checking cst:Coq.Init.Specif.rew_sigT
+  checking cst:Coq.Init.Specif.proj1_sig_eq
+  checking cst:Coq.Init.Specif.proj2_sig_eq
+  checking cst:Coq.Init.Specif.eq_exist_uncurried
+  checking cst:Coq.Init.Specif.eq_sig_uncurried
+  checking cst:Coq.Init.Specif.eq_exist_curried
+  checking cst:Coq.Init.Specif.eq_sig
+  checking cst:Coq.Init.Specif.eq_exist_l
+  checking cst:Coq.Init.Specif.eq_exist_r
+  checking cst:Coq.Init.Specif.eq_sig_rect
+  checking cst:Coq.Init.Specif.eq_sig_rec
+  checking cst:Coq.Init.Specif.eq_sig_ind
+  checking cst:Coq.Init.Specif.eq_sig_rect_exist_l
+  checking cst:Coq.Init.Specif.eq_sig_rect_exist_r
+  checking cst:Coq.Init.Specif.eq_sig_rect_exist
+  checking cst:Coq.Init.Specif.eq_sig_rect_uncurried
+  checking cst:Coq.Init.Specif.eq_sig_rec_uncurried
+  checking cst:Coq.Init.Specif.eq_sig_ind_uncurried
+  checking cst:Coq.Init.Specif.eq_sig_hprop
+  checking cst:Coq.Init.Specif.eq_sig_uncurried_iff
+  checking cst:Coq.Init.Specif.eq_sig_hprop_iff
+  checking cst:Coq.Init.Specif.rew_sig
+  checking cst:Coq.Init.Specif.sigT_of_sigT2_eq
+  checking cst:Coq.Init.Specif.projT1_of_sigT2_eq
+  checking cst:Coq.Init.Specif.projT2_of_sigT2_eq
+  checking cst:Coq.Init.Specif.projT3_eq
+  checking cst:Coq.Init.Specif.eq_existT2_uncurried
+  checking cst:Coq.Init.Specif.eq_sigT2_uncurried
+  checking cst:Coq.Init.Specif.eq_existT2_curried
+  checking cst:Coq.Init.Specif.eq_sigT2
+  checking cst:Coq.Init.Specif.eq_existT2_l
+  checking cst:Coq.Init.Specif.eq_existT2_r
+  checking cst:Coq.Init.Specif.eq_sigT2_hprop
+  checking cst:Coq.Init.Specif.eq_sigT2_uncurried_iff
+  checking cst:Coq.Init.Specif.eq_sigT2_rect
+  checking cst:Coq.Init.Specif.eq_sigT2_rec
+  checking cst:Coq.Init.Specif.eq_sigT2_ind
+  checking cst:Coq.Init.Specif.eq_sigT2_rect_existT2_l
+  checking cst:Coq.Init.Specif.eq_sigT2_rect_existT2_r
+  checking cst:Coq.Init.Specif.eq_sigT2_rect_existT2
+  checking cst:Coq.Init.Specif.eq_sigT2_rect_uncurried
+  checking cst:Coq.Init.Specif.eq_sigT2_rec_uncurried
+  checking cst:Coq.Init.Specif.eq_sigT2_ind_uncurried
+  checking cst:Coq.Init.Specif.eq_sigT2_hprop_iff
+  checking cst:Coq.Init.Specif.eq_sigT2_nondep
+  checking cst:Coq.Init.Specif.rew_sigT2
+  checking cst:Coq.Init.Specif.sig_of_sig2_eq
+  checking cst:Coq.Init.Specif.proj1_sig_of_sig2_eq
+  checking cst:Coq.Init.Specif.proj2_sig_of_sig2_eq
+  checking cst:Coq.Init.Specif.proj3_sig_eq
+  checking cst:Coq.Init.Specif.eq_exist2_uncurried
+  checking cst:Coq.Init.Specif.eq_sig2_uncurried
+  checking cst:Coq.Init.Specif.eq_exist2_curried
+  checking cst:Coq.Init.Specif.eq_sig2
+  checking cst:Coq.Init.Specif.eq_exist2_l
+  checking cst:Coq.Init.Specif.eq_exist2_r
+  checking cst:Coq.Init.Specif.eq_sig2_hprop
+  checking cst:Coq.Init.Specif.eq_sig2_uncurried_iff
+  checking cst:Coq.Init.Specif.eq_sig2_rect
+  checking cst:Coq.Init.Specif.eq_sig2_rec
+  checking cst:Coq.Init.Specif.eq_sig2_ind
+  checking cst:Coq.Init.Specif.eq_sig2_rect_exist2_l
+  checking cst:Coq.Init.Specif.eq_sig2_rect_exist2_r
+  checking cst:Coq.Init.Specif.eq_sig2_rect_exist2
+  checking cst:Coq.Init.Specif.eq_sig2_rect_uncurried
+  checking cst:Coq.Init.Specif.eq_sig2_rec_uncurried
+  checking cst:Coq.Init.Specif.eq_sig2_ind_uncurried
+  checking cst:Coq.Init.Specif.eq_sig2_hprop_iff
+  checking cst:Coq.Init.Specif.eq_sig2_nondep
+  checking cst:Coq.Init.Specif.rew_sig2
+  checking cst:Coq.Init.Specif.sumbool_rect
+  checking cst:Coq.Init.Specif.sumbool_ind
+  checking cst:Coq.Init.Specif.sumbool_rec
+  checking cst:Coq.Init.Specif.sumbool_sind
+  checking cst:Coq.Init.Specif.sumor_rect
+  checking cst:Coq.Init.Specif.sumor_ind
+  checking cst:Coq.Init.Specif.sumor_rec
+  checking cst:Coq.Init.Specif.sumor_sind
+  checking cst:Coq.Init.Specif.Choice
+  checking cst:Coq.Init.Specif.Choice2
+  checking cst:Coq.Init.Specif.bool_choice
+  checking cst:Coq.Init.Specif.dependent_choice
+  checking cst:Coq.Init.Specif.Exc
+  checking cst:Coq.Init.Specif.value
+  checking cst:Coq.Init.Specif.error
+  checking cst:Coq.Init.Specif.except
+  checking cst:Coq.Init.Specif.absurd_set
+Checking library: Coq.Init.Tactics
+  checking module: Coq.Init.Tactics
+  checking cst:Coq.Init.Tactics.decide_left
+  checking cst:Coq.Init.Tactics.decide_right
+Checking library: Coq.Init.Wf
+  checking module: Coq.Init.Wf
+  checking cst:Coq.Init.Wf.Acc_rect
+  checking cst:Coq.Init.Wf.Acc_ind
+  checking cst:Coq.Init.Wf.Acc_rec
+  checking cst:Coq.Init.Wf.Acc_sind
+  checking cst:Coq.Init.Wf.Acc_inv
+  checking cst:Coq.Init.Wf.well_founded
+  checking cst:Coq.Init.Wf.well_founded_induction_type
+  checking cst:Coq.Init.Wf.well_founded_induction
+  checking cst:Coq.Init.Wf.well_founded_ind
+  checking cst:Coq.Init.Wf.Fix_F
+  checking cst:Coq.Init.Wf.Acc_inv_dep
+  checking cst:Coq.Init.Wf.Fix_F_eq
+  checking cst:Coq.Init.Wf.Fix
+  checking cst:Coq.Init.Wf.Fix_F_inv
+  checking cst:Coq.Init.Wf.Fix_eq
+  checking cst:Coq.Init.Wf.Fix_F_2
+  checking cst:Coq.Init.Wf.well_founded_induction_type_2
+  checking cst:Coq.Init.Wf.Acc_intro_generator
+Checking library: Coq.Init.Decimal
+  checking module: Coq.Init.Decimal
+  checking cst:Coq.Init.Decimal.uint_rect
+  checking cst:Coq.Init.Decimal.uint_ind
+  checking cst:Coq.Init.Decimal.uint_rec
+  checking cst:Coq.Init.Decimal.uint_sind
+  checking cst:Coq.Init.Decimal.uint_beq
+  checking cst:Coq.Init.Decimal.internal_uint_dec_bl
+  checking cst:Coq.Init.Decimal.internal_uint_dec_lb
+  checking cst:Coq.Init.Decimal.uint_eq_dec
+  checking cst:Coq.Init.Decimal.signed_int_beq
+  checking cst:Coq.Init.Decimal.internal_signed_int_dec_bl
+  checking cst:Coq.Init.Decimal.internal_signed_int_dec_lb
+  checking cst:Coq.Init.Decimal.signed_int_eq_dec
+  checking cst:Coq.Init.Decimal.decimal_beq
+  checking cst:Coq.Init.Decimal.internal_decimal_dec_bl
+  checking cst:Coq.Init.Decimal.internal_decimal_dec_lb
+  checking cst:Coq.Init.Decimal.decimal_eq_dec
+  checking cst:Coq.Init.Decimal.nb_digits
+  checking cst:Coq.Init.Decimal.nzhead
+  checking cst:Coq.Init.Decimal.unorm
+  checking cst:Coq.Init.Decimal.norm
+  checking cst:Coq.Init.Decimal.opp
+  checking cst:Coq.Init.Decimal.abs
+  checking cst:Coq.Init.Decimal.revapp
+  checking cst:Coq.Init.Decimal.rev
+  checking cst:Coq.Init.Decimal.app
+  checking cst:Coq.Init.Decimal.app_int
+  checking cst:Coq.Init.Decimal.nztail
+  checking cst:Coq.Init.Decimal.nztail_int
+  checking cst:Coq.Init.Decimal.del_head
+  checking cst:Coq.Init.Decimal.del_head_int
+  checking cst:Coq.Init.Decimal.del_tail
+  checking cst:Coq.Init.Decimal.del_tail_int
+  checking module: Coq.Init.Decimal.Little
+  checking cst:Coq.Init.Decimal.Little.succ
+  checking cst:Coq.Init.Decimal.Little.double
+  checking cst:Coq.Init.Decimal.Little.succ_double
+  checking cst:Coq.Init.Decimal.uint_of_uint
+  checking cst:Coq.Init.Decimal.int_of_int
+Checking library: Coq.Init.Hexadecimal
+  checking module: Coq.Init.Hexadecimal
+  checking cst:Coq.Init.Hexadecimal.uint_rect
+  checking cst:Coq.Init.Hexadecimal.uint_ind
+  checking cst:Coq.Init.Hexadecimal.uint_rec
+  checking cst:Coq.Init.Hexadecimal.uint_sind
+  checking cst:Coq.Init.Hexadecimal.uint_beq
+  checking cst:Coq.Init.Hexadecimal.internal_uint_dec_bl0
+  checking cst:Coq.Init.Hexadecimal.internal_uint_dec_lb0
+  checking cst:Coq.Init.Hexadecimal.uint_eq_dec
+  checking cst:Coq.Init.Hexadecimal.signed_int_beq
+  checking cst:Coq.Init.Hexadecimal.internal_signed_int_dec_bl0
+  checking cst:Coq.Init.Hexadecimal.internal_signed_int_dec_lb0
+  checking cst:Coq.Init.Hexadecimal.signed_int_eq_dec
+  checking cst:Coq.Init.Hexadecimal.hexadecimal_beq
+  checking cst:Coq.Init.Hexadecimal.internal_hexadecimal_dec_bl
+  checking cst:Coq.Init.Hexadecimal.internal_hexadecimal_dec_lb
+  checking cst:Coq.Init.Hexadecimal.hexadecimal_eq_dec
+  checking cst:Coq.Init.Hexadecimal.nb_digits
+  checking cst:Coq.Init.Hexadecimal.nzhead
+  checking cst:Coq.Init.Hexadecimal.unorm
+  checking cst:Coq.Init.Hexadecimal.norm
+  checking cst:Coq.Init.Hexadecimal.opp
+  checking cst:Coq.Init.Hexadecimal.abs
+  checking cst:Coq.Init.Hexadecimal.revapp
+  checking cst:Coq.Init.Hexadecimal.rev
+  checking cst:Coq.Init.Hexadecimal.app
+  checking cst:Coq.Init.Hexadecimal.app_int
+  checking cst:Coq.Init.Hexadecimal.nztail
+  checking cst:Coq.Init.Hexadecimal.nztail_int
+  checking cst:Coq.Init.Hexadecimal.del_head
+  checking cst:Coq.Init.Hexadecimal.del_head_int
+  checking cst:Coq.Init.Hexadecimal.del_tail
+  checking cst:Coq.Init.Hexadecimal.del_tail_int
+  checking module: Coq.Init.Hexadecimal.Little
+  checking cst:Coq.Init.Hexadecimal.Little.succ
+  checking cst:Coq.Init.Hexadecimal.Little.double
+  checking cst:Coq.Init.Hexadecimal.Little.succ_double
+Checking library: Coq.Init.Number
+  checking module: Coq.Init.Number
+  checking cst:Coq.Init.Number.uint_beq
+  checking cst:Coq.Init.Number.internal_uint_dec_bl1
+  checking cst:Coq.Init.Number.internal_uint_dec_lb1
+  checking cst:Coq.Init.Number.uint_eq_dec
+  checking cst:Coq.Init.Number.signed_int_beq
+  checking cst:Coq.Init.Number.internal_signed_int_dec_bl1
+  checking cst:Coq.Init.Number.internal_signed_int_dec_lb1
+  checking cst:Coq.Init.Number.signed_int_eq_dec
+  checking cst:Coq.Init.Number.number_beq
+  checking cst:Coq.Init.Number.internal_number_dec_bl
+  checking cst:Coq.Init.Number.internal_number_dec_lb
+  checking cst:Coq.Init.Number.number_eq_dec
+  checking cst:Coq.Init.Number.uint_of_uint
+  checking cst:Coq.Init.Number.int_of_int
+Checking library: Coq.Init.Nat
+  checking module: Coq.Init.Nat
+  checking cst:Coq.Init.Nat.t
+  checking cst:Coq.Init.Nat.zero
+  checking cst:Coq.Init.Nat.one
+  checking cst:Coq.Init.Nat.two
+  checking cst:Coq.Init.Nat.succ
+  checking cst:Coq.Init.Nat.pred
+  checking cst:Coq.Init.Nat.add
+  checking cst:Coq.Init.Nat.double
+  checking cst:Coq.Init.Nat.mul
+  checking cst:Coq.Init.Nat.sub
+  checking cst:Coq.Init.Nat.eqb
+  checking cst:Coq.Init.Nat.leb
+  checking cst:Coq.Init.Nat.ltb
+  checking cst:Coq.Init.Nat.compare
+  checking cst:Coq.Init.Nat.max
+  checking cst:Coq.Init.Nat.min
+  checking cst:Coq.Init.Nat.even
+  checking cst:Coq.Init.Nat.odd
+  checking cst:Coq.Init.Nat.pow
+  checking cst:Coq.Init.Nat.tail_add
+  checking cst:Coq.Init.Nat.tail_addmul
+  checking cst:Coq.Init.Nat.tail_mul
+  checking cst:Coq.Init.Nat.of_uint_acc
+  checking cst:Coq.Init.Nat.of_uint
+  checking cst:Coq.Init.Nat.of_hex_uint_acc
+  checking cst:Coq.Init.Nat.of_hex_uint
+  checking cst:Coq.Init.Nat.of_num_uint
+  checking cst:Coq.Init.Nat.to_little_uint
+  checking cst:Coq.Init.Nat.to_uint
+  checking cst:Coq.Init.Nat.to_little_hex_uint
+  checking cst:Coq.Init.Nat.to_hex_uint
+  checking cst:Coq.Init.Nat.to_num_uint
+  checking cst:Coq.Init.Nat.to_num_hex_uint
+  checking cst:Coq.Init.Nat.of_int
+  checking cst:Coq.Init.Nat.of_hex_int
+  checking cst:Coq.Init.Nat.of_num_int
+  checking cst:Coq.Init.Nat.to_int
+  checking cst:Coq.Init.Nat.to_hex_int
+  checking cst:Coq.Init.Nat.to_num_int
+  checking cst:Coq.Init.Nat.divmod
+  checking cst:Coq.Init.Nat.div
+  checking cst:Coq.Init.Nat.modulo
+  checking cst:Coq.Init.Nat.gcd
+  checking cst:Coq.Init.Nat.square
+  checking cst:Coq.Init.Nat.sqrt_iter
+  checking cst:Coq.Init.Nat.sqrt
+  checking cst:Coq.Init.Nat.log2_iter
+  checking cst:Coq.Init.Nat.log2
+  checking cst:Coq.Init.Nat.iter
+  checking cst:Coq.Init.Nat.div2
+  checking cst:Coq.Init.Nat.testbit
+  checking cst:Coq.Init.Nat.shiftl
+  checking cst:Coq.Init.Nat.shiftr
+  checking cst:Coq.Init.Nat.bitwise
+  checking cst:Coq.Init.Nat.land
+  checking cst:Coq.Init.Nat.lor
+  checking cst:Coq.Init.Nat.ldiff
+  checking cst:Coq.Init.Nat.lxor
+Checking library: Coq.Init.Peano
+  checking module: Coq.Init.Peano
+  checking cst:Coq.Init.Peano.eq_S
+  checking cst:Coq.Init.Peano.f_equal_nat
+  checking cst:Coq.Init.Peano.f_equal_pred
+  checking cst:Coq.Init.Peano.pred_Sn
+  checking cst:Coq.Init.Peano.eq_add_S
+  checking cst:Coq.Init.Peano.not_eq_S
+  checking cst:Coq.Init.Peano.IsSucc
+  checking cst:Coq.Init.Peano.O_S
+  checking cst:Coq.Init.Peano.n_Sn
+  checking cst:Coq.Init.Peano.f_equal2_plus
+  checking cst:Coq.Init.Peano.f_equal2_nat
+  checking cst:Coq.Init.Peano.plus_n_O
+  checking cst:Coq.Init.Peano.plus_O_n
+  checking cst:Coq.Init.Peano.plus_n_Sm
+  checking cst:Coq.Init.Peano.plus_Sn_m
+  checking cst:Coq.Init.Peano.f_equal2_mult
+  checking cst:Coq.Init.Peano.mult_n_O
+  checking cst:Coq.Init.Peano.mult_n_Sm
+  checking cst:Coq.Init.Peano.le_ind
+  checking cst:Coq.Init.Peano.le_sind
+  checking cst:Coq.Init.Peano.lt
+  checking cst:Coq.Init.Peano.ge
+  checking cst:Coq.Init.Peano.gt
+  checking cst:Coq.Init.Peano.le_pred
+  checking cst:Coq.Init.Peano.le_S_n
+  checking cst:Coq.Init.Peano.le_0_n
+  checking cst:Coq.Init.Peano.le_n_S
+  checking cst:Coq.Init.Peano.nat_case
+  checking cst:Coq.Init.Peano.nat_double_ind
+  checking cst:Coq.Init.Peano.max_l
+  checking cst:Coq.Init.Peano.max_r
+  checking cst:Coq.Init.Peano.min_l
+  checking cst:Coq.Init.Peano.min_r
+  checking cst:Coq.Init.Peano.nat_rect_succ_r
+  checking cst:Coq.Init.Peano.nat_rect_plus
+Checking library: Coq.Init.Byte
+  checking module: Coq.Init.Byte
+  checking cst:Coq.Init.Byte.byte_rect
+  checking cst:Coq.Init.Byte.byte_ind
+  checking cst:Coq.Init.Byte.byte_rec
+  checking cst:Coq.Init.Byte.byte_sind
+  checking cst:Coq.Init.Byte.of_bits
+  checking cst:Coq.Init.Byte.to_bits
+  checking cst:Coq.Init.Byte.of_bits_to_bits
+  checking cst:Coq.Init.Byte.to_bits_of_bits
+  checking cst:Coq.Init.Byte.byte_of_byte
+  checking module: Coq.Init.Byte.ByteSyntaxNotations
+Checking library: Coq.Init.Prelude
+  checking module: Coq.Init.Prelude
+  checking cst:Coq.Init.Prelude.ReverseCoercionSource
+  checking cst:Coq.Init.Prelude.ReverseCoercionTarget
+  checking cst:Coq.Init.Prelude.reverse_coercion
+Checking library: Coq.Relations.Relation_Definitions
+  checking module: Coq.Relations.Relation_Definitions
+  checking cst:Coq.Relations.Relation_Definitions.relation
+  checking cst:Coq.Relations.Relation_Definitions.reflexive
+  checking cst:Coq.Relations.Relation_Definitions.transitive
+  checking cst:Coq.Relations.Relation_Definitions.symmetric
+  checking cst:Coq.Relations.Relation_Definitions.antisymmetric
+  checking cst:Coq.Relations.Relation_Definitions.equiv
+  checking cst:Coq.Relations.Relation_Definitions.preord_refl
+  checking cst:Coq.Relations.Relation_Definitions.preord_trans
+  checking cst:Coq.Relations.Relation_Definitions.ord_refl
+  checking cst:Coq.Relations.Relation_Definitions.ord_trans
+  checking cst:Coq.Relations.Relation_Definitions.ord_antisym
+  checking cst:Coq.Relations.Relation_Definitions.equiv_refl
+  checking cst:Coq.Relations.Relation_Definitions.equiv_trans
+  checking cst:Coq.Relations.Relation_Definitions.equiv_sym
+  checking cst:Coq.Relations.Relation_Definitions.per_sym
+  checking cst:Coq.Relations.Relation_Definitions.per_trans
+  checking cst:Coq.Relations.Relation_Definitions.inclusion
+  checking cst:Coq.Relations.Relation_Definitions.same_relation
+  checking cst:Coq.Relations.Relation_Definitions.commut
+Checking library: Coq.Program.Tactics
+  checking module: Coq.Program.Tactics
+  checking cst:Coq.Program.Tactics.fix_proto
+Checking library: Coq.Program.Basics
+  checking module: Coq.Program.Basics
+  checking cst:Coq.Program.Basics.compose
+  checking cst:Coq.Program.Basics.arrow
+  checking cst:Coq.Program.Basics.impl
+  checking cst:Coq.Program.Basics.const
+  checking cst:Coq.Program.Basics.flip
+  checking cst:Coq.Program.Basics.apply
+Checking library: Coq.Classes.Init
+  checking module: Coq.Classes.Init
+  checking cst:Coq.Classes.Init.Unconvertible
+  checking cst:Coq.Classes.Init.unconvertible
+Checking library: Coq.Classes.RelationClasses
+  checking module: Coq.Classes.RelationClasses
+  checking cst:Coq.Classes.RelationClasses.Reflexive
+  checking cst:Coq.Classes.RelationClasses.reflexivity
+  checking cst:Coq.Classes.RelationClasses.complement
+  checking cst:Coq.Classes.RelationClasses.complement_inverse
+  checking cst:Coq.Classes.RelationClasses.Irreflexive
+  checking cst:Coq.Classes.RelationClasses.irreflexivity
+  checking cst:Coq.Classes.RelationClasses.Symmetric
+  checking cst:Coq.Classes.RelationClasses.symmetry
+  checking cst:Coq.Classes.RelationClasses.Asymmetric
+  checking cst:Coq.Classes.RelationClasses.asymmetry
+  checking cst:Coq.Classes.RelationClasses.Transitive
+  checking cst:Coq.Classes.RelationClasses.transitivity
+  checking cst:Coq.Classes.RelationClasses.PreOrder_Reflexive
+  checking cst:Coq.Classes.RelationClasses.PreOrder_Transitive
+  checking cst:Coq.Classes.RelationClasses.StrictOrder_Irreflexive
+  checking cst:Coq.Classes.RelationClasses.StrictOrder_Transitive
+  checking cst:Coq.Classes.RelationClasses.StrictOrder_Asymmetric
+  checking cst:Coq.Classes.RelationClasses.PER_Symmetric
+  checking cst:Coq.Classes.RelationClasses.PER_Transitive
+  checking cst:Coq.Classes.RelationClasses.Equivalence_Reflexive
+  checking cst:Coq.Classes.RelationClasses.Equivalence_Symmetric
+  checking cst:Coq.Classes.RelationClasses.Equivalence_Transitive
+  checking cst:Coq.Classes.RelationClasses.Equivalence_PER
+  checking cst:Coq.Classes.RelationClasses.Equivalence_PreOrder
+  checking cst:Coq.Classes.RelationClasses.Antisymmetric
+  checking cst:Coq.Classes.RelationClasses.antisymmetry
+  checking cst:Coq.Classes.RelationClasses.subrelation
+  checking cst:Coq.Classes.RelationClasses.is_subrelation
+  checking cst:Coq.Classes.RelationClasses.subrelation_symmetric
+  checking cst:Coq.Classes.RelationClasses.flip_Reflexive
+  checking cst:Coq.Classes.RelationClasses.flip_Irreflexive
+  checking cst:Coq.Classes.RelationClasses.flip_Symmetric
+  checking cst:Coq.Classes.RelationClasses.flip_Asymmetric
+  checking cst:Coq.Classes.RelationClasses.flip_Transitive
+  checking cst:Coq.Classes.RelationClasses.flip_Antisymmetric
+  checking cst:Coq.Classes.RelationClasses.flip_PreOrder
+  checking cst:Coq.Classes.RelationClasses.flip_StrictOrder
+  checking cst:Coq.Classes.RelationClasses.flip_PER
+  checking cst:Coq.Classes.RelationClasses.flip_Equivalence
+  checking cst:Coq.Classes.RelationClasses.complement_Irreflexive
+  checking cst:Coq.Classes.RelationClasses.complement_Symmetric
+  checking cst:Coq.Classes.RelationClasses.eq_Reflexive
+  checking cst:Coq.Classes.RelationClasses.eq_Symmetric
+  checking cst:Coq.Classes.RelationClasses.eq_Transitive
+  checking cst:Coq.Classes.RelationClasses.eq_equivalence
+  checking cst:Coq.Classes.RelationClasses.neq_Symmetric
+  checking cst:Coq.Classes.RelationClasses.inverse_impl_rewrite_relation
+  checking cst:Coq.Classes.RelationClasses.impl_rewrite_relation
+  checking cst:Coq.Classes.RelationClasses.iff_rewrite_relation
+  checking cst:Coq.Classes.RelationClasses.equivalence_rewrite_relation
+  checking cst:Coq.Classes.RelationClasses.impl_Reflexive_obligation_1
+  checking cst:Coq.Classes.RelationClasses.impl_Reflexive
+  checking cst:Coq.Classes.RelationClasses.impl_Transitive_obligation_1
+  checking cst:Coq.Classes.RelationClasses.impl_Transitive
+  checking cst:Coq.Classes.RelationClasses.iff_Reflexive
+  checking cst:Coq.Classes.RelationClasses.iff_Symmetric
+  checking cst:Coq.Classes.RelationClasses.iff_Transitive
+  checking cst:Coq.Classes.RelationClasses.iff_equivalence
+  checking cst:Coq.Classes.RelationClasses.Tlist_rect
+  checking cst:Coq.Classes.RelationClasses.Tlist_ind
+  checking cst:Coq.Classes.RelationClasses.Tlist_rec
+  checking cst:Coq.Classes.RelationClasses.Tlist_sind
+  checking cst:Coq.Classes.RelationClasses.arrows
+  checking cst:Coq.Classes.RelationClasses.unary_operation
+  checking cst:Coq.Classes.RelationClasses.binary_operation
+  checking cst:Coq.Classes.RelationClasses.ternary_operation
+  checking cst:Coq.Classes.RelationClasses.unary_predicate
+  checking cst:Coq.Classes.RelationClasses.binary_relation
+  checking cst:Coq.Classes.RelationClasses.predicate_all
+  checking cst:Coq.Classes.RelationClasses.predicate_exists
+  checking cst:Coq.Classes.RelationClasses.pointwise_extension
+  checking cst:Coq.Classes.RelationClasses.pointwise_lifting
+  checking cst:Coq.Classes.RelationClasses.predicate_equivalence
+  checking cst:Coq.Classes.RelationClasses.predicate_implication
+  checking cst:Coq.Classes.RelationClasses.predicate_intersection
+  checking cst:Coq.Classes.RelationClasses.predicate_union
+  checking cst:Coq.Classes.RelationClasses.true_predicate
+  checking cst:Coq.Classes.RelationClasses.false_predicate
+  checking cst:Coq.Classes.RelationClasses.predicate_equivalence_equivalence_obligation_1
+  checking cst:Coq.Classes.RelationClasses.predicate_equivalence_equivalence_obligation_2
+  checking cst:Coq.Classes.RelationClasses.predicate_equivalence_equivalence_obligation_3
+  checking cst:Coq.Classes.RelationClasses.predicate_equivalence_equivalence
+  checking cst:Coq.Classes.RelationClasses.predicate_implication_preorder_obligation_1
+  checking cst:Coq.Classes.RelationClasses.predicate_implication_preorder_obligation_2
+  checking cst:Coq.Classes.RelationClasses.predicate_implication_preorder
+  checking cst:Coq.Classes.RelationClasses.relation_equivalence
+  checking cst:Coq.Classes.RelationClasses.relation_equivalence_rewrite_relation
+  checking cst:Coq.Classes.RelationClasses.relation_conjunction
+  checking cst:Coq.Classes.RelationClasses.relation_disjunction
+  checking cst:Coq.Classes.RelationClasses.relation_equivalence_equivalence
+  checking cst:Coq.Classes.RelationClasses.relation_implication_preorder
+  checking cst:Coq.Classes.RelationClasses.PartialOrder
+  checking cst:Coq.Classes.RelationClasses.partial_order_equivalence
+  checking cst:Coq.Classes.RelationClasses.partial_order_antisym
+  checking cst:Coq.Classes.RelationClasses.PartialOrder_inverse
+  checking cst:Coq.Classes.RelationClasses.subrelation_partial_order_obligation_1
+  checking cst:Coq.Classes.RelationClasses.subrelation_partial_order
+Checking library: Coq.ssr.ssrclasses
+  checking module: Coq.ssr.ssrclasses
+  checking cst:Coq.ssr.ssrclasses.Reflexive
+  checking cst:Coq.ssr.ssrclasses.reflexivity
+  checking cst:Coq.ssr.ssrclasses.eq_Reflexive
+  checking cst:Coq.ssr.ssrclasses.iff_Reflexive
+Checking library: Coq.ssr.ssrunder
+  checking module: Coq.ssr.ssrunder
+  checking module type: Coq.ssr.ssrunder.UNDER_REL
+  checking cst:Coq.ssr.ssrunder.UNDER_REL.Under_rel
+  checking cst:Coq.ssr.ssrunder.UNDER_REL.Under_rel_from_rel
+  checking cst:Coq.ssr.ssrunder.UNDER_REL.Under_relE
+  checking cst:Coq.ssr.ssrunder.UNDER_REL.Over_rel
+  checking cst:Coq.ssr.ssrunder.UNDER_REL.over_rel
+  checking cst:Coq.ssr.ssrunder.UNDER_REL.over_rel_done
+  checking cst:Coq.ssr.ssrunder.UNDER_REL.under_rel_done
+  checking module: Coq.ssr.ssrunder.Under_rel
+  checking cst:Coq.ssr.ssrunder.Under_rel.Under_rel
+  checking cst:Coq.ssr.ssrunder.Under_rel.Under_rel_from_rel
+  checking cst:Coq.ssr.ssrunder.Under_rel.Under_relE
+  checking cst:Coq.ssr.ssrunder.Under_rel.Over_rel
+  checking cst:Coq.ssr.ssrunder.Under_rel.over_rel
+  checking cst:Coq.ssr.ssrunder.Under_rel.over_rel_done
+  checking cst:Coq.ssr.ssrunder.Under_rel.under_rel_done
+  checking cst:Coq.ssr.ssrunder.Under_rel.Under_rel
+  checking cst:Coq.ssr.ssrunder.Under_rel.Under_rel_from_rel
+  checking cst:Coq.ssr.ssrunder.Under_rel.Under_relE
+  checking cst:Coq.ssr.ssrunder.Under_rel.Over_rel
+  checking cst:Coq.ssr.ssrunder.Under_rel.over_rel
+  checking cst:Coq.ssr.ssrunder.Under_rel.over_rel_done
+  checking cst:Coq.ssr.ssrunder.Under_rel.under_rel_done
+Checking library: Coq.ssr.ssrsetoid
+  checking module: Coq.ssr.ssrsetoid
+  checking cst:Coq.ssr.ssrsetoid.compat_Reflexive
+Checking library: Coq.Classes.Morphisms
+  checking module: Coq.Classes.Morphisms
+  checking cst:Coq.Classes.Morphisms.Proper
+  checking cst:Coq.Classes.Morphisms.proper_prf
+  checking cst:Coq.Classes.Morphisms.ProperProxy
+  checking cst:Coq.Classes.Morphisms.proper_proxy
+  checking cst:Coq.Classes.Morphisms.ReflexiveProxy
+  checking cst:Coq.Classes.Morphisms.reflexive_proxy
+  checking cst:Coq.Classes.Morphisms.eq_proper_proxy
+  checking cst:Coq.Classes.Morphisms.reflexive_proper
+  checking cst:Coq.Classes.Morphisms.reflexive_proper_proxy
+  checking cst:Coq.Classes.Morphisms.proper_proper_proxy
+  checking cst:Coq.Classes.Morphisms.reflexive_reflexive_proxy
+  checking cst:Coq.Classes.Morphisms.respectful_hetero
+  checking cst:Coq.Classes.Morphisms.respectful
+  checking cst:Coq.Classes.Morphisms.pointwise_relation
+  checking cst:Coq.Classes.Morphisms.rewrite_relation_pointwise
+  checking cst:Coq.Classes.Morphisms.rewrite_relation_eq_dom
+  checking cst:Coq.Classes.Morphisms.eq_rewrite_relation
+  checking module: Coq.Classes.Morphisms.ProperNotations
+  checking cst:Coq.Classes.Morphisms.forall_def
+  checking cst:Coq.Classes.Morphisms.forall_relation
+  checking cst:Coq.Classes.Morphisms.pointwise_pointwise
+  checking cst:Coq.Classes.Morphisms.subrelation_id_proper
+  checking cst:Coq.Classes.Morphisms.subrelation_respectful
+  checking cst:Coq.Classes.Morphisms.subrelation_refl
+  checking cst:Coq.Classes.Morphisms.subrelation_proper
+  checking cst:Coq.Classes.Morphisms.proper_subrelation_proper
+  checking cst:Coq.Classes.Morphisms.pointwise_subrelation
+  checking cst:Coq.Classes.Morphisms.forall_subrelation
+  checking cst:Coq.Classes.Morphisms.iff_impl_subrelation
+  checking cst:Coq.Classes.Morphisms.iff_flip_impl_subrelation
+  checking cst:Coq.Classes.Morphisms.respectful_per_obligation_1
+  checking cst:Coq.Classes.Morphisms.respectful_per_obligation_2
+  checking cst:Coq.Classes.Morphisms.respectful_per
+  checking cst:Coq.Classes.Morphisms.complement_proper_obligation_1
+  checking cst:Coq.Classes.Morphisms.complement_proper
+  checking cst:Coq.Classes.Morphisms.flip_proper_obligation_1
+  checking cst:Coq.Classes.Morphisms.flip_proper
+  checking cst:Coq.Classes.Morphisms.trans_contra_co_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms.trans_contra_co_morphism
+  checking cst:Coq.Classes.Morphisms.trans_contra_inv_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms.trans_contra_inv_impl_morphism
+  checking cst:Coq.Classes.Morphisms.trans_co_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms.trans_co_impl_morphism
+  checking cst:Coq.Classes.Morphisms.trans_sym_co_inv_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms.trans_sym_co_inv_impl_morphism
+  checking cst:Coq.Classes.Morphisms.trans_sym_contra_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms.trans_sym_contra_impl_morphism
+  checking cst:Coq.Classes.Morphisms.per_partial_app_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms.per_partial_app_morphism
+  checking cst:Coq.Classes.Morphisms.trans_co_eq_inv_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms.trans_co_eq_inv_impl_morphism
+  checking cst:Coq.Classes.Morphisms.PER_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms.PER_morphism
+  checking cst:Coq.Classes.Morphisms.symmetric_equiv_flip
+  checking cst:Coq.Classes.Morphisms.compose_proper_obligation_1
+  checking cst:Coq.Classes.Morphisms.compose_proper
+  checking cst:Coq.Classes.Morphisms.reflexive_eq_dom_reflexive
+  checking cst:Coq.Classes.Morphisms.respectful_morphism
+  checking cst:Coq.Classes.Morphisms.Reflexive_partial_app_morphism
+  checking cst:Coq.Classes.Morphisms.flip_respectful
+  checking cst:Coq.Classes.Morphisms.flip1
+  checking cst:Coq.Classes.Morphisms.flip2
+  checking cst:Coq.Classes.Morphisms.eq_subrelation
+  checking cst:Coq.Classes.Morphisms.proper_flip_proper
+  checking cst:Coq.Classes.Morphisms.proper_eq
+  checking cst:Coq.Classes.Morphisms.eq_pars
+  checking cst:Coq.Classes.Morphisms.iff_pars
+  checking cst:Coq.Classes.Morphisms.impl_pars
+  checking cst:Coq.Classes.Morphisms.flip_pars
+  checking cst:Coq.Classes.Morphisms.proper_proper
+  checking cst:Coq.Classes.Morphisms.Normalizes
+  checking cst:Coq.Classes.Morphisms.normalizes
+  checking cst:Coq.Classes.Morphisms.proper_normalizes_proper
+  checking cst:Coq.Classes.Morphisms.flip_atom
+  checking cst:Coq.Classes.Morphisms.flip_arrow
+  checking cst:Coq.Classes.Morphisms.proper_sym_flip
+  checking cst:Coq.Classes.Morphisms.proper_sym_flip_2
+  checking cst:Coq.Classes.Morphisms.proper_sym_impl_iff
+  checking cst:Coq.Classes.Morphisms.proper_sym_impl_iff_2
+  checking cst:Coq.Classes.Morphisms.PartialOrder_proper
+  checking cst:Coq.Classes.Morphisms.PartialOrder_StrictOrder
+  checking cst:Coq.Classes.Morphisms.StrictOrder_PreOrder
+  checking cst:Coq.Classes.Morphisms.StrictOrder_PartialOrder
+Checking library: Coq.Classes.Equivalence
+  checking module: Coq.Classes.Equivalence
+  checking cst:Coq.Classes.Equivalence.equiv
+  checking cst:Coq.Classes.Equivalence.pequiv
+  checking cst:Coq.Classes.Equivalence.equiv_reflexive_obligation_1
+  checking cst:Coq.Classes.Equivalence.equiv_reflexive
+  checking cst:Coq.Classes.Equivalence.equiv_symmetric_obligation_1
+  checking cst:Coq.Classes.Equivalence.equiv_symmetric
+  checking cst:Coq.Classes.Equivalence.equiv_transitive_obligation_1
+  checking cst:Coq.Classes.Equivalence.equiv_transitive
+  checking cst:Coq.Classes.Equivalence.respecting
+  checking cst:Coq.Classes.Equivalence.respecting_equiv_obligation_1
+  checking cst:Coq.Classes.Equivalence.respecting_equiv_obligation_2
+  checking cst:Coq.Classes.Equivalence.respecting_equiv_obligation_3
+  checking cst:Coq.Classes.Equivalence.respecting_equiv
+  checking cst:Coq.Classes.Equivalence.pointwise_reflexive
+  checking cst:Coq.Classes.Equivalence.pointwise_symmetric
+  checking cst:Coq.Classes.Equivalence.pointwise_transitive
+  checking cst:Coq.Classes.Equivalence.pointwise_equivalence
+Checking library: Coq.Classes.Morphisms_Prop
+  checking module: Coq.Classes.Morphisms_Prop
+  checking cst:Coq.Classes.Morphisms_Prop.not_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.not_impl_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.not_iff_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.not_iff_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.and_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.and_impl_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.and_iff_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.and_iff_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.or_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.or_impl_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.or_iff_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.or_iff_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.iff_iff_iff_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.iff_iff_iff_impl_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.ex_iff_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.ex_iff_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.ex_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.ex_impl_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.ex_flip_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.ex_flip_impl_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.all_iff_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.all_iff_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.all_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.all_impl_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.all_flip_impl_morphism_obligation_1
+  checking cst:Coq.Classes.Morphisms_Prop.all_flip_impl_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.Acc_pt_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.Acc_rel_morphism
+  checking cst:Coq.Classes.Morphisms_Prop.well_founded_morphism
+Checking library: Coq.Classes.CRelationClasses
+  checking module: Coq.Classes.CRelationClasses
+  checking cst:Coq.Classes.CRelationClasses.crelation
+  checking cst:Coq.Classes.CRelationClasses.arrow
+  checking cst:Coq.Classes.CRelationClasses.flip
+  checking cst:Coq.Classes.CRelationClasses.iffT
+  checking cst:Coq.Classes.CRelationClasses.Reflexive
+  checking cst:Coq.Classes.CRelationClasses.reflexivity
+  checking cst:Coq.Classes.CRelationClasses.complement
+  checking cst:Coq.Classes.CRelationClasses.complement_inverse
+  checking cst:Coq.Classes.CRelationClasses.Irreflexive
+  checking cst:Coq.Classes.CRelationClasses.irreflexivity
+  checking cst:Coq.Classes.CRelationClasses.Symmetric
+  checking cst:Coq.Classes.CRelationClasses.symmetry
+  checking cst:Coq.Classes.CRelationClasses.Asymmetric
+  checking cst:Coq.Classes.CRelationClasses.asymmetry
+  checking cst:Coq.Classes.CRelationClasses.Transitive
+  checking cst:Coq.Classes.CRelationClasses.transitivity
+  checking cst:Coq.Classes.CRelationClasses.PreOrder_Reflexive
+  checking cst:Coq.Classes.CRelationClasses.PreOrder_Transitive
+  checking cst:Coq.Classes.CRelationClasses.StrictOrder_Irreflexive
+  checking cst:Coq.Classes.CRelationClasses.StrictOrder_Transitive
+  checking cst:Coq.Classes.CRelationClasses.StrictOrder_Asymmetric
+  checking cst:Coq.Classes.CRelationClasses.PER_Symmetric
+  checking cst:Coq.Classes.CRelationClasses.PER_Transitive
+  checking cst:Coq.Classes.CRelationClasses.Equivalence_Reflexive
+  checking cst:Coq.Classes.CRelationClasses.Equivalence_Symmetric
+  checking cst:Coq.Classes.CRelationClasses.Equivalence_Transitive
+  checking cst:Coq.Classes.CRelationClasses.Equivalence_PER
+  checking cst:Coq.Classes.CRelationClasses.Antisymmetric
+  checking cst:Coq.Classes.CRelationClasses.antisymmetry
+  checking cst:Coq.Classes.CRelationClasses.subrelation
+  checking cst:Coq.Classes.CRelationClasses.is_subrelation
+  checking cst:Coq.Classes.CRelationClasses.subrelation_symmetric
+  checking cst:Coq.Classes.CRelationClasses.flip_Reflexive
+  checking cst:Coq.Classes.CRelationClasses.flip_Irreflexive
+  checking cst:Coq.Classes.CRelationClasses.flip_Symmetric
+  checking cst:Coq.Classes.CRelationClasses.flip_Asymmetric
+  checking cst:Coq.Classes.CRelationClasses.flip_Transitive
+  checking cst:Coq.Classes.CRelationClasses.flip_Antisymmetric
+  checking cst:Coq.Classes.CRelationClasses.flip_PreOrder
+  checking cst:Coq.Classes.CRelationClasses.flip_StrictOrder
+  checking cst:Coq.Classes.CRelationClasses.flip_PER
+  checking cst:Coq.Classes.CRelationClasses.flip_Equivalence
+  checking cst:Coq.Classes.CRelationClasses.complement_Irreflexive
+  checking cst:Coq.Classes.CRelationClasses.complement_Symmetric
+  checking cst:Coq.Classes.CRelationClasses.equivalence_rewrite_crelation
+  checking cst:Coq.Classes.CRelationClasses.eq_Reflexive
+  checking cst:Coq.Classes.CRelationClasses.eq_Symmetric
+  checking cst:Coq.Classes.CRelationClasses.eq_Transitive
+  checking cst:Coq.Classes.CRelationClasses.eq_equivalence
+  checking cst:Coq.Classes.CRelationClasses.RewriteRelation_instance_0
+  checking cst:Coq.Classes.CRelationClasses.RewriteRelation_instance_1
+  checking cst:Coq.Classes.CRelationClasses.impl_Reflexive_obligation_1
+  checking cst:Coq.Classes.CRelationClasses.impl_Reflexive
+  checking cst:Coq.Classes.CRelationClasses.impl_Transitive_obligation_1
+  checking cst:Coq.Classes.CRelationClasses.impl_Transitive
+  checking cst:Coq.Classes.CRelationClasses.iff_Reflexive
+  checking cst:Coq.Classes.CRelationClasses.iff_Symmetric
+  checking cst:Coq.Classes.CRelationClasses.iff_Transitive
+  checking cst:Coq.Classes.CRelationClasses.iff_equivalence
+  checking cst:Coq.Classes.CRelationClasses.arrow_Reflexive_obligation_1
+  checking cst:Coq.Classes.CRelationClasses.arrow_Reflexive
+  checking cst:Coq.Classes.CRelationClasses.arrow_Transitive_obligation_1
+  checking cst:Coq.Classes.CRelationClasses.arrow_Transitive
+  checking cst:Coq.Classes.CRelationClasses.iffT_Reflexive
+  checking cst:Coq.Classes.CRelationClasses.iffT_Symmetric
+  checking cst:Coq.Classes.CRelationClasses.iffT_Transitive
+  checking cst:Coq.Classes.CRelationClasses.relation_equivalence
+  checking cst:Coq.Classes.CRelationClasses.RewriteRelation_instance_2
+  checking cst:Coq.Classes.CRelationClasses.relation_conjunction
+  checking cst:Coq.Classes.CRelationClasses.relation_disjunction
+  checking cst:Coq.Classes.CRelationClasses.relation_equivalence_equivalence
+  checking cst:Coq.Classes.CRelationClasses.relation_implication_preorder
+  checking cst:Coq.Classes.CRelationClasses.PartialOrder
+  checking cst:Coq.Classes.CRelationClasses.partial_order_equivalence
+  checking cst:Coq.Classes.CRelationClasses.partial_order_antisym
+  checking cst:Coq.Classes.CRelationClasses.PartialOrder_inverse
+Checking library: Coq.Classes.CMorphisms
+  checking module: Coq.Classes.CMorphisms
+  checking cst:Coq.Classes.CMorphisms.Proper
+  checking cst:Coq.Classes.CMorphisms.proper_prf
+  checking cst:Coq.Classes.CMorphisms.ProperProxy
+  checking cst:Coq.Classes.CMorphisms.proper_proxy
+  checking cst:Coq.Classes.CMorphisms.eq_proper_proxy
+  checking cst:Coq.Classes.CMorphisms.reflexive_proper_proxy
+  checking cst:Coq.Classes.CMorphisms.proper_proper_proxy
+  checking cst:Coq.Classes.CMorphisms.respectful_hetero
+  checking cst:Coq.Classes.CMorphisms.respectful
+  checking module: Coq.Classes.CMorphisms.ProperNotations
+  checking cst:Coq.Classes.CMorphisms.forall_def
+  checking cst:Coq.Classes.CMorphisms.forall_relation
+  checking cst:Coq.Classes.CMorphisms.pointwise_relation
+  checking cst:Coq.Classes.CMorphisms.pointwise_pointwise
+  checking cst:Coq.Classes.CMorphisms.subrelation_id_proper
+  checking cst:Coq.Classes.CMorphisms.subrelation_respectful
+  checking cst:Coq.Classes.CMorphisms.subrelation_refl
+  checking cst:Coq.Classes.CMorphisms.subrelation_proper
+  checking cst:Coq.Classes.CMorphisms.proper_subrelation_proper_arrow
+  checking cst:Coq.Classes.CMorphisms.pointwise_subrelation
+  checking cst:Coq.Classes.CMorphisms.forall_subrelation
+  checking cst:Coq.Classes.CMorphisms.iff_impl_subrelation
+  checking cst:Coq.Classes.CMorphisms.iff_flip_impl_subrelation
+  checking cst:Coq.Classes.CMorphisms.iffT_arrow_subrelation
+  checking cst:Coq.Classes.CMorphisms.iffT_flip_arrow_subrelation
+  checking cst:Coq.Classes.CMorphisms.respectful_per_obligation_1
+  checking cst:Coq.Classes.CMorphisms.respectful_per_obligation_2
+  checking cst:Coq.Classes.CMorphisms.respectful_per
+  checking cst:Coq.Classes.CMorphisms.flip_proper_obligation_1
+  checking cst:Coq.Classes.CMorphisms.flip_proper
+  checking cst:Coq.Classes.CMorphisms.trans_contra_co_type_morphism_obligation_1
+  checking cst:Coq.Classes.CMorphisms.trans_contra_co_type_morphism
+  checking cst:Coq.Classes.CMorphisms.trans_contra_inv_impl_type_morphism_obligation_1
+  checking cst:Coq.Classes.CMorphisms.trans_contra_inv_impl_type_morphism
+  checking cst:Coq.Classes.CMorphisms.trans_co_impl_type_morphism_obligation_1
+  checking cst:Coq.Classes.CMorphisms.trans_co_impl_type_morphism
+  checking cst:Coq.Classes.CMorphisms.trans_sym_co_inv_impl_type_morphism_obligation_1
+  checking cst:Coq.Classes.CMorphisms.trans_sym_co_inv_impl_type_morphism
+  checking cst:Coq.Classes.CMorphisms.trans_sym_contra_arrow_morphism_obligation_1
+  checking cst:Coq.Classes.CMorphisms.trans_sym_contra_arrow_morphism
+  checking cst:Coq.Classes.CMorphisms.per_partial_app_type_morphism_obligation_1
+  checking cst:Coq.Classes.CMorphisms.per_partial_app_type_morphism
+  checking cst:Coq.Classes.CMorphisms.trans_co_eq_inv_arrow_morphism_obligation_1
+  checking cst:Coq.Classes.CMorphisms.trans_co_eq_inv_arrow_morphism
+  checking cst:Coq.Classes.CMorphisms.PER_type_morphism_obligation_1
+  checking cst:Coq.Classes.CMorphisms.PER_type_morphism
+  checking cst:Coq.Classes.CMorphisms.symmetric_equiv_flip
+  checking cst:Coq.Classes.CMorphisms.compose_proper_obligation_1
+  checking cst:Coq.Classes.CMorphisms.compose_proper
+  checking cst:Coq.Classes.CMorphisms.reflexive_eq_dom_reflexive
+  checking cst:Coq.Classes.CMorphisms.respectful_morphism
+  checking cst:Coq.Classes.CMorphisms.Reflexive_partial_app_morphism
+  checking cst:Coq.Classes.CMorphisms.flip_respectful
+  checking cst:Coq.Classes.CMorphisms.flip1
+  checking cst:Coq.Classes.CMorphisms.flip2
+  checking cst:Coq.Classes.CMorphisms.eq_subrelation
+  checking cst:Coq.Classes.CMorphisms.proper_flip_proper
+  checking cst:Coq.Classes.CMorphisms.reflexive_proper
+  checking cst:Coq.Classes.CMorphisms.proper_eq
+  checking cst:Coq.Classes.CMorphisms.proper_proper
+  checking cst:Coq.Classes.CMorphisms.Normalizes
+  checking cst:Coq.Classes.CMorphisms.normalizes
+  checking cst:Coq.Classes.CMorphisms.proper_normalizes_proper
+  checking cst:Coq.Classes.CMorphisms.flip_atom
+  checking cst:Coq.Classes.CMorphisms.flip_arrow
+  checking cst:Coq.Classes.CMorphisms.proper_sym_flip
+  checking cst:Coq.Classes.CMorphisms.proper_sym_flip_2
+  checking cst:Coq.Classes.CMorphisms.proper_sym_impl_iff
+  checking cst:Coq.Classes.CMorphisms.proper_sym_arrow_iffT
+  checking cst:Coq.Classes.CMorphisms.proper_sym_impl_iff_2
+  checking cst:Coq.Classes.CMorphisms.proper_sym_arrow_iffT_2
+  checking cst:Coq.Classes.CMorphisms.PartialOrder_proper_type
+  checking cst:Coq.Classes.CMorphisms.PartialOrder_StrictOrder
+  checking cst:Coq.Classes.CMorphisms.StrictOrder_PreOrder
+  checking cst:Coq.Classes.CMorphisms.StrictOrder_PartialOrder
+Checking library: Coq.Classes.SetoidTactics
+  checking module: Coq.Classes.SetoidTactics
+  checking cst:Coq.Classes.SetoidTactics.default_relation
+  checking cst:Coq.Classes.SetoidTactics.equivalence_default
+Checking library: Coq.Setoids.Setoid
+  checking module: Coq.Setoids.Setoid
+  checking cst:Coq.Setoids.Setoid.Setoid_Theory
+  checking cst:Coq.Setoids.Setoid.Build_Setoid_Theory
+  checking cst:Coq.Setoids.Setoid.Seq_refl
+  checking cst:Coq.Setoids.Setoid.Seq_sym
+  checking cst:Coq.Setoids.Setoid.Seq_trans
+  checking cst:Coq.Setoids.Setoid.gen_st
+Checking library: GeoCoq.Axioms.hilbert_axioms
+  checking module: GeoCoq.Axioms.hilbert_axioms
+  checking cst:GeoCoq.Axioms.hilbert_axioms.Point
+  checking cst:GeoCoq.Axioms.hilbert_axioms.Line
+  checking cst:GeoCoq.Axioms.hilbert_axioms.Plane
+  checking cst:GeoCoq.Axioms.hilbert_axioms.EqL
+  checking cst:GeoCoq.Axioms.hilbert_axioms.EqL_Equiv
+  checking cst:GeoCoq.Axioms.hilbert_axioms.EqP
+  checking cst:GeoCoq.Axioms.hilbert_axioms.EqP_Equiv
+  checking cst:GeoCoq.Axioms.hilbert_axioms.IncidL
+  checking cst:GeoCoq.Axioms.hilbert_axioms.IncidP
+  checking cst:GeoCoq.Axioms.hilbert_axioms.IncidL_morphism
+  checking cst:GeoCoq.Axioms.hilbert_axioms.IncidL_dec
+  checking cst:GeoCoq.Axioms.hilbert_axioms.IncidP_morphism
+  checking cst:GeoCoq.Axioms.hilbert_axioms.IncidP_dec
+  checking cst:GeoCoq.Axioms.hilbert_axioms.eq_dec_pointsH
+  checking cst:GeoCoq.Axioms.hilbert_axioms.line_existence
+  checking cst:GeoCoq.Axioms.hilbert_axioms.line_uniqueness
+  checking cst:GeoCoq.Axioms.hilbert_axioms.two_points_on_line
+  checking cst:GeoCoq.Axioms.hilbert_axioms.ColH
+  checking cst:GeoCoq.Axioms.hilbert_axioms.PP
+  checking cst:GeoCoq.Axioms.hilbert_axioms.PQ
+  checking cst:GeoCoq.Axioms.hilbert_axioms.PR
+  checking cst:GeoCoq.Axioms.hilbert_axioms.lower_dim_2
+  checking cst:GeoCoq.Axioms.hilbert_axioms.plane_existence
+  checking cst:GeoCoq.Axioms.hilbert_axioms.one_point_on_plane
+  checking cst:GeoCoq.Axioms.hilbert_axioms.plane_uniqueness
+  checking cst:GeoCoq.Axioms.hilbert_axioms.IncidLP
+  checking cst:GeoCoq.Axioms.hilbert_axioms.line_on_plane
+  checking cst:GeoCoq.Axioms.hilbert_axioms.BetH
+  checking cst:GeoCoq.Axioms.hilbert_axioms.between_diff
+  checking cst:GeoCoq.Axioms.hilbert_axioms.between_col
+  checking cst:GeoCoq.Axioms.hilbert_axioms.between_comm
+  checking cst:GeoCoq.Axioms.hilbert_axioms.between_out
+  checking cst:GeoCoq.Axioms.hilbert_axioms.between_only_one
+  checking cst:GeoCoq.Axioms.hilbert_axioms.cut
+  checking cst:GeoCoq.Axioms.hilbert_axioms.pasch
+  checking cst:GeoCoq.Axioms.hilbert_axioms.CongH
+  checking cst:GeoCoq.Axioms.hilbert_axioms.cong_permr
+  checking cst:GeoCoq.Axioms.hilbert_axioms.outH
+  checking cst:GeoCoq.Axioms.hilbert_axioms.cong_existence
+  checking cst:GeoCoq.Axioms.hilbert_axioms.cong_pseudo_transitivity
+  checking cst:GeoCoq.Axioms.hilbert_axioms.disjoint
+  checking cst:GeoCoq.Axioms.hilbert_axioms.addition
+  checking cst:GeoCoq.Axioms.hilbert_axioms.CongaH
+  checking cst:GeoCoq.Axioms.hilbert_axioms.conga_refl
+  checking cst:GeoCoq.Axioms.hilbert_axioms.conga_comm
+  checking cst:GeoCoq.Axioms.hilbert_axioms.conga_permlr
+  checking cst:GeoCoq.Axioms.hilbert_axioms.same_side
+  checking cst:GeoCoq.Axioms.hilbert_axioms.same_side'
+  checking cst:GeoCoq.Axioms.hilbert_axioms.conga_out_conga
+  checking cst:GeoCoq.Axioms.hilbert_axioms.cong_4_existence
+  checking cst:GeoCoq.Axioms.hilbert_axioms.cong_4_uniqueness
+  checking cst:GeoCoq.Axioms.hilbert_axioms.cong_5
+  checking cst:GeoCoq.Axioms.hilbert_axioms.pasch_2D
+  checking cst:GeoCoq.Axioms.hilbert_axioms.plane_intersection
+  checking cst:GeoCoq.Axioms.hilbert_axioms.HS1
+  checking cst:GeoCoq.Axioms.hilbert_axioms.HS2
+  checking cst:GeoCoq.Axioms.hilbert_axioms.HS3
+  checking cst:GeoCoq.Axioms.hilbert_axioms.HS4
+  checking cst:GeoCoq.Axioms.hilbert_axioms.lower_dim_3
+  checking cst:GeoCoq.Axioms.hilbert_axioms.Para
+  checking cst:GeoCoq.Axioms.hilbert_axioms.euclid_uniqueness
+  checking cst:GeoCoq.Axioms.hilbert_axioms.decidability_of_intersection
+Checking library: STAGE52_GeoCoq_candidate_v5_20261124
+  checking module: STAGE52_GeoCoq_candidate_v5_20261124
+  checking cst:STAGE52_GeoCoq_candidate_v5_20261124.stage51_plan_prime
+  checking cst:STAGE52_GeoCoq_candidate_v5_20261124.stage51_col_transfer
+  checking cst:STAGE52_GeoCoq_candidate_v5_20261124.stage51_ncol_exists
+Modules were successfully checked

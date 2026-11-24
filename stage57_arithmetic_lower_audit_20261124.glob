@@ -1,0 +1,13 @@
+DIGEST ad9a768f577bf45f7dde1507defb86a0
+Fstage57_arithmetic_lower_audit_20261124
+R15:46 GeoCoq.Main.Tarski_dev.Ch14_prod <> <> lib
+R56:65 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_exists thm
+R86:95 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_exists thm
+R105:118 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_uniqueness thm
+R139:152 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_uniqueness thm
+R162:168 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_A_O thm
+R189:195 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_A_O thm
+R205:211 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_O_B thm
+R232:238 GeoCoq.Main.Tarski_dev.Ch14_sum <> sum_O_B thm
+R248:258 GeoCoq.Main.Tarski_dev.Ch14_prod <> prod_exists thm
+R279:289 GeoCoq.Main.Tarski_dev.Ch14_prod <> prod_exists thm
