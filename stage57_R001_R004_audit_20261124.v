@@ -1,0 +1,12 @@
+Require Import stage57_R001_R004_interpretation_candidate_v2_20261122.
+Import R001_R004_Conditional_Interpretation.
+Check r001_represent_recover.
+Print Assumptions r001_represent_recover.
+Check r002_components_build.
+Print Assumptions r002_components_build.
+Check r002_build_components.
+Print Assumptions r002_build_components.
+Check r003_first_component.
+Print Assumptions r003_first_component.
+Check r004_first_component.
+Print Assumptions r004_first_component.

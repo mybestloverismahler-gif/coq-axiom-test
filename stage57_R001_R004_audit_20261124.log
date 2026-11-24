@@ -1,0 +1,29 @@
+r001_represent_recover
+     : forall x : Rdefinitions.RbaseSymbolsImpl.R,
+       recover_r001 (represent_r001 x) = x
+Closed under the global context
+r002_components_build
+     : forall p : r001_scalar * (r001_scalar * r001_scalar),
+       r002_components (r002_build p) = p
+Closed under the global context
+r002_build_components
+     : forall v : r002_vec3, r002_build (r002_components v) = v
+Closed under the global context
+r003_first_component
+     : forall (a : r001_scalar) (v : r002_vec3),
+       x_component (r003_scale a v) =
+       Rdefinitions.RbaseSymbolsImpl.Rmult a (x_component v)
+Axioms:
+ClassicalDedekindReals.sig_forall_dec
+  : forall P : nat -> Prop,
+    (forall n : nat, {P n} + {~ P n}) ->
+    {n : nat | ~ P n} + {forall n : nat, P n}
+r004_first_component
+     : forall u v : r002_vec3,
+       x_component (r004_add u v) =
+       Rdefinitions.RbaseSymbolsImpl.Rplus (x_component u) (x_component v)
+Axioms:
+ClassicalDedekindReals.sig_forall_dec
+  : forall P : nat -> Prop,
+    (forall n : nat, {P n} + {~ P n}) ->
+    {n : nat | ~ P n} + {forall n : nat, P n}
